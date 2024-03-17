@@ -1,0 +1,25 @@
+#Decap CMS settings
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+
+collections:
+  - name: "event"
+    label: "Event"
+    folder: "src/content/events"
+    create: true
+    slug: "{nadpis}"
+    fields:
+      - { label: "Nadpis", name: "nadpis", widget: "string" }
+      - { label: "Dátum", name: "datum", widget: "string" }
+      - { label: "Miesto", name: "miesto", widget: "string" }
+      - { label: "Instagram", name: "instagram", widget: "string" }
+      - { label: "Facebook Event", name: "linkFbEvent", widget: "string" }
+      - { label: "Discord", name: "discord", widget: "string" }
+      - { label: "Obrázok", name: "obrazok", widget: "image" }
+      - { label: "Podnadpis", name: "podnadpis", widget: "string" }
+      - { label: "Anotácia", name: "anotacia", widget: "string" }
