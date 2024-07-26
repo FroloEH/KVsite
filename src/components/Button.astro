@@ -1,0 +1,14 @@
+---
+interface Props {
+  text: string;
+  href: string;
+}
+
+const { text, href } = Astro.props;
+---
+
+<a href={href} class="bg-gradient-to-t from-orange-500 to-orange-200 rounded-lg
+  px-6 py-4 text-amber-50 font-semibold drop-shadow-md
+  hover:from-orange-500 hover:to-orange-100 transition-colors duration-300 hover:drop-shadow-lg">  
+  {text}
+</a>

@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro'
+
 interface Props {
   title: string;
 }
@@ -16,7 +18,8 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="bg-lime-100">
+  <body class="bg-slate-50">
+    <Header/>
     <slot />
   </body>
 </html>
@@ -28,5 +31,9 @@ const { title } = Astro.props;
   @font-face {
     font-family:"fixel";
     src: url("fonts/FixelVariable.ttf");
+  }
+  @font-face {
+    font-family:"cicmany";
+    src: url("fonts/Cicmany-Round.otf");
   }
 </style>

@@ -1,0 +1,23 @@
+---
+import { Img } from "astro-imagetools/components";
+import Bars from "astro-heroicons/outline/Bars3.astro";
+---
+<div class="flex flex-row bg-slate-50/25 justify-between items-center shadow-sm p-4">
+  <Img
+    src="./LogoTransparent.png"
+    alt="LOGO Kráľovstva - vínovy pohár s korunkou"
+    placeholder="blurred"
+    width="64" hegight="64"
+  />
+
+    <div class="text-zinc-900 text-4xl font-display tracking-tighter">
+      <span class="p-3" style="background: linear-gradient(orange, orange) 0 63% / 100% 4px no-repeat;">
+        KRÁĽOVSTVO
+      </span>
+      
+    </div>
+
+    <Bars class="h-8 inline align-top mr-4 text-slate-800 stroke-2"  height={32}/>
+  
+</div>
+

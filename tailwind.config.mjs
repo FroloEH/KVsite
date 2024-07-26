@@ -6,7 +6,8 @@ export default {
   theme: {
     fontFamily: {
       sans: ["fixel", ...defaultTheme.fontFamily.sans],
-      display: ["texturina", ...defaultTheme.fontFamily.serif],
+      display: ["inknut antiqua", ...defaultTheme.fontFamily.serif],
+      decore: ["cicmany"]
     },
     extend: {
 		borderRadius: {
