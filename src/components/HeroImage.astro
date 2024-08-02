@@ -1,11 +1,22 @@
 ---
-import { Img } from "astro-imagetools/components";
-import Button from "./Button.astro"
+import Button from "./Button.astro";
 ---
 
-<div class="bg-purple-500">
-    <div>
-        <Img src="./hero-images/EpicLesijVtipnePozadie.jpg" alt="Obrazok Lesija" placeholder="tracedSvg" />
-    </div>
-    <Button text="Registrácia" href="/registracia"/>
+<div
+  class="flex flex-col items-center bg-cover bg-center pt-72"
+  style="background-image: url('/hero-images/LesovikDramatickyVykrik.jpg')">
+  <div
+    class="font-large relative min-h-20 min-w-72 rounded-lg text-center text-3xl backdrop-blur-sm">
+    <span
+      class="absolute right-0 top-0 z-[1] text-slate-50"
+      style="text-shadow: 0px 0px 8px #18181B, 0px 0px 8px #18181B">
+      Vytvorme spolu fantastické príbehy
+    </span>
+    <span class="text- absolute right-0 top-0 text-slate-900 blur-sm">
+      Vytvorme spolu fantastické príbehy
+    </span>
+  </div>
+  <div <div class="">
+    <Button text="Registrácia" href="/registracia" />
+  </div>
 </div>

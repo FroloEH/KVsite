@@ -1,5 +1,5 @@
 ---
-import Header from '../components/Header.astro'
+import Header from "../components/Header.astro";
 
 interface Props {
   title: string;
@@ -12,28 +12,31 @@ const { title } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Stránka udalostí LARPu kráľovstva vína od občianskeho združenia event horizon" />
+    <meta
+      name="description"
+      content="Stránka udalostí LARPu kráľovstva vína od občianskeho združenia event horizon"
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body class="bg-slate-50">
-    <Header/>
-    <slot />
+    <Header />
+    <slot class="grid grid-cols-6 gap-3 max-w-5xl" />
   </body>
 </html>
 <style is:global>
   @font-face {
-    font-family:"texturina";
+    font-family: "texturina";
     src: url("fonts/Texturina-VariableFont_opsz,wght.ttf");
   }
   @font-face {
-    font-family:"fixel";
+    font-family: "fixel";
     src: url("fonts/FixelVariable.ttf");
   }
   @font-face {
-    font-family:"cicmany";
+    font-family: "cicmany";
     src: url("fonts/Cicmany-Round.otf");
   }
 </style>

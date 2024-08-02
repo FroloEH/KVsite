@@ -7,6 +7,7 @@ export default {
     fontFamily: {
       sans: ["fixel", ...defaultTheme.fontFamily.sans],
       display: ["inknut antiqua", ...defaultTheme.fontFamily.serif],
+      large: ["maitree", ...defaultTheme.fontFamily.serif],
       decore: ["cicmany"]
     },
     extend: {
