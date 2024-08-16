@@ -7,10 +7,10 @@ interface Props {
 const { text, href } = Astro.props;
 ---
 
-<div class="p-6">
-  <a
-    href={href}
-    class="rounded-lg bg-gradient-to-t from-orange-500 to-orange-200 px-6 py-4 font-semibold text-amber-50 drop-shadow-md transition-colors duration-300 hover:from-orange-500 hover:to-orange-100 hover:drop-shadow-lg">
+<div
+  class="m-2 rounded-lg bg-gradient-to-t from-amber-600 to-amber-400 px-6 py-4 
+  drop-shadow-md transition-colors duration-300 hover:from-amber-600 hover:to-amber-500 hover:drop-shadow-lg">
+  <a href={href} class="text-lg font-medium uppercase text-amber-50">
     {text}
   </a>
 </div>

@@ -3,20 +3,41 @@ import Button from "./Button.astro";
 ---
 
 <div
-  class="flex flex-col items-center bg-cover bg-center pt-72"
+  class="flex flex-col items-center bg-cover bg-center p-10 pt-72 md:flex-row md:justify-between"
   style="background-image: url('/hero-images/LesovikDramatickyVykrik.jpg')">
-  <div
-    class="font-large relative min-h-20 min-w-72 rounded-lg text-center text-3xl backdrop-blur-sm">
-    <span
-      class="absolute right-0 top-0 z-[1] text-slate-50"
+  <div class="md:self-stretch">
+    <div
+      class="font-large mb-[80px] min-h-20 min-w-72 rounded-lg p-4 text-center text-3xl text-slate-50 backdrop-blur-sm backdrop-brightness-75 md:text-4xl"
       style="text-shadow: 0px 0px 8px #18181B, 0px 0px 8px #18181B">
       Vytvorme spolu fantastické príbehy
-    </span>
-    <span class="text- absolute right-0 top-0 text-slate-900 blur-sm">
-      Vytvorme spolu fantastické príbehy
-    </span>
+    </div>
   </div>
-  <div <div class="">
+
+  <div class="md:self-end">
     <Button text="Registrácia" href="/registracia" />
   </div>
 </div>
+
+
+<section
+  class="relative bg-[url('/hero-images/LesovikDramatickyVykrik.jpg')] bg-cover bg-center bg-no-repeat text-slate-50"
+>
+  <div
+    class="absolute inset-0 bg-transparent from-slate/95 to-slate/25 bg-gradient-to-t"
+  ></div>
+
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 pt-72 pb-12 sm:px-6 lg:flex lg:h-screen items-center lg:px-8"
+  >
+    <div class="max-w-xl text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl font-large">
+        Vytvorme spolu
+        <strong class="block font-extrabold text-amber-500"> fantastické príbehy </strong>
+      </h1>
+
+      <div class="mt-8 flex justify-center gap-4">
+        <Button text="Registrácia" href="/registracia" />
+      </div>
+    </div>
+  </div>
+</section>
