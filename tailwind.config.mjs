@@ -13,7 +13,10 @@ export default {
     extend: {
 		borderRadius: {
 			'drawn' : '255px 15px 225px 15px/15px 225px 15px 255px'
-		}
+		},
+    boxShadow: {
+      'solid': '0.5rem 0.5rem black, -0.5rem -0.5rem'
+    }
 	},
   },
   plugins: [],

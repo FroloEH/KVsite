@@ -5,21 +5,28 @@ import Button from "./Button.astro";
 <section
   class="relative bg-[url('/hero-images/LesovikDramatickyVykrik.jpg')] bg-cover bg-center bg-no-repeat text-zinc-50">
   <div
-    class="bg-gradient-to-t absolute inset-0  from-lime-950/70 to-transparent via-lime-600/10 via-75%">
+    class="absolute inset-0 bg-gradient-to-t from-lime-950/70 via-lime-600/10 via-75% to-transparent">
   </div>
 
   <div
-    class="relative mx-auto max-w-screen-xl items-center px-4 pb-12 pt-72 sm:px-6 lg:flex lg:h-screen lg:px-8">
-    <div class="max-w-xl text-center sm:text-left ">
-      <h1 class="font-large text-4xl sm:text-5xl drop-shadow-lg leading-relaxed font-medium">
+    class="relative mx-auto max-w-screen-xl items-center justify-center px-4 pb-12 pt-72 sm:px-6 lg:flex lg:h-screen lg:px-8 lg:pt-96">
+    
+    <div class="relative max-w-xl text-center">
+    <span
+      class="absolute inset-0 font-large text-4xl font-medium leading-relaxed text-lime-800 sm:text-5xl blur-sm"
+      >Vytvorme spolu
+      <br />
+      fantastické príbehy</span
+    >
+    <h1
+        class="font-large text-4xl font-medium leading-relaxed drop-shadow-lg sm:text-5xl">
         Vytvorme spolu
-        <span class="text-amber-300">
-          fantastické príbehy
-        </span>
+        <br />
+        <span class="text-amber-300"> fantastické príbehy </span>
       </h1>
-
-      <div class="mt-8 flex justify-center gap-4">
+      <div class="mt-10 flex justify-center gap-8 flex-col md:flex-row px-10">
         <Button text="Registrácia" href="/registracia" />
+        <Button text="LARP?" href="/registracia" />
       </div>
     </div>
   </div>
