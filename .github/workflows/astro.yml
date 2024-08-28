@@ -48,7 +48,7 @@ jobs:
         run: |
           rm -rf node_modules
           rm -rf package-lock.json
-          npm ci
+          npm i
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: |
