@@ -1,15 +1,15 @@
 ---
-import { Img } from "astro-imagetools/components";
 import Bars from "astro-heroicons/outline/Bars3.astro";
+import { Image } from "astro:assets";
+import transparentLogo from "../images/LogoTransparent.png";
 ---
 
 <div
   class="absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4">
   <div class="w-10 md:w-14 xl:w-16">
-    <Img
-      src="./LogoTransparent.png"
+    <Image
+      src={transparentLogo}
       alt="LOGO Kráľovstva - vínovy pohár s korunkou"
-      placeholder="blurred"
     />
   </div>
 
