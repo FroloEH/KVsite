@@ -9,7 +9,7 @@ interface Props {
   href: string;
 }
 
-const { href, eventName } = Astro.props;
+const { eventName } = Astro.props;
 const event = await getEntry("events", eventName);
 const events = await getCollection("events");
 
@@ -28,7 +28,7 @@ if (event == undefined) return;
 <div class="relative mx-auto max-w-5xl">
   <!-- Hero image -->
   <div class="overflow-hidden rounded-lg shadow-inner">
-    <Img src={event.data.obrazok} alt="Obrazok Lesija" placeholder="blur" />
+    <img src={event.data.obrazok} alt="Obrazok Lesija"/>
   </div>
 
   <!-- Quick info -->
