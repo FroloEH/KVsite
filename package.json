@@ -14,9 +14,15 @@
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.14.2",
     "astro-heroicons": "^2.1.5-1",
+    "decap-cms-app": "^3.3.2",
     "joi": "^17.13.3",
+    "react": "^18.3.1",
     "tailwindcss": "^3.4.7",
+    "trim": "^1.0.1",
     "typescript": "^5.5.4"
+  },
+  "resolutions": {
+    "trim": "^1.0.1"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
