@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "dev-cms": "start npx decap-server && astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
@@ -20,9 +21,6 @@
     "tailwindcss": "^3.4.7",
     "trim": "^1.0.1",
     "typescript": "^5.5.4"
-  },
-  "resolutions": {
-    "trim": "^1.0.1"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
