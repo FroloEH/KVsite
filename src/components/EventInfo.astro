@@ -1,21 +1,21 @@
 ---
-import CalendarDays from "astro-heroicons/outline/CalendarDays.astro";
-import Map from "astro-heroicons/outline/Map.astro";
-import { getEntry, getCollection } from "astro:content";
-import Button from "../components/Button.astro";
+import CalendarDays from 'astro-heroicons/outline/CalendarDays.astro'
+import Map from 'astro-heroicons/outline/Map.astro'
+import { getEntry, getCollection } from 'astro:content'
+import Button from '../components/Button.astro'
 
 interface Props {
-  eventName: string;
-  href: string;
+  eventName: string
+  href: string
 }
 
-const { eventName } = Astro.props;
-const event = await getEntry("events", eventName);
-const events = await getCollection("events");
+const { eventName } = Astro.props
+const event = await getEntry('events', eventName)
+const events = await getCollection('events')
 
-console.log(events);
+console.log(events)
 
-if (event == undefined) return;
+if (event == undefined) return
 ---
 
 <div class="flex-column flex justify-center pb-4">
@@ -28,12 +28,12 @@ if (event == undefined) return;
 <div class="relative mx-auto max-w-5xl">
   <!-- Hero image -->
   <div class="overflow-hidden rounded-lg shadow-inner">
-    <img src={event.data.obrazok} alt="Obrazok Lesija"/>
+    <img src={event.data.obrazok} alt="Obrazok Lesija" />
   </div>
 
   <!-- Quick info -->
   <div
-    class="md:right-[calc(25%-theme(space.48))] absolute -bottom-32 right-8 m-8 max-w-96 space-y-4 rounded-lg border-2 border-amber-300 bg-lime-50 p-8 shadow-md">
+    class="absolute -bottom-32 right-8 m-8 max-w-96 space-y-4 rounded-lg border-2 border-amber-300 bg-lime-50 p-8 shadow-md md:right-[calc(25%-theme(space.48))]">
     <div class="font-medium text-lime-950">
       <CalendarDays class="mr-1 inline h-5 align-top text-lime-800" />
       <p class="inline">
