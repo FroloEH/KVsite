@@ -23,6 +23,10 @@ usp3_header: "Spoznaj skvelú komunitu "
 usp3_text: "Už vyše 10 ročníkov sa stretávame v hojnom počte. Zakaždím máme tú
   radosť privítať aj veľa nových tvári. "
 partners_last_year_header: a predošlích
-partners_this_year: FPU
-partners_last_year: FPU
+partners_this_year:
+  - BSK
+  - FPU
+partners_last_year:
+  - FPU
+  - BSK
 ---
