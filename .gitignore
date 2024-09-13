@@ -1,5 +1,4 @@
 node_modules
 .astro
 public/images
-src/content
 dist

@@ -1,0 +1,25 @@
+<body>
+  <p>Authorizing Decap...</p>
+</body>
+
+<script>
+  import { actions } from "astro:actions";
+
+  const code = new URL(window.location.href).searchParams.get("code") ?? "";
+  const { data, error } = await actions.getAccessToken(code);
+
+  if (error) {
+    console.log(error);
+    alert(error);
+  }
+
+  const receiveMessage = (message: MessageEvent) => {
+    window.opener.postMessage(
+      `authorization:github:success:${JSON.stringify({'token' : data})}`,
+      message.origin
+    );
+    window.removeEventListener("message", receiveMessage, false);
+  };
+  window.addEventListener("message", receiveMessage, false);
+  window.opener.postMessage("authorizing:github", "*");
+</script>
