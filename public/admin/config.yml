@@ -6,17 +6,33 @@ backend:
   branch: main
   repo: FroloEH/KVsite
   base_url: http://localhost:4321
-
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
 
 media_folder: "src/images/uploads"
 publish_mode: editorial_workflow
+logo_url: src/images/LogoTransparent.png
 
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "src/content/pages/home.md"
+        fields:
+          - { label: "Hero_Nadpis1", name: "hero_nadpis1", widget: "string"}
+          - { label: "Hero_Nadpis2", name: "hero_nadpis1", widget: "string" }
+
   - name: "event"
     label: "Event"
     folder: "src/content/events"
     create: true
-    slug: "{nadpis}"
+    slug: "{{nadpis}}"
     fields:
       - { label: "Nadpis", name: "nadpis", widget: "string" }
       - { label: "Dátum", name: "datum", widget: "string" }
