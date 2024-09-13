@@ -1,11 +1,15 @@
 #Decap CMS settings
-local_backend: true
+#local_backend: true
 
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: FroloEH/KVsite
+  base_url: http://localhost:4321
 
-media_folder: "public/images/uploads"
+
+media_folder: "src/images/uploads"
+publish_mode: editorial_workflow
 
 collections:
   - name: "event"
