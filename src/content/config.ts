@@ -15,6 +15,16 @@ const eventCollection = defineCollection({
   }),
 })
 
+const partnersCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name: z.string(),
+    logo: z.string(),
+    link: z.string().url(),
+  }),
+})
+
 export const collections = {
   events: eventCollection,
+  partners: partnersCollection,
 }
