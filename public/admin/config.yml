@@ -97,6 +97,22 @@ collections:
               displayFields: ['name'],
             }
 
+          # TEAM
+          - { label: 'Team_header', name: 'team_header', widget: 'string' }
+          - { label: 'Team_text', name: 'team_text', widget: 'string' }
+          - { label: 'Team_call_to_action_text', name: 'team_call_to_action_text', widget: 'string' }
+          - { label: 'Team_call_to_action_link', name: 'team_call_to_action_link', widget: 'string' }
+          - {
+              label: 'Team_members',
+              name: 'team_members',
+              widget: 'relation',
+              collection: 'team_member',
+              multiple: true,
+              searchFields: ['name'],
+              valueField: 'name',
+              displayFields: ['name'],
+            }
+
   - name: 'event'
     label: 'Event'
     folder: 'src/content/events'
@@ -122,3 +138,13 @@ collections:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Logo', name: 'logo', widget: 'image' }
       - { label: 'Link', name: 'link', widget: 'string' }
+
+  - name: 'team_member'
+    label: 'Team Member'
+    folder: 'src/content/team'
+    create: true
+    slug: '{{name}}'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Role', name: 'role', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
