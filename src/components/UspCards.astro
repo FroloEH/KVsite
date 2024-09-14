@@ -1,5 +1,5 @@
 ---
-
+import * as content from '../content/pages/home.md'
 ---
 
 <section class="body-font text-gray-600">
@@ -10,16 +10,16 @@
           class="h-full overflow-hidden rounded-xl border-2 border-amber-300 border-opacity-60 bg-zinc-100 shadow-md">
           <img
             class="w-full object-cover object-center shadow-inner md:h-36 lg:h-48"
-            src="Dostihy.jpg"
+            src={content.frontmatter.usp1_image}
             alt="blog"
           />
           <div class="p-6">
             <h1 class="mb-3 text-2xl font-medium text-zinc-900">
-              Zasmej sa na veselých scénkach
+              {content.frontmatter.usp1_header}
             </h1>
             <p class="mb-3 leading-relaxed">
-              Svet Kráľovstva je plný humorných prekvapení. Cieľom hry je aby
-              sme si oddýchli a užili spoločné úsmevné momenty.
+              {content.frontmatter.usp1_text}
+            </p>
             </p>
             <div class="flex flex-wrap items-center"></div>
           </div>
@@ -31,16 +31,15 @@
           class="h-full overflow-hidden rounded-xl border-2 border-amber-300 border-opacity-60 bg-zinc-100 shadow-md">
           <img
             class="w-full object-cover object-center shadow-inner md:h-36 lg:h-48"
-            src="KonspiracieSoSpicatymKlobukom.jpg"
+            src={content.frontmatter.usp2_image}
             alt="blog"
           />
           <div class="p-6">
             <h1 class="mb-3 text-2xl font-medium text-zinc-900">
-              Ponor sa do fantastického sveta
+              {content.frontmatter.usp2_header}
             </h1>
             <p class="mb-3 leading-relaxed">
-              Na 3 dni sa ocitneš v lese plného krásnych kulís a ešte krajších
-              nakostýmovaných hráčov.
+              {content.frontmatter.usp2_text}
             </p>
             <div class="flex flex-wrap items-center"></div>
           </div>
@@ -52,16 +51,15 @@
           class="h-full overflow-hidden rounded-xl border-2 border-amber-300 border-opacity-60 bg-zinc-100 shadow-md">
           <img
             class="w-full object-cover object-center shadow-inner md:h-36 lg:h-48"
-            src="UzHoNesu.jpg"
+            src={content.frontmatter.usp3_image}
             alt="blog"
           />
           <div class="p-6">
             <h1 class="mb-3 text-2xl font-medium text-zinc-900">
-              Spoznaj skvelú komunitu
+              {content.frontmatter.usp3_header}
             </h1>
             <p class="mb-3 leading-relaxed">
-              Už vyše 10 ročníkov sa stretávame v hojnom počte. Zakaždím máme tú
-              radosť privítať aj veľa nových tvári.
+              {content.frontmatter.usp3_text}
             </p>
             <div class="flex flex-wrap items-center"></div>
           </div>

@@ -1,77 +1,45 @@
 ---
-
+import { getCollection } from 'astro:content'
+import * as content from '../content/pages/home.md'
+const namesThisYear = content.frontmatter.partners_this_year as string[]
+const thisYearPartners = await getCollection('partners', ({ data }) => namesThisYear.includes(data.name))
+const namesLastYear = content.frontmatter.partners_last_year as string[]
+const lastYearPartners = await getCollection('partners', ({ data }) => namesLastYear.includes(data.name))
 ---
 
-<section class="bg-white p-10 shadow-inner">
-  <div class="mb-6 flex w-full flex-col text-left">
-    <h2 class="mb-8 font-large text-4xl font-medium text-gray-900 sm:text-3xl">
-      Ďakujeme<br />
-      za podporu
+<section class='bg-white p-10 shadow-inner'>
+  <div class='mb-6 flex w-full flex-col text-left'>
+    <h2 class='mb-8 font-large text-4xl font-medium text-gray-900 sm:text-3xl'>
+      {content.frontmatter.partners_header}
     </h2>
     <h3
-      class="w-full bg-gradient-to-t from-amber-300 to-amber-300 bg-[length:100%_0.1rem] bg-[center_bottom_10px] bg-no-repeat text-xl font-medium uppercase leading-relaxed">
-      Tohoto ročníka
+      class='w-full bg-gradient-to-t from-amber-300 to-amber-300 bg-[length:100%_0.1rem] bg-[center_bottom_10px] bg-no-repeat text-xl font-medium uppercase leading-relaxed'>
+      {content.frontmatter.partners_this_year_header}
     </h3>
   </div>
-  <div class="items- flex flex-row flex-wrap">
-    <a class="flex w-72 p-4" href="#">
-      <img
-        alt="gallery"
-        class="h-full w-full object-cover object-center"
-        src="partner-logos/peciatka_FPU.jpg.jpg"
-      />
-    </a>
-    <a class="flex w-72 p-4" href="#">
-      <img
-        alt="gallery"
-        class="h-full w-full object-cover object-center"
-        src="partner-logos/erb_dubova-420x225.jpg.jpg"
-      />
-    </a>
-
-    <a class="flex w-72 p-4" href="#">
-      <img
-        alt="gallery"
-        class="h-full w-full object-cover object-center"
-        src="partner-logos/BSK.png"
-      />
-    </a>
+  <div class='flex flex-row flex-wrap'>
+    {
+      thisYearPartners.map((partner) => (
+        <a class='flex w-72 p-4' href={partner.data.link}>
+          <img alt={partner.data.name} class='h-full w-full object-cover object-center' src={partner.data.logo} />
+        </a>
+      ))
+    }
   </div>
 
-  <div class="my-8 flex w-full flex-col text-left">
+  <div class='my-8 flex w-full flex-col text-left'>
     <h3
-      class="w-full bg-gradient-to-t from-amber-300 to-amber-300 bg-[length:100%_0.1rem] bg-[center_bottom_10px] bg-no-repeat text-xl leading-relaxed">
+      class='w-full bg-gradient-to-t from-amber-300 to-amber-300 bg-[length:100%_0.1rem] bg-[center_bottom_10px] bg-no-repeat text-xl leading-relaxed'>
       a predošlích ročníkov
     </h3>
   </div>
-  <div class="flex flex-row flex-wrap justify-evenly overflow-visible">
-    <a class="flex w-32 p-2" href="#">
-      <img
-        alt="gallery"
-        class="object-scale-down"
-        src="partner-logos/peciatka_FPU.jpg.jpg"
-      />
-    </a>
-    <a class="flex w-32 p-2" href="#">
-      <img
-        alt="gallery"
-        class="object-scale-down"
-        src="partner-logos/erb_dubova-420x225.jpg.jpg"
-      />
-    </a>
-    <a class="flex w-32 p-2" href="#">
-      <img
-        alt="gallery"
-        class="object-scale-down"
-        src="partner-logos/Telekom.png"
-      />
-    </a>
-    <a class="flex w-32 p-2" href="#">
-      <img
-        alt="gallery"
-        class="object-scale-down"
-        src="partner-logos/BSK.png"
-      />
-    </a>
+  <div class='flex flex-row flex-wrap justify-evenly overflow-visible'>
+    {
+      lastYearPartners.map((partner) => (
+        <a class='flex w-32 p-2' href={partner.data.link}>
+          <img alt={partner.data.name} class='h-full w-full object-cover object-center' src={partner.data.logo} />
+        </a>
+      ))
+    }
   </div>
 </section>

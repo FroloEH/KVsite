@@ -1,7 +1,7 @@
 ---
 import CalendarDays from 'astro-heroicons/outline/CalendarDays.astro'
 import Map from 'astro-heroicons/outline/Map.astro'
-import { getEntry, getCollection } from 'astro:content'
+import { getEntry} from 'astro:content'
 import Button from '../components/Button.astro'
 
 interface Props {
@@ -11,9 +11,6 @@ interface Props {
 
 const { eventName } = Astro.props
 const event = await getEntry('events', eventName)
-const events = await getCollection('events')
-
-console.log(events)
 
 if (event == undefined) return
 ---

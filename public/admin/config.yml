@@ -13,33 +13,187 @@ backend:
     uploadMedia: Upload “{{path}}”
     deleteMedia: Delete “{{path}}”
 
-media_folder: "src/images/uploads"
+media_folder: 'src/images/uploads'
+public_folder: 'src/images/uploads'
 publish_mode: editorial_workflow
 logo_url: src/images/LogoTransparent.png
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: 'Pages'
+    name: 'pages'
     files:
-      - label: "Home Page"
-        name: "home"
-        file: "src/content/pages/home.md"
+      - label: 'Home Page'
+        name: 'home'
+        file: 'src/content/pages/home.md'
         fields:
-          - { label: "Hero_Nadpis1", name: "hero_nadpis1", widget: "string"}
-          - { label: "Hero_Nadpis2", name: "hero_nadpis1", widget: "string" }
+          # HERO
+          - { label: 'Hero_header1', name: 'hero_header1', widget: 'string' }
+          - { label: 'Hero_header2', name: 'hero_header2', widget: 'string' }
+          - {
+              label: 'Hero_Button1_Text',
+              name: 'hero_button1_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Hero_Button1_Link',
+              name: 'hero_button1_link',
+              widget: 'string',
+            }
+          - {
+              label: 'Hero_Button2_Text',
+              name: 'hero_button2_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Hero_Button2_Link',
+              name: 'hero_button2_link',
+              widget: 'string',
+            }
+          - { label: 'Hero_Image', name: 'hero_image', widget: 'image' }
+          # USP
+          - { label: 'Usp1_header', name: 'usp1_header', widget: 'string' }
+          - { label: 'Usp1_Popis', name: 'usp1_text', widget: 'string' }
+          - { label: 'Usp1_Image', name: 'usp1_image', widget: 'image' }
+          - { label: 'Usp2_header', name: 'usp2_header', widget: 'string' }
+          - { label: 'Usp2_Popis', name: 'usp2_text', widget: 'string' }
+          - { label: 'Usp2_Image', name: 'usp2_image', widget: 'image' }
+          - { label: 'Usp3_header', name: 'usp3_header', widget: 'string' }
+          - { label: 'Usp3_Popis', name: 'usp3_text', widget: 'string' }
+          - { label: 'Usp3_Image', name: 'usp3_image', widget: 'image' }
+          # PARTNERS
+          - {
+              label: 'Partners_header',
+              name: 'partners_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Partners_this_year_header',
+              name: 'partners_this_year_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Partners_last_year_header',
+              name: 'partners_last_year_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Partners_this_year',
+              name: 'partners_this_year',
+              widget: 'relation',
+              collection: 'partners',
+              multiple: true,
+              searchFields: ['name'],
+              valueField: 'name',
+              displayFields: ['name'],
+            }
+          - {
+              label: 'Partners_last_year',
+              name: 'partners_last_year',
+              widget: 'relation',
+              collection: 'partners',
+              multiple: true,
+              searchFields: ['name'],
+              valueField: 'name',
+              displayFields: ['name'],
+            }
 
-  - name: "event"
-    label: "Event"
-    folder: "src/content/events"
+          # TEAM
+          - { label: 'Team_header', name: 'team_header', widget: 'string' }
+          - { label: 'Team_text', name: 'team_text', widget: 'string' }
+          - {
+              label: 'Team_call_to_action_text',
+              name: 'team_call_to_action_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Team_call_to_action_link',
+              name: 'team_call_to_action_link',
+              widget: 'string',
+            }
+          - {
+              label: 'Team_members',
+              name: 'team_members',
+              widget: 'relation',
+              collection: 'team_member',
+              multiple: true,
+              searchFields: ['name'],
+              valueField: 'name',
+              displayFields: ['name'],
+            }
+          # PLAYER STORIES
+          - {
+              label: 'Player_stories_header',
+              name: 'player_stories_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Player_stories_text',
+              name: 'player_stories_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Player_stories_collection',
+              name: 'player_stories_collection',
+              widget: 'relation',
+              collection: 'player_stories',
+              multiple: true,
+              searchFields: ['title'],
+              valueField: 'title',
+              displayFields: ['title'],
+            }
+
+  - name: 'event'
+    label: 'Event'
+    folder: 'src/content/events'
     create: true
-    slug: "{{nadpis}}"
+    slug: '{{title}}'
     fields:
-      - { label: "Nadpis", name: "nadpis", widget: "string" }
-      - { label: "Dátum", name: "datum", widget: "string" }
-      - { label: "Miesto", name: "miesto", widget: "string" }
-      - { label: "Instagram", name: "instagram", widget: "string" }
-      - { label: "Facebook Event", name: "linkFbEvent", widget: "string" }
-      - { label: "Discord", name: "discord", widget: "string" }
-      - { label: "Obrázok", name: "obrazok", widget: "image" }
-      - { label: "Podnadpis", name: "podnadpis", widget: "string" }
-      - { label: "Anotácia", name: "anotacia", widget: "string" }
+      - { label: 'Nadpis', name: 'title', widget: 'string' }
+      - { label: 'Dátum', name: 'date', widget: 'string' }
+      - { label: 'Miesto', name: 'place', widget: 'string' }
+      - { label: 'Instagram', name: 'instagram', widget: 'string' }
+      - { label: 'Facebook Event', name: 'linkFbEvent', widget: 'string' }
+      - { label: 'Discord', name: 'discord', widget: 'string' }
+      - { label: 'Obrázok', name: 'image', widget: 'image' }
+      - { label: 'Podnadpis', name: 'subTitle', widget: 'string' }
+      - { label: 'Anotácia', name: 'annotation', widget: 'string' }
+
+  - name: 'partners'
+    label: 'Partners'
+    folder: 'src/content/partners'
+    create: true
+    slug: '{{name}}'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Logo', name: 'logo', widget: 'image' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+
+  - name: 'team_member'
+    label: 'Team Member'
+    folder: 'src/content/team'
+    create: true
+    slug: '{{name}}'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Role', name: 'role', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+
+  - name: 'player_stories'
+    label: 'Player Stories'
+    folder: 'src/content/player_stories'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Story', name: 'story', widget: 'text' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - {
+          label: 'Event',
+          name: 'event',
+          widget: 'relation',
+          collection: 'event',
+          searchFields: ['title'],
+          valueField: 'title',
+          displayFields: ['title'],
+          multiple: false,
+        }

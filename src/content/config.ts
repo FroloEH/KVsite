@@ -15,6 +15,37 @@ const eventCollection = defineCollection({
   }),
 })
 
+const partnersCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name: z.string(),
+    logo: z.string(),
+    link: z.string().url(),
+  }),
+})
+
+const teamCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name: z.string(),
+    image: z.string(),
+    role: z.string(),
+  }),
+})
+
+const storyCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    image: z.string(),
+    story: z.string(),
+    event: z.string(),
+  }),
+})
+
 export const collections = {
   events: eventCollection,
+  partners: partnersCollection,
+  team: teamCollection,
+  player_stories: storyCollection,
 }
