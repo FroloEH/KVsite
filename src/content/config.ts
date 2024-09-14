@@ -47,5 +47,5 @@ export const collections = {
   events: eventCollection,
   partners: partnersCollection,
   team: teamCollection,
-  stories: storyCollection,
+  player_stories: storyCollection,
 }

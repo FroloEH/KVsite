@@ -2,8 +2,8 @@
 import { getCollection } from 'astro:content'
 import * as content from '../content/pages/home.md'
 
-const playerStories = content.frontmatter.player_stories as string[]
-const sotryCollection = await getCollection('stories', ({ data }) => playerStories.includes(data.title))
+const playerStories = content.frontmatter.player_stories_collection as string[]
+const storyCollection = await getCollection('player_stories', ({ data }) => playerStories.includes(data.title))
 ---
 
 <section class='body-font text-gray-600'>
@@ -18,13 +18,13 @@ const sotryCollection = await getCollection('stories', ({ data }) => playerStori
     </div>
     <div class='-m-4 flex flex-wrap'>
       {
-        sotryCollection.map((story) => (
-          <div class='p-4 sm:w-1/2 lg:w-1/3'>
+        storyCollection.map((story) => (
+          <div class='p-4 sm:w-1/2' >
             <div class='relative flex'>
-              <img alt='gallery' class='absolute inset-0 h-full w-full object-cover object-center' src='https://dummyimage.com/600x360' />
-              <div class='relative z-10 w-full border-4 border-gray-200 bg-white px-8 py-10 opacity-0 hover:opacity-100'>
-                <h2 class='title-font mb-1 text-sm font-medium tracking-widest text-yellow-500'>{story.data.event}</h2>
-                <h1 class='title-font mb-3 text-lg font-medium text-gray-900'>{story.data.title}</h1>
+              <img alt='gallery' class='absolute inset-0 h-full w-full object-cover object-center' src={story.data.image} />
+              <div class='relative z-10 w-full border-4 border-zinc-200 bg-zinc-100/90 px-8 py-10 opacity-0 hover:opacity-100'>
+                <h2 class='title-font mb-1 text-sm font-medium tracking-widest text-amber-500'>{story.data.event}</h2>
+                <h1 class='title-font mb-3 text-lg font-medium text-zinc-900'>{story.data.title}</h1>
                 <p class='leading-relaxed'>{story.data.story}</p>
               </div>
             </div>
