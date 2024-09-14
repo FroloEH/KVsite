@@ -7,11 +7,11 @@ backend:
   repo: FroloEH/KVsite
   base_url: http://localhost:4321
   commit_messages:
-    create: Create {{collection}} “{{slug}}”
-    update: Update {{collection}} “{{slug}}”
-    delete: Delete {{collection}} “{{slug}}”
-    uploadMedia: Upload “{{path}}”
-    deleteMedia: Delete “{{path}}”
+    create: DECAP CMS ------ Create {{collection}} “{{slug}}”
+    update: DECAP CMS ------ Update {{collection}} “{{slug}}”
+    delete: DECAP CMS ------ Delete {{collection}} “{{slug}}”
+    uploadMedia: DECAP CMS ------ Upload “{{path}}”
+    deleteMedia: DECAP CMS ------ Delete “{{path}}”
 
 media_folder: 'src/images/uploads'
 public_folder: 'src/images/uploads'
