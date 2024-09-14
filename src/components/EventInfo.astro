@@ -3,6 +3,7 @@ import CalendarDays from 'astro-heroicons/outline/CalendarDays.astro'
 import Map from 'astro-heroicons/outline/Map.astro'
 import { getEntry} from 'astro:content'
 import Button from '../components/Button.astro'
+import DynamicImage from './DynamicImage.astro'
 
 interface Props {
   eventName: string
@@ -25,7 +26,7 @@ if (event == undefined) return
 <div class="relative mx-auto max-w-5xl">
   <!-- Hero image -->
   <div class="overflow-hidden rounded-lg shadow-inner">
-    <img src={event.data.obrazok} alt="Obrazok Lesija" />
+    <DynamicImage src={event.data.obrazok} alt="Obrazok Lesija" />
   </div>
 
   <!-- Quick info -->

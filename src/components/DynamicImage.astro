@@ -1,0 +1,15 @@
+---
+import { Image } from 'astro:assets'
+interface Props {
+  src: string
+  class?: string
+  alt: string
+}
+const { src: imageUrl, class: cssClass, alt : altText } = Astro.props
+const imagePath = '/' + imageUrl.toLowerCase()
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/uploads/*.{jpeg,jpg,png,gif}')
+if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/images/uploads/*.{jpeg,jpg,png,gif}"`)
+
+---
+
+<Image src={images[imagePath]()} class={cssClass} alt={altText} >
