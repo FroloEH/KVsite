@@ -29,4 +29,22 @@ partners_this_year:
 partners_last_year:
   - FPU
   - BSK
+team_header: Kto sme?
+team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva natoľko
+  očaril, že mu teraz venujú veľkú časť svojho srdiečka a voľného času.
+team_call_to_action_text: Ak by si sa chcel pridať, tak stačí napísať mail na kralovstvo@event-horizon.sk
+team_call_to_action_link: mailto:kralovstvo@event-horizon.sk
+team_members:
+  - Andrej 'Áčko' Sekáč
+  - Jakub 'Kub' Vojtko
+  - Marek 'Horálka' Horanský
+  - Patrícia 'Paťa' Illichová
+  - "Ivana 'Ivka' Cingelová "
+  - Lukáš 'Elf' Reviľák
+  - Martin 'Moldawk' Benko
+  - Peter 'Pie' Buzáš
+  - Michal 'Ismo' Dobrota
+  - Richard 'Rišo' Frolkovič
+  - "Roman 'Vizi' Vizváry "
+  - Veronika 'Verča' Blahová
 ---
