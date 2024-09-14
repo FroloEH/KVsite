@@ -100,8 +100,16 @@ collections:
           # TEAM
           - { label: 'Team_header', name: 'team_header', widget: 'string' }
           - { label: 'Team_text', name: 'team_text', widget: 'string' }
-          - { label: 'Team_call_to_action_text', name: 'team_call_to_action_text', widget: 'string' }
-          - { label: 'Team_call_to_action_link', name: 'team_call_to_action_link', widget: 'string' }
+          - {
+              label: 'Team_call_to_action_text',
+              name: 'team_call_to_action_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Team_call_to_action_link',
+              name: 'team_call_to_action_link',
+              widget: 'string',
+            }
           - {
               label: 'Team_members',
               name: 'team_members',
@@ -112,22 +120,43 @@ collections:
               valueField: 'name',
               displayFields: ['name'],
             }
+          # PLAYER STORIES
+          - {
+              label: 'Player_stories_header',
+              name: 'player_stories_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Player_stories_text',
+              name: 'player_stories_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Player_stories_collection',
+              name: 'player_stories_collection',
+              widget: 'relation',
+              collection: 'player_stories',
+              multiple: true,
+              searchFields: ['title'],
+              valueField: 'title',
+              displayFields: ['title'],
+            }
 
   - name: 'event'
     label: 'Event'
     folder: 'src/content/events'
     create: true
-    slug: '{{nadpis}}'
+    slug: '{{title}}'
     fields:
-      - { label: 'Nadpis', name: 'nadpis', widget: 'string' }
-      - { label: 'Dátum', name: 'datum', widget: 'string' }
-      - { label: 'Miesto', name: 'miesto', widget: 'string' }
+      - { label: 'Nadpis', name: 'title', widget: 'string' }
+      - { label: 'Dátum', name: 'date', widget: 'string' }
+      - { label: 'Miesto', name: 'place', widget: 'string' }
       - { label: 'Instagram', name: 'instagram', widget: 'string' }
       - { label: 'Facebook Event', name: 'linkFbEvent', widget: 'string' }
       - { label: 'Discord', name: 'discord', widget: 'string' }
-      - { label: 'Obrázok', name: 'obrazok', widget: 'image' }
-      - { label: 'Podnadpis', name: 'podnadpis', widget: 'string' }
-      - { label: 'Anotácia', name: 'anotacia', widget: 'string' }
+      - { label: 'Obrázok', name: 'image', widget: 'image' }
+      - { label: 'Podnadpis', name: 'subTitle', widget: 'string' }
+      - { label: 'Anotácia', name: 'annotation', widget: 'string' }
 
   - name: 'partners'
     label: 'Partners'
@@ -148,3 +177,23 @@ collections:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Role', name: 'role', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
+
+  - name: 'player_stories'
+    label: 'Player Stories'
+    folder: 'src/content/player_stories'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Story', name: 'story', widget: 'text' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - {
+          label: 'Event',
+          name: 'event',
+          widget: 'relation',
+          collection: 'event',
+          searchFields: ['title'],
+          valueField: 'title',
+          displayFields: ['title'],
+          multiple: false,
+        }

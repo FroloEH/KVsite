@@ -33,8 +33,19 @@ const teamCollection = defineCollection({
   }),
 })
 
+const storyCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    image: z.string(),
+    story: z.string(),
+    event: z.string(),
+  }),
+})
+
 export const collections = {
   events: eventCollection,
   partners: partnersCollection,
   team: teamCollection,
+  stories: storyCollection,
 }
