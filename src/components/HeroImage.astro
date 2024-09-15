@@ -1,10 +1,12 @@
 ---
 import Button from './Button.astro'
 import * as content from '../content/pages/home.md'
+import DynamicImage from './DynamicImage.astro'
 ---
 
 <section
-  class={`relative bg-[url(${content.frontmatter.hero_image})] bg-cover bg-center bg-no-repeat text-zinc-50`}>
+  class={`relative text-zinc-50`}>
+  <DynamicImage src={content.frontmatter.hero_image} alt="Hero Image" class="absolute inset-0 h-full w-full object-cover object-center" />
   <div
     class="absolute inset-0 bg-gradient-to-t from-lime-950/70 via-lime-600/10 via-75% to-transparent">
   </div>
