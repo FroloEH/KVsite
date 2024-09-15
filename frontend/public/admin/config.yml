@@ -5,7 +5,7 @@ backend:
   name: github
   branch: main
   repo: FroloEH/KVsite
-  base_url: http://localhost:4321
+  base_url: http://localhost:4323
   commit_messages:
     create: DECAP CMS ------ Create {{collection}} “{{slug}}”
     update: DECAP CMS ------ Update {{collection}} “{{slug}}”
@@ -17,6 +17,8 @@ media_folder: 'src/images/uploads'
 public_folder: 'src/images/uploads'
 publish_mode: editorial_workflow
 logo_url: src/images/LogoTransparent.png
+show_preview_links: true
+site_url: "https://xxxxxxxx.com/"
 
 collections:
   - label: 'Pages'
