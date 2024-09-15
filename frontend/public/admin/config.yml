@@ -5,7 +5,7 @@ backend:
   name: github
   branch: main
   repo: FroloEH/KVsite
-  base_url: http://localhost:4323
+  base_url: https://k-vsite.vercel.app/
   commit_messages:
     create: DECAP CMS ------ Create {{collection}} “{{slug}}”
     update: DECAP CMS ------ Update {{collection}} “{{slug}}”
