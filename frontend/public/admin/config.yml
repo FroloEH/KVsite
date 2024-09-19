@@ -13,10 +13,10 @@ backend:
     uploadMedia: DECAP CMS ------ Upload “{{path}}”
     deleteMedia: DECAP CMS ------ Delete “{{path}}”
 
-media_folder: 'src/images/uploads'
-public_folder: 'src/images/uploads'
+media_folder: 'frontend/src/images/uploads'
+public_folder: 'frontend/src/images/uploads'
 publish_mode: editorial_workflow
-logo_url: src/images/LogoTransparent.png
+logo_url: frontend/src/images/LogoTransparent.png
 show_preview_links: true
 site_url: "https://xxxxxxxx.com/"
 
@@ -26,7 +26,7 @@ collections:
     files:
       - label: 'Home Page'
         name: 'home'
-        file: 'src/content/pages/home.md'
+        file: 'frontend/src/content/pages/home.md'
         fields:
           # HERO
           - { label: 'Hero_header1', name: 'hero_header1', widget: 'string' }
@@ -146,7 +146,7 @@ collections:
 
   - name: 'event'
     label: 'Event'
-    folder: 'src/content/events'
+    folder: 'frontend/src/content/events'
     create: true
     slug: '{{title}}'
     fields:
@@ -162,7 +162,7 @@ collections:
 
   - name: 'partners'
     label: 'Partners'
-    folder: 'src/content/partners'
+    folder: 'frontend/src/content/partners'
     create: true
     slug: '{{name}}'
     fields:
@@ -172,7 +172,7 @@ collections:
 
   - name: 'team_member'
     label: 'Team Member'
-    folder: 'src/content/team'
+    folder: 'frontend/src/content/team'
     create: true
     slug: '{{name}}'
     fields:
@@ -182,7 +182,7 @@ collections:
 
   - name: 'player_stories'
     label: 'Player Stories'
-    folder: 'src/content/player_stories'
+    folder: 'frontend/src/content/player_stories'
     create: true
     slug: '{{title}}'
     fields:
