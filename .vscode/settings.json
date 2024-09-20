@@ -1,3 +1,9 @@
 {
-    "tailwindCSS.emmetCompletions": true
+  "tailwindCSS.emmetCompletions": true,
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "astro-build.astro-vscode"
 }
