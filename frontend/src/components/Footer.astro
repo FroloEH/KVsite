@@ -2,10 +2,12 @@
 import Image from 'astro/components/Image.astro'
 import LogoEh from '../images/ehdlhe.png'
 import * as content from '../content/pages/footer.md'
+import type { FooterContent, FooterLink } from '../types/pages'
 
-const firstColumnLinks = content.frontmatter.footer_1st_column_links as { link_text: string; link_target: string }[]
-const secondColumnLinks = content.frontmatter.footer_2nd_column_links as { link_text: string; link_target: string }[]
-const thirdColumnLinks = content.frontmatter.footer_3rd_column_links as { link_text: string; link_target: string }[]
+const contentData = content.frontmatter as FooterContent
+const firstColumnLinks = contentData.footer_1st_column_links as FooterLink[]
+const secondColumnLinks = contentData.footer_2nd_column_links as FooterLink[]
+const thirdColumnLinks = contentData.footer_3rd_column_links as FooterLink[]
 ---
 
 <footer class='bg-zinc-50'>
@@ -14,12 +16,12 @@ const thirdColumnLinks = content.frontmatter.footer_3rd_column_links as { link_t
     <div
       class='absolute -top-16 right-auto flex w-11/12 flex-col items-center gap-4 rounded-lg bg-lime-700 p-6 shadow-lg sm:flex-row sm:justify-between'>
       <strong class='text-xl text-amber-300 sm:text-xl'>
-        {content.frontmatter.footer_cta_text}
+        {contentData.footer_cta_text}
       </strong>
       <a
         class='inline-flex items-center gap-2 rounded-md border border-zinc-50 bg-zinc-50 px-8 py-3 text-lime-700 hover:border-amber-300 hover:bg-transparent hover:text-amber-300 focus:outline-none focus:ring active:bg-zinc-50/90'
-        href={content.frontmatter.footer_cta_link}>
-        <span class='text-sm font-medium'>{content.frontmatter.footer_cta_button_text} </span>
+        href={contentData.footer_cta_link}>
+        <span class='text-sm font-medium'>{contentData.footer_cta_button_text} </span>
 
         <svg class='size-5' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
           <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17 8l4 4m0 0l-4 4m4-4H3'></path>
@@ -30,7 +32,7 @@ const thirdColumnLinks = content.frontmatter.footer_3rd_column_links as { link_t
     <div class='mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
       <!-- COLUMN 1 -->
       <div class='ml-10 text-left'>
-        <p class='text-lg font-medium text-zinc-900'>{content.frontmatter.footer_1st_column_header}</p>
+        <p class='text-lg font-medium text-zinc-900'>{contentData.footer_1st_column_header}</p>
 
         <ul class='mt-4 space-y-4 text-sm'>
           {
@@ -46,7 +48,7 @@ const thirdColumnLinks = content.frontmatter.footer_3rd_column_links as { link_t
       </div>
       <!-- COLUMN 2 -->
       <div class='ml-10 text-left'>
-        <p class='text-lg font-medium text-zinc-900'>{content.frontmatter.footer_2nd_column_header}</p>
+        <p class='text-lg font-medium text-zinc-900'>{contentData.footer_2nd_column_header}</p>
 
         <ul class='mt-4 space-y-4 text-sm'>
           {
@@ -62,8 +64,8 @@ const thirdColumnLinks = content.frontmatter.footer_3rd_column_links as { link_t
       </div>
       <!-- COLUMN 3 -->
       <div class='ml-10 text-left'>
-        <p class='text-lg font-medium text-zinc-900'>{content.frontmatter.footer_3rd_column_header}</p>
-        <p class='text-md font-light text-zinc-500'>{content.frontmatter.footer_3rd_column_subheader}</p>
+        <p class='text-lg font-medium text-zinc-900'>{contentData.footer_3rd_column_header}</p>
+        <p class='text-md font-light text-zinc-500'>{contentData.footer_3rd_column_subheader}</p>
 
         <ul class='mt-4 space-y-4 text-sm'>
           {
