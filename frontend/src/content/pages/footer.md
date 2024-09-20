@@ -1,7 +1,7 @@
 ---
 footer_cta_text: Chceš vedieť o ďalších akciach medzi prvými? Prihlás sa na odber newsletteru!
 footer_cta_link: "#"
-footer_cta_button_text: Chcem novinky
+footer_cta_button_text: Sem s tým
 footer_1st_column_header: Kontakt
 footer_1st_column_links:
   - link_text: kralovstvo@event-horizon.sk
