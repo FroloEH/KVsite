@@ -4,10 +4,11 @@
 frontend/node_modules
 frontend/node_modules
 frontend/.astro
+frontend/.vercel
 frontend/public/images
 
 backend/node_modules
 backend/node_modules
 backend/.astro
+backend/.vercel
 public/images
-
