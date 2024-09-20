@@ -3,7 +3,9 @@ import Image from 'astro/components/Image.astro'
 import LogoEh from '../images/ehdlhe.png'
 import * as content from '../content/pages/footer.md'
 
-const firstColumnLinks = content.frontmatter.footer_1st_column_links as { link: string; target: string }[]
+const firstColumnLinks = content.frontmatter.footer_1st_column_links as { link_text: string; link_target: string }[]
+const secondColumnLinks = content.frontmatter.footer_2nd_column_links as { link_text: string; link_target: string }[]
+const thirdColumnLinks = content.frontmatter.footer_3rd_column_links as { link_text: string; link_target: string }[]
 ---
 
 <footer class='bg-zinc-50'>
@@ -17,7 +19,7 @@ const firstColumnLinks = content.frontmatter.footer_1st_column_links as { link: 
       <a
         class='inline-flex items-center gap-2 rounded-md border border-zinc-50 bg-zinc-50 px-8 py-3 text-lime-700 hover:border-amber-300 hover:bg-transparent hover:text-amber-300 focus:outline-none focus:ring active:bg-zinc-50/90'
         href={content.frontmatter.footer_cta_link}>
-        <span class='text-sm font-medium'>{content.frontmatter.footer_cta_text} </span>
+        <span class='text-sm font-medium'>{content.frontmatter.footer_cta_button_text} </span>
 
         <svg class='size-5' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
           <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17 8l4 4m0 0l-4 4m4-4H3'></path>
@@ -30,71 +32,49 @@ const firstColumnLinks = content.frontmatter.footer_1st_column_links as { link: 
       <div class='ml-10 text-left'>
         <p class='text-lg font-medium text-zinc-900'>{content.frontmatter.footer_1st_column_header}</p>
 
-        <ul class='mt-8 space-y-4 text-sm'>
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Company History </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Meet the Team </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Employee Handbook </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Careers </a>
-          </li>
+        <ul class='mt-4 space-y-4 text-sm'>
+          {
+            firstColumnLinks.map((link) => (
+              <li>
+                <a class='text-zinc-700 transition hover:text-zinc-700/75' href={link.link_target}>
+                  {link.link_text}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
       <!-- COLUMN 2 -->
       <div class='ml-10 text-left'>
-        <p class='text-lg font-medium text-zinc-900'>Nápomocné linky</p>
+        <p class='text-lg font-medium text-zinc-900'>{content.frontmatter.footer_2nd_column_header}</p>
 
-        <ul class='mt-8 space-y-4 text-sm'>
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Web Development </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Web Design </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Marketing </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Google Ads </a>
-          </li>
+        <ul class='mt-4 space-y-4 text-sm'>
+          {
+            secondColumnLinks.map((link) => (
+              <li>
+                <a class='text-zinc-700 transition hover:text-zinc-700/75' href={link.link_target}>
+                  {link.link_text}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
       <!-- COLUMN 3 -->
       <div class='ml-10 text-left'>
-        <p class='text-lg font-medium text-zinc-900'>Ďalšie LARPy</p>
-        <p class='text-md font-light text-zinc-500'>Nie len od nás</p>
+        <p class='text-lg font-medium text-zinc-900'>{content.frontmatter.footer_3rd_column_header}</p>
+        <p class='text-md font-light text-zinc-500'>{content.frontmatter.footer_3rd_column_subheader}</p>
 
         <ul class='mt-4 space-y-4 text-sm'>
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Online Guides </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Conference Notes </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Forum </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Downloads </a>
-          </li>
-
-          <li>
-            <a class='text-zinc-700 transition hover:text-zinc-700/75' href='#'> Upcoming Events </a>
-          </li>
+          {
+            thirdColumnLinks.map((link) => (
+              <li>
+                <a class='text-zinc-700 transition hover:text-zinc-700/75' href={link.link_target}>
+                  {link.link_text}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
     </div>

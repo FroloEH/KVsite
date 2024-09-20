@@ -1,8 +1,8 @@
 #Decap CMS settings
-local_backend: true
+#local_backend: true
 
 backend:
-  name: test-repo
+  name: github
   branch: main
   repo: FroloEH/KVsite
   base_url: https://k-vsite.vercel.app/
@@ -16,9 +16,9 @@ backend:
 media_folder: 'frontend/src/images/uploads'
 public_folder: 'frontend/src/images/uploads'
 publish_mode: editorial_workflow
-logo_url: frontend/src/images/LogoTransparent.png
+logo_url: /LogoTransparent.png
 show_preview_links: true
-site_url: "https://xxxxxxxx.com/"
+site_url: 'https://xxxxxxxx.com/'
 
 collections:
   - label: 'Pages'
@@ -143,19 +143,76 @@ collections:
               valueField: 'title',
               displayFields: ['title'],
             }
-      # - label: 'Footer'
-      #   name: 'footer'
-      #   file: 'frontend/src/content/pages/footer.md'
-      #   fields:
-      #   - { label: 'Footer call to action text', name: 'footer_cta_text', widget: 'string' }
-      #   - { label: 'Footer call to action link', name: 'footer_cta_link', widget: 'string' }
-      #   - { label: 'Footer call to action button text', name: 'footer_cta_button_text', widget: 'string' }
-      #   - {label: 'Footer 1st column header', name: 'footer_1st_column_header', widget: 'string'}
-      #   - {label: 'Footer 1st column links', name: 'footer_1st_column_links', widget: 'list', fields: {
-      #     - { label: 'Link', name: 'link', widget: 'string' }
-      #     - { label: 'Text', name: 'text', widget: 'string' }
-      #       }
-      #     }
+
+      - label: 'Footer'
+        name: 'footer'
+        file: 'frontend/src/content/pages/footer.md'
+        fields:
+          - {
+              label: 'Footer call to action text',
+              name: 'footer_cta_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer call to action link',
+              name: 'footer_cta_link',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer call to action button text',
+              name: 'footer_cta_button_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 1st column header',
+              name: 'footer_1st_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 1st column links',
+              name: 'footer_1st_column_links',
+              widget: 'list',
+              fields:
+                [
+                  { label: Link text, name: link_text, widget: string },
+                  { label: Target, name: link_target, widget: string },
+                ],
+            }
+          - {
+              label: 'Footer 2nd column header',
+              name: 'footer_2nd_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 2nd column links',
+              name: 'footer_2nd_column_links',
+              widget: 'list',
+              fields:
+                [
+                  { label: Link text, name: link_text, widget: string },
+                  { label: Target, name: link_target, widget: string },
+                ],
+            }
+          - {
+              label: 'Footer 3rd column header',
+              name: 'footer_3rd_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 3rd column subheader',
+              name: 'footer_3rd_column_subheader',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 3rd column links',
+              name: 'footer_3rd_column_links',
+              widget: 'list',
+              fields:
+                [
+                  { label: Link text, name: link_text, widget: string },
+                  { label: Target, name: link_target, widget: string },
+                ],
+            }
 
   - name: 'event'
     label: 'Event'
@@ -212,4 +269,3 @@ collections:
           displayFields: ['title'],
           multiple: false,
         }
-  
