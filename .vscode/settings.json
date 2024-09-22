@@ -5,5 +5,8 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "notebook.defaultFormatter": "astro-build.astro-vscode"
+  "notebook.defaultFormatter": "astro-build.astro-vscode",
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
