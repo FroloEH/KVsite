@@ -1,5 +1,5 @@
 ---
-footer_cta_text: Chceš vedieť o ďalších akciach medzi prvými? Prihlás sa na odber news.
+footer_cta_text: Chceš vedieť o ďalších akciach medzi prvými? Prihlás sa na odber newsletter.
 footer_cta_link: "#"
 footer_cta_button_text: Chcem novinky
 footer_1st_column_header: Kontakt
