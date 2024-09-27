@@ -18,13 +18,13 @@ media_folder: 'frontend/src/images/uploads'
 public_folder: 'frontend/src/images/uploads'
 publish_mode: editorial_workflow
 logo_url: /LogoTransparent.png
-site_url: https://vercel.live/open-feedback/k-vsite-git-cms
+site_url: https://vercel.live/open-feedback
 display_url: https://github.com/FroloEH/KVsite/pulls
 
 collections:
   - label: 'Pages'
     name: 'pages'
-    preview_path: -pages{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    preview_path: k-vsite-git-cms-pages{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     files:
       - label: 'Home Page'
         name: 'home'
@@ -219,7 +219,7 @@ collections:
   - name: 'event'
     label: 'Event'
     folder: 'frontend/src/content/events'
-    preview_path: -event{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    preview_path: k-vsite-git-cms-event{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
     slug: '{{title}}'
     fields:
@@ -236,7 +236,7 @@ collections:
   - name: 'partners'
     label: 'Partners'
     folder: 'frontend/src/content/partners'
-    preview_path: -partners{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    preview_path: k-vsite-git-cms-partners{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
     slug: '{{name}}'
     fields:
@@ -247,7 +247,7 @@ collections:
   - name: 'team_member'
     label: 'Team Member'
     folder: 'frontend/src/content/team'
-    preview_path: -team_member{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    preview_path: k-vsite-git-cms-team_member{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
     slug: '{{name}}'
     fields:
@@ -258,7 +258,7 @@ collections:
   - name: 'player_stories'
     label: 'Player Stories'
     folder: 'frontend/src/content/player_stories'
-    preview_path: -player_stories{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    preview_path: k-vsite-git-cms-player_stories{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
     slug: '{{title}}'
     fields:
