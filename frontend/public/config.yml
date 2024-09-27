@@ -7,6 +7,7 @@ backend:
   repo: FroloEH/KVsite
   base_url: https://k-vsite.vercel.app/
   preview_context: vercel/deployment
+  squash_merges: true
   commit_messages:
     create: DECAP CMS ------ Create {{collection}} “{{slug}}”
     update: DECAP CMS ------ Update {{collection}} “{{slug}}”
