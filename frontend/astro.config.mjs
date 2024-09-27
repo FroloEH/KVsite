@@ -5,7 +5,4 @@ import tailwind from '@astrojs/tailwind'
 export default defineConfig({
   integrations: [tailwind()],
   output: 'static',
-  redirects: {
-    '/config.yml': '/admin/config.yml',
-  },
 })
