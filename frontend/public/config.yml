@@ -6,6 +6,7 @@ backend:
   branch: main
   repo: FroloEH/KVsite
   base_url: https://k-vsite.vercel.app/
+  preview_context: vercel/deployment
   commit_messages:
     create: DECAP CMS ------ Create {{collection}} “{{slug}}”
     update: DECAP CMS ------ Update {{collection}} “{{slug}}”
@@ -17,12 +18,13 @@ media_folder: 'frontend/src/images/uploads'
 public_folder: 'frontend/src/images/uploads'
 publish_mode: editorial_workflow
 logo_url: /LogoTransparent.png
-show_preview_links: true
-site_url: 'https://xxxxxxxx.com/'
+site_url: https://vercel.live/open-feedback/k-vsite-git-cms-pagesfooter-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+display_url: https://github.com/FroloEH/KVsite/pulls
 
 collections:
   - label: 'Pages'
     name: 'pages'
+    preview_path: -pages{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     files:
       - label: 'Home Page'
         name: 'home'
