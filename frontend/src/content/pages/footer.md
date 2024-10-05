@@ -13,7 +13,9 @@ footer_2nd_column_links:
   - link_text: Všeobecné pravidlá
     link_target: '#'
   - link_text: Ochrana osobných údajov
-    link_target: '#'
+    link_target: '/ochrana-súkromia'
+  - link_text: Všeobecné podmienky
+    link_target: '/všeobecné-podmienky'
 footer_3rd_column_header: Ďalšie LARPy
 footer_3rd_column_subheader: Nie len od nás
 footer_3rd_column_links:

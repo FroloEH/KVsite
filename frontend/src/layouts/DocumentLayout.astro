@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import 'github-markdown-css/github-markdown-light.css'
 
 interface Props {
   title: string
@@ -21,7 +22,10 @@ const { title } = Astro.props
   </head>
   <body class='bg-zinc-100'>
     <Header />
-    <slot />
+    <div class='markdown-body mx-auto max-w-5xl bg-zinc-50 pt-52 shadow-inner xl:px-10'>
+      <slot />
+    </div>
+
     <Footer />
   </body>
 </html>
@@ -33,5 +37,20 @@ const { title } = Astro.props
   @font-face {
     font-family: 'fixel';
     src: url('fonts/FixelVariable.ttf');
+  }
+
+  .markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+    padding-top: 120px;
+  }
+
+  @media (max-width: 767px) {
+    .markdown-body {
+      padding: 15px;
+    }
   }
 </style>
