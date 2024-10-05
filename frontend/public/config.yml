@@ -217,6 +217,21 @@ collections:
                 ],
             }
 
+  - name: 'document_pages'
+    label: 'Document pages'
+    folder: 'frontend/src/pages'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Názov', name: 'title', widget: 'string' }
+      - { label: 'Text', name: 'body', widget: 'markdown' }
+      - {
+          label: 'LAyout',
+          name: 'layout',
+          widget: 'hidden',
+          default: '../layouts/DocumentLayout.astro',
+        }
+
   - name: 'event'
     label: 'Event'
     folder: 'frontend/src/content/events'
