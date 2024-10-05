@@ -7,18 +7,15 @@ interface Props {
 const { text, href } = Astro.props
 ---
 
-<a
-  class="group relative inline-block font-bold text-amber-300 focus:outline-none active:text-amber-200"
-  href={href}>
+<a class='group relative inline-block font-bold text-amber-50 focus:outline-none active:text-amber-200' href={href}>
   <span
-    class="absolute inset-0 translate-x-0.5 translate-y-0.5 rounded-lg bg-amber-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"
+    class='absolute inset-0 translate-x-0.5 translate-y-0.5 rounded-lg bg-amber-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0'
   ></span>
 
-  <span class="absolute inset-0 rounded-lg bg-lime-800 focus:bg-lime-500"
-  ></span>
+  <span class='absolute inset-0 rounded-lg bg-lime-800 focus:bg-lime-500'></span>
 
   <span
-    class="relative block rounded-lg border border-current px-7 py-4 font-bold uppercase tracking-widest drop-shadow-lg hover:drop-shadow-none">
+    class='relative block rounded-lg border border-amber-300 px-7 py-4 font-bold uppercase tracking-widest drop-shadow-lg hover:drop-shadow-none'>
     {text}
   </span>
 </a>
