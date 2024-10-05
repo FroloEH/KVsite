@@ -233,6 +233,24 @@ collections:
       - { label: 'Obrázok', name: 'image', widget: 'image' }
       - { label: 'Podnadpis', name: 'subTitle', widget: 'string' }
       - { label: 'Anotácia', name: 'annotation', widget: 'string' }
+      - {
+          label: 'Popis archivovanej akcie',
+          name: 'archive_text',
+          widget: 'string',
+          default: 'Pokračovanie na budúce',
+        }
+      - {
+          label: 'Text výzvi na odoberanie newsletteru',
+          name: 'newsletter_text',
+          widget: 'string',
+          default: 'Zisti medzi prvými kedy bude ďalšia hra.',
+        }
+      - {
+          label: 'Text tlačítka výzvi na odoberanie newsletteru',
+          name: 'newsletter_button_text',
+          default: 'Odoberať',
+          widget: 'string',
+        }
 
   - name: 'partners'
     label: 'Partners'

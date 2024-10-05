@@ -12,6 +12,10 @@ const eventCollection = defineCollection({
     obrazok: z.string(),
     podnadpis: z.string(),
     anotacia: z.string(),
+    archived: z.boolean(),
+    archive_text: z.string(),
+    newsletter_text: z.string(),
+    newsletter_button_text: z.string(),
   }),
 })
 

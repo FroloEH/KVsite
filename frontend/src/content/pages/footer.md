@@ -1,7 +1,7 @@
 ---
-footer_cta_text: Chceš vedieť o ďalších akciach medzi prvými? Prihlás sa na odber newsletter.
-footer_cta_link: "#"
-footer_cta_button_text: Chcem novinky
+footer_cta_text: Chceš vedieť o ďalších akciach medzi prvými?
+footer_cta_link: '#'
+footer_cta_button_text: Odoberať
 footer_1st_column_header: Kontakt
 footer_1st_column_links:
   - link_text: kralovstvo@event-horizon.sk
@@ -11,16 +11,16 @@ footer_1st_column_links:
 footer_2nd_column_header: Linky
 footer_2nd_column_links:
   - link_text: Všeobecné pravidlá
-    link_target: "#"
+    link_target: '#'
   - link_text: Ochrana osobných údajov
-    link_target: "#"
+    link_target: '#'
 footer_3rd_column_header: Ďalšie LARPy
 footer_3rd_column_subheader: Nie len od nás
 footer_3rd_column_links:
   - link_text: Larpy.sk
-    link_target: "#"
+    link_target: '#'
   - link_text: Mesto Hmly
-    link_target: "#"
+    link_target: '#'
   - link_text: Oáza Figovníkov
-    link_target: "#"
+    link_target: '#'
 ---
