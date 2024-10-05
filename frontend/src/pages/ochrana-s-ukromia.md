@@ -1,5 +1,5 @@
 ---
-title: Ochrana s=ukromia
+title: Ochrana súkromia
 ---
 # Ochrana súkromia 
 
