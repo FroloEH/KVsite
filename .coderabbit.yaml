@@ -7,7 +7,7 @@ reviews:
   high_level_summary: true
   poem: true
   sequence_diagram: false
-  path_filters: ['frontend/src/content/**/*.md']
+  path_filters: ['!frontend/src/content/**/*.md']
   review_status: true
   collapse_walkthrough: false
   auto_review:
