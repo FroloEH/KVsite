@@ -1,22 +1,113 @@
 ---
 import Bars from 'astro-heroicons/outline/Bars3.astro'
+import XMark from 'astro-heroicons/outline/XMark.astro'
 import { Image } from 'astro:assets'
+import * as content from '../content/pages/header.md'
 import transparentLogo from '../images/LogoTransparent.png'
+
+// const contentData = content.frontmatter as HeaderContent
+// const firstColumnLinks = contentData.footer_1st_column_links as FooterLink[]
+// const secondColumnLinks = contentData.footer_2nd_column_links as FooterLink[]
+// const thirdColumnLinks = contentData.footer_3rd_column_links as FooterLink[]
 ---
 
 <div
-  class="absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4">
-  <div class="w-10 md:w-14 xl:w-16">
-    <Image
-      src={transparentLogo}
-      alt="LOGO Kráľovstva - vínovy pohár s korunkou"
-    />
-  </div>
+  class='absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4'>
+  <a class='w-10 md:w-14 xl:w-16' href='/'>
+    <Image src={transparentLogo} alt='LOGO Kráľovstva - vínovy pohár s korunkou' />
+  </a>
 
   <div
-    class="bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_5px] bg-no-repeat font-display text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl">
-    <span class="p-3 pb-0 leading-none">LARP KRÁĽOVSTVO </span>
+    class='font-display bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_5px] bg-no-repeat text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl'>
+    <span class='p-3 pb-0 leading-none'>LARP KRÁĽOVSTVO </span>
   </div>
 
-  <Bars class="mr-4 inline h-8 stroke-2 align-top text-slate-800 xl:h-10" />
+  <Bars id='open-nav' class='mr-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
+  <div
+    id='topNavigation'
+    class='absolute right-5 top-5 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-100 py-3 shadow-md'>
+    <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+      <span class='m-5 block'>LARP Kráľovstvo</span>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Letná hra 2024</a>
+      </li>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Ako to prebieha</a>
+      </li>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Letná hra 2024</a>
+      </li>
+    </ul>
+    <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+      <span class='m-5 block'>Bojovka Hranica</span>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Letná hra 2024</a>
+      </li>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Ako to prebieha</a>
+      </li>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Letná hra 2024</a>
+      </li>
+    </ul>
+    <ul class='font-large text-2xl font-bold text-lime-900'>
+      <span class='m-5 block'>LARP</span>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Letná hra 2024</a>
+      </li>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Ako to prebieha</a>
+      </li>
+      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+        <a href='about-us'>Letná hra 2024</a>
+      </li>
+    </ul>
+    <XMark id='close-nav' class='mr-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
+  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const openNav = document.getElementById('open-nav')
+    const closeNav = document.getElementById('close-nav')
+    const topNavigation = document.getElementById('topNavigation')
+
+    if (openNav == null || closeNav == null || topNavigation == null) {
+      console.error('Navigation elements could not be found')
+      return
+    }
+
+    function showNav() {
+      if (topNavigation == null) return
+      topNavigation.classList.add('nav-visible')
+    }
+
+    function hideNav() {
+      if (topNavigation == null) return
+      topNavigation.classList.remove('nav-visible')
+    }
+
+    openNav.addEventListener('click', showNav)
+    closeNav.addEventListener('click', hideNav)
+    document.addEventListener('click', (event) => {
+      if (event.target instanceof Node && !topNavigation.contains(event.target) && event.target !== openNav) {
+        hideNav()
+      }
+    })
+  })
+</script>
+
+<style>
+  #topNavigation {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
+  }
+
+  #topNavigation.nav-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+</style>
