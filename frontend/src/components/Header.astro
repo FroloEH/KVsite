@@ -1,22 +1,115 @@
 ---
 import Bars from 'astro-heroicons/outline/Bars3.astro'
+import XMark from 'astro-heroicons/outline/XMark.astro'
 import { Image } from 'astro:assets'
+import type { HeaderContent, HeaderLink } from '../types/pages'
+import * as content from '../content/pages/header.md'
 import transparentLogo from '../images/LogoTransparent.png'
+
+const { title } = Astro.props
+const contentData = content.frontmatter as HeaderContent
+const firstColumnLinks = contentData.header_1st_column_links as HeaderLink[]
+const secondColumnLinks = contentData.header_2nd_column_links as HeaderLink[]
+const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 ---
 
 <div
-  class="absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4">
-  <div class="w-10 md:w-14 xl:w-16">
-    <Image
-      src={transparentLogo}
-      alt="LOGO Kráľovstva - vínovy pohár s korunkou"
-    />
+  class='absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4'>
+  <a class='w-10 md:w-14 xl:w-16' href='/'>
+    <Image src={transparentLogo} alt='LOGO Kráľovstva - vínovy pohár s korunkou' />
+  </a>
+
+  <div
+    class='font-display bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_5px] bg-no-repeat text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl'>
+    <span class='leading-none'>{title} </span>
+  </div>
+  <div id='open-nav'>
+    <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
+    <!-- <span class='mr-2 align-bottom text-2xl hover:cursor-pointer'>Menu</span> -->
   </div>
 
   <div
-    class="bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_5px] bg-no-repeat font-display text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl">
-    <span class="p-3 pb-0 leading-none">LARP KRÁĽOVSTVO </span>
-  </div>
+    id='topNavigation'
+    class='absolute right-3 top-3 z-20 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-50 shadow-md'>
+    <div class='flex py-4'>
+      <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+        <span class='m-5 mt-1 block'>{contentData.header_1st_column_header}</span>
+        {
+          firstColumnLinks.map((link) => (
+            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+              <a href={link.link_target}>{link.link_text}</a>
+            </li>
+          ))
+        }
+      </ul>
+      <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+        <span class='m-5 mt-1 block'>{contentData.header_2nd_column_header}</span>
+        {
+          secondColumnLinks.map((link) => (
+            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+              <a href={link.link_target}>{link.link_text}</a>
+            </li>
+          ))
+        }
+      </ul>
 
-  <Bars class="mr-4 inline h-8 stroke-2 align-top text-slate-800 xl:h-10" />
+      <ul class='font-large text-2xl font-bold text-lime-900'>
+        <span class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</span>
+        {
+          thirdColumnLinks.map((link) => (
+            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+              <a href={link.link_target}>{link.link_text}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <XMark id='close-nav' class='m-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
+  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const openNav = document.getElementById('open-nav')
+    const closeNav = document.getElementById('close-nav')
+    const topNavigation = document.getElementById('topNavigation')
+
+    if (openNav == null || closeNav == null || topNavigation == null) {
+      console.error('Navigation elements could not be found')
+      return
+    }
+
+    function showNav() {
+      if (topNavigation == null) return
+      topNavigation.classList.add('nav-visible')
+    }
+
+    function hideNav() {
+      if (topNavigation == null) return
+      topNavigation.classList.remove('nav-visible')
+    }
+
+    openNav.addEventListener('click', showNav)
+    closeNav.addEventListener('click', hideNav)
+    document.addEventListener('click', (event) => {
+      if (event.target instanceof Node && !topNavigation.contains(event.target) && !openNav.contains(event.target)) {
+        hideNav()
+      }
+    })
+  })
+</script>
+
+<style>
+  #topNavigation {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.3s ease;
+  }
+
+  #topNavigation.nav-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+</style>

@@ -216,6 +216,55 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
+      - label: 'Header'
+        name: 'header'
+        file: 'frontend/src/content/pages/header.md'
+        fields:
+          - {
+              label: 'Header 1st column header',
+              name: 'header_1st_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Header 1st column links',
+              name: 'header_1st_column_links',
+              widget: 'list',
+              fields:
+                [
+                  { label: Link text, name: link_text, widget: string },
+                  { label: Target, name: link_target, widget: string },
+                ],
+            }
+          - {
+              label: 'Header 2nd column header',
+              name: 'header_2nd_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Header 2nd column links',
+              name: 'header_2nd_column_links',
+              widget: 'list',
+              fields:
+                [
+                  { label: Link text, name: link_text, widget: string },
+                  { label: Target, name: link_target, widget: string },
+                ],
+            }
+          - {
+              label: 'Header 3rd column header',
+              name: 'header_3rd_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Header 3rd column links',
+              name: 'header_3rd_column_links',
+              widget: 'list',
+              fields:
+                [
+                  { label: Link text, name: link_text, widget: string },
+                  { label: Target, name: link_target, widget: string },
+                ],
+            }
 
   - name: 'document_pages'
     label: 'Document pages'
@@ -252,7 +301,7 @@ collections:
           label: 'Popis archivovanej akcie',
           name: 'archive_text',
           widget: 'string',
-          default: 'Pokračovanie na budúce',
+          default: 'Pokračovanie nabudúce',
         }
       - {
           label: 'Text výzvi na odoberanie newsletteru',
