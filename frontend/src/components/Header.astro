@@ -2,13 +2,14 @@
 import Bars from 'astro-heroicons/outline/Bars3.astro'
 import XMark from 'astro-heroicons/outline/XMark.astro'
 import { Image } from 'astro:assets'
+import type { HeaderContent, HeaderLink } from '../types/pages'
 import * as content from '../content/pages/header.md'
 import transparentLogo from '../images/LogoTransparent.png'
 
-// const contentData = content.frontmatter as HeaderContent
-// const firstColumnLinks = contentData.footer_1st_column_links as FooterLink[]
-// const secondColumnLinks = contentData.footer_2nd_column_links as FooterLink[]
-// const thirdColumnLinks = contentData.footer_3rd_column_links as FooterLink[]
+const contentData = content.frontmatter as HeaderContent
+const firstColumnLinks = contentData.header_1st_column_links as HeaderLink[]
+const secondColumnLinks = contentData.header_2nd_column_links as HeaderLink[]
+const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 ---
 
 <div
@@ -19,50 +20,51 @@ import transparentLogo from '../images/LogoTransparent.png'
 
   <div
     class='font-display bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_5px] bg-no-repeat text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl'>
-    <span class='p-3 pb-0 leading-none'>LARP KRÁĽOVSTVO </span>
+    <span class='leading-none'>LARP KRÁĽOVSTVO </span>
+  </div>
+  <div id='open-nav'>
+    <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
+    <!-- <span class='mr-2 align-bottom text-2xl hover:cursor-pointer'>Menu</span> -->
   </div>
 
-  <Bars id='open-nav' class='mr-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
   <div
     id='topNavigation'
-    class='absolute right-5 top-5 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-100 py-3 shadow-md'>
-    <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
-      <span class='m-5 block'>LARP Kráľovstvo</span>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Letná hra 2024</a>
-      </li>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Ako to prebieha</a>
-      </li>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Letná hra 2024</a>
-      </li>
-    </ul>
-    <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
-      <span class='m-5 block'>Bojovka Hranica</span>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Letná hra 2024</a>
-      </li>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Ako to prebieha</a>
-      </li>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Letná hra 2024</a>
-      </li>
-    </ul>
-    <ul class='font-large text-2xl font-bold text-lime-900'>
-      <span class='m-5 block'>LARP</span>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Letná hra 2024</a>
-      </li>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Ako to prebieha</a>
-      </li>
-      <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-        <a href='about-us'>Letná hra 2024</a>
-      </li>
-    </ul>
-    <XMark id='close-nav' class='mr-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
+    class='absolute right-3 top-3 z-20 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-50 shadow-md'>
+    <div class='flex py-4'>
+      <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+        <span class='m-5 mt-1 block'>{contentData.header_1st_column_header}</span>
+        {
+          firstColumnLinks.map((link) => (
+            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+              <a href={link.link_target}>{link.link_text}</a>
+            </li>
+          ))
+        }
+      </ul>
+      <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+        <span class='m-5 mt-1 block'>{contentData.header_2nd_column_header}</span>
+        {
+          secondColumnLinks.map((link) => (
+            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+              <a href={link.link_target}>{link.link_text}</a>
+            </li>
+          ))
+        }
+      </ul>
+
+      <ul class='font-large text-2xl font-bold text-lime-900'>
+        <span class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</span>
+        {
+          thirdColumnLinks.map((link) => (
+            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
+              <a href={link.link_target}>{link.link_text}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <XMark id='close-nav' class='m-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
   </div>
 </div>
 
@@ -78,11 +80,13 @@ import transparentLogo from '../images/LogoTransparent.png'
     }
 
     function showNav() {
+      console.log('showNav')
       if (topNavigation == null) return
       topNavigation.classList.add('nav-visible')
     }
 
     function hideNav() {
+      console.log('hideNav')
       if (topNavigation == null) return
       topNavigation.classList.remove('nav-visible')
     }
@@ -90,7 +94,7 @@ import transparentLogo from '../images/LogoTransparent.png'
     openNav.addEventListener('click', showNav)
     closeNav.addEventListener('click', hideNav)
     document.addEventListener('click', (event) => {
-      if (event.target instanceof Node && !topNavigation.contains(event.target) && event.target !== openNav) {
+      if (event.target instanceof Node && !topNavigation.contains(event.target) && !openNav.contains(event.target)) {
         hideNav()
       }
     })
