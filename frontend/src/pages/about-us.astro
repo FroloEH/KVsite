@@ -1,14 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import HeroImage from '../components/HeroImage.astro'
 import Team from '../components/Team.astro'
+import OurStory from '../components/OurStory.astro'
+import Contact from '../components/Contact.astro'
 ---
 
-<Layout title='LARP Kráľovstvo'>
-  <HeroImage />
-  <div class='mx-auto max-w-5xl bg-zinc-50 shadow-inner xl:px-10'>
-    <Contact />
+<Layout title='O nás'>
+  <div class='mx-auto max-w-5xl bg-zinc-50 pt-20 shadow-inner xl:px-10'>
     <OurStory />
+    <Contact />
     <Team />
   </div>
 </Layout>

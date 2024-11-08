@@ -6,6 +6,7 @@ import type { HeaderContent, HeaderLink } from '../types/pages'
 import * as content from '../content/pages/header.md'
 import transparentLogo from '../images/LogoTransparent.png'
 
+const { title } = Astro.props
 const contentData = content.frontmatter as HeaderContent
 const firstColumnLinks = contentData.header_1st_column_links as HeaderLink[]
 const secondColumnLinks = contentData.header_2nd_column_links as HeaderLink[]
@@ -20,7 +21,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 
   <div
     class='font-display bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_5px] bg-no-repeat text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl'>
-    <span class='leading-none'>LARP KRÁĽOVSTVO </span>
+    <span class='leading-none'>{title} </span>
   </div>
   <div id='open-nav'>
     <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
