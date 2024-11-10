@@ -1,8 +1,9 @@
 ---
 thank_you_title: Ďakujeme!
-thank_you_image: frontend/src/images/uploads/povzbudzujucepublikum_doprava.jpg
+thank_you_image: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 ---
-S realizáciou našich akcií nám pomáhali a stále pomáhajú mnohí ľudia, ktorí nám nezištne poskytujú svoj čas, schopnosti, náradie, materiál, názory, postrehy, nápady a mnoho iného. Vážime si pomoc každého a dúfame, že nám ostanete verní aj v budúcnosti. 
+
+S realizáciou našich akcií nám pomáhali a stále pomáhajú mnohí ľudia, ktorí nám nezištne poskytujú svoj čas, schopnosti, náradie, materiál, názory, postrehy, nápady a mnoho iného. Vážime si pomoc každého a dúfame, že nám ostanete verní aj v budúcnosti.
 
 Ďakujeme vám všetkým:
 

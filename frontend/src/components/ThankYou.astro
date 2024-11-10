@@ -1,0 +1,23 @@
+---
+import * as content from '../content/pages/thank_you.md'
+import DynamicImage from './DynamicImage.astro'
+import { Markdown } from '@astropub/md'
+---
+
+<section>
+  <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+    <h2 class='font-large p-3 pl-0 text-5xl'>{content.frontmatter.thank_you_title}</h2>
+    <div class='grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16'>
+      <div class='relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full'>
+        <DynamicImage
+          src={content.frontmatter.thank_you_image}
+          alt='Us and the players before the game'
+          class='absolute inset-0 h-full w-full object-cover'
+        />
+      </div>
+      <div>
+        <Markdown of={content.rawContent()} />
+      </div>
+    </div>
+  </div>
+</section>
