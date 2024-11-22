@@ -216,6 +216,7 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
+
       - label: 'Header'
         name: 'header'
         file: 'frontend/src/content/pages/header.md'
@@ -264,6 +265,21 @@ collections:
                   { label: Link text, name: link_text, widget: string },
                   { label: Target, name: link_target, widget: string },
                 ],
+            }
+      - label: 'Thank you'
+        name: 'thank_you'
+        file: 'frontend/src/content/pages/thank_you.md'
+        fields:
+          - {
+              label: 'Thank you page title',
+              name: 'thank_you_title',
+              widget: 'string',
+            }
+          - { label: 'Thank you text', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Thank you image',
+              name: 'thank_you_image',
+              widget: 'image',
             }
 
   - name: 'document_pages'
