@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro'
+import RulesTabs from '../components/RulesTabs.astro'
+import * as content from '../content/pages/larp-rules.md'
+---
+
+<Layout title={content.frontmatter.larp_rules_title}>
+  <div class='mx-auto max-w-5xl bg-zinc-50 pt-20 shadow-inner'>
+    <RulesTabs />
+  </div>
+</Layout>
