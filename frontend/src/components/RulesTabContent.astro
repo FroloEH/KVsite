@@ -1,0 +1,22 @@
+---
+import { Markdown } from '@astropub/md'
+import TextBlocksList from './shared/TextBlocksList.astro'
+
+interface Props {
+  tabId: string
+  intro: string
+  blocks: any[]
+}
+
+const { tabId, intro, blocks } = Astro.props
+---
+
+<div
+  class='tab-content relative'
+  data-tab-index={tabId}
+  role='tabpanel'
+  aria-labelledby={`tab-${tabId}`}
+  id={`panel-${tabId}`}>
+  <div class='p-8'><Markdown class='p-8' of={intro} /></div>
+  <TextBlocksList blocks={blocks} />
+</div>

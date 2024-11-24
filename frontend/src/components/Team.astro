@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
 import * as content from '../content/pages/home.md'
-import DynamicImage from './DynamicImage.astro'
+import DynamicImage from './shared/DynamicImage.astro'
 
 const teamMemberNames = content.frontmatter.team_members as string[]
 const teamCollection = await getCollection('team', (member) => teamMemberNames.includes(member.data.name))
@@ -10,7 +10,7 @@ const teamCollection = await getCollection('team', (member) => teamMemberNames.i
 <section class='body-font text-zinc-600'>
   <div class='container mx-auto px-5 py-24'>
     <div class='mb-20 flex w-full flex-col text-left'>
-      <h2 class='mb-4 font-large text-2xl text-zinc-900 sm:text-3xl'>
+      <h2 class='font-large mb-4 text-2xl text-zinc-900 sm:text-3xl'>
         {content.frontmatter.team_header}
       </h2>
       <p class='text-base leading-relaxed lg:w-2/3'>

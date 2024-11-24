@@ -2,11 +2,11 @@
 const blocks: { part_title: string; part_description: string }[] = Astro.props.blocks
 ---
 
-<div class='w-full. mt-16'>
+<div class='w-full. mt-8'>
   {
     blocks.map((block) => (
       <div class='flex border-t-2 border-t-amber-100 py-12 odd:bg-lime-50 hover:shadow-md'>
-        <div class='w-1/5 px-8'>
+        <div class='w-1/5 items-center px-8'>
           <h2 class='title-font text-lg font-medium tracking-widest text-zinc-900'>{block.part_title}</h2>
         </div>
         <div class='flex w-4/5 flex-col items-center justify-center px-6'>

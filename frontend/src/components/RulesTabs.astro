@@ -1,7 +1,6 @@
 ---
-import { Markdown } from '@astropub/md'
 import * as content from '../content/pages/larp-rules.md'
-import TextBlocksList from './TextBlocksList.astro'
+import RulesTabContent from './RulesTabContent.astro'
 ---
 
 <div class='my-16'>
@@ -18,11 +17,14 @@ import TextBlocksList from './TextBlocksList.astro'
 
   <!-- Tab menu -->
   <div class='hidden sm:block'>
-    <div class='border-b border-amber-100'>
-      <nav class='-mb-px flex text-zinc-600' aria-label='Tabs' role='tablist'>
+    <div class='mx-4 border-b border-amber-400'>
+      <nav
+        class='font-large -mb-px flex justify-center text-lg font-semibold tracking-wider text-zinc-500'
+        aria-label='Tabs'
+        role='tablist'>
         <a
           href='?tab=basic-rules'
-          class='tab-link inline-flex shrink-0 items-center border-b-2 p-4 text-lg font-medium hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900 focus:outline-none'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
           data-tab-index='basic-rules'
           role='tab'
           aria-selected='false'
@@ -32,7 +34,7 @@ import TextBlocksList from './TextBlocksList.astro'
         </a>
         <a
           href='?tab=class-rules'
-          class='tab-link inline-flex shrink-0 items-center border-b-2 p-4 text-lg font-medium hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900 focus:outline-none'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
           data-tab-index='class-rules'
           role='tab'
           aria-selected='false'
@@ -42,7 +44,7 @@ import TextBlocksList from './TextBlocksList.astro'
         </a>
         <a
           href='?tab=errata'
-          class='tab-link inline-flex shrink-0 items-center border-b-2 p-4 text-lg font-medium hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900 focus:outline-none'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
           data-tab-index='errata'
           role='tab'
           aria-selected='false'
@@ -55,29 +57,22 @@ import TextBlocksList from './TextBlocksList.astro'
   </div>
 
   <!-- Tab content -->
-  <div class='mt-6 w-full'>
-    <div
-      class='tab-content'
-      data-tab-index='basic-rules'
-      role='tabpanel'
-      aria-labelledby='tab-basic-rules'
-      id='panel-basic-rules'>
-      <div class='p-6'><Markdown of={content.frontmatter.basic_rules_intro} /></div>
-      <TextBlocksList blocks={content.frontmatter.basic_rules_parts} />
-    </div>
-    <div
-      class='tab-content'
-      data-tab-index='class-rules'
-      role='tabpanel'
-      aria-labelledby='tab-class-rules'
-      id='panel-class-rules'>
-      <div class='p-6'><Markdown of={content.frontmatter.class_rules_intro} /></div>
-      <TextBlocksList blocks={content.frontmatter.class_rules_parts} />
-    </div>
-    <div class='tab-content' data-tab-index='errata' role='tabpanel' aria-labelledby='tab-errata' id='panel-errata'>
-      <div class='p-6'><Markdown of={content.frontmatter.errata_intro} /></div>
-      <TextBlocksList blocks={content.frontmatter.errata_parts} />
-    </div>
+  <div class='w-full'>
+    <RulesTabContent
+      tabId='basic-rules'
+      intro={content.frontmatter.basic_rules_intro}
+      blocks={content.frontmatter.basic_rules_parts}
+    />
+    <RulesTabContent
+      tabId='class-rules'
+      intro={content.frontmatter.class_rules_intro}
+      blocks={content.frontmatter.class_rules_parts}
+    />
+    <RulesTabContent
+      tabId='errata'
+      intro={content.frontmatter.errata_intro}
+      blocks={content.frontmatter.errata_parts}
+    />
   </div>
 </div>
 
@@ -134,7 +129,7 @@ import TextBlocksList from './TextBlocksList.astro'
   }
 
   .tab-link.selected {
-    @apply bg-amber-50 text-zinc-950;
-    @apply border-amber-300;
+    @apply rounded-t-md text-xl text-zinc-950;
+    @apply border border-amber-300 border-b-zinc-50;
   }
 </style>

@@ -1,18 +1,21 @@
 ---
 larp_rules_title: LARP Pravidlá
 rules_intro: >-
-  Celé znenie pravidieľ si vieš tiahnuť tu: [VŠEOBECNÉ PRAVIDLÁ (posledný
-  update 2023)](frontend/src/images/uploads/vseobecne-pravidla-2023.pdf)
+  Nižšie nájdeš všetky pravidlá pre LARP Kráľovstvo.  Ak k ním máš otázky neváhaj sa ozvať na  </br>
+  - DISCORDE  </br>
+  - Svojmu majstrovi </br> 
+  - Email kralovstvo@event-horizon.sk </br> 
+  **Všeobecné pravidlá** : Základné pravidlá, ktoré potrebuje poznať každý hráč. </br> 
+  **Povolania**: Špeciálne schopnosti, ktoré si vyberieš pri tvorbe postavy alebo získaš počas hry.  </br>
+  **Errata**: Úpravy pravidieľ, ktoré sme spravili medzi hrami.</br>
+
 basic_rules_title: Všeobecné pravidlá
 basic_rules_description: >-
   Nižšie nájdeš krátke zhrnutie.
 basic_rules_intro: >-
   Každý hráč je povinný si pred hrou naštudovať základné pravidlá. Nebudeme vás z nich skúšať, no ich pochopenie je dôležité pre zážitok teba a ostatných spoluhráčov.  
     
-  Ak k ním máš otázky neváhaj sa ozvať na  </br>
-  - DISCORDE  </br>
-  - Svojmu majstrovi </br> 
-  - Email kralovstvo@event-horizon.sk </br> 
+
   Celé znenie pravidieľ si vieš tiahnuť tu: VŠEOBECNÉ PRAVIDLÁ </br>  
   Nižšie nájdeš krátke zhrnutie. </br>
 basic_rules_parts:

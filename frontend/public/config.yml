@@ -196,7 +196,7 @@ collections:
         file: 'frontend/src/content/pages/larp-rules.md'
         fields:
           - { label: 'LARP rules page title', name: 'larp_rules_title', widget: 'string' }
-          - { label: 'Rules intro', name: 'rules_intro', widget: 'string' }
+          - { label: 'Rules intro', name: 'rules_intro', widget: 'markdown' }
           - { label: 'Basic rules title', name: 'basic_rules_title', widget: 'string' }
           - { label: 'Basic rules description', name: 'basic_rules_description', widget: 'string' }
           - { label: 'Basic rules intro', name: 'basic_rules_intro', widget: 'markdown' }
