@@ -275,8 +275,14 @@ collections:
               label: 'Thank you page title',
               name: 'thank_you_title',
               widget: 'string',
+              required: true,
             }
-          - { label: 'Thank you text', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Thank you text',
+              name: 'body',
+              widget: 'markdown',
+              required: true,
+            }
           - {
               label: 'Thank you image',
               name: 'thank_you_image',
