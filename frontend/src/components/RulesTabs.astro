@@ -79,10 +79,10 @@ import RulesTabContent from './RulesTabContent.astro'
 <script>
   const TAB_ID_ATTR = 'data-tab-index'
   function switchTab(clickedTab: string) {
-    document.querySelectorAll('.tab-content').forEach((tabContent) => {
+    document.querySelectorAll('.tab-content').forEach((tabContent: Element) => {
       const contentId = tabContent.getAttribute(TAB_ID_ATTR) ?? ''
-      tabContent.classList.toggle('hidden', clickedTab != contentId)
       tabContent.classList.toggle('show', clickedTab == contentId)
+      tabContent.setAttribute('aria-hidden', (clickedTab != contentId).toString())
     })
 
     document.querySelectorAll(`[${TAB_ID_ATTR}]`).forEach((tabHeader: Element) => {
