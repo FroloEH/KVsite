@@ -24,12 +24,15 @@ const { tabId, intro, blocks } = Astro.props
 
 <style>
   .tab-content {
-    display: none;
-    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
   }
 
   .tab-content.show {
-    display: block;
-    visibility: visible;
+    opacity: 1;
+    position: relative;
+    pointer-events: auto;
   }
 </style>
