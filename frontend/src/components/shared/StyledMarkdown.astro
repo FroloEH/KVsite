@@ -1,0 +1,15 @@
+---
+import { Markdown } from '@astropub/md'
+
+interface Props {
+  of: string
+}
+
+const { of } = Astro.props
+---
+
+<div class='p-8'>
+  <Markdown of={of} />
+</div>
+
+<style></style>

@@ -4,7 +4,7 @@ header_1st_column_links:
   - link_text: Leto 2024
     link_target: '#'
   - link_text: Pravidlá
-    link_target: '#'
+    link_target: '/larp-rules'
   - link_text: Svet
     link_target: '#'
 header_2nd_column_header: Bojovka Hranica

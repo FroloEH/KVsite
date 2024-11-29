@@ -16,7 +16,7 @@ basic_rules_intro: >-
   Každý hráč je povinný si pred hrou naštudovať základné pravidlá. Nebudeme vás z nich skúšať, no ich pochopenie je dôležité pre zážitok teba a ostatných spoluhráčov.  
     
 
-  Celé znenie pravidieľ si vieš tiahnuť tu: VŠEOBECNÉ PRAVIDLÁ </br>  
+  Celé znenie pravidieľ si vieš tiahnuť tu: VŠEOBECNÉ www.PRAVIDLÁ.com </br>  
   Nižšie nájdeš krátke zhrnutie. </br>
 basic_rules_parts:
   - part_title: ORGANIZÁTORI

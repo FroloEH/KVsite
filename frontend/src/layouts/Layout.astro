@@ -27,6 +27,7 @@ const { title } = Astro.props
 </html>
 <style is:global>
   @tailwind base;
+  @tailwind components;
   @font-face {
     font-family: 'texturina';
     src: url('fonts/Texturina-VariableFont_opsz,wght.ttf');
@@ -34,5 +35,15 @@ const { title } = Astro.props
   @font-face {
     font-family: 'fixel';
     src: url('fonts/FixelVariable.ttf');
+  }
+
+  @layer components {
+    .link-effect {
+      @apply cursor-pointer;
+      @apply hover:bg-lime-800;
+      @apply hover:font-extrabold;
+      @apply hover:text-amber-50;
+      @apply underline;
+    }
   }
 </style>

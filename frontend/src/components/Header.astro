@@ -30,14 +30,16 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 
   <div
     id='topNavigation'
-    class='absolute right-3 top-3 z-20 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-50 shadow-md'>
+    class='absolute right-3 top-3 z-0 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-50 shadow-md'>
     <div class='flex py-4'>
       <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
         <span class='m-5 mt-1 block'>{contentData.header_1st_column_header}</span>
         {
           firstColumnLinks.map((link) => (
-            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-              <a href={link.link_target}>{link.link_text}</a>
+            <li>
+              <a class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900' href={link.link_target}>
+                {link.link_text}
+              </a>
             </li>
           ))
         }
@@ -46,8 +48,10 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
         <span class='m-5 mt-1 block'>{contentData.header_2nd_column_header}</span>
         {
           secondColumnLinks.map((link) => (
-            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-              <a href={link.link_target}>{link.link_text}</a>
+            <li>
+              <a class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900' href={link.link_target}>
+                {link.link_text}
+              </a>
             </li>
           ))
         }
@@ -57,8 +61,10 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
         <span class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</span>
         {
           thirdColumnLinks.map((link) => (
-            <li class='p-3 px-5 font-sans text-xl font-normal text-zinc-900 underline hover:bg-lime-800 hover:text-amber-50'>
-              <a href={link.link_target}>{link.link_text}</a>
+            <li>
+              <a class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900' href={link.link_target}>
+                {link.link_text}
+              </a>
             </li>
           ))
         }
@@ -81,13 +87,11 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
     }
 
     function showNav() {
-      if (topNavigation == null) return
-      topNavigation.classList.add('nav-visible')
+      topNavigation!.classList.add('nav-visible')
     }
 
     function hideNav() {
-      if (topNavigation == null) return
-      topNavigation.classList.remove('nav-visible')
+      topNavigation!.classList.remove('nav-visible')
     }
 
     openNav.addEventListener('click', showNav)
@@ -104,8 +108,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
   #topNavigation {
     opacity: 0;
     visibility: hidden;
-    transition:
-      opacity 0.3s ease;
+    transition: opacity 0.3s ease;
   }
 
   #topNavigation.nav-visible {
