@@ -116,6 +116,17 @@ import RulesTabContent from './RulesTabContent.astro'
       switchTab(tabIndex)
     })
   })
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      const tabs = Array.from(document.querySelectorAll('.tab-link'))
+      const currentTab = tabs.findIndex((tab) => tab.getAttribute('aria-selected') === 'true')
+      const nextIndex =
+        event.key === 'ArrowLeft' ? (currentTab - 1 + tabs.length) % tabs.length : (currentTab + 1) % tabs.length
+      const nextTab = tabs[nextIndex].getAttribute('data-tab-index') ?? ''
+      switchTab(nextTab)
+    }
+  })
 </script>
 
 <style>

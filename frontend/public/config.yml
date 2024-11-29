@@ -34,10 +34,26 @@ collections:
           # HERO
           - { label: 'Hero_header1', name: 'hero_header1', widget: 'string' }
           - { label: 'Hero_header2', name: 'hero_header2', widget: 'string' }
-          - { label: 'Hero_Button1_Text', name: 'hero_button1_text', widget: 'string' }
-          - { label: 'Hero_Button1_Link', name: 'hero_button1_link', widget: 'string' }
-          - { label: 'Hero_Button2_Text', name: 'hero_button2_text', widget: 'string' }
-          - { label: 'Hero_Button2_Link', name: 'hero_button2_link', widget: 'string' }
+          - {
+              label: 'Hero_Button1_Text',
+              name: 'hero_button1_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Hero_Button1_Link',
+              name: 'hero_button1_link',
+              widget: 'string',
+            }
+          - {
+              label: 'Hero_Button2_Text',
+              name: 'hero_button2_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Hero_Button2_Link',
+              name: 'hero_button2_link',
+              widget: 'string',
+            }
           - { label: 'Hero_Image', name: 'hero_image', widget: 'image' }
           # USP
           - { label: 'Usp1_header', name: 'usp1_header', widget: 'string' }
@@ -50,9 +66,21 @@ collections:
           - { label: 'Usp3_Popis', name: 'usp3_text', widget: 'string' }
           - { label: 'Usp3_Image', name: 'usp3_image', widget: 'image' }
           # PARTNERS
-          - { label: 'Partners_header', name: 'partners_header', widget: 'string' }
-          - { label: 'Partners_this_year_header', name: 'partners_this_year_header', widget: 'string' }
-          - { label: 'Partners_last_year_header', name: 'partners_last_year_header', widget: 'string' }
+          - {
+              label: 'Partners_header',
+              name: 'partners_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Partners_this_year_header',
+              name: 'partners_this_year_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Partners_last_year_header',
+              name: 'partners_last_year_header',
+              widget: 'string',
+            }
           - {
               label: 'Partners_this_year',
               name: 'partners_this_year',
@@ -77,8 +105,16 @@ collections:
           # TEAM
           - { label: 'Team_header', name: 'team_header', widget: 'string' }
           - { label: 'Team_text', name: 'team_text', widget: 'string' }
-          - { label: 'Team_call_to_action_text', name: 'team_call_to_action_text', widget: 'string' }
-          - { label: 'Team_call_to_action_link', name: 'team_call_to_action_link', widget: 'string' }
+          - {
+              label: 'Team_call_to_action_text',
+              name: 'team_call_to_action_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Team_call_to_action_link',
+              name: 'team_call_to_action_link',
+              widget: 'string',
+            }
           - {
               label: 'Team_members',
               name: 'team_members',
@@ -90,8 +126,16 @@ collections:
               displayFields: ['name'],
             }
           # PLAYER STORIES
-          - { label: 'Player_stories_header', name: 'player_stories_header', widget: 'string' }
-          - { label: 'Player_stories_text', name: 'player_stories_text', widget: 'string' }
+          - {
+              label: 'Player_stories_header',
+              name: 'player_stories_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Player_stories_text',
+              name: 'player_stories_text',
+              widget: 'string',
+            }
           - {
               label: 'Player_stories_collection',
               name: 'player_stories_collection',
@@ -107,10 +151,26 @@ collections:
         name: 'footer'
         file: 'frontend/src/content/pages/footer.md'
         fields:
-          - { label: 'Footer call to action text', name: 'footer_cta_text', widget: 'string' }
-          - { label: 'Footer call to action link', name: 'footer_cta_link', widget: 'string' }
-          - { label: 'Footer call to action button text', name: 'footer_cta_button_text', widget: 'string' }
-          - { label: 'Footer 1st column header', name: 'footer_1st_column_header', widget: 'string' }
+          - {
+              label: 'Footer call to action text',
+              name: 'footer_cta_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer call to action link',
+              name: 'footer_cta_link',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer call to action button text',
+              name: 'footer_cta_button_text',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 1st column header',
+              name: 'footer_1st_column_header',
+              widget: 'string',
+            }
           - {
               label: 'Footer 1st column links',
               name: 'footer_1st_column_links',
@@ -121,7 +181,11 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
-          - { label: 'Footer 2nd column header', name: 'footer_2nd_column_header', widget: 'string' }
+          - {
+              label: 'Footer 2nd column header',
+              name: 'footer_2nd_column_header',
+              widget: 'string',
+            }
           - {
               label: 'Footer 2nd column links',
               name: 'footer_2nd_column_links',
@@ -132,8 +196,16 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
-          - { label: 'Footer 3rd column header', name: 'footer_3rd_column_header', widget: 'string' }
-          - { label: 'Footer 3rd column subheader', name: 'footer_3rd_column_subheader', widget: 'string' }
+          - {
+              label: 'Footer 3rd column header',
+              name: 'footer_3rd_column_header',
+              widget: 'string',
+            }
+          - {
+              label: 'Footer 3rd column subheader',
+              name: 'footer_3rd_column_subheader',
+              widget: 'string',
+            }
           - {
               label: 'Footer 3rd column links',
               name: 'footer_3rd_column_links',
@@ -149,7 +221,11 @@ collections:
         name: 'header'
         file: 'frontend/src/content/pages/header.md'
         fields:
-          - { label: 'Header 1st column header', name: 'header_1st_column_header', widget: 'string' }
+          - {
+              label: 'Header 1st column header',
+              name: 'header_1st_column_header',
+              widget: 'string',
+            }
           - {
               label: 'Header 1st column links',
               name: 'header_1st_column_links',
@@ -160,7 +236,11 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
-          - { label: 'Header 2nd column header', name: 'header_2nd_column_header', widget: 'string' }
+          - {
+              label: 'Header 2nd column header',
+              name: 'header_2nd_column_header',
+              widget: 'string',
+            }
           - {
               label: 'Header 2nd column links',
               name: 'header_2nd_column_links',
@@ -171,7 +251,11 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
-          - { label: 'Header 3rd column header', name: 'header_3rd_column_header', widget: 'string' }
+          - {
+              label: 'Header 3rd column header',
+              name: 'header_3rd_column_header',
+              widget: 'string',
+            }
           - {
               label: 'Header 3rd column links',
               name: 'header_3rd_column_links',
@@ -187,19 +271,48 @@ collections:
         name: 'thank_you'
         file: 'frontend/src/content/pages/thank_you.md'
         fields:
-          - { label: 'Thank you page title', name: 'thank_you_title', widget: 'string' }
+          - {
+              label: 'Thank you page title',
+              name: 'thank_you_title',
+              widget: 'string',
+            }
           - { label: 'Thank you text', name: 'body', widget: 'markdown' }
-          - { label: 'Thank you image', name: 'thank_you_image', widget: 'image' }
+          - {
+              label: 'Thank you image',
+              name: 'thank_you_image',
+              widget: 'image',
+            }
 
       - label: 'LARP Rules'
         name: 'larp_rules'
         file: 'frontend/src/content/pages/larp-rules.md'
         fields:
-          - { label: 'LARP rules page title', name: 'larp_rules_title', widget: 'string' }
+          - {
+              label: 'LARP rules page title',
+              name: 'larp_rules_title',
+              widget: 'string',
+            }
+          - {
+              label: 'Background image',
+              name: 'background_image',
+              widget: 'image',
+            }
           - { label: 'Rules intro', name: 'rules_intro', widget: 'markdown' }
-          - { label: 'Basic rules title', name: 'basic_rules_title', widget: 'string' }
-          - { label: 'Basic rules description', name: 'basic_rules_description', widget: 'string' }
-          - { label: 'Basic rules intro', name: 'basic_rules_intro', widget: 'markdown' }
+          - {
+              label: 'Basic rules title',
+              name: 'basic_rules_title',
+              widget: 'string',
+            }
+          - {
+              label: 'Basic rules description',
+              name: 'basic_rules_description',
+              widget: 'string',
+            }
+          - {
+              label: 'Basic rules intro',
+              name: 'basic_rules_intro',
+              widget: 'markdown',
+            }
           - {
               label: 'Basic rules parts',
               name: 'basic_rules_parts',
@@ -207,12 +320,28 @@ collections:
               fields:
                 [
                   { label: 'Part title', name: 'part_title', widget: 'string' },
-                  { label: 'Part description', name: 'part_description', widget: 'string' },
+                  {
+                    label: 'Part description',
+                    name: 'part_description',
+                    widget: 'string',
+                  },
                 ],
             }
-          - { label: 'Class rules title', name: 'class_rules_title', widget: 'string' }
-          - { label: 'Class rules description', name: 'class_rules_description', widget: 'string' }
-          - { label: 'Class rules intro', name: 'class_rules_intro', widget: 'markdown' }
+          - {
+              label: 'Class rules title',
+              name: 'class_rules_title',
+              widget: 'string',
+            }
+          - {
+              label: 'Class rules description',
+              name: 'class_rules_description',
+              widget: 'string',
+            }
+          - {
+              label: 'Class rules intro',
+              name: 'class_rules_intro',
+              widget: 'markdown',
+            }
           - {
               label: 'Class rules parts',
               name: 'class_rules_parts',
@@ -220,11 +349,19 @@ collections:
               fields:
                 [
                   { label: 'Part title', name: 'part_title', widget: 'string' },
-                  { label: 'Part description', name: 'part_description', widget: 'string' },
+                  {
+                    label: 'Part description',
+                    name: 'part_description',
+                    widget: 'string',
+                  },
                 ],
             }
           - { label: 'Errata title', name: 'errata_title', widget: 'string' }
-          - { label: 'Errata description', name: 'errata_description', widget: 'string' }
+          - {
+              label: 'Errata description',
+              name: 'errata_description',
+              widget: 'string',
+            }
           - { label: 'Errata intro', name: 'errata_intro', widget: 'markdown' }
           - {
               label: 'Errata parts',
@@ -233,7 +370,11 @@ collections:
               fields:
                 [
                   { label: 'Part title', name: 'part_title', widget: 'string' },
-                  { label: 'Part description', name: 'part_description', widget: 'string' },
+                  {
+                    label: 'Part description',
+                    name: 'part_description',
+                    widget: 'string',
+                  },
                 ],
             }
 
@@ -245,7 +386,12 @@ collections:
     fields:
       - { label: 'Názov', name: 'title', widget: 'string' }
       - { label: 'Text', name: 'body', widget: 'markdown' }
-      - { label: 'LAyout', name: 'layout', widget: 'hidden', default: '../layouts/DocumentLayout.astro' }
+      - {
+          label: 'LAyout',
+          name: 'layout',
+          widget: 'hidden',
+          default: '../layouts/DocumentLayout.astro',
+        }
 
   - name: 'event'
     label: 'Event'
@@ -263,7 +409,12 @@ collections:
       - { label: 'Obrázok', name: 'image', widget: 'image' }
       - { label: 'Podnadpis', name: 'subTitle', widget: 'string' }
       - { label: 'Anotácia', name: 'annotation', widget: 'string' }
-      - { label: 'Popis archivovanej akcie', name: 'archive_text', widget: 'string', default: 'Pokračovanie nabudúce' }
+      - {
+          label: 'Popis archivovanej akcie',
+          name: 'archive_text',
+          widget: 'string',
+          default: 'Pokračovanie nabudúce',
+        }
       - {
           label: 'Text výzvi na odoberanie newsletteru',
           name: 'newsletter_text',

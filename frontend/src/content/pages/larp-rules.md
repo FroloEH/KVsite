@@ -1,5 +1,6 @@
 ---
 larp_rules_title: LARP Pravidlá
+background_image: src/images/uploads/NastupenaVlciaStraz.jpg
 rules_intro: >-
   Nižšie nájdeš všetky pravidlá pre LARP Kráľovstvo.  Ak k ním máš otázky neváhaj sa ozvať na  </br>
   - DISCORDE  </br>
