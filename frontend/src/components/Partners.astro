@@ -23,7 +23,7 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
       thisYearPartners.map((partner) => (
         <a class='flex w-72 p-4' href={partner.data.link}>
           <DynamicImage
-            alt={partner.data.name}
+            alt={`${partner.data.name} - Partner Logo`}
             class='h-full w-full object-cover object-center'
             src={partner.data.logo}
           />
@@ -43,7 +43,7 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
       lastYearPartners.map((partner) => (
         <a class='flex w-32 p-2' href={partner.data.link}>
           <DynamicImage
-            alt={partner.data.name}
+            alt={`${partner.data.name} - Partner Logo`}
             class='h-full w-full object-cover object-center'
             src={partner.data.logo}
           />

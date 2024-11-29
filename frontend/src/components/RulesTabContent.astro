@@ -1,12 +1,11 @@
 ---
-import { Markdown } from '@astropub/md'
 import TextBlocksList from './shared/TextBlocksList.astro'
 import StyledMarkdown from './shared/StyledMarkdown.astro'
 
 interface Props {
   tabId: string
   intro: string
-  blocks: any[]
+  blocks: { part_title: string; part_description: string }[]
 }
 
 const { tabId, intro, blocks } = Astro.props
@@ -16,6 +15,7 @@ const { tabId, intro, blocks } = Astro.props
   class='tab-content relative'
   data-tab-index={tabId}
   role='tabpanel'
+  aria-hidden='true'
   aria-labelledby={`tab-${tabId}`}
   id={`panel-${tabId}`}>
   <StyledMarkdown of={intro} />
@@ -31,5 +31,8 @@ const { tabId, intro, blocks } = Astro.props
   .tab-content.show {
     display: block;
     visibility: visible;
+    &[aria-hidden='true'] {
+      aria-hidden: false;
+    }
   }
 </style>
