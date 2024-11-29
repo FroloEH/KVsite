@@ -266,6 +266,7 @@ collections:
                   { label: Target, name: link_target, widget: string },
                 ],
             }
+
       - label: 'Thank you'
         name: 'thank_you'
         file: 'frontend/src/content/pages/thank_you.md'
@@ -274,12 +275,113 @@ collections:
               label: 'Thank you page title',
               name: 'thank_you_title',
               widget: 'string',
+              required: true,
             }
-          - { label: 'Thank you text', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Thank you text',
+              name: 'body',
+              widget: 'markdown',
+              required: true,
+            }
           - {
               label: 'Thank you image',
               name: 'thank_you_image',
               widget: 'image',
+            }
+
+      - label: 'LARP Rules'
+        name: 'larp_rules'
+        file: 'frontend/src/content/pages/larp-rules.md'
+        fields:
+          - {
+              label: 'LARP rules page title',
+              name: 'larp_rules_title',
+              widget: 'string',
+            }
+          - {
+              label: 'Background image',
+              name: 'background_image',
+              widget: 'image',
+            }
+          - { label: 'Rules intro', name: 'rules_intro', widget: 'markdown' }
+          - {
+              label: 'Basic rules title',
+              name: 'basic_rules_title',
+              widget: 'string',
+            }
+          - {
+              label: 'Basic rules description',
+              name: 'basic_rules_description',
+              widget: 'string',
+            }
+          - {
+              label: 'Basic rules intro',
+              name: 'basic_rules_intro',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Basic rules parts',
+              name: 'basic_rules_parts',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Part title', name: 'part_title', widget: 'string' },
+                  {
+                    label: 'Part description',
+                    name: 'part_description',
+                    widget: 'string',
+                  },
+                ],
+            }
+          - {
+              label: 'Class rules title',
+              name: 'class_rules_title',
+              widget: 'string',
+            }
+          - {
+              label: 'Class rules description',
+              name: 'class_rules_description',
+              widget: 'string',
+            }
+          - {
+              label: 'Class rules intro',
+              name: 'class_rules_intro',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Class rules parts',
+              name: 'class_rules_parts',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Part title', name: 'part_title', widget: 'string' },
+                  {
+                    label: 'Part description',
+                    name: 'part_description',
+                    widget: 'string',
+                  },
+                ],
+            }
+          - { label: 'Errata title', name: 'errata_title', widget: 'string' }
+          - {
+              label: 'Errata description',
+              name: 'errata_description',
+              widget: 'string',
+            }
+          - { label: 'Errata intro', name: 'errata_intro', widget: 'markdown' }
+          - {
+              label: 'Errata parts',
+              name: 'errata_parts',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Part title', name: 'part_title', widget: 'string' },
+                  {
+                    label: 'Part description',
+                    name: 'part_description',
+                    widget: 'string',
+                  },
+                ],
             }
 
   - name: 'document_pages'
@@ -291,7 +393,7 @@ collections:
       - { label: 'Názov', name: 'title', widget: 'string' }
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - {
-          label: 'LAyout',
+          label: 'Layout',
           name: 'layout',
           widget: 'hidden',
           default: '../layouts/DocumentLayout.astro',

@@ -1,32 +1,32 @@
 ---
-import Button from './Button.astro'
+import Button from './shared/Button.astro'
 import * as content from '../content/pages/home.md'
-import DynamicImage from './DynamicImage.astro'
+import DynamicImage from './shared/DynamicImage.astro'
 ---
 
-<section
-  class={`relative text-zinc-50`}>
-  <DynamicImage src={content.frontmatter.hero_image} alt="Hero Image" class="absolute inset-0 h-full w-full object-cover object-center" />
-  <div
-    class="absolute inset-0 bg-gradient-to-t from-lime-950/70 via-lime-600/10 via-75% to-transparent">
-  </div>
+<section class={`relative text-zinc-50`}>
+  <DynamicImage
+    src={content.frontmatter.hero_image}
+    alt='Hero Image'
+    class='absolute inset-0 h-full w-full object-cover object-center'
+  />
+  <div class='absolute inset-0 bg-gradient-to-t from-lime-950/70 via-lime-600/10 via-75% to-transparent'></div>
 
   <div
-    class="relative mx-auto max-w-screen-xl items-center justify-center px-4 pb-12 pt-72 sm:flex sm:px-6 lg:h-screen lg:px-8 lg:pt-96">
-    <div class="relative max-w-xl text-center">
+    class='relative mx-auto max-w-screen-xl items-center justify-center px-4 pb-12 pt-72 sm:flex sm:px-6 lg:h-screen lg:px-8 lg:pt-96'>
+    <div class='relative max-w-xl text-center'>
       <span
-        class="absolute inset-0 select-none font-large text-4xl font-medium leading-relaxed text-zinc-800 blur-sm sm:text-5xl"
+        class='font-large absolute inset-0 select-none text-4xl font-medium leading-relaxed text-zinc-800 blur-sm sm:text-5xl'
         >{content.frontmatter.hero_header1}
         <br />
         {content.frontmatter.hero_header2}</span
       >
-      <h2
-        class="font-large text-4xl font-medium leading-relaxed drop-shadow-lg sm:text-5xl">
+      <h2 class='font-large text-4xl font-medium leading-relaxed drop-shadow-lg sm:text-5xl'>
         {content.frontmatter.hero_header1}
         <br />
-        <span class="text-amber-300"> {content.frontmatter.hero_header2} </span>
+        <span class='text-amber-300'> {content.frontmatter.hero_header2} </span>
       </h2>
-      <div class="mt-10 flex flex-col justify-center gap-8 px-10 md:flex-row">
+      <div class='mt-10 flex flex-col justify-center gap-8 px-10 md:flex-row'>
         <Button text={content.frontmatter.hero_button1_text} href={content.frontmatter.hero_button1_link} />
         <Button text={content.frontmatter.hero_button2_text} href={content.frontmatter.hero_button2_link} />
       </div>

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
 import * as content from '../content/pages/home.md'
-import DynamicImage from './DynamicImage.astro'
+import DynamicImage from './shared/DynamicImage.astro'
 
 const playerStories = content.frontmatter.player_stories_collection as string[]
 const storyCollection = await getCollection('player_stories', ({ data }) => playerStories.includes(data.title))
@@ -20,9 +20,13 @@ const storyCollection = await getCollection('player_stories', ({ data }) => play
     <div class='-m-4 flex flex-wrap'>
       {
         storyCollection.map((story) => (
-          <div class='p-4 sm:w-1/2' >
+          <div class='p-4 sm:w-1/2'>
             <div class='relative flex'>
-              <DynamicImage alt='gallery' class='absolute inset-0 h-full w-full object-cover object-center' src={story.data.image} />
+              <DynamicImage
+                alt='gallery'
+                class='absolute inset-0 h-full w-full object-cover object-center'
+                src={story.data.image}
+              />
               <div class='relative z-10 w-full border-4 border-zinc-200 bg-zinc-100/90 px-8 py-10 opacity-0 hover:opacity-100'>
                 <h2 class='title-font mb-1 text-sm font-medium tracking-widest text-amber-500'>{story.data.event}</h2>
                 <h1 class='title-font mb-3 text-lg font-medium text-zinc-900'>{story.data.title}</h1>

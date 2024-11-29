@@ -21,15 +21,15 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
   <body class='bg-zinc-100'>
-    <Header />
-    <div class='markdown-body mx-auto max-w-5xl bg-zinc-50 pt-52 shadow-inner xl:px-10'>
+    <Header title={title} />
+    <div class='markdown-body prose prose-ol:font-bold mx-auto max-w-5xl bg-zinc-50 pt-52 shadow-inner xl:px-10'>
       <slot />
     </div>
-
     <Footer />
   </body>
 </html>
 <style is:global>
+  @tailwind base;
   @font-face {
     font-family: 'texturina';
     src: url('fonts/Texturina-VariableFont_opsz,wght.ttf');

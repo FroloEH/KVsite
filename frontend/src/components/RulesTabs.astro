@@ -1,0 +1,137 @@
+---
+import * as content from '../content/pages/larp-rules.md'
+import RulesTabContent from './RulesTabContent.astro'
+---
+
+<div class='my-16'>
+  <!-- Dropdown for mobile -->
+  <div class='p-4 sm:p-1 sm:hidden'>
+    <select
+      id='TabSelectorDropdown'
+      class='w-full rounded-md border-2 border-amber-400 bg-amber-100 p-3 text-lg font-medium text-zinc-900 shadow-inner focus:border-amber-300 focus:outline-none focus:ring-1 focus:ring-amber-300'>
+      <option value='basic-rules'>{content.frontmatter.basic_rules_title}</option>
+      <option value='class-rules'>{content.frontmatter.class_rules_title}</option>
+      <option value='errata'>{content.frontmatter.errata_title}</option>
+    </select>
+  </div>
+
+  <!-- Tab menu -->
+  <div class='hidden sm:block'>
+    <div class='mx-4 border-b border-amber-400'>
+      <nav
+        class='font-large -mb-px flex justify-center text-lg font-semibold tracking-wider text-zinc-500'
+        aria-label='Tabs'
+        role='tablist'>
+        <a
+          href='?tab=basic-rules'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
+          data-tab-index='basic-rules'
+          role='tab'
+          aria-selected='false'
+          aria-controls='panel-basic-rules'
+          id='tab-basic-rules'>
+          <span>{content.frontmatter.basic_rules_title}</span>
+        </a>
+        <a
+          href='?tab=class-rules'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
+          data-tab-index='class-rules'
+          role='tab'
+          aria-selected='false'
+          aria-controls='panel-class-rules'
+          id='tab-class-rules'>
+          <span>{content.frontmatter.class_rules_title}</span>
+        </a>
+        <a
+          href='?tab=errata'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
+          data-tab-index='errata'
+          role='tab'
+          aria-selected='false'
+          aria-controls='panel-errata'
+          id='tab-errata'>
+          <span>{content.frontmatter.errata_title}</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Tab content -->
+  <div class='w-full'>
+    <RulesTabContent
+      tabId='basic-rules'
+      intro={content.frontmatter.basic_rules_intro}
+      blocks={content.frontmatter.basic_rules_parts}
+    />
+    <RulesTabContent
+      tabId='class-rules'
+      intro={content.frontmatter.class_rules_intro}
+      blocks={content.frontmatter.class_rules_parts}
+    />
+    <RulesTabContent
+      tabId='errata'
+      intro={content.frontmatter.errata_intro}
+      blocks={content.frontmatter.errata_parts}
+    />
+  </div>
+</div>
+
+<script>
+  const TAB_ID_ATTR = 'data-tab-index'
+  function switchTab(clickedTab: string) {
+    document.querySelectorAll('.tab-content').forEach((tabContent: Element) => {
+      const contentId = tabContent.getAttribute(TAB_ID_ATTR) ?? ''
+      tabContent.classList.toggle('show', clickedTab == contentId)
+      tabContent.setAttribute('aria-hidden', (clickedTab != contentId).toString())
+    })
+
+    document.querySelectorAll(`[${TAB_ID_ATTR}]`).forEach((tabHeader: Element) => {
+      const tabId = tabHeader.getAttribute(TAB_ID_ATTR) ?? ''
+      tabHeader.setAttribute('aria-selected', (clickedTab == tabId).toString())
+      tabHeader.classList.toggle('selected', clickedTab == tabId)
+    })
+  }
+
+  const firstTab = document.querySelectorAll(`[${TAB_ID_ATTR}]`)[0].getAttribute(TAB_ID_ATTR) ?? ''
+  const selectedTab = new URL(window.location.href).searchParams.get('tab') ?? firstTab
+  switchTab(selectedTab)
+
+  const tabDropdown = document.querySelector('#TabSelectorDropdown') as HTMLSelectElement
+  tabDropdown.value = selectedTab
+  tabDropdown.addEventListener('change', (event: Event) => {
+    const tabIndex = tabDropdown.value
+    const url = new URL(window.location.href)
+    url.searchParams.set('tab', tabIndex)
+    window.history.replaceState(null, '', url.toString())
+    switchTab(tabIndex)
+  })
+
+  document.querySelectorAll('.tab-link').forEach((tabLink) => {
+    tabLink.addEventListener('click', (event) => {
+      event.preventDefault()
+      const tabIndex = tabLink.getAttribute(TAB_ID_ATTR) ?? ''
+      const url = new URL(window.location.href)
+      url.searchParams.set('tab', tabIndex)
+      window.history.replaceState(null, '', url.toString())
+      switchTab(tabIndex)
+    })
+  })
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      const tabs = Array.from(document.querySelectorAll('.tab-link'))
+      const currentTab = tabs.findIndex((tab) => tab.getAttribute('aria-selected') === 'true')
+      const nextIndex =
+        event.key === 'ArrowLeft' ? (currentTab - 1 + tabs.length) % tabs.length : (currentTab + 1) % tabs.length
+      const nextTab = tabs[nextIndex].getAttribute('data-tab-index') ?? ''
+      switchTab(nextTab)
+    }
+  })
+</script>
+
+<style>
+  .tab-link.selected {
+    @apply rounded-t-md text-xl text-zinc-950;
+    @apply border border-amber-300 border-b-zinc-50;
+  }
+</style>

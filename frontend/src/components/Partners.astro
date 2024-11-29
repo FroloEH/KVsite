@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
 import * as content from '../content/pages/home.md'
-import DynamicImage from './DynamicImage.astro'
+import DynamicImage from './shared/DynamicImage.astro'
 const namesThisYear = content.frontmatter.partners_this_year as string[]
 const thisYearPartners = await getCollection('partners', ({ data }) => namesThisYear.includes(data.name))
 const namesLastYear = content.frontmatter.partners_last_year as string[]
@@ -10,7 +10,7 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
 
 <section class='bg-white p-10 shadow-inner'>
   <div class='mb-6 flex w-full flex-col text-left'>
-    <h2 class='mb-8 font-large text-4xl font-medium text-gray-900 sm:text-3xl'>
+    <h2 class='font-large mb-8 text-4xl font-medium text-gray-900 sm:text-3xl'>
       {content.frontmatter.partners_header}
     </h2>
     <h3
@@ -22,7 +22,11 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
     {
       thisYearPartners.map((partner) => (
         <a class='flex w-72 p-4' href={partner.data.link}>
-          <DynamicImage alt={partner.data.name} class='h-full w-full object-cover object-center' src={partner.data.logo} />
+          <DynamicImage
+            alt={`${partner.data.name} - Partner Logo`}
+            class='h-full w-full object-cover object-center'
+            src={partner.data.logo}
+          />
         </a>
       ))
     }
@@ -38,7 +42,11 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
     {
       lastYearPartners.map((partner) => (
         <a class='flex w-32 p-2' href={partner.data.link}>
-          <DynamicImage alt={partner.data.name} class='h-full w-full object-cover object-center' src={partner.data.logo} />
+          <DynamicImage
+            alt={`${partner.data.name} - Partner Logo`}
+            class='h-full w-full object-cover object-center'
+            src={partner.data.logo}
+          />
         </a>
       ))
     }

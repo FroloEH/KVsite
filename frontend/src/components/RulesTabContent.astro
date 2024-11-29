@@ -1,0 +1,38 @@
+---
+import TextBlocksList from './shared/TextBlocksList.astro'
+import StyledMarkdown from './shared/StyledMarkdown.astro'
+
+interface Props {
+  tabId: string
+  intro: string
+  blocks: { part_title: string; part_description: string }[]
+}
+
+const { tabId, intro, blocks } = Astro.props
+---
+
+<div
+  class='tab-content relative'
+  data-tab-index={tabId}
+  role='tabpanel'
+  aria-hidden='true'
+  aria-labelledby={`tab-${tabId}`}
+  id={`panel-${tabId}`}>
+  <StyledMarkdown of={intro} />
+  <TextBlocksList blocks={blocks} />
+</div>
+
+<style>
+  .tab-content {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .tab-content.show {
+    opacity: 1;
+    position: relative;
+    pointer-events: auto;
+  }
+</style>
