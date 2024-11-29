@@ -387,7 +387,7 @@ collections:
       - { label: 'Názov', name: 'title', widget: 'string' }
       - { label: 'Text', name: 'body', widget: 'markdown' }
       - {
-          label: 'LAyout',
+          label: 'Layout',
           name: 'layout',
           widget: 'hidden',
           default: '../layouts/DocumentLayout.astro',
