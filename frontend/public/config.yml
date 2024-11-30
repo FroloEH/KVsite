@@ -383,6 +383,40 @@ collections:
                   },
                 ],
             }
+      - label: 'Contact settings and socials'
+        name: 'contact_settings'
+        file: 'frontend/src/content/pages/contact-settings.md'
+        fields:
+          - {
+            label: 'Email',
+            name: 'email',
+            widget: 'string',
+            required: true,
+          }
+          - {
+            label: 'Facebook',
+            name: 'facebook',
+            widget: 'string',
+            required: true,
+          }
+          - {
+            label: 'Discord',
+            name: 'discord',
+            widget: 'string',
+            required: true,
+          }
+          - {
+            label: 'Instagram',
+            name: 'instagram',
+            widget: 'string',
+            required: true,
+          }
+          - {
+            label: 'Newsletter Link',
+            name: 'newsletter_link',
+            widget: 'string',
+            required: true,
+          }
 
   - name: 'document_pages'
     label: 'Document pages'

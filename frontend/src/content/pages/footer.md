@@ -1,6 +1,5 @@
 ---
 footer_cta_text: Chceš vedieť o ďalších akciach medzi prvými?
-footer_cta_link: '#'
 footer_cta_button_text: Odoberať
 footer_1st_column_header: Kontakt
 footer_1st_column_links:
