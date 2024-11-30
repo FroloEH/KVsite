@@ -37,12 +37,11 @@ if (event == undefined) return
 
   { event.data.archived ?
   <!-- Newsletter CTA -->
-  <div class='absolute w-2/3 bottom-40 right-8 space-y-4 rounded-lg border-2 border-amber-300 bg-zinc-50 p-8 shadow-md md:right-[calc(50%-theme(space.48))]'>
-    <div class='font-medium text-lime-950'>
+  <div class='absolute w-2/3 bottom-40 right-8 rounded-lg flex flex-row border-2 border-amber-300 bg-zinc-50 p-8 shadow-md md:right-[calc(50%-theme(space.48))]'>
+    <div class='font-medium text-lg text-lime-950 pr-8 self-center'>
       { event.data.newsletter_text }
     </div>
-    <input type="email" placeholder='Tvoj email' class='shadow-inner w-2/3 h-14 rounded-lg border-2 border-amber-300 bg-zinc-100 p-2 focus-visible:border-lime-800 focus-visible:outline-none'/>
-    <Button text={event.data.newsletter_button_text} href='#' class:list={'w-1/2'} />
+    <Button text={event.data.newsletter_button_text} href={event.data.newsletter_link} class:list={'self-center'} />
   </div>
 
   <!-- Socials CTA -->

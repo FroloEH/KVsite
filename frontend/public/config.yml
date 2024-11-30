@@ -433,6 +433,11 @@ collections:
           default: 'Odoberať',
           widget: 'string',
         }
+      - {
+          label: 'Link na odoberanie newsletteru',
+          name: 'newsletter_link',
+          widget: 'string',
+        }
 
   - name: 'partners'
     label: 'Partners'
