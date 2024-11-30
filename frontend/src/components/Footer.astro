@@ -2,6 +2,7 @@
 import Image from 'astro/components/Image.astro'
 import LogoEh from '../images/ehdlhe.png'
 import * as content from '../content/pages/footer.md'
+import * as contactSettings from '../content/pages/contact-settings.md'
 import type { FooterContent, FooterLink } from '../types/pages'
 import Button from './shared/Button.astro'
 
@@ -19,7 +20,7 @@ const thirdColumnLinks = contentData.footer_3rd_column_links as FooterLink[]
       <strong class='w-3/5 text-xl text-zinc-50 sm:text-xl'>
         {contentData.footer_cta_text}
       </strong>
-      <Button text={contentData.footer_cta_button_text} href={contentData.footer_cta_link} />
+      <Button text={contentData.footer_cta_button_text} href={contactSettings.frontmatter.newsletter_link} />
     </div>
 
     <div class='mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>

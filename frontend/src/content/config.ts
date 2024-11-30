@@ -16,7 +16,6 @@ const eventCollection = defineCollection({
     archive_text: z.string(),
     newsletter_text: z.string(),
     newsletter_button_text: z.string(),
-    newsletter_link: z.string().url(),
   }),
 })
 

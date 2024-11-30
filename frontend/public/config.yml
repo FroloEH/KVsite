@@ -383,6 +383,40 @@ collections:
                   },
                 ],
             }
+      - label: 'Contact settings and socials'
+        name: 'contact_settings'
+        file: 'frontend/src/content/pages/contact-settings.md'
+        fields:
+          - {
+              label: 'email',
+              name: 'email',
+              widget: 'string',
+              required: true,
+            }
+          - {
+              label: 'facebook',
+              name: 'facebook',
+              widget: 'string',
+              required: true,
+            }
+          - {
+              label: 'discord',
+              name: 'discord',
+              widget: 'string',
+              required: true,
+            }
+          - {
+              label: 'instagram',
+              name: 'instagram',
+              widget: 'string',
+              required: true,
+            }
+          - {
+              label: 'Newsletter link',
+              name: 'newsletter_link',
+              widget: 'string',
+              required: true,
+            }
 
   - name: 'document_pages'
     label: 'Document pages'
@@ -431,11 +465,6 @@ collections:
           label: 'Text tlačítka výzvi na odoberanie newsletteru',
           name: 'newsletter_button_text',
           default: 'Odoberať',
-          widget: 'string',
-        }
-      - {
-          label: 'Link na odoberanie newsletteru',
-          name: 'newsletter_link',
           widget: 'string',
         }
 
