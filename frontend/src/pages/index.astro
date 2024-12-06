@@ -6,13 +6,14 @@ import EventInfo from '../components/EventInfo.astro'
 import Partners from '../components/Partners.astro'
 import Team from '../components/Team.astro'
 import PlayerStories from '../components/PlayerStories.astro'
+import * as content from '../content/pages/home.md'
 ---
 
 <Layout title='LARP KRÁĽOVSTVO'>
   <HeroImage />
   <div class='mx-auto max-w-5xl bg-zinc-50 shadow-inner xl:px-10'>
     <UspCard />
-    <EventInfo eventName='larp2024' href='#' />
+    <EventInfo eventName={content.frontmatter.larp_event_name}/>
     <Partners />
     <Team />
     <PlayerStories />

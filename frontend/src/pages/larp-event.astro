@@ -1,0 +1,16 @@
+---
+import EventInfo from '../components/EventInfo.astro'
+import Layout from '../layouts/Layout.astro'
+import * as content from '../content/pages/current-larp-event.md'
+import { getEntry } from 'astro:content'
+
+const event = await getEntry('events', content.frontmatter.current_larp_event)
+if (event == undefined) return
+
+---
+
+<Layout title={event.data.nadpis}>
+  <div class='pt-24 bg-zinc-50 mx-auto max-w-5xl'>
+    <EventInfo eventName={content.frontmatter.current_larp_event} displayHeading={false} />
+  </div>
+</Layout>

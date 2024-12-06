@@ -2,7 +2,7 @@
 header_1st_column_header: LARP Kráľovstvo
 header_1st_column_links:
   - link_text: Leto 2024
-    link_target: '#'
+    link_target: '/larp-event'
   - link_text: Pravidlá
     link_target: '/larp-rules'
   - link_text: Svet

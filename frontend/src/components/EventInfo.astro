@@ -7,21 +7,23 @@ import DynamicImage from './shared/DynamicImage.astro'
 import * as contactSettings from '../content/pages/contact-settings.md'
 
 interface Props {
-  eventName: string
-  href: string
+  eventName: string,
+  displayHeading?: boolean
 }
 
-const { eventName } = Astro.props
+const { eventName, displayHeading = true } = Astro.props
 const event = await getEntry('events', eventName)
 if (event == undefined) return
 ---
 
+{ displayHeading &&
 <div class='flex-column flex justify-center pb-4'>
   <h2
-    class='font-large flex bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_7px] bg-no-repeat px-2 text-4xl uppercase tracking-tight text-zinc-900 md:text-5xl'>
+    class='font-large flex underlined-heading px-2 text-4xl uppercase tracking-tight text-zinc-900 md:text-5xl'>
     {event.data.nadpis}
   </h2>
 </div>
+}
 
 <div class='relative mx-auto max-w-5xl'>
 
