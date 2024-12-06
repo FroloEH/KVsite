@@ -16,6 +16,14 @@ const eventCollection = defineCollection({
     archive_text: z.string(),
     newsletter_text: z.string(),
     newsletter_button_text: z.string(),
+    storyIntro: z.string(),
+    storyImage: z.string(),
+    story1Title: z.string(),
+    story1Text: z.string(),
+    story2Title: z.string(),
+    story2Text: z.string(),
+    story3Title: z.string(),
+    story3Text: z.string(),
   }),
 })
 
