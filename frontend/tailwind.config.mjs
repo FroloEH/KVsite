@@ -1,3 +1,5 @@
+import plugin from '@tailwindcss/typography'
+
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 
@@ -11,8 +13,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    // ...
-  ],
+  plugins: [require('@tailwindcss/typography')],
 }
