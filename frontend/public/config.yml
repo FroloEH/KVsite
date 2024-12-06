@@ -443,12 +443,19 @@ collections:
       - { label: 'Nadpis', name: 'title', widget: 'string' }
       - { label: 'Dátum', name: 'date', widget: 'string' }
       - { label: 'Miesto', name: 'place', widget: 'string' }
-      - { label: 'Instagram', name: 'instagram', widget: 'string' }
       - { label: 'Facebook Event', name: 'linkFbEvent', widget: 'string' }
-      - { label: 'Discord', name: 'discord', widget: 'string' }
       - { label: 'Obrázok', name: 'image', widget: 'image' }
       - { label: 'Podnadpis', name: 'subTitle', widget: 'string' }
       - { label: 'Anotácia', name: 'annotation', widget: 'string' }
+      - { label: 'Veľký text nad zápletkami', name: 'storyIntroText', widget: 'string', default: 'Na čo sa môžeš tešiť?' }
+      - { label: 'Obrázok príbehu', name: 'storyImage', widget: 'image' }
+      - { label: 'Zápletka 1 nadpis', name: 'story1Title', widget: 'string' }
+      - { label: 'Zápletka 1 text', name: 'story1Text', widget: 'string' }
+      - { label: 'Zápletka 2 nadpis', name: 'story2Title', widget: 'string' }
+      - { label: 'Zápletka 2 text', name: 'story2Text', widget: 'string' }
+      - { label: 'Zápletka 3 nadpis', name: 'story3Title', widget: 'string' }
+      - { label: 'Zápletka 3 text', name: 'story3Text', widget: 'string' }
+      - { label: 'Archivovať akciu', name: 'archived', widget: 'boolean' }
       - {
           label: 'Popis archivovanej akcie',
           name: 'archive_text',
