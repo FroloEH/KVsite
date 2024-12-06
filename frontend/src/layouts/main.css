@@ -19,6 +19,10 @@
   }
 
   .underlined-heading {
-    @apply bg-gradient-to-t from-amber-500 to-amber-500 bg-[length:100%_0.2rem] bg-[center_bottom_7px] bg-no-repeat;
+    @apply bg-gradient-to-t from-amber-500 to-amber-500 bg-no-repeat;
+    --underline-thickness: 0.2rem;
+    --underline-offset: 7px;
+    background-size: 100% var(--underline-thickness);
+    background-position: center bottom var(--underline-offset);
   }
 }
