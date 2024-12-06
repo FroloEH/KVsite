@@ -3,7 +3,7 @@ hero_header1: Vytvorme spolu
 hero_header2: fantastické príbehy
 hero_button1_text: Registrácia
 hero_button1_link: "#"
-hero_button2_text: Čo je to LARP
+hero_button2_text: Čo je to LARP?
 hero_button2_link: "#"
 hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 usp1_header: "Zasmej sa na veselých scénkach "
