@@ -390,7 +390,7 @@ collections:
           - { label: 'Najnovšia udalosť', name: 'current_larp_event', widget: 'relation', collection: 'events', searchFields: ['title'], valueField: 'title', displayFields: ['title'] }
           - { label: 'Veľký text nad zápletkami', name: 'storyIntroText', widget: 'string', default: 'Na čo sa môžeš tešiť?' }
           - { label: 'Obrázok pri zápletkách', name: 'storyImage', widget: 'image' }
-          - { label: 'Id eventu v tootoot.fm', name: 'tootoot_id', widget: 'string', hint: 'Napríklad: 65bd0d301b234e08804169cb, nájdeš ho v url konkrétneho eventu na tootoot stránke. Netreba login práva.' }
+          - { label: 'Id eventu v tootoot.fm', name: 'tootoot_id', widget: 'string', pattern: ['^[0-9a-f]{24}$', 'Must be a 24-character hexadecimal string'], hint: 'Napríklad: 65bd0d301b234e08804169cb, nájdeš ho v url konkrétneho eventu na tootoot stránke. Netreba login práva.' }
           - { label: 'Nadpis nad lístkami', name: 'ticketsTitle', widget: 'string', default: 'Lístky' }
           - { label: 'Text nad lístkami', name: 'ticketsText', widget: 'markdown' }
           - {
@@ -411,7 +411,6 @@ collections:
               default: 'Odoberať',
               widget: 'string',
             }
-
       - label: 'Contact settings and socials'
         name: 'contact_settings'
         file: 'frontend/src/content/pages/contact-settings.md'
