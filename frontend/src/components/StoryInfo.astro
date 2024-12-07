@@ -1,6 +1,7 @@
 ---
 import { getEntry } from 'astro:content'
 import DynamicImage from './shared/DynamicImage.astro'
+import * as eventContent from '../content/pages/current-larp-event.md'
 
 
 interface Props {
@@ -16,12 +17,12 @@ if (event == undefined) return
   <div class='flex-column flex justify-center pb-4'>
     <h2
       class='font-large flex underlined-heading px-2 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
-      {event.data.storyIntro}
+      {eventContent.frontmatter.storyIntro}
     </h2>
   </div>
   <div class="container px-5 py-10 mx-auto flex flex-wrap">
     <div class="md:w-1/2 w-full mb-10 md:mb-0 rounded-md overflow-hidden">
-      <DynamicImage class:list={'h-full w-full object-cover object-center shadow-inner'} src={event.data.storyImage} alt='Tešiaci sa hráči'/>
+      <DynamicImage class:list={'h-full w-full object-cover object-center shadow-inner'} src={eventContent.frontmatter.storyImage} alt='Tešiaci sa hráči'/>
     </div>
     <div class="flex flex-col flex-wrap md:w-1/2 md:text-left text-center ">
       <div class="flex flex-col md:items-start items-center  border-t-2 border-t-amber-100 transition-shadow duration-300 odd:bg-lime-50 hover:shadow-md p-12">
