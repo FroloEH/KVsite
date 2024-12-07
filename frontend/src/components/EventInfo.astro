@@ -5,6 +5,7 @@ import { getEntry } from 'astro:content'
 import Button from '../components/shared/Button.astro'
 import DynamicImage from './shared/DynamicImage.astro'
 import * as contactSettings from '../content/pages/contact-settings.md'
+import * as eventContent from '../content/pages/current-larp-event.md'
 
 interface Props {
   eventName: string,
@@ -33,7 +34,7 @@ if (event == undefined) return
     { event.data.archived &&
     <div
     class="absolute inset-0 bg-lime-800/60 backdrop-blur-sm text-zinc-300/95 content-center text-center font-large text-6xl">
-      {event.data.archive_text}
+      {eventContent.frontmatter.archive_text}
     </div>
     }
   </div>
@@ -42,9 +43,9 @@ if (event == undefined) return
   <!-- Newsletter CTA -->
   <div class='absolute w-2/3 bottom-40 right-8 rounded-lg flex flex-row border-2 border-amber-300 bg-zinc-50 p-8 shadow-md md:right-[calc(50%-theme(space.48))]'>
     <div class='font-medium text-lg text-lime-950 pr-8 self-center'>
-      { event.data.newsletter_text }
+      { eventContent.frontmatter.newsletter_text }
     </div>
-    <Button text={event.data.newsletter_button_text} href={contactSettings.frontmatter.newsletter_link} class:list={'self-center'} />
+    <Button text={eventContent.frontmatter.newsletter_button_text} href={contactSettings.frontmatter.newsletter_link} class:list={'self-center'} />
   </div>
 
   <!-- Socials CTA -->

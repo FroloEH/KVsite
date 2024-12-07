@@ -383,6 +383,35 @@ collections:
                   },
                 ],
             }
+      - label: 'Current LARP event'
+        name: 'current_larp_event'
+        file: 'frontend/src/content/pages/current-larp-event.md'
+        fields:
+          - { label: 'Najnovšia udalosť', name: 'current_larp_event', widget: 'relation', collection: 'events', searchFields: ['title'], valueField: 'title', displayFields: ['title'] }
+          - { label: 'Veľký text nad zápletkami', name: 'storyIntroText', widget: 'string', default: 'Na čo sa môžeš tešiť?' }
+          - { label: 'Obrázok pri zápletkách', name: 'storyImage', widget: 'image' }
+          - { label: 'Id eventu v tootoot.fm', name: 'tootoot_id', widget: 'string', hint: 'Napríklad: 65bd0d301b234e08804169cb, nájdeš ho v url konkrétneho eventu na tootoot stránke. Netreba login práva.' }
+          - { label: 'Nadpis nad lístkami', name: 'ticketsTitle', widget: 'string', default: 'Lístky' }
+          - { label: 'Text nad lístkami', name: 'ticketsText', widget: 'markdown' }
+          - {
+              label: 'Popis archivovanej akcie',
+              name: 'archive_text',
+              widget: 'string',
+              default: 'Pokračovanie nabudúce',
+            }
+          - {
+              label: 'Text výzvi na odoberanie newsletteru',
+              name: 'newsletter_text',
+              widget: 'string',
+              default: 'Zisti medzi prvými kedy bude ďalšia hra.',
+            }
+          - {
+              label: 'Text tlačítka výzvi na odoberanie newsletteru',
+              name: 'newsletter_button_text',
+              default: 'Odoberať',
+              widget: 'string',
+            }
+
       - label: 'Contact settings and socials'
         name: 'contact_settings'
         file: 'frontend/src/content/pages/contact-settings.md'
@@ -447,8 +476,6 @@ collections:
       - { label: 'Obrázok', name: 'image', widget: 'image' }
       - { label: 'Podnadpis', name: 'subTitle', widget: 'string' }
       - { label: 'Anotácia', name: 'annotation', widget: 'string' }
-      - { label: 'Veľký text nad zápletkami', name: 'storyIntroText', widget: 'string', default: 'Na čo sa môžeš tešiť?' }
-      - { label: 'Obrázok príbehu', name: 'storyImage', widget: 'image' }
       - { label: 'Zápletka 1 nadpis', name: 'story1Title', widget: 'string' }
       - { label: 'Zápletka 1 text', name: 'story1Text', widget: 'string' }
       - { label: 'Zápletka 2 nadpis', name: 'story2Title', widget: 'string' }
@@ -456,24 +483,6 @@ collections:
       - { label: 'Zápletka 3 nadpis', name: 'story3Title', widget: 'string' }
       - { label: 'Zápletka 3 text', name: 'story3Text', widget: 'string' }
       - { label: 'Archivovať akciu', name: 'archived', widget: 'boolean' }
-      - {
-          label: 'Popis archivovanej akcie',
-          name: 'archive_text',
-          widget: 'string',
-          default: 'Pokračovanie nabudúce',
-        }
-      - {
-          label: 'Text výzvi na odoberanie newsletteru',
-          name: 'newsletter_text',
-          widget: 'string',
-          default: 'Zisti medzi prvými kedy bude ďalšia hra.',
-        }
-      - {
-          label: 'Text tlačítka výzvi na odoberanie newsletteru',
-          name: 'newsletter_button_text',
-          default: 'Odoberať',
-          widget: 'string',
-        }
 
   - name: 'partners'
     label: 'Partners'

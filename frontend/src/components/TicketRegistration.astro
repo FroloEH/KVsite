@@ -1,0 +1,52 @@
+---
+import * as content from '../content/pages/current-larp-event.md'
+import StyledMarkdown from './shared/StyledMarkdown.astro'
+
+const eventId = content.frontmatter.tootoot_id
+--- 
+
+<h1 class='font-large flex px-7 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
+  {content.frontmatter.ticketsTitle}
+</h1>
+<p class='leading-relaxed text-base'>
+  <StyledMarkdown of={content.frontmatter.ticketsText} />
+</p>
+       
+<iframe sandbox="allow-scripts" class='box-content pb-20' id="tootoot-iframe" width="100%" allowtransparency="true" src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}></iframe> 
+
+<script is:inline lang='javascript' >
+function initializeTootootIframe(window, document, iframeId) {
+    const channelId = "tootoot-iframe-channel";
+    const scriptTagName = "script";
+    const ASYNC_LOAD_KEY = "TootootIframesAsyncLoad";
+    const scriptElement = document.getElementsByTagName(scriptTagName)[0];
+    console.log(scriptElement);
+    
+    // Initialize async load array if not exists
+    if (!window[ASYNC_LOAD_KEY]) {
+        window[ASYNC_LOAD_KEY] = [];
+    }
+
+    // Check if iframe channel script already exists
+    if (document.getElementById(channelId)) {
+        const tootootFrames = window.TootootIframes;
+        
+        // Either register directly or queue for later
+        if (tootootFrames) {
+            tootootFrames.register(iframeId);
+        } else {
+            window[ASYNC_LOAD_KEY].push(iframeId);
+        }
+    } else {
+        // Queue iframe and create channel script
+        window[ASYNC_LOAD_KEY].push(iframeId);
+        
+        const newScript = document.createElement(scriptTagName);
+        newScript.id = channelId;
+        newScript.src = "https://tootoot.fm/buy-embedded/host.v2.js";
+        scriptElement.parentNode.insertBefore(newScript, scriptElement);
+    }
+}
+initializeTootootIframe(window, document, "tootoot-iframe");
+</script>
+
