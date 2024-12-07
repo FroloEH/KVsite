@@ -12,7 +12,7 @@ const eventId = content.frontmatter.tootoot_id
   <StyledMarkdown of={content.frontmatter.ticketsText} />
 </p>
        
-<iframe sandbox="allow-scripts" class='box-content pb-20' id="tootoot-iframe" width="100%" allowtransparency="true" src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}></iframe> 
+<iframe sandbox="allow-scripts allow-forms allow-same-origin" class='box-content pb-20' id="tootoot-iframe" width="100%" allowtransparency="true" src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}></iframe> 
 
 <script is:inline lang='javascript' >
 function initializeTootootIframe(window, document, iframeId) {
