@@ -2,9 +2,9 @@
 import Bars from 'astro-heroicons/outline/Bars3.astro'
 import XMark from 'astro-heroicons/outline/XMark.astro'
 import { Image } from 'astro:assets'
-import type { HeaderContent, HeaderLink } from '../types/pages'
-import * as content from '../content/pages/header.md'
-import transparentLogo from '../images/LogoTransparent.png'
+import type { HeaderContent, HeaderLink } from '../../types/pages'
+import * as content from '../../content/pages/header.md'
+import transparentLogo from '../../images/LogoTransparent.png'
 
 const { title } = Astro.props
 const contentData = content.frontmatter as HeaderContent
