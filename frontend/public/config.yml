@@ -393,6 +393,13 @@ collections:
           - { label: 'Id eventu v tootoot.fm', name: 'tootoot_id', widget: 'string', pattern: ['^[0-9a-f]{24}$', 'Must be a 24-character hexadecimal string'], hint: 'Napríklad: 65bd0d301b234e08804169cb, nájdeš ho v url konkrétneho eventu na tootoot stránke. Netreba login práva.' }
           - { label: 'Nadpis nad lístkami', name: 'ticketsTitle', widget: 'string', default: 'Lístky' }
           - { label: 'Text nad lístkami', name: 'ticketsText', widget: 'markdown' }
+          - { label 'Obrázok pri registračných krokoch', name: 'registrationImage', widget: 'image' }
+          - { label: 'Kroky registrácie', name: 'registration_steps', widget: 'list',
+              fields:
+              - { label: 'Názov kroku', name: 'step_title', widget: 'string' }
+              - { label: 'Popis kroku', name: 'step_description', widget: 'markdown' }
+              - { label: 'Ikonka kroku', name: 'step_icon', widget: 'string', hint: 'Ikonky najdeš na https://heroicons.com/, vyberaj len z Outline kategórie. Skopíruj SVG kód a vlož do políčka.', pattern: ['^<svg', '</svg>$'], required: true }
+            }
           - {
               label: 'Popis archivovanej akcie',
               name: 'archive_text',
