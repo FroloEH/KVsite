@@ -23,13 +23,13 @@ function sanitizeSvg(svg: string) {
 }
 ---
 
-<section class="text-zinc-600 body-font">
+<section class="text-zinc-600 body-font" aria-label="Registration Steps">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex flex-wrap w-full">
-      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6" role="list">
         {
           steps.map((step, index) => (
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-12" role="listitem">
               {index !== steps.length - 1 && (
                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-zinc-200 pointer-events-none"></div>
