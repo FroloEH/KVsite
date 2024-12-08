@@ -14,7 +14,10 @@ function sanitizeSvg(svg: string) {
   return sanitizeHtml(svg, {
     allowedTags: ['svg', 'path', 'circle', 'rect', 'line', 'polyline', 'g'],
     allowedAttributes: {
-      '*': ['fill', 'stroke', 'stroke-linecap', 'stroke-linejoin', 'stroke-width', 'class', 'viewBox', 'd']
+      '*': [
+        'fill', 'stroke', 'stroke-linecap', 'stroke-linejoin', 'stroke-width',
+        'class', 'viewBox', 'd', 'xmlns', 'width', 'height', 'transform'
+      ]
     }
   });
 }
