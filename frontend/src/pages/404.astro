@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets'
+import image from '../../public/404.jpg'
+import type { content } from 'tailwindcss/defaultTheme'
+import EventInfo from '../components/EventInfo.astro'
+import HeroImage from '../components/HeroImage.astro'
+import Partners from '../components/Partners.astro'
+import Gallery from '../components/shared/Gallery.astro'
+import Team from '../components/Team.astro'
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title='404 stránka nenájdená'>
+  <div class='py-24 bg-zinc-900 mx-auto max-w-5xl'>
+    <div class="md:grid md:grid-cols-3 md:gap-8 mt-32 px-3">
+      <h1 class='hidden'>404 Page Not Found</h1>
+      <div>
+        <h2 class="text-2xl font-semibold text-amber-50 sm:text-3xl mt-8 col-span-1">
+          Na tejto adrese sme nič nenašli
+        </h2>
+        <p class="mt-4 text-amber-50">
+          Ak si myslíš, že by sa tu malo niečo nachádzať, napíš nam prosím na <a href="mailto:kralovstvo@event-horizon.sk">kralovstvo@event-horizon.sk</a>
+        </p>
+      </div>
+    
+      <div class="md:col-span-2 h-full">
+        <Image src={image} alt="404 Page Not Found" />
+      </div>
+    </div>
+    
+  </div>
+</Layout>
+
