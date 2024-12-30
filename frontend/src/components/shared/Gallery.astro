@@ -1,0 +1,34 @@
+---
+import { Carousel } from 'astro-carousel'
+import type { ComponentProps } from 'astro/types';
+
+interface Props {
+  images: string[]
+}
+const {images} = Astro.props
+
+
+---
+
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col w-full mb-20">
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Vyber fotiek. Viacej si viete pozriet na Morgoth Photograhy</p>
+    </div>
+    <div class="flex flex-wrap -m-4" id="carouselTargetList">
+      {
+        images.map((img, index) => (
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <a href={`/#?image=${index}`} data-carousel-index={index} >
+            <img alt="gallery" class="inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+            </a>
+          </div>
+        </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+<Carousel images={images} />
