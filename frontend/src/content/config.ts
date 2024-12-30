@@ -50,9 +50,21 @@ const storyCollection = defineCollection({
   }),
 })
 
+const galleryCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    images: z.array(z.object({
+      image: z.string(),
+    })),
+  }),
+})
+
 export const collections = {
   events: eventCollection,
   partners: partnersCollection,
   team: teamCollection,
   player_stories: storyCollection,
+  gallery: galleryCollection,
 }

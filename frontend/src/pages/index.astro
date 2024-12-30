@@ -17,7 +17,6 @@ import Gallery from '../components/shared/Gallery.astro'
     <EventInfo eventName={content.frontmatter.larp_event_name}/>
     <Partners />
     <Team />
-    <PlayerStories />
-    <Gallery images={content.frontmatter.gallery_collection} />
+    <Gallery galleryName={content.frontmatter.gallery_collection} />
   </div>
 </Layout>

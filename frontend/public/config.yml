@@ -553,4 +553,5 @@ collections:
     slug: '{{title}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
       - { label: 'Images', name: 'images', widget: 'list', fields: [{ label: 'Image', name: 'image', widget: 'image' }] }

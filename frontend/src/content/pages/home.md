@@ -52,4 +52,6 @@ player_stories_header: Vaše príbehy
 player_stories_text: Menší výber príbehov od hráčov.
 player_stories_collection:
   - Rapujúci mágovia
+gallery_collection:
+  - Home page gallery
 ---
