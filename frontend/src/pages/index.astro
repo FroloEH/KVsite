@@ -7,6 +7,7 @@ import Partners from '../components/Partners.astro'
 import Team from '../components/Team.astro'
 import PlayerStories from '../components/PlayerStories.astro'
 import * as content from '../content/pages/home.md'
+import Gallery from '../components/shared/Gallery.astro'
 ---
 
 <Layout title='LARP KRÁĽOVSTVO'>
@@ -16,6 +17,6 @@ import * as content from '../content/pages/home.md'
     <EventInfo eventName={content.frontmatter.larp_event_name}/>
     <Partners />
     <Team />
-    <PlayerStories />
+    <Gallery galleryName={content.frontmatter.gallery_collection} />
   </div>
 </Layout>
