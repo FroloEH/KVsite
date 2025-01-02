@@ -6,7 +6,7 @@ const blocks: { part_title: string; part_description: string }[] = Astro.props.b
 <div class='mt-8 w-full'>
   {
     blocks.map((block) => (
-      <div class='flex border-t-2 border-t-amber-100 py-12 transition-shadow duration-300 odd:bg-lime-50 hover:shadow-md'>
+      <div class='flex border-t-2 border-t-yellow-100 py-12 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md'>
         <div class='w-1/5 items-center px-8' role='heading' aria-level='2'>
           <h2 class='title-font text-lg font-medium tracking-widest text-zinc-900'>{block.part_title}</h2>
         </div>
