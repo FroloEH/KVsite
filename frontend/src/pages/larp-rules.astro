@@ -11,11 +11,11 @@ import DynamicImage from '../components/shared/DynamicImage.astro'
     <div class='relative min-h-fit'>
       <DynamicImage
         alt='NastupenaVlciaStraz'
-        class='absolute inset-0 h-full object-cover object-center'
+        class='md:absolute inset-0 h-full object-cover object-center'
         src={content.frontmatter.background_image}
       />
-      <div class='relative flex min-h-fit w-full items-center justify-center p-8 pt-[25%]'>
-        <div class='rounded-md border-4 border-yellow-200 bg-zinc-100/95 p-8 text-lg'>
+      <div class='relative flex min-h-fit w-full items-center justify-center md:p-8 md:pt-[25%]'>
+        <div class='rounded-md border-2 border-yellow-400 bg-zinc-100/95 p-8 text-lg'>
           <Markdown of={content.frontmatter.rules_intro} />
         </div>
       </div>
