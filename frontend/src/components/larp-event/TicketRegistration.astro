@@ -8,9 +8,9 @@ const eventId = content.frontmatter.tootoot_id
 <h1 class='font-large flex px-7 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium' id='larp-registration'>
   {content.frontmatter.ticketsTitle}
 </h1>
-<p class='leading-relaxed text-base'>
+<div class='leading-relaxed text-base m-6'>
   <StyledMarkdown of={content.frontmatter.ticketsText} />
-</p>
+</div>
        
 <iframe sandbox="allow-scripts allow-forms allow-same-origin" class='box-content pb-20' id="tootoot-iframe" width="100%" allowtransparency="true" src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}></iframe> 
 

@@ -18,7 +18,9 @@ const { tabId, intro, blocks } = Astro.props
   aria-hidden='true'
   aria-labelledby={`tab-${tabId}`}
   id={`panel-${tabId}`}>
-  <StyledMarkdown of={intro} />
+  <div class='m-6'>
+    <StyledMarkdown of={intro} />
+  </div>
   <TextBlocksList blocks={blocks} />
 </div>
 

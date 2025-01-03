@@ -8,7 +8,7 @@ import RulesTabContent from './RulesTabContent.astro'
   <div class='p-4 sm:p-1 sm:hidden'>
     <select
       id='TabSelectorDropdown'
-      class='w-full rounded-md border-2 border-amber-400 bg-amber-100 p-3 text-lg font-medium text-zinc-900 shadow-inner focus:border-amber-300 focus:outline-none focus:ring-1 focus:ring-amber-300'>
+      class='w-full rounded-md border-2 border-ayellow-500 bg-yellow-50 p-3 text-lg font-medium text-zinc-900 shadow-inner focus:border-yellow-500 focus:outline-none focus:ring-1 focus:ring-yellow-500'>
       <option value='basic-rules'>{content.frontmatter.basic_rules_title}</option>
       <option value='class-rules'>{content.frontmatter.class_rules_title}</option>
       <option value='errata'>{content.frontmatter.errata_title}</option>
@@ -17,14 +17,14 @@ import RulesTabContent from './RulesTabContent.astro'
 
   <!-- Tab menu -->
   <div class='hidden sm:block'>
-    <div class='mx-4 border-b border-amber-400'>
+    <div class='mx-4 border-b border-ayellow-500'>
       <nav
         class='font-large -mb-px flex justify-center text-lg font-semibold tracking-wider text-zinc-500'
         aria-label='Tabs'
         role='tablist'>
         <a
           href='?tab=basic-rules'
-          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-yellow-500 hover:bg-yellow-50 hover:text-yellow-900'
           data-tab-index='basic-rules'
           role='tab'
           aria-selected='false'
@@ -34,7 +34,7 @@ import RulesTabContent from './RulesTabContent.astro'
         </a>
         <a
           href='?tab=class-rules'
-          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-yellow-500 hover:bg-yellow-50 hover:text-yellow-900'
           data-tab-index='class-rules'
           role='tab'
           aria-selected='false'
@@ -44,7 +44,7 @@ import RulesTabContent from './RulesTabContent.astro'
         </a>
         <a
           href='?tab=errata'
-          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900'
+          class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-yellow-500 hover:bg-yellow-50 hover:text-yellow-900'
           data-tab-index='errata'
           role='tab'
           aria-selected='false'
@@ -132,6 +132,6 @@ import RulesTabContent from './RulesTabContent.astro'
 <style>
   .tab-link.selected {
     @apply rounded-t-md text-xl text-zinc-950;
-    @apply border border-amber-300 border-b-zinc-50;
+    @apply border border-yellow-500 border-b-zinc-50;
   }
 </style>
