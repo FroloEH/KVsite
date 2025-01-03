@@ -23,7 +23,7 @@
   .underlined-heading {
     @apply bg-gradient-to-t from-yellow-500 to-yellow-500 bg-no-repeat;
     --underline-thickness: 0.2rem;
-    --underline-offset: 7px;
+    --underline-offset: 0.3rem;
     background-size: 100% var(--underline-thickness);
     background-position: center bottom var(--underline-offset);
   }

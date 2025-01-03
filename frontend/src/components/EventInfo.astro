@@ -20,7 +20,7 @@ if (event == undefined) return
 { displayHeading &&
 <div class='flex-column flex justify-center pb-4'>
   <h2
-    class='font-large flex underlined-heading px-2 text-4xl uppercase tracking-tight text-zinc-900 md:text-5xl'>
+    class='font-large flex md:underlined-heading mx-2 text-4xl uppercase tracking-tight text-zinc-900 md:text-5xl'>
     {event.data.nadpis}
   </h2>
 </div>
@@ -80,14 +80,14 @@ if (event == undefined) return
 
   <!-- Event basic info -->
   <div
-    class='absolute -bottom-32 right-8 m-8 max-w-96 space-y-4 rounded-lg border-2 border-yellow-500 bg-emerald-50 p-8 shadow-md md:right-[calc(25%-theme(space.48))]'>
-    <div class='font-medium text-emerald-950'>
+    class='absolute -bottom-48 md:-bottom-32 mx-4  m-8 max-w-96 space-y-4 rounded-lg border-2 border-yellow-500 bg-emerald-50 p-8 shadow-md md:right-[calc(25%-theme(space.48))]'>
+    <div class='font-medium text-zinc-950'>
       <CalendarDays class='mr-1 inline h-5 align-top text-emerald-800' />
       <p class='inline'>
         {event.data.datum}
       </p>
     </div>
-    <div class='font-medium text-emerald-950'>
+    <div class='font-medium text-zinc-950'>
       <Map class='mr-1 inline h-5 align-top text-emerald-800' />
       <p class='inline'>
         {event.data.miesto}
@@ -121,7 +121,7 @@ if (event == undefined) return
 
 { !event.data.archived &&
 <div class='m-4 mx-auto flex max-w-5xl flex-col bg-zinc-50 md:flex-row'>
-  <div class='mt-28 text-zinc-900 md:mt-8 md:w-1/2'>
+  <div class='mt-36 text-zinc-900 md:mt-8 md:w-1/2'>
     <h3 class='font-large p-8 pl-4 text-2xl font-bold'>
       {event.data.podnadpis}
     </h3>
