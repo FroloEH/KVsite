@@ -35,6 +35,6 @@
 }
 
 /* Optional: Customize .focus-visible */
-:focus-visible {
-  @apply outline-emerald-500 outline-offset-0 outline-2;
+*:focus-visible {
+  @apply outline-emerald-700 outline-offset-2 outline-2 outline;
 }
