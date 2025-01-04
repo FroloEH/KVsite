@@ -20,19 +20,18 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
   </a>
 
   <div
-    class='font-display underlined-heading text-2xl tracking-tighter text-zinc-900 md:bg-[length:100%_0.3rem] md:bg-[center_bottom_4px] md:text-5xl'>
+    class='font-display underlined-heading text-xl tracking-tighter text-zinc-900  md:text-5xl self-end md:self-center'>
     <span class='leading-none'>{title} </span>
   </div>
   <div id='open-nav'>
     <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
-    <!-- <span class='mr-2 align-bottom text-2xl hover:cursor-pointer'>Menu</span> -->
   </div>
 
   <div
     id='topNavigation'
-    class='absolute right-3 top-3 flex min-h-56 rounded-md border-2 border-amber-300 bg-zinc-50 shadow-md'>
-    <div class='flex py-4'>
-      <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+    class='absolute right-3 top-3 flex min-h-56 rounded-md border-2 border-yellow-500 bg-zinc-50 shadow-md'>
+    <div class='flex flex-col md:flex-row p-4 md:px-0'>
+      <ul class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'>
         <span class='m-5 mt-1 block'>{contentData.header_1st_column_header}</span>
         {
           firstColumnLinks.map((link) => (
@@ -44,7 +43,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
           ))
         }
       </ul>
-      <ul class='font-large border-r-2 border-amber-300 text-2xl font-bold text-lime-900'>
+      <ul class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'>
         <span class='m-5 mt-1 block'>{contentData.header_2nd_column_header}</span>
         {
           secondColumnLinks.map((link) => (
@@ -57,7 +56,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
         }
       </ul>
 
-      <ul class='font-large text-2xl font-bold text-lime-900'>
+      <ul class='font-large text-2xl font-bold text-emerald-950'>
         <span class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</span>
         {
           thirdColumnLinks.map((link) => (

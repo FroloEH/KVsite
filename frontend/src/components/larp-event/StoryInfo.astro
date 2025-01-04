@@ -24,16 +24,16 @@ if (event == undefined) return
     <div class="md:w-1/2 w-full mb-10 md:mb-0 rounded-md overflow-hidden">
       <DynamicImage class:list={'h-full w-full object-cover object-center shadow-inner'} src={eventContent.frontmatter.storyImage} alt='Tešiaci sa hráči'/>
     </div>
-    <div class="flex flex-col flex-wrap md:w-1/2 md:text-left text-center ">
-      <div class="flex flex-col md:items-start items-center  border-t-2 border-t-amber-100 transition-shadow duration-300 odd:bg-lime-50 hover:shadow-md p-12">
+    <div class="flex flex-col flex-wrap md:w-1/2 text-left">
+      <div class="flex flex-col items-start  border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12">
           <h2 class="text-zinc-900 text-md title-font font-medium mb-3">{event.data.story1Title}</h2>
           <p class="leading-relaxed text-base">{event.data.story1Text}</p>
       </div>
-      <div class="flex flex-col md:items-start items-center border-t-2 border-t-amber-100 transition-shadow duration-300 odd:bg-lime-50 hover:shadow-md p-12">
+      <div class="flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12">
           <h2 class="text-zinc-900 text-md title-font font-medium mb-3">{event.data.story2Title}</h2>
           <p class="leading-relaxed text-base">{event.data.story2Text}</p>
       </div>
-      <div class="flex flex-col md:items-start items-center border-t-2 border-t-amber-100 transition-shadow duration-300 odd:bg-lime-50 hover:shadow-md p-12">
+      <div class="flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12">
           <h2 class="text-zinc-900 text-md title-font font-medium mb-3">{event.data.story3Title}</h2>
           <p class="leading-relaxed text-base">{event.data.story3Text}</p>
       </div>
