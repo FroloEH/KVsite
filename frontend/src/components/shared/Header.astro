@@ -14,64 +14,101 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 ---
 
 <div
-  class='absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4'>
-  <a class='w-10 md:w-14 xl:w-16' href='/'>
-    <Image src={transparentLogo} alt='LOGO Kráľovstva - vínovy pohár s korunkou' />
+  class='absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4'
+  role='banner'
+>
+  <a class='w-10 md:w-14 xl:w-16' href='/' aria-label='Return to homepage'>
+    <Image src={transparentLogo} alt='LOGO Kráľovstva - vínovy pohár s korunkou' loading={'eager'} />
   </a>
 
   <div
-    class='font-display underlined-heading text-xl tracking-tighter text-zinc-900  md:text-5xl self-end md:self-center'>
-    <span class='leading-none'>{title} </span>
+    class='font-display underlined-heading text-xl tracking-tighter text-zinc-900 md:text-5xl self-end md:self-center'
+  >
+    <h1 class='leading-none'>{title}</h1>
   </div>
-  <div id='open-nav'>
+
+  <button
+    id='open-nav'
+    aria-label='Open navigation menu'
+    aria-expanded='false'
+    aria-controls='topNavigation'
+    class='p-2'
+  >
     <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
-  </div>
+  </button>
 
-  <div
+  <nav
     id='topNavigation'
-    class='absolute right-3 top-3 flex min-h-56 rounded-md border-2 border-yellow-500 bg-zinc-50 shadow-md'>
+    aria-label='Main navigation'
+    aria-hidden='true'
+    class='absolute right-3 top-3 flex min-h-56 rounded-md border-2 border-yellow-500 bg-zinc-50 shadow-md'
+  >
     <div class='flex flex-col md:flex-row p-4 md:px-0'>
-      <ul class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'>
-        <span class='m-5 mt-1 block'>{contentData.header_1st_column_header}</span>
-        {
-          firstColumnLinks.map((link) => (
-            <li>
-              <a class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900' href={link.link_target}>
-                {link.link_text}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-      <ul class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'>
-        <span class='m-5 mt-1 block'>{contentData.header_2nd_column_header}</span>
-        {
-          secondColumnLinks.map((link) => (
-            <li>
-              <a class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900' href={link.link_target}>
-                {link.link_text}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+      <div
+        class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'
+      >
+        <h2 class='m-5 mt-1 block'>{contentData.header_1st_column_header}</h2>
+        <ul>
+          {
+            firstColumnLinks.map((link) => (
+              <li>
+                <a
+                  class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900'
+                  href={link.link_target}
+                >
+                  {link.link_text}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div
+        class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'
+      >
+        <h2 class='m-5 mt-1 block'>{contentData.header_2nd_column_header}</h2>
+        <ul>
+          {
+            secondColumnLinks.map((link) => (
+              <li>
+                <a
+                  class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900'
+                  href={link.link_target}
+                >
+                  {link.link_text}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
 
-      <ul class='font-large text-2xl font-bold text-emerald-950'>
-        <span class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</span>
-        {
-          thirdColumnLinks.map((link) => (
-            <li>
-              <a class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900' href={link.link_target}>
-                {link.link_text}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+      <div class='font-large text-2xl font-bold text-emerald-950'>
+        <h2 class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</h2>
+        <ul>
+          {
+            thirdColumnLinks.map((link) => (
+              <li>
+                <a
+                  class='link-effect block p-3 px-5 font-sans text-xl font-normal text-zinc-900'
+                  href={link.link_target}
+                >
+                  {link.link_text}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <button
+        id='close-nav'
+        aria-label='Close navigation menu'
+        class='mx-4 inline h-8 align-top hover:cursor-pointer xl:h-10'
+      >
+        <XMark class='inline h-8 stroke-2 align-top text-slate-800 xl:h-10' />
+      </button>
     </div>
-
-    <XMark id='close-nav' class='m-4 inline h-8 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-10' />
-  </div>
+  </nav>
 </div>
 
 <script>
@@ -87,16 +124,34 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 
     function showNav() {
       topNavigation!.classList.add('nav-visible')
+      topNavigation!.setAttribute('aria-hidden', 'false')
+      openNav!.setAttribute('aria-expanded', 'true')
     }
 
     function hideNav() {
       topNavigation!.classList.remove('nav-visible')
+      openNav!.setAttribute('aria-expanded', 'false')
+      topNavigation!.setAttribute('aria-hidden', 'true')
+      // Return focus to menu button
+      openNav!.focus()
+    }
+
+    function handleEscape(event: KeyboardEvent) {
+      if (event.key === 'Escape' && topNavigation!.classList.contains('nav-visible')) {
+        hideNav()
+      }
     }
 
     openNav.addEventListener('click', showNav)
     closeNav.addEventListener('click', hideNav)
+    document.addEventListener('keydown', handleEscape)
     document.addEventListener('click', (event) => {
-      if (event.target instanceof Node && !topNavigation.contains(event.target) && !openNav.contains(event.target)) {
+      if (
+        topNavigation!.classList.contains('nav-visible') &&
+        event.target instanceof Node &&
+        !topNavigation.contains(event.target) &&
+        !openNav.contains(event.target)
+      ) {
         hideNav()
       }
     })
@@ -121,5 +176,12 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
       opacity 0.3s ease,
       transform 0.3s ease;
     transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #topNavigation {
+      transition: none;
+      transform: none;
+    }
   }
 </style>

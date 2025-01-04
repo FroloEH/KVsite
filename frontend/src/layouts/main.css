@@ -28,3 +28,13 @@
     background-position: center bottom var(--underline-offset);
   }
 }
+
+/* Remove outline for non-keyboard :focus */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Optional: Customize .focus-visible */
+:focus-visible {
+  @apply outline-emerald-500 outline-offset-0 outline-2;
+}

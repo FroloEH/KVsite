@@ -3,8 +3,6 @@ title: Ochrana súkromia
 layout: ../layouts/DocumentLayout.astro
 ---
 
-# Ochrana súkromia 
-
 Poučenie o spracúvaní osobných údajov pre účastníkov verejných kultúrnych podujatí zo sveta Kráľovstva Vína (ďalej len „Poučenie“)
 
 1. Koho sa Poučenie týka?
