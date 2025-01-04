@@ -3,8 +3,6 @@ title: Všeobecné podmienky
 layout: ../layouts/DocumentLayout.astro
 ---
 
-# Všeobecné podmienky
-
 Všeobecné podmienky pre účastníkov verejných kultúrnych podujatí zo sveta Kráľovstva Vína
 
 Toto sú všeobecné podmienky občianskeho združenia Event Horizon, o.z., so sídlom: Budatínska 3075/43, 851 06 Bratislava – mestská časť Petržalka, Slovenská republika, IČO: 50 234 480, registrácia: Register mimovládnych neziskových organizácii, registrový úrad: Ministerstvo vnútra Slovenskej republiky, reg. č.: VVS/1-900/90-46022.

@@ -20,8 +20,7 @@ const gallery = galleryCollection[0].data.images
     </div>
     <div class="relative">
       <DynamicImage 
-        src={gallery[0].image} 
-        alt="gallery"
+        src={gallery[0].image}
         class="w-full h-full object-cover object-center">
       </DynamicImage>
       {
@@ -29,8 +28,7 @@ const gallery = galleryCollection[0].data.images
         <div class="carousel-item top-0 absolute w-full ease-in-out duration-500 transition-opacity" style={`opacity: ${index === 0 ? '1' : '0'}; pointer-events: ${index === 0 ? 'auto' : 'none'};`}>
           <div class="flex relative">
             <DynamicImage 
-              src={img.image} 
-              alt="gallery"
+              src={img.image}
               class="inset-0 w-full h-full object-cover object-center" 
             />
           </div>

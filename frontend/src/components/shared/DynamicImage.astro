@@ -3,13 +3,30 @@ import { Image } from 'astro:assets'
 interface Props {
   src: string
   class?: string
-  alt: string
+  alt?: string
+  lazy?: boolean
 }
-const { src: imageUrl, class: cssClass, alt: altText } = Astro.props
+let { src: imageUrl, class: cssClass, alt, lazy } = Astro.props
 const imagePath = '/' + imageUrl.toLowerCase()
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/uploads/*.{jpeg,jpg,png,gif}')
 if (!images[imagePath])
   throw new Error(`"${imagePath}" does not exist in glob: "src/images/uploads/*.{jpeg,jpg,png,gif}"`)
+
+if (lazy == undefined) lazy = true
+
+const defaultAlt = imagePath
+  .split('/')
+  .pop()
+  ?.split('.')[0]
+  .replace(/-/g, ' ')
+  .replace(/\b\w/g, (char) => char.toUpperCase())
+const altText = alt || defaultAlt || 'Image'
 ---
 
-<Image src={images[imagePath]()} class={cssClass} alt={altText} />
+<Image
+  src={images[imagePath]()}
+  class={cssClass}
+  alt={altText}
+  loading={lazy ? 'lazy' : 'eager'}
+  decoding={lazy ? 'async' : 'sync'}
+/>
