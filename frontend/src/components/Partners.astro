@@ -13,43 +13,49 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
     <h2 class='font-large mb-8 text-4xl font-medium text-gray-900 sm:text-3xl'>
       {content.frontmatter.partners_header}
     </h2>
-    <h3
-      style='background-size: 100% 0.1rem;'
-      class='w-full underlined-heading text-xl font-medium uppercase leading-relaxed'
-    >
-      {content.frontmatter.partners_this_year_header}
-    </h3>
-  </div>
-  <div class='flex flex-row flex-wrap'>
     {
-      thisYearPartners.map((partner) => (
-        <a class='flex w-72 p-4' href={partner.data.link}>
-          <DynamicImage
-            alt={`${partner.data.name} - Partner Logo`}
-            class='h-full w-full object-cover object-center'
-            src={partner.data.logo}
-          />
-        </a>
-      ))
+      thisYearPartners.length > 0 && (
+        <h3
+          style='background-size: 100% 0.1rem;'
+          class='w-full underlined-heading text-xl font-medium uppercase leading-relaxed'
+        >
+          {content.frontmatter.partners_this_year_header}
+        </h3>
+      )
     }
-  </div>
+    {
+      thisYearPartners.length > 0 && (
+        <div class='flex flex-row flex-wrap'>
+          {thisYearPartners.map((partner) => (
+            <a class='flex w-72 p-4' href={partner.data.link}>
+              <DynamicImage
+                alt={`${partner.data.name} - Partner Logo`}
+                class='h-full w-full object-cover object-center'
+                src={partner.data.logo}
+              />
+            </a>
+          ))}
+        </div>
+      )
+    }
 
-  <div class='my-8 flex w-full flex-col text-left'>
-    <h3 style='background-size: 100% 0.05rem;' class='w-full underlined-heading text-xl leading-relaxed'>
-      a predošlích ročníkov
-    </h3>
-  </div>
-  <div class='flex flex-row flex-wrap justify-evenly overflow-visible'>
-    {
-      lastYearPartners.map((partner) => (
-        <a class='flex w-32 p-2' href={partner.data.link}>
-          <DynamicImage
-            alt={`${partner.data.name} - Partner Logo`}
-            class='h-full w-full object-cover object-center'
-            src={partner.data.logo}
-          />
-        </a>
-      ))
-    }
+    <div class='my-8 flex w-full flex-col text-left'>
+      <h3 style='background-size: 100% 0.05rem;' class='w-full underlined-heading text-xl leading-relaxed'>
+        a predošlích ročníkov
+      </h3>
+    </div>
+    <div class='flex flex-row flex-wrap justify-evenly overflow-visible'>
+      {
+        lastYearPartners.map((partner) => (
+          <a class='flex w-32 p-2' href={partner.data.link}>
+            <DynamicImage
+              alt={`${partner.data.name} - Partner Logo`}
+              class='h-full w-full object-cover object-center'
+              src={partner.data.logo}
+            />
+          </a>
+        ))
+      }
+    </div>
   </div>
 </section>
