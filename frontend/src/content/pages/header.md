@@ -5,8 +5,6 @@ header_1st_column_links:
     link_target: '/larp-event'
   - link_text: Pravidlá
     link_target: '/larp-rules'
-  - link_text: Svet
-    link_target: '#'
 header_2nd_column_header: Bojovka Hranica
 header_2nd_column_links:
   - link_text: Jeseň 2022
