@@ -555,3 +555,16 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
       - { label: 'Images', name: 'images', widget: 'list', fields: [{ label: 'Image', name: 'image', widget: 'image' }] }
+
+  - name: 'anouncement'
+    label: 'Anouncements'
+    folder: 'frontend/src/content/anouncement'
+    preview_path: k-vsite-git-cms-anouncement{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Text', name: 'text', widget: 'markdown' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Link text', name: 'link_text', widget: 'string' }
+      - { label: 'Active', name: 'active', widget: 'boolean' }

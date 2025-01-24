@@ -61,10 +61,22 @@ const galleryCollection = defineCollection({
   }),
 })
 
+const anouncementCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    text: z.string(),
+    link: z.string().url(),
+    link_text: z.string(),
+    active: z.boolean(),
+  }),
+})
+
 export const collections = {
   events: eventCollection,
   partners: partnersCollection,
   team: teamCollection,
   player_stories: storyCollection,
   gallery: galleryCollection,
+  anouncements: anouncementCollection,
 }
