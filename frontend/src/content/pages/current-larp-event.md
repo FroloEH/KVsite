@@ -1,12 +1,12 @@
 ---
 title: TBD_LARP KRÁĽOVSTVO
-current_larp_event: TBD_larp2024
+current_larp_event: larp2024
 archive_text: TBD_'Pokračovanie nabudúce'
 newsletter_text: TBD_'Zisti medzi prvými kedy bude ďalšia hra.'
 newsletter_button_text: TBD_'Odoberať'
 storyIntro: TBD_'Na čo sa môžeš tešiť?'
-storyImage: TBD_src/images/uploads/povzbudzujucepublikum_doprava.jpg
-tootoot_id: TBD_'5a183abcae436b10fc688923'
+storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
+tootoot_id: '5a183abcae436b10fc688923'
 ticketsTitle: TBD_'Lístky'
 ticketsText: TBD_>-
   45 EUR pre prvých 10-tich. (early bird) – rannô vtáča <br />

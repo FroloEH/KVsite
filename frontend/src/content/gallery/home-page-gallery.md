@@ -1,5 +1,5 @@
 ---
-title: TBD_Home page gallery
+title: Home page gallery
 description: TBD_Vyber fotiek. Viacej si viete pozriet na [[google.com|Morgoth Photograhy]]
 images:
   - image: src/images/uploads/dostihy.jpg

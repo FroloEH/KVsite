@@ -3,7 +3,8 @@ import { getCollection } from 'astro:content'
 import * as content from '../content/pages/home.md'
 import DynamicImage from './shared/DynamicImage.astro'
 const namesThisYear = content.frontmatter.partners_this_year as string[]
-const thisYearPartners = await getCollection('partners', ({ data }) => namesThisYear.includes(data.name))
+let thisYearPartners = await getCollection('partners', ({ data }) => namesThisYear?.includes(data.name))
+thisYearPartners = thisYearPartners ?? []
 const namesLastYear = content.frontmatter.partners_last_year as string[]
 const lastYearPartners = await getCollection('partners', ({ data }) => namesLastYear.includes(data.name))
 ---
