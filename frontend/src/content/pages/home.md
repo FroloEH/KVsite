@@ -4,7 +4,6 @@ hero_header2: TBD_fantastické príbehy
 hero_button1_text: TBD_Registrácia
 hero_button1_link: "/larp-event"
 hero_button2_text: Čo je to LARP
-hero_button2_link: "/larp-rules"
 hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 larp_event_name: larp2024
 usp1_header: "TBD_Zasmej sa na veselých scénkach "
@@ -52,4 +51,9 @@ player_stories_collection:
   - Rapujúci mágovia
 gallery_collection:
   - Home page gallery
+larp_event_name: larp2024
+hero_button1_link: /larp-event
+hero_button2_link: /larp-rules
+usp3_image: src/images/uploads/uzhonesu.jpg
+team_call_to_action_link: mailto:kralovstvo@event-horizon.sk
 ---
