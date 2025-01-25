@@ -556,10 +556,10 @@ collections:
       - { label: 'Description', name: 'description', widget: 'markdown' }
       - { label: 'Images', name: 'images', widget: 'list', fields: [{ label: 'Image', name: 'image', widget: 'image' }] }
 
-  - name: 'anouncement'
-    label: 'Anouncements'
-    folder: 'frontend/src/content/anouncement'
-    preview_path: k-vsite-git-cms-anouncement{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+  - name: 'announcement'
+    label: 'Announcements'
+    folder: 'frontend/src/content/announcement'
+    preview_path: k-vsite-git-cms-announcement{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
     slug: '{{title}}'
     fields:

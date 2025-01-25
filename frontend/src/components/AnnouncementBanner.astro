@@ -1,22 +1,27 @@
 ---
 import { getCollection } from 'astro:content'
 
-const anouncments = await getCollection('anouncements', (anouncment) => anouncment.data.active)
+const anouncments = await getCollection('announcements', (announcment) => announcment.data.active)
 ---
 
 {
-  anouncments.map((anouncment) => (
-    <div class='fixed inset-x-0 bottom-0 anouncment-banner'>
+  anouncments.map((announcement) => (
+  <div 
++      class='fixed inset-x-0 bottom-0 announcement-banner'
++      role="alert"
++      aria-live="polite"
++      id={`announcement-${announcement.id}`}>
       <div class='relative flex items-center justify-between gap-4 bg-emerald-700 px-4 py-3 text-white'>
         <p class='text-sm font-medium'>
-          {anouncment.data.text}
+          {announcement.data.text}
           <a
             class='pl-2 underline hover:text-yellow-400'
-            href={anouncment.data.link}
+            href={announcement.data.link}
             class='inline-block underline'
             target='_blank'
+            
           >
-            {anouncment.data.link_text}
+            {announcement.data.link_text}
           </a>
         </p>
 
@@ -36,13 +41,13 @@ const anouncments = await getCollection('anouncements', (anouncment) => anouncme
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.anouncment-banner button').forEach((button) => {
+    document.querySelectorAll('.announcment-banner button').forEach((button) => {
       button.addEventListener('click', () => {
-        if (!button.closest('.anouncment-banner')) {
-          console.error('Button is not inside an anouncment banner')
+        if (!button.closest('.announcment-banner')) {
+          console.error('Button is not inside an announcment banner')
           return
         }
-        ;(button!.closest('.anouncment-banner') as HTMLElement)!.style.display = 'none'
+        ;(button!.closest('.announcment-banner') as HTMLElement)!.style.display = 'none'
       })
     })
   })

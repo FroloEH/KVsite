@@ -1,7 +1,7 @@
 ---
 import Header from '../components/shared/Header.astro'
 import Footer from '../components/shared/Footer.astro'
-import AnouncementBanner from '../components/AnnouncementBanner.astro'
+import AnnouncementBanner from '../components/AnnouncementBanner.astro'
 
 interface Props {
   title: string
@@ -23,7 +23,7 @@ const { title } = Astro.props
   <body class='bg-zinc-100'>
     <Header title={title} />
     <slot />
-    <AnouncementBanner />
+    <AnnouncementBanner />
     <Footer />
   </body>
 </html>
