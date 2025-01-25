@@ -4,3 +4,4 @@ text: Stránka prešla prerábkou a môžu sa vyskytnúť ešte chyby. Pomôž n
 link: https://github.com/FroloEH/KVsite/issues/new/choose
 link_text: Nahlásiť chybu!
 active: true
+---
