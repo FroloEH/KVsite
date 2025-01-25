@@ -22,7 +22,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
   </a>
 
   <div
-    class='font-display underlined-heading text-xl tracking-tighter text-zinc-900 md:text-5xl self-end md:self-center'
+    class='font-display md:underlined-heading text-2xl tracking-tighter text-zinc-900 md:text-5xl self-end self-center'
   >
     <h1 class='leading-none'>{title}</h1>
   </div>
@@ -47,7 +47,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
       <div
         class='font-large border-b md:border-b-0 md:border-r-2 border-yellow-500 text-2xl font-bold text-emerald-950'
       >
-        <h2 class='m-5 mt-1 block'>{contentData.header_1st_column_header}</h2>
+        <h2 class='mx-5 md:mb-5 mt-1 block'>{contentData.header_1st_column_header}</h2>
         <ul>
           {
             firstColumnLinks.map((link) => (
@@ -84,7 +84,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
       </div> -->
 
       <div class='font-large text-2xl font-bold text-emerald-950'>
-        <h2 class='m-5 mt-1 block'>{contentData.header_3rd_column_header}</h2>
+        <h2 class='mx-5 md:mb-5 block'>{contentData.header_3rd_column_header}</h2>
         <ul>
           {
             thirdColumnLinks.map((link) => (
@@ -103,9 +103,9 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
       <button
         id='close-nav'
         aria-label='Close navigation menu'
-        class='mx-4 inline h-8 align-top hover:cursor-pointer xl:h-10'
+        class='mx-4 inline h-8 align-top hover:cursor-pointer xl:h-10 self-end md:self-auto bg-yellow-50'
       >
-        <XMark class='inline h-8 stroke-2 align-top text-slate-800 xl:h-10' />
+        <XMark class='inline h-8 stroke-1 align-top text-slate-800 xl:h-10' />
       </button>
     </div>
   </nav>

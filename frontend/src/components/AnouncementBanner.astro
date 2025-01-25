@@ -9,8 +9,8 @@ const anouncments = await getCollection('anouncements', (anouncment) => anouncme
     <div class='fixed inset-x-0 bottom-0 anouncment-banner'>
       <div class='relative flex items-center justify-between gap-4 bg-emerald-700 px-4 py-3 text-white'>
         <p class='text-sm font-medium'>
-          {anouncment.data.title}
-          <a href={anouncment.data.link} class='inline-block underline'>
+          {anouncment.data.text}
+          <a class='pl-2 underline hover:text-yellow-400' href={anouncment.data.link} class='inline-block underline'>
             {anouncment.data.link_text}
           </a>
         </p>
