@@ -1,7 +1,7 @@
 ---
 title: Under construction
-text: Stránka prešla prerábkou a môžu sa vyskytnúť ešte chyby. Pomôž nám ich nájsť.
+text: TBD_Stránka prešla prerábkou a môžu sa vyskytnúť ešte chyby. Pomôž nám ich nájsť.
 link: https://github.com/FroloEH/KVsite/issues/new/choose
-link_text: Nahlásiť chybu!
+link_text: TBD_Nahlásiť chybu!
 active: true
 ---

@@ -1,104 +1,104 @@
 ---
-import { getCollection } from 'astro:content';
-import DynamicImage from './DynamicImage.astro';
-import StyledMarkdown from './StyledMarkdown.astro';
+import { getCollection } from 'astro:content'
+import DynamicImage from './DynamicImage.astro'
+import StyledMarkdown from './StyledMarkdown.astro'
 
 interface Props {
   galleryName: string
 }
-const {galleryName } = Astro.props
-const galleryCollection  = await getCollection('gallery', ({ data }) => data.title == galleryName)
+const { galleryName } = Astro.props
+const galleryCollection = await getCollection('gallery', ({ data }) => data.title == galleryName)
+if (!galleryCollection || galleryCollection.length === 0) {
+  throw new Error(`Gallery with name ${galleryName} not found`)
+  return
+}
 const gallery = galleryCollection[0].data.images
-
-
-
 ---
-<section class="text-gray-600 body-font">
-  <div class="container px-5 mx-auto pb-32">
-    <div class="w-full mb-8">
+
+<section class='text-gray-600 body-font'>
+  <div class='container px-5 mx-auto pb-32'>
+    <div class='w-full mb-8'>
       <StyledMarkdown of={galleryCollection[0].data.description} />
     </div>
-    <div class="relative">
-      <DynamicImage 
-        src={gallery[0].image}
-        class="w-full h-full object-cover object-center">
-      </DynamicImage>
+    <div class='relative'>
+      <DynamicImage src={gallery[0].image} class='w-full h-full object-cover object-center' />
       {
         gallery.map((img, index) => (
-        <div class="carousel-item top-0 absolute w-full ease-in-out duration-500 transition-opacity" style={`opacity: ${index === 0 ? '1' : '0'}; pointer-events: ${index === 0 ? 'auto' : 'none'};`}>
-          <div class="flex relative">
-            <DynamicImage 
-              src={img.image}
-              class="inset-0 w-full h-full object-cover object-center" 
-            />
+          <div
+            class='carousel-item top-0 absolute w-full ease-in-out duration-500 transition-opacity'
+            style={`opacity: ${index === 0 ? '1' : '0'}; pointer-events: ${index === 0 ? 'auto' : 'none'};`}
+          >
+            <div class='flex relative'>
+              <DynamicImage src={img.image} class='inset-0 w-full h-full object-cover object-center' />
+            </div>
           </div>
-        </div>
         ))
       }
-      <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10">
-        {gallery.map((_, index) => (
-          <button 
-            class="carousel-dot w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 transition-opacity" 
-            data-index={index}
-            style={`opacity: ${index === 0 ? '1' : '0.5'}`}
-          ></button>
-        ))}
+      <div class='absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10'>
+        {
+          gallery.map((_, index) => (
+            <button
+              class='carousel-dot w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 transition-opacity'
+              data-index={index}
+              style={`opacity: ${index === 0 ? '1' : '0.5'}`}
+            />
+          ))
+        }
       </div>
     </div>
   </div>
 </section>
 
 <script>
-  let currentSlideIndex = 0;
-  const dots = document.querySelectorAll('.carousel-dot') as unknown as HTMLElement[];
-  const slides = document.querySelectorAll('.carousel-item') as unknown as HTMLElement[];
+  let currentSlideIndex = 0
+  const dots = document.querySelectorAll('.carousel-dot') as unknown as HTMLElement[]
+  const slides = document.querySelectorAll('.carousel-item') as unknown as HTMLElement[]
 
-  
-  function showSlide(index : number) {
-    const nextSlide = slides[index];
-    const currentSlide = slides[currentSlideIndex];
-    // Make next slide visible but transparent   
-    nextSlide.style.pointerEvents = 'none';
-    nextSlide.style.opacity = '0';
+  function showSlide(index: number) {
+    const nextSlide = slides[index]
+    const currentSlide = slides[currentSlideIndex]
+    // Make next slide visible but transparent
+    nextSlide.style.pointerEvents = 'none'
+    nextSlide.style.opacity = '0'
 
     // Start transition
     requestAnimationFrame(() => {
       // Fade out current slide while fading in next slide
-      currentSlide.style.opacity = '0';
-      nextSlide.style.opacity = '1';
-      
+      currentSlide.style.opacity = '0'
+      nextSlide.style.opacity = '1'
+
       // Update dots
-      dots[currentSlideIndex].style.opacity = '0.5';
-      dots[index].style.opacity = '1';
-      
+      dots[currentSlideIndex].style.opacity = '0.5'
+      dots[index].style.opacity = '1'
+
       // After transition, cleanup
       setTimeout(() => {
-        currentSlide.style.pointerEvents = 'none';
-        currentSlideIndex = index;
-      }, 600);
-    });
+        currentSlide.style.pointerEvents = 'none'
+        currentSlideIndex = index
+      }, 600)
+    })
   }
 
   function nextSlide() {
-    const nextIndex = (currentSlideIndex + 1) % slides.length;
-    showSlide(nextIndex);
+    const nextIndex = (currentSlideIndex + 1) % slides.length
+    showSlide(nextIndex)
   }
 
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
       if (index !== currentSlideIndex) {
-        showSlide(index);
+        showSlide(index)
       }
-    });
-  });
+    })
+  })
 
-  let interval = setInterval(nextSlide, 3000);
+  let interval = setInterval(nextSlide, 3000)
 
   // Reset interval when manually navigating
-  dots.forEach(dot => {
+  dots.forEach((dot) => {
     dot.addEventListener('click', () => {
-      clearInterval(interval);
-      interval = setInterval(nextSlide, 3000);
-    });
-  });
+      clearInterval(interval)
+      interval = setInterval(nextSlide, 3000)
+    })
+  })
 </script>
