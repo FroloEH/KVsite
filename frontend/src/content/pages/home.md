@@ -51,9 +51,4 @@ player_stories_collection:
   - Rapujúci mágovia
 gallery_collection:
   - Home page gallery
-larp_event_name: larp2024
-hero_button1_link: /larp-event
-hero_button2_link: /larp-rules
-usp3_image: src/images/uploads/uzhonesu.jpg
-team_call_to_action_link: mailto:kralovstvo@event-horizon.sk
 ---
