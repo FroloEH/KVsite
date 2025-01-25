@@ -13,6 +13,11 @@ const secondColumnLinks = contentData.header_2nd_column_links as HeaderLink[]
 const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 ---
 
+{
+  import.meta.env.PROD && (
+    <script defer src='https://cloud.umami.is/script.js' data-website-id='b18c2215-9ec9-4393-a2e5-3eea30aa49a4' />
+  )
+}
 <div
   class='absolute z-10 flex min-h-10 w-full flex-row items-center justify-between bg-zinc-50/80 p-2 shadow-sm md:min-h-24 md:p-4'
   role='banner'
