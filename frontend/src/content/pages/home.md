@@ -16,7 +16,7 @@ usp3_header: "Spoznaj skvelú komunitu "
 usp3_text: "Už vyše 10 ročníkov sa stretávame v hojnom počte. Vždy radi
   privítame aj veľa nových tvári. "
 partners_header: Ďakujeme za podporu
-partners_this_year_header: tohoto ročníka
+partners_this_year_header: tohto ročníka
 hero_nadpis1: Vytvorme spolu
 hero_nadpis2: fantastické príbehy
 partners_last_year_header: a predošlých
