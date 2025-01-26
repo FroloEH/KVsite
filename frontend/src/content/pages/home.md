@@ -1,5 +1,5 @@
 ---
-hero_header1: VVVytvorme spolu
+hero_header1: Vytvorme spolu
 hero_header2: fantastické príbehy
 hero_button1_text: Registrácia
 hero_button2_text: Čo je to LARP
