@@ -9,7 +9,7 @@ usp1_text: "Svet Kráľovstva je plný humorných prekvapení. Cieľom hry je, a
   si oddýchli a užili si spoločné úsmevné momenty. "
 usp1_image: src/images/uploads/dostihy.jpg
 usp2_header: Ponor sa do fantastického sveta
-usp2_text: "Čakajú ťa dni tri v lese plnom krásnych kulís a ešte krajších
+usp2_text: "Čakajú ťa tri dni v lese plnom krásnych kulís a ešte krajších
   nakostýmovaných hráčov. "
 usp2_image: src/images/uploads/konspiraciesospicatymklobukom.jpg
 usp3_header: "Spoznaj skvelú komunitu "
@@ -19,7 +19,7 @@ partners_header: Ďakujeme za podporu
 partners_this_year_header: tohto ročníka
 hero_nadpis1: Vytvorme spolu
 hero_nadpis2: fantastické príbehy
-partners_last_year_header: a predošlých
+partners_last_year_header: a predošlých ročníkov
 partners_this_year:
   - BSK
   - FPU
