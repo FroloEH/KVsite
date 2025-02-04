@@ -9,10 +9,9 @@ import RegistrationSteps from '../components/larp-event/RegistrationSteps.astro'
 
 const event = await getEntry('events', content.frontmatter.current_larp_event)
 if (event == undefined) return
-
 ---
 
-<Layout title={event.data.nadpis}>
+<Layout title={event.data.title}>
   <div class='pt-24 bg-zinc-50 mx-auto max-w-5xl'>
     <EventInfo eventName={content.frontmatter.current_larp_event} displayHeading={false} />
     <StoryInfo eventName={content.frontmatter.current_larp_event} />

@@ -21,7 +21,7 @@ if (event == undefined) return
 <div class='flex-column flex justify-center pb-4'>
   <h2
     class='font-large flex md:underlined-heading mx-2 text-4xl uppercase tracking-tight text-zinc-900 md:text-5xl'>
-    {event.data.nadpis}
+    {event.data.title}
   </h2>
 </div>
 }
@@ -30,7 +30,7 @@ if (event == undefined) return
 
   <!-- Hero image -->
   <div class='relative overflow-hidden rounded-lg shadow-inner'>
-    <DynamicImage src={event.data.obrazok}/>
+    <DynamicImage src={event.data.image}/>
     { event.data.archived &&
     <div
     class="absolute inset-0 bg-emerald-800/60 backdrop-blur-sm text-zinc-300/95 content-center text-center font-large text-6xl">
@@ -84,13 +84,13 @@ if (event == undefined) return
     <div class='font-medium text-zinc-950'>
       <CalendarDays class='mr-1 inline h-5 align-top text-emerald-800' />
       <p class='inline'>
-        {event.data.datum}
+        {event.data.date}
       </p>
     </div>
     <div class='font-medium text-zinc-950'>
       <Map class='mr-1 inline h-5 align-top text-emerald-800' />
       <p class='inline'>
-        {event.data.miesto}
+        {event.data.place}
       </p>
     </div>
 
@@ -123,7 +123,7 @@ if (event == undefined) return
 <div class='m-4 mx-auto flex max-w-5xl flex-col bg-zinc-50 md:flex-row'>
   <div class='mt-36 text-zinc-900 md:mt-8 md:w-1/2'>
     <h3 class='font-large p-8 pl-4 text-2xl font-bold'>
-      {event.data.podnadpis}
+      {event.data.subTitle}
     </h3>
     <p class='px-4'>{event.data.anotacia}</p>
   </div>
