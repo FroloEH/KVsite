@@ -2,8 +2,8 @@
 title: LARP Kráľovstvo 2025
 date: 3 herné dni, 23. - 26. júla 2025
 place: Les pri hrade Červený Kameň
-linkFbEvent: TBD
-image: frontend/src/images/uploads/image-6-.png
+linkFbEvent: https://www.facebook.com/events/1769962223443715
+image: src/images/uploads/image-6-.png
 subTitle: TBD
 annotation: TBD
 story1Title: TBD

@@ -49,7 +49,7 @@ player_stories_collection:
   - Rapujúci mágovia
 gallery_collection:
   - Home page gallery
-larp_event_name: larp2024
+larp_event_name: LARP Kráľovstvo 2025
 hero_button1_link: /larp-event
 hero_button2_link: /larp-rules
 usp3_image: src/images/uploads/uzhonesu.jpg

@@ -1,6 +1,6 @@
 ---
 title: TBD_LARP KRÁĽOVSTVO
-current_larp_event: larp2024
+current_larp_event: 'LARP Kráľovstvo 2025'
 archive_text: TBD_'Pokračovanie nabudúce'
 newsletter_text: TBD_'Zisti medzi prvými kedy bude ďalšia hra.'
 newsletter_button_text: TBD_'Odoberať'
