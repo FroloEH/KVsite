@@ -11,7 +11,10 @@ ticketsText: >-
   poďakovaním v záverečných titulkoch<br/>
 
 
-  <h3>Novinka: KŔDEĽ VTÁČAT</h3>Príď na Kráľovstvo ako súčasť aspoň <b>5-člennej skupiny</b>, ktorá bude s majstrom komunikovať prostredníctvom svojho vedúceho, a každý z vás dostane pri registrácii 5 strieborných, ktoré môže použiť v hernej krčme.<br/>
+  <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
+
+
+  ○ každý člen skupiny dostane pri príchode na hru <b>5 strieborných do hernej krčmy</b><br/> ○ za všetkých členov skupiny bude s majstrom komunikovať iba jeden jej zástupca<br/> ○ ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane 5 strieborných
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
   - step_title: TBD_Kúpiť lístok
