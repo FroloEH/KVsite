@@ -1,6 +1,6 @@
 ---
 current_larp_event: LARP Kráľovstvo 2025
-storyIntroText: TTTBD VELKY TEXT
+storyIntroText: TTTBD VELKY TEXTTT
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 tootoot_id: 5a183abcae436b10fc688923
 ticketsTitle: TBD_'Lístky'
