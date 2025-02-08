@@ -480,8 +480,8 @@ collections:
           default: '../layouts/DocumentLayout.astro',
         }
 
-  - name: 'event'
-    label: 'Event'
+  - name: 'events'
+    label: 'Events'
     folder: 'frontend/src/content/events'
     preview_path: k-vsite-git-cms-event{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
