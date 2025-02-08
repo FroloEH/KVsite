@@ -7,7 +7,7 @@ const anouncments = await getCollection('announcements', (announcment) => announ
 {
   anouncments.map((announcement) => (
   <div 
-+      class='fixed inset-x-0 bottom-0 announcment-banner z-50'
++      class='fixed inset-x-0 bottom-0 announcement-banner z-50'
 +      role="alert"
 +      aria-live="polite"
 +      id={`announcement-${announcement.id}`}>
@@ -40,13 +40,13 @@ const anouncments = await getCollection('announcements', (announcment) => announ
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.announcment-banner button').forEach((button) => {
+    document.querySelectorAll('.announcement-banner button').forEach((button) => {
       button.addEventListener('click', () => {
-        if (!button.closest('.announcment-banner')) {
+        if (!button.closest('.announcement-banner')) {
           console.error('Button is not inside an announcment banner')
           return
         }
-        ;(button!.closest('.announcment-banner') as HTMLElement)!.style.display = 'none'
+        ;(button!.closest('.announcement-banner') as HTMLElement)!.style.display = 'none'
       })
     })
   })
