@@ -33,16 +33,18 @@ team_call_to_action_text: Ak sa k nám chceš pridať, stačí napísať mail na
 team_members:
   - Andrej 'Áčko' Sekáč
   - Jakub 'Kub' Vojtko
-  - Marek 'Horálka' Horanský
   - Patrícia 'Paťa' Illichová
   - "Ivana 'Ivka' Cingelová "
   - Lukáš 'Elf' Reviľák
-  - Martin 'Moldawk' Benko
   - Peter 'Pie' Buzáš
   - Michal 'Ismo' Dobrota
   - Richard 'Rišo' Frolkovič
   - "Roman 'Vizi' Vizváry "
   - Veronika 'Verča' Blahová
+  - Marek 'Horalka' Horanský
+  - Maroš Ďuratný
+  - Jonáš Jánsky
+  - Peter 'Peťo' Patrnčiak
 player_stories_header: Vaše príbehy
 player_stories_text: Menší výber príbehov od hráčov.
 player_stories_collection:
