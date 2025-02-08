@@ -531,7 +531,7 @@ collections:
     create: true
     slug: '{{title}}'
     fields:
-      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Story', name: 'story', widget: 'text' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - {
