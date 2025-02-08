@@ -7,7 +7,7 @@ const anouncments = await getCollection('announcements', (announcment) => announ
 {
   anouncments.map((announcement) => (
   <div 
-+      class='fixed inset-x-0 bottom-0 announcment-banner'
++      class='fixed inset-x-0 bottom-0 announcment-banner z-50'
 +      role="alert"
 +      aria-live="polite"
 +      id={`announcement-${announcement.id}`}>
