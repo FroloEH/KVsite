@@ -5,7 +5,7 @@ storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 tootoot_id: 5a183abcae436b10fc688923
 ticketsTitle: Lístky
 ticketsText: >-
-  Rannô vtáča: <br>50 EUR pre prvých 10-tich<br/>Šťastné vtáča: <b>60 EUR</b>
+  Rannô vtáča: <b>50 EUR</b> pre prvých 10-tich<br/>Šťastné vtáča: <b>60 EUR</b>
   pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/>
   Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v
   záverečných titulkoch<br/>
