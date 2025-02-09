@@ -3,7 +3,7 @@ current_larp_event: LARP Kráľovstvo 2025
 storyIntroText: TTTBD VELKY TEXTTT
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 tootoot_id: 5a183abcae436b10fc688923
-ticketsTitle: TBD_'Lístky'
+ticketsTitle: "'Lístky'"
 ticketsText: >-
   <h3>Rannô vtáča: <br>50 EUR pre prvých 10-tich</h3>Šťastné vtáča: <b>60
   EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný
@@ -14,7 +14,7 @@ ticketsText: >-
   <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
 
 
-  ○ každý člen skupiny dostane pri príchode na hru <b>5 strieborných do hernej krčmy</b><br/> ○ za všetkých členov skupiny bude s majstrom komunikovať iba jeden jej zástupca<br/> ○ ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane 5 strieborných
+  • každý člen skupiny dostane pri príchode na hru <b>5 strieborných do hernej krčmy</b><br/> • za všetkých členov skupiny bude s majstrom komunikovať iba jeden jej zástupca<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane 5 strieborných
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
   - step_title: TBD_Kúpiť lístok
