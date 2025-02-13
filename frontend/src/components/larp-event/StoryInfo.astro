@@ -1,41 +1,54 @@
 ---
-import { getEntry } from 'astro:content'
+import { getCollection } from 'astro:content'
 import DynamicImage from '../shared/DynamicImage.astro'
 import * as eventContent from '../../content/pages/current-larp-event.md'
 
-
 interface Props {
-  eventName: string
+  eventTitle: string
 }
 
-const { eventName } = Astro.props
-const event = await getEntry('events', eventName)
-if (event == undefined) return
+const { eventTitle } = Astro.props
+const eventColection = await getCollection('events', ({ data }: { data: any }) => data.title == eventTitle)
+if (!eventColection || eventColection.length === 0) {
+  throw new Error(`Event with name ${eventTitle} not found`)
+}
+const event = eventColection[0].data
 ---
 
-<section class="text-zinc-600 body-font pt-20">
+<section class='text-zinc-600 body-font pt-20'>
   <div class='flex-column flex justify-center pb-4'>
     <h2
-      class='font-large flex underlined-heading px-2 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
+      class='font-large flex underlined-heading px-2 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'
+    >
       {eventContent.frontmatter.storyIntro}
     </h2>
   </div>
-  <div class="container px-5 py-10 mx-auto flex flex-wrap">
-    <div class="md:w-1/2 w-full mb-10 md:mb-0 rounded-md overflow-hidden">
-      <DynamicImage class:list={'h-full w-full object-cover object-center shadow-inner'} src={eventContent.frontmatter.storyImage} alt='Tešiaci sa hráči'/>
+  <div class='container px-5 py-10 mx-auto flex flex-wrap'>
+    <div class='md:w-1/2 w-full mb-10 md:mb-0 rounded-md overflow-hidden'>
+      <DynamicImage
+        class:list={'h-full w-full object-cover object-center shadow-inner'}
+        src={eventContent.frontmatter.storyImage}
+        alt='Tešiaci sa hráči'
+      />
     </div>
-    <div class="flex flex-col flex-wrap md:w-1/2 text-left">
-      <div class="flex flex-col items-start  border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12">
-          <h2 class="text-zinc-900 text-md title-font font-medium mb-3">{event.data.story1Title}</h2>
-          <p class="leading-relaxed text-base">{event.data.story1Text}</p>
+    <div class='flex flex-col flex-wrap md:w-1/2 text-left'>
+      <div
+        class='flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12'
+      >
+        <h2 class='text-zinc-900 text-md title-font font-medium mb-3'>{event.story1Title}</h2>
+        <p class='leading-relaxed text-base'>{event.story1Text}</p>
       </div>
-      <div class="flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12">
-          <h2 class="text-zinc-900 text-md title-font font-medium mb-3">{event.data.story2Title}</h2>
-          <p class="leading-relaxed text-base">{event.data.story2Text}</p>
+      <div
+        class='flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12'
+      >
+        <h2 class='text-zinc-900 text-md title-font font-medium mb-3'>{event.story2Title}</h2>
+        <p class='leading-relaxed text-base'>{event.story2Text}</p>
       </div>
-      <div class="flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12">
-          <h2 class="text-zinc-900 text-md title-font font-medium mb-3">{event.data.story3Title}</h2>
-          <p class="leading-relaxed text-base">{event.data.story3Text}</p>
+      <div
+        class='flex flex-col items-start border-t-2 border-t-yellow-100 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md p-12'
+      >
+        <h2 class='text-zinc-900 text-md title-font font-medium mb-3'>{event.story3Title}</h2>
+        <p class='leading-relaxed text-base'>{event.story3Text}</p>
       </div>
     </div>
   </div>
