@@ -19,9 +19,8 @@ const event = eventColection[0].data
 
 <Layout title={event.title}>
   <div class='pt-24 bg-zinc-50 mx-auto max-w-5xl'>
-    {content.file.slice(0, -3)}
     <EventInfo eventName={event.title} displayHeading={false} />
-    <StoryInfo eventName={content.frontmatter.current_larp_event} />
+    <StoryInfo eventTitle={event.title} />
     <TicketRegistration />
     <RegistrationSteps />
   </div>

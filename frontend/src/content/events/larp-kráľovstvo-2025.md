@@ -6,6 +6,8 @@ linkFbEvent: https://www.facebook.com/events/1769962223443715
 image: src/images/uploads/image-6-.png
 subTitle: TBD
 annotation: TBD
+storyIntroText: TTTBD VELKY TEXTTT
+storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 story1Title: TBD
 story1Text: TBD
 story2Title: TBD
