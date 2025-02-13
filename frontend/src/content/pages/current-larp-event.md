@@ -1,7 +1,5 @@
 ---
 current_larp_event: LARP Kráľovstvo 2025
-storyIntroText: TTTBD VELKY TEXTTT
-storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 tootoot_id: 5a183abcae436b10fc688923
 ticketsTitle: Lístky
 ticketsText: >-
@@ -53,6 +51,5 @@ registration_steps:
 archive_text: TBD_'Pokračovanie nabudúce'
 newsletter_text: TBD_'Zisti medzi prvými kedy bude ďalšia hra.'
 newsletter_button_text: TBD_'Odoberať'
-storyIntro: TBD_'Na čo sa môžeš tešiť?'
 title: TBD_LARP KRÁĽOVSTVO
 ---

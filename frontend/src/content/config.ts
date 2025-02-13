@@ -11,6 +11,8 @@ const eventCollection = defineCollection({
     subTitle: z.string(),
     annotation: z.string(),
     archived: z.boolean(),
+    storyIntroText: z.string(),
+    storyImage: z.string(),
     story1Title: z.string(),
     story1Text: z.string(),
     story2Title: z.string(),

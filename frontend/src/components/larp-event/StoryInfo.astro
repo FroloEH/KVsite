@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content'
 import DynamicImage from '../shared/DynamicImage.astro'
-import * as eventContent from '../../content/pages/current-larp-event.md'
 
 interface Props {
   eventTitle: string
@@ -20,14 +19,14 @@ const event = eventColection[0].data
     <h2
       class='font-large flex underlined-heading px-2 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'
     >
-      {eventContent.frontmatter.storyIntro}
+      {event.storyIntroText}
     </h2>
   </div>
   <div class='container px-5 py-10 mx-auto flex flex-wrap'>
     <div class='md:w-1/2 w-full mb-10 md:mb-0 rounded-md overflow-hidden'>
       <DynamicImage
         class:list={'h-full w-full object-cover object-center shadow-inner'}
-        src={eventContent.frontmatter.storyImage}
+        src={event.storyImage}
         alt='Tešiaci sa hráči'
       />
     </div>
