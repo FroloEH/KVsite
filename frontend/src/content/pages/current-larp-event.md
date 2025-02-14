@@ -3,9 +3,9 @@ current_larp_event: LARP Kráľovstvo 2025
 tootoot_id: 5a183abcae436b10fc688923
 ticketsTitle: Lístky
 ticketsText: >-
-  Lístok si môžeš zakúpiť od **1. marca do 20. mája**. Bojíš sa, že zabudneš? <a
-  href="https://mailchi.mp/045a4f11a99d/kv-newsletter-page">Pošleme ti
-  pripomienku emailom.</a><br/>
+  Lístok si môžeš zakúpiť od **1. marca do 20. mája**. <br/>Bojíš sa, že
+  zabudneš? <a href="https://mailchi.mp/045a4f11a99d/kv-newsletter-page">Pošleme
+  ti pripomienku emailom.</a><br/>
 
 
   Rannô vtáča: <b>50 EUR</b> pre prvých 10-tich<br/>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>
@@ -14,7 +14,7 @@ ticketsText: >-
   <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
 
 
-  • každý člen skupiny dostane pri registrácii na infostánku <b>5 strieborných do hernej krčmy</b><br/> • predherná komunikácia s majstrom bude prebiehať za celú skupinu cez vášho zástupcu<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane 5 strieborných
+  • každý člen skupiny dostane pri registrácii na infostánku <b>5 strieborných do hernej krčmy</b><br/> • koniec nekonečným emailom - za celú skupinu bude s majstrom komunikovať iba jeden zástupca<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane 5 strieborných
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
   - step_title: Kúpiš si lístok
