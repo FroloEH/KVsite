@@ -6,7 +6,6 @@ import { getCollection } from 'astro:content'
 const eventColection = await getCollection('events', ({ data }: { data: any }) => data.archived)
 if (!eventColection || eventColection.length === 0) {
   console.log(`No archived events found`)
-  return
 }
 ---
 
