@@ -6,7 +6,7 @@ linkFbEvent: https://www.facebook.com/events/1769962223443715
 image: frontend/src/images/uploads/kv25_event.png
 subTitle: TBD
 annotation: TBD
-storyIntroText: TTTBD VELKY TEXTTT
+storyIntroText: Čo je nové v Kráľovstve?
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 story1Title: TBD
 story1Text: TBD
