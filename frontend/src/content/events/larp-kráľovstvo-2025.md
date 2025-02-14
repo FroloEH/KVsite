@@ -1,6 +1,6 @@
 ---
 title: LARP Kráľovstvo 2025
-date: 23. - 26. júla 2025
+date: 23. - 27. júla 2025
 place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
 image: src/images/uploads/kv25_event.png
