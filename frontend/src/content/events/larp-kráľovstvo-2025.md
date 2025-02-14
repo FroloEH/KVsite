@@ -4,9 +4,10 @@ date: 3 herné dni, 23. - 26. júla 2025
 place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
 image: frontend/src/images/uploads/kv25_event.png
-subTitle: TBD
-annotation: TBD
-storyIntroText: Čo je nové v Kráľovstve?
+subTitle: Čo je nové v Kráľovstve?
+annotation: Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
+  zanechal svoj VÚC (vyšší úlovkový celok) a vrátil sa k svojmu právoplatnému
+storyIntroText: Príď napísať ďalšiu kapitolu osudu Vlčích Skál
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 story1Title: TBD
 story1Text: TBD
