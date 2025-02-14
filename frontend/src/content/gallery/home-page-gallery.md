@@ -1,6 +1,7 @@
 ---
 title: Home page gallery
-description: TBD_Vyber fotiek. Viacej si viete pozriet na [[google.com|Morgoth Photograhy]]
+description: Vyber fotiek od [Morgoth
+  Photograhy](https://www.facebook.com/MorgothPhotography)
 images:
   - image: src/images/uploads/dostihy.jpg
   - image: src/images/uploads/epiclesijvtipnepozadie.jpg
