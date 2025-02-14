@@ -36,8 +36,8 @@ registration_steps:
       </svg>
   - step_title: Príprava postavy na hru
     step_description: Po vytvorení postavy si ju náš arcimajster prečíta a pridelí
-      ti majstra. Ten sa ti behom týždňa ozve emailom a pomôže ti so zapojením
-      postavy do príbehu a nejasnosťami v pravidlách.
+      ti majstra. Ten sa ti v priebehu týždňa ozve emailom a pomôže ti so
+      zapojením postavy do príbehu a nejasnosťami v pravidlách.
     step_icon: >-
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
       stroke-width="1.5" stroke="currentColor" class="size-6">
