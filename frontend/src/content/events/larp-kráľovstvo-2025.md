@@ -7,8 +7,9 @@ image: src/images/uploads/kv25_event.png
 subTitle: Čo je nové v Kráľovstve?
 annotation: "Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
   zanechal svoj VÚC (vyšší úlovkový celok) a vrátil sa k svojmu právoplatnému
-  miestu boha lovu. "
-storyIntroText: Napíš ďalšiu kapitolu histórie Vlčích Skál
+  miestu boha lovu. Príroda si vydýchla - no nadýchli sa všetci, ktorí majú
+  záujem zaujať jeho miesto. Mocní "
+storyIntroText: Vlčie Skaly, 1325
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 story1Title: Kde sa dvaja bijú...
 story1Text: TBD
