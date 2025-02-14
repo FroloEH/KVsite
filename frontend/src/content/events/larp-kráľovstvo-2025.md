@@ -11,13 +11,16 @@ annotation: "Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
 storyIntroText: Vlčie Skaly, 1325
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 story1Title: Kde sa dvaja bijú...
-story1Text: TBD
+story1Text: Každá dedina je vďačná za svojho vladyku a Vlčie Skaly sú vďačné
+  dvojnásobne. André von Goldstein dostal posledným Lešijovým dekrétom svoju
+  novú pravú ruku v podobe Gregora Samnalej Zatku... ale čo sa s týmto
+  nariadením stane po Lešijovom odchode?
 story2Title: <b>Praotec out, Myrmek in, Fungus s vami</b>
-story2Text: "Vlčie Skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
+story2Text: Vlčie Skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
   dcéry Zirnitry a uctievačov prírodného boha Fungusa (ktorí rastú ako huby po
   daždi) upriamilo mysle obyvateľstva k dôležitým náboženským otázam. Nehľadá
   cirkev Praotcova nového biskupa? Budú aj tento rok na púti kyselé žížaly? Mám
-  aj ja začať privádzať ľudí na správnu vieru? "
+  využiť svoju šancu a priviesť ľudí na tú správnu vieru?
 story3Title: Liečitelia na hrad!
 story3Text: "Bývalá zbojnícka pevnosť v bývalej budove VŠMU má nového majiteľa:
   Cech liečiteľov! Objavenie Dar'Vínovho denníka a získanie veľmi, veľmi pevného
