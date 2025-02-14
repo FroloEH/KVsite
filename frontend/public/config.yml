@@ -279,7 +279,7 @@ collections:
             }
 
       - label: 'Thank you'
-        name: 'thank_you'
+        name: 'thank-you'
         file: 'frontend/src/content/pages/thank_you.md'
         fields:
           - {
@@ -301,8 +301,9 @@ collections:
             }
 
       - label: 'LARP Rules'
-        name: 'larp_rules'
+        name: 'larp-rules'
         file: 'frontend/src/content/pages/larp-rules.md'
+        preview_path: k-vsite-git-cms-larp-rules{{slug}}-froloehs-projects.vercel.app/larp-rules?via=pr-comment-visit-preview-link&passThrough=1
         fields:
           - {
               label: 'LARP rules page title',
@@ -395,8 +396,9 @@ collections:
                 ],
             }
       - label: 'Current LARP event'
-        name: 'current_larp_event'
+        name: 'current-larp-event'
         file: 'frontend/src/content/pages/current-larp-event.md'
+        preview_path: k-vsite-git-cms-larp-rules{{slug}}-froloehs-projects.vercel.app/current-larp-event?via=pr-comment-visit-preview-link&passThrough=1
         fields:
           - { label: 'Najnovšia udalosť', name: 'current_larp_event', widget: 'relation', collection: 'events', searchFields: ['title'], valueField: 'title', displayFields: ['title'] }
           - { label: 'Id eventu v tootoot.fm', name: 'tootoot_id', widget: 'string', pattern: ['^[0-9a-f]{24}$', 'Must be a 24-character hexadecimal string'], hint: 'Napríklad: 65bd0d301b234e08804169cb, nájdeš ho v url konkrétneho eventu na tootoot stránke. Netreba login práva.' }
@@ -429,7 +431,7 @@ collections:
               widget: 'string',
             }
       - label: 'Contact settings and socials'
-        name: 'contact_settings'
+        name: 'contact-settings'
         file: 'frontend/src/content/pages/contact-settings.md'
         fields:
           - {
