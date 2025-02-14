@@ -16,7 +16,7 @@ backend:
     deleteMedia: DECAP CMS ------ Delete “{{path}}”
 
 media_folder: 'frontend/src/images/uploads'
-public_folder: 'frontend/src/images/uploads'
+public_folder: 'src/images/uploads'
 publish_mode: editorial_workflow
 logo_url: /LogoTransparent.png
 site_url: https://vercel.live/open-feedback
