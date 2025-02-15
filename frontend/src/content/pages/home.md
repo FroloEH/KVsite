@@ -29,7 +29,8 @@ partners_last_year:
 team_header: Kto sme?
 team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva očaril
   natoľko, že mu teraz venujú veľkú časť svojho srdiečka a voľného času.
-team_call_to_action_text: Ak sa k nám chceš pridať, stačí napísať mail na kralovstvo@event-horizon.sk
+team_call_to_action_text: Chceš sa pridať do nášho organizačného tímu? Stačí
+  napísať na kralovstvo@event-horizon.sk
 team_members:
   - Andrej 'Áčko' Sekáč
   - Jakub 'Kub' Vojtko
@@ -45,8 +46,9 @@ team_members:
   - Maroš Ďuratný
   - Marek 'Horalka' Horanský
   - Peter 'Peťo' Patrnčiak
+  - Filip Červenák
 player_stories_header: Vaše príbehy
-player_stories_text: Menší výber príbehov od hráčov.
+player_stories_text: Menší výber príbehov od hráčov
 player_stories_collection:
   - Rapujúci mágovia
 gallery_collection:
