@@ -396,6 +396,7 @@ collections:
                   },
                 ],
             }
+      
       - label: 'Current LARP event'
         name: 'current-larp-event'
         file: 'frontend/src/content/pages/current-larp-event.md'
@@ -431,6 +432,15 @@ collections:
               default: 'Odoberať',
               widget: 'string',
             }
+      
+      - label: 'World'
+        name: 'world'
+        file: 'frontend/src/content/pages/world.md'
+        fields:
+          - { label: 'Obrázok intro', name: 'intro_image', widget: 'image' }
+          - { label: 'Intro nadpis', name: 'intro_header', widget: 'string' }
+          - { label: 'Intro do sveta', name: 'intro_body', widget: 'markdown' }
+      
       - label: 'Contact settings and socials'
         name: 'contact-settings'
         file: 'frontend/src/content/pages/contact-settings.md'
