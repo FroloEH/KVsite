@@ -25,7 +25,7 @@ const teamCollection = await getCollection('team', (member) => teamMemberNames.i
       {
         teamCollection.map((member) => (
           <div class='w-full p-2 md:w-1/2 lg:w-1/3'>
-            <div class='flex h-full items-center rounded-lg border border-emerald-500 p-4 shadow-sm'>
+            <div class='flex h-full items-center rounded-lg border border-yellow-500 p-4 shadow-sm'>
               <DynamicImage
                 class='mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-center shadow-inner'
                 src={member.data.image}
