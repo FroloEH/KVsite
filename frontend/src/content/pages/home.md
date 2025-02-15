@@ -1,13 +1,11 @@
 ---
 hero_header1: Vytvorme spolu
 hero_header2: fantastické príbehy
-hero_text: Staň sa na tri dni dobrodruhom na fantastickej LARP-ovej hre.
-hero_button1_text: Registrácia
+hero_button1_link: /larp-event
 hero_button2_text: Čo je to LARP
-hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 usp1_header: "Zasmej sa na veselých scénkach "
-usp1_text: "Svet Kráľovstva je plný humorných prekvapení. Cieľom hry je, aby sme
-  si oddýchli a užili si spoločné úsmevné momenty. "
+usp1_text: Svet Kráľovstva je plný humorných prekvapení. Príď si oddýchnuť od
+  reality a užiť si nezabudnuteľné momenty.
 usp1_image: src/images/uploads/dostihy.jpg
 usp2_header: Ponor sa do fantastického sveta
 usp2_text: "Už viac než 10 ročníkov trávime tri dni v lese plnom krásnych kulís
@@ -32,6 +30,13 @@ team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva očaril
   natoľko, že mu teraz venujú veľkú časť svojho srdiečka a voľného času.
 team_call_to_action_text: Chceš sa pridať do nášho organizačného tímu? Stačí
   napísať na kralovstvo@event-horizon.sk
+player_stories_collection:
+  - Rapujúci mágovia
+gallery_collection:
+  - Home page gallery
+hero_text: Staň sa na tri dni dobrodruhom na fantastickej LARP-ovej hre.
+hero_button1_text: Registrácia
+hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 team_members:
   - Andrej 'Áčko' Sekáč
   - Jakub 'Kub' Vojtko
@@ -50,12 +55,7 @@ team_members:
   - Filip Červenák
 player_stories_header: Vaše príbehy
 player_stories_text: Menší výber príbehov od hráčov
-player_stories_collection:
-  - Rapujúci mágovia
-gallery_collection:
-  - Home page gallery
 larp_event_name: LARP Kráľovstvo 2025
-hero_button1_link: /larp-event
 hero_button2_link: /larp-rules
 usp3_image: src/images/uploads/uzhonesu.jpg
 team_call_to_action_link: mailto:kralovstvo@event-horizon.sk
