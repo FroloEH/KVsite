@@ -11,7 +11,7 @@ annotation: Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
   Časy sa menia a prišiel čas načiahnuť sa po moci - pre seba, pre svojho kráľa,
   pre svoju vieru!
 storyIntroText: Vlčie Skaly, 1325
-storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
+storyImage: src/images/uploads/povzbudzujucepublikum_doprava_cropped.jpg
 story1Title: Praotec out, Myrmek in, Fungus s vami
 story1Text: "Vlčie Skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
   dcéry Zirnitry a uctievačov Fungusa (ktorí rastú ako huby po daždi) upriamilo
