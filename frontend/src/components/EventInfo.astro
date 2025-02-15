@@ -6,6 +6,7 @@ import Button from '../components/shared/Button.astro'
 import DynamicImage from './shared/DynamicImage.astro'
 import * as contactSettings from '../content/pages/contact-settings.md'
 import * as eventContent from '../content/pages/current-larp-event.md'
+import StyledMarkdown from './shared/StyledMarkdown.astro'
 
 interface Props {
   eventName: string,
@@ -35,8 +36,8 @@ const event = eventColection[0].data
 <div class='relative mx-auto max-w-5xl'>
 
   <!-- Hero image -->
-  <div class='relative overflow-hidden rounded-lg shadow-inner'>
-    <DynamicImage src={event.image}/>
+  <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem]'>
+    <DynamicImage src={event.image} class:list={'object-cover object-center shadow-inner'}/>
     { event.archived &&
     <div
     class="absolute inset-0 bg-emerald-800/60 backdrop-blur-sm text-zinc-300/95 content-center text-center font-large text-6xl">
@@ -131,7 +132,9 @@ const event = eventColection[0].data
     <h3 class='font-large p-8 pl-4 text-2xl font-bold'>
       {event.subTitle}
     </h3>
-    <p class='px-4'>{event.annotation}</p>
+    <div class='leading-relaxed text-base px-4'>
+      <StyledMarkdown of={event.annotation} />
+    </div>
   </div>
   <div class='md:mt-18 mt-10 flex flex-col items-center justify-center px-4 md:w-1/2'>
   <Button text='Registrácia' href='/larp-event#larp-registration' />
