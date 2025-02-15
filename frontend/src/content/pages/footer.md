@@ -1,5 +1,5 @@
 ---
-footer_cta_text: Chceš sa o ďalších akciách dozvedieť medzi prvými?
+footer_cta_text: Chceš sa o akciách dozvedieť medzi prvými?
 footer_cta_link: https://mailchi.mp/045a4f11a99d/kv-newsletter-page
 footer_cta_button_text: Odoberať
 footer_1st_column_header: Kontakt
