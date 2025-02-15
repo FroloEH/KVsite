@@ -11,13 +11,12 @@ annotation: Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
   Časy sa menia a prišiel čas načiahnuť sa po moci - pre seba, pre svojho kráľa,
   pre svoju vieru!
 storyIntroText: Vlčie Skaly, 1325
-storyImage: src/images/uploads/povzbudzujucepublikum_doprava_cropped.jpg
+storyImage: src/images/uploads/povzbudzujucepublikum_doprava.jpg
 story1Title: Praotec out, Myrmek in, Fungus s vami
-story1Text: "Vlčie Skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
-  dcéry Zirnitry a uctievačov Fungusa (ktorí rastú ako huby po daždi) upriamilo
-  mysle obyvateľstva k dôležitým otázkam: Nehľadá cirkev Praotcova nového
-  biskupa? Budú aj tento rok na púti kyselé žížaly? Mám využiť svoju šancu a
-  priviesť ľudí na tú správnu vieru?"
+story1Text: Vlčie Skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
+  dcéry Zirnitry a uctievačov Fungusa (ktorí rastú ako huby po daždi) vyvolalo
+  mnohé otázky. Nehľadá cirkev Praotcova nového biskupa? Budú aj tento rok na
+  púti kyselé žížaly? Mám priviesť ľudí na tú správnu vieru práve ja?
 story2Title: Liečitelia na hrad!
 story2Text: "Bývalá zbojnícka pevnosť v bývalej budove VŠMU má nového majiteľa:
   Cech liečiteľov! Objavenie Dar'Vínovho denníka a získanie veľmi, veľmi, veľmi
