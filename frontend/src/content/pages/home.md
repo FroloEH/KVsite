@@ -9,12 +9,12 @@ usp1_text: "Svet Kráľovstva je plný humorných prekvapení. Cieľom hry je, a
   si oddýchli a užili si spoločné úsmevné momenty. "
 usp1_image: src/images/uploads/dostihy.jpg
 usp2_header: Ponor sa do fantastického sveta
-usp2_text: "Čakajú ťa tri dni v lese plnom krásnych kulís a ešte krajších
-  nakostýmovaných hráčov. "
+usp2_text: "Už viac než 10 ročníkov trávime tri dni v lese plnom krásnych kulís
+  a ešte krajších nakostýmovaných hráčov. "
 usp2_image: src/images/uploads/konspiraciesospicatymklobukom.jpg
-usp3_header: "Spoznaj skvelú komunitu "
-usp3_text: "Už vyše 10 ročníkov sa stretávame v hojnom počte. Vždy radi
-  privítame aj veľa nových tvári. "
+usp3_header: Skamaráť sa so skvelými ľuďmi
+usp3_text: Ak miluješ hry a fantastiku, sme tvoja krvná skupina. Príď a zoznám
+  sa s ďalšími nadšencami ako ty.
 partners_header: Ďakujeme za podporu
 partners_this_year_header: tohto ročníka
 hero_nadpis1: Vytvorme spolu
