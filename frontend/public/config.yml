@@ -34,6 +34,7 @@ collections:
           # HERO
           - { label: 'Hero_header1', name: 'hero_header1', widget: 'string' }
           - { label: 'Hero_header2', name: 'hero_header2', widget: 'string' }
+          - { label: 'Hero_text', name: 'hero_text', widget: 'string' }
           - {
               label: 'Hero_Button1_Text',
               name: 'hero_button1_text',
