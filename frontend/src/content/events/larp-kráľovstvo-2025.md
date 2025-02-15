@@ -24,9 +24,8 @@ story2Text: "Bývalá zbojnícka pevnosť v bývalej budove VŠMU má nového ma
   opevnenú pozíciu vo Vlčích Skalách využiť? Alebo im túto príležitosť vyfúkne
   iný cech?"
 story3Title: Kde sa dvaja bijú...
-story3Text: Vladyka André von Goldstein dostal posledným Lešijovým dekrétom
-  svoju novú pravú ruku v podobe Gregora Samnalej Zatku... ale čo sa s týmto
-  nariadením stane po Lešijovom odchode? Čaká nás harmonická vláda alebo boj o
-  moc?
+story3Text: Vladyka André von Goldstein dostal svoju novú pravú ruku v podobe
+  Gregora Samnalej Zátku... čo sa s týmto nariadením stane po Lešijovom odchode?
+  Čaká nás harmonická vláda alebo boj o moc?
 archived: false
 ---
