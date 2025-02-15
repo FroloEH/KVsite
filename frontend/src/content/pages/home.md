@@ -4,8 +4,8 @@ hero_header2: fantastické príbehy
 hero_button1_link: /larp-event
 hero_button2_text: Čo je to LARP
 usp1_header: "Zasmej sa na veselých scénkach "
-usp1_text: Svet Kráľovstva je plný humorných prekvapení. Príď si oddýchnuť od
-  reality a užiť si nezabudnuteľné momenty.
+usp1_text: Svet Kráľovstva je plný humorných prekvapení. Príď si oddýchnuť a
+  užiť si nezabudnuteľné momenty.
 usp1_image: src/images/uploads/dostihy.jpg
 usp2_header: Ponor sa do fantastického sveta
 usp2_text: "Už viac než 10 ročníkov trávime tri dni v lese plnom krásnych kulís
