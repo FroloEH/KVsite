@@ -11,8 +11,8 @@ usp1_text: Svet Kráľovstva je plný humorných prekvapení. Uži si oddych od
   reality a nezabudnuteľné momenty.
 usp1_image: src/images/uploads/dostihy.jpg
 usp2_header: Ponor sa do fantastického sveta
-usp2_text: "Už viac než 10 ročníkov trávime tri dni v lese plnom krásnych kulís
-  a ešte krajších nakostýmovaných hráčov. "
+usp2_text: Čakajú ťa tri dni v lese plnom krásnych kulís a hráčov v ešte
+  krajších kostýmoch na hre s viac než 10-ročnou tradíciou.
 usp2_image: src/images/uploads/konspiraciesospicatymklobukom.jpg
 usp3_header: Skamaráť sa so skvelými ľuďmi
 usp3_text: Ak miluješ hry a fantastiku, sme tvoja krvná skupina. Príď sa
