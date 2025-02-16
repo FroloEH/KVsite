@@ -1,6 +1,5 @@
 ---
 intro_image: src/images/uploads/dedina_s_ľuďmi.jpg
-
 intro_header: TBD_Úvod do sveta
 intro_body: >-
   TBD_Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami
