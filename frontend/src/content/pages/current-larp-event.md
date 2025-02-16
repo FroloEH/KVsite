@@ -14,7 +14,7 @@ ticketsText: >-
   <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
 
 
-  • každý člen skupiny dostane pri registrácii na infostánku <b>5 strieborných do hernej krčmy</b><br/> • koniec nekonečným emailom - za celú skupinu bude s majstrom komunikovať iba jeden zástupca<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane 5 strieborných
+  • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • koniec nekonečným emailom - za celú skupinu bude s majstrom komunikovať iba jeden zástupca<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
   - step_title: Kúpiš si lístok
