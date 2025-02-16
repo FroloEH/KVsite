@@ -11,5 +11,5 @@ intro_body: >-
   Všetkých obyvateľov Kráľovstva však spája hrdosť na víno a vinohrady, na ktoré si robí zálusk susedné **Vodárske kráľovstvo**. Vodárstvo sníva o revolúcii, ktorú by do Kráľovstva prinieslo, o zalievaní vinohradov vodou z vodovodov, o miešaných nápojoch a ďalších moderných reformách.
 
 
-  TBD_Praotec
+  Pohraničná dedina **Vlčie Skaly** je miesto, kde sa stretávajú verní občania Kráľovstva, inovátori aj špehovia z Vodárstva, ale hlavne dobrodruhovia z oboch strán.
 ---
