@@ -571,7 +571,7 @@ collections:
 
   - name: 'announcement'
     label: 'Announcements'
-    folder: 'frontend/src/content/announcement'
+    folder: 'frontend/src/content/announcements'
     preview_path: k-vsite-git-cms-announcement{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
     create: true
     slug: '{{title}}'
