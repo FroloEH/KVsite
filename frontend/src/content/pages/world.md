@@ -1,14 +1,14 @@
 ---
 intro_image: src/images/uploads/dedina_s_ľuďmi.jpg
-intro_header: TBD_Úvod do sveta
+intro_header: Svet Kráľovstva
 intro_body: >-
-  TBD_Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami
+  Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami
   klasickej fantastiky. Nachádzate sa v **Kráľovstve vínnej révy**, kde narazíte
-  na ľudí aj elfov, študentov starobylej mágie aj modernej vedy, bohatých
-  šľachticov aj potulných dobrodruhov.
+  na ľudí aj elfov, študentov Vysokej školy magických umení aj modernej
+  mechaniky, bohatých šľachticov aj potulných dobrodruhov.
 
 
-  TBD_Všetkých obyvateľov Kráľovstva však spája hrdosť na víno a vinohrady, čím sa odlišujú od svojho najväčšieho suseda, **Vodárstva**.
+  Všetkých obyvateľov Kráľovstva však spája hrdosť na víno a vinohrady, na ktoré si robí zálusk susedné **Vodárske kráľovstvo**. Vodárstvo sníva o revolúcii, ktorú by do Kráľovstva prinieslo, o zalievaní vinohradov vodou z vodovodov, o miešaných nápojoch a ďalších moderných reformách.
 
 
   TBD_Praotec
