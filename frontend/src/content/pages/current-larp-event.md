@@ -1,6 +1,6 @@
 ---
 current_larp_event: LARP Kráľovstvo 2025
-tootoot_id: 5a183abcae436b10fc688923
+tootoot_id: 67b1c25bd80b0c0d7bd954ee
 ticketsTitle: Lístky
 ticketsText: >-
   Lístok si môžeš zakúpiť od **1. marca do 20. mája**. <br/>Bojíš sa, že
