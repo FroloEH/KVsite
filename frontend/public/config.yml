@@ -76,7 +76,6 @@ collections:
               label: 'Partners_this_year_header',
               name: 'partners_this_year_header',
               widget: 'string',
-              required: false,
             }
           - {
               label: 'Partners_last_year_header',
@@ -92,6 +91,7 @@ collections:
               searchFields: ['name'],
               valueField: 'name',
               displayFields: ['name'],
+              required: false,
             }
           - {
               label: 'Partners_last_year',
