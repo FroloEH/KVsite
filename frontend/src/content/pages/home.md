@@ -22,9 +22,7 @@ partners_this_year_header: tohto ročníka
 hero_nadpis1: Vytvorme spolu
 hero_nadpis2: fantastické príbehy
 partners_last_year_header: a predošlých ročníkov
-partners_this_year:
-  - BSK
-  - FPU
+partners_this_year: []
 partners_last_year:
   - FPU
   - BSK
