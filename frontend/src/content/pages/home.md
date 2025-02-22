@@ -26,6 +26,7 @@ partners_this_year: []
 partners_last_year:
   - FPU
   - BSK
+  - Obec Dubová
 team_header: Kto sme?
 team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva očaril
   natoľko, že mu teraz venujú veľkú časť svojho srdiečka a voľného času.
