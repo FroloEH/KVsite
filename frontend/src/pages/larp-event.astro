@@ -17,7 +17,7 @@ if (!eventColection || eventColection.length === 0) {
 const event = eventColection[0].data
 ---
 
-<Layout title={event.title}>
+<Layout title={event.title} socialImage={event.image}>
   <div class='bg-zinc-50 mx-auto max-w-5xl'>
     <EventInfo eventName={event.title} displayHeading={false} />
     <StoryInfo eventTitle={event.title} />
