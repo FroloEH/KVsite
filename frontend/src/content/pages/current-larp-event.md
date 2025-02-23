@@ -11,6 +11,12 @@ ticketsText: >-
   Rannô vtáča: <b>50 EUR</b> pre prvých 10-tich<br/>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>
 
 
+  Predherná registrácia tento rok prebieha v stredu 23. júla popoludní a hra začína 24. júla ráno.<br/> 
+
+
+  Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať [vyplneným a podpísaným súhlasom rodičov](https://kralovstvovina.event-horizon.sk/wp-content/uploads/2019/05/190505_KV_vyhlasenie_nad_15r.pdf) s účasťou dieťaťa na hre. <br/>V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal [vyplnený a podpísaný súhlas rodiča](https://kralovstvovina.event-horizon.sk/wp-content/uploads/2019/05/190505_KV_vyhlasenie_do_15r.pdf).
+
+
   <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
 
 
