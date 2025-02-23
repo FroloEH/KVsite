@@ -5,16 +5,32 @@ import AnnouncementBanner from '../components/AnnouncementBanner.astro'
 
 interface Props {
   title: string
+  socialImage?: string
 }
 
-const { title } = Astro.props
+const { title, socialImage } = Astro.props
 ---
 
 <!doctype html>
 <html lang='en'>
   <head>
     <meta charset='UTF-8' />
-    <meta name='description' content='Stránka udalostí LARPu kráľovstva vína od občianskeho združenia event horizon' />
+    <meta name='description' content='Stránka udalostí LARPu Kráľovstva od občianskeho združenia Event Horizon' />
+    <meta property='og:title' content={title} />
+    <meta property='og:type' content='website' />
+    <meta property='og:image' content={socialImage} />
+    <meta
+      property='og:description'
+      content='Stránka udalostí LARPu Kráľovstva od občianskeho združenia Event Horizon'
+    />
+    <meta property='og:url' content={Astro.url} />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:title' content={title} />
+    <meta
+      name='twitter:description'
+      content='Stránka udalostí LARPu Kráľovstva od občianskeho združenia Event Horizon'
+    />
+    <meta name='twitter:image' content={socialImage} />
     <meta name='viewport' content='width=device-width' />
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='generator' content={Astro.generator} />
