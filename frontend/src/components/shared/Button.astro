@@ -7,7 +7,11 @@ interface Props {
 const { text, href } = Astro.props
 ---
 
-<a class='group relative inline-block font-bold text-yellow-50 active:text-yellow-200' href={href}>
+<a
+  data-umami-event={text}
+  class='group relative inline-block font-bold text-yellow-50 active:text-yellow-200'
+  href={href}
+>
   <span
     class='absolute inset-0 translate-x-0.5 translate-y-0.5 rounded-lg bg-yellow-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0'
   ></span>

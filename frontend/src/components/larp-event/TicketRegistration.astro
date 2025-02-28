@@ -56,6 +56,8 @@ const eventId = content.frontmatter.tootoot_id
             newScript.src = 'https://tootoot.fm/buy-embedded/host.v2.js'
             scriptElement.parentNode.insertBefore(newScript, scriptElement)
         }
+
+        umami.track('Tootoot initialized')
     }
     initializeTootootIframe(window, document, 'tootoot-iframe')
 </script>

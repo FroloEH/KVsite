@@ -15,7 +15,12 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
 
 {
   import.meta.env.PROD && (
-    <script defer src='https://cloud.umami.is/script.js' data-website-id='b18c2215-9ec9-4393-a2e5-3eea30aa49a4' />
+    <script
+      id='umami-script'
+      defer
+      src='https://cloud.umami.is/script.js'
+      data-website-id='b18c2215-9ec9-4393-a2e5-3eea30aa49a4'
+    />
   )
 }
 <div
@@ -161,6 +166,12 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
       }
     })
   })
+
+  var umamiScript = document.getElementById('umami-script')
+  var utmTag = new URLSearchParams(window.location.search).get('tag')
+  if (umamiScript && utmTag) {
+    umamiScript.setAttribute('data-tag', utmTag)
+  }
 </script>
 
 <style>

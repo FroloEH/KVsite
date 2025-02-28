@@ -30,5 +30,8 @@
     "@tailwindcss/typography": "^0.5.15",
     "@types/sanitize-html": "^2.13.0",
     "prettier": "^3.4.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
   }
 }
