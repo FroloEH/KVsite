@@ -57,7 +57,7 @@ const eventId = content.frontmatter.tootoot_id
             scriptElement.parentNode.insertBefore(newScript, scriptElement)
         }
 
-        umami.track('Tootoot initialized')
+        window.umami.track('Tootoot initialized')
     }
     initializeTootootIframe(window, document, 'tootoot-iframe')
 </script>
