@@ -8,9 +8,12 @@ ticketsText: >-
   ti pripomienku emailom.</a><br/>
 
 
-  Ranné vtáča: <b>50 EUR</b> pre prvých 10-tich - VYPREDANÉ!<br>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>\
+  Ranné vtáča: <b>50 EUR</b> pre prvých 10-tich - VYPREDANÉ!<br>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich VYPREDANÉ!<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>\
 
-  Registračný formulár postavy dorazí na zadanú emailovú adresu po spustení registrácie postáv.<br/><h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
+  Registračný formulár postavy dorazí na zadanú emailovú adresu po spustení registrácie postáv.<br/>
+
+
+  <b>Ak si sa stal obeťou technickej chyby a kúpil si si 1. marca v čase medzi 00.00 - 01.00 drahší lístok, vrátime ti na hre rozdiel v minciach do hernej krčmy.</b><h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
 
 
   • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude predherná komunikácia prebiehať iba cez jedného zástupcu<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
