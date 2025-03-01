@@ -38,7 +38,9 @@ const { title, socialImage } = Astro.props
   </head>
   <body class='bg-zinc-100'>
     <Header title={title} />
-    <slot />
+    <div style='overflow-x:hidden'>
+      <slot />
+    </div>
     <AnnouncementBanner />
     <Footer />
   </body>
