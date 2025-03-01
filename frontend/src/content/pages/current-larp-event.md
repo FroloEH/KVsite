@@ -22,9 +22,6 @@ ticketsText: >-
   • zadáš pri výbere lístka počet členov skupiny<br/>• vyplníš svoje údaje a emailovú adresu<br/>• zaplatíš všetky lístky</br>• po spustení registrácie postavy zašleme na tvoju adresu formulár pre každého člena tvojej skupiny<br>• ďalší hráč sa môžeš do tvojho kŕdľa pridať tým, že si kúpi štandardný lístok a dá nám vedieť, že patrí k vám<br/>• ak si už zakúpil lístok, ale chceš sa pridať ku kŕdľu vtáčat, daj nám o tom vedieť ty alebo šéf tvojho kŕdľa
 
 
-  \*
-
-
   Predherná registrácia tento rok prebieha v stredu 23. júla popoludní a hra začína 24. júla ráno.<br/> 
 
 
