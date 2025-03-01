@@ -8,19 +8,30 @@ ticketsText: >-
   ti pripomienku emailom.</a><br/>
 
 
-  Rannô vtáča: <b>50 EUR</b> pre prvých 10-tich<br/>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>
+  Ranné vtáča: <b>50 EUR</b> pre prvých 10-tich - VYPREDANÉ!<br>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>\
+
+  Registračný formulár postavy dorazí na zadanú emailovú adresu po spustení registrácie postáv.<br/><h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
+
+
+  • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude predherná komunikácia prebiehať iba cez jedného zástupcu<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
+
+
+  <b>Ako si kúpiť kŕdeľ vtáčat</b>:
+
+
+  • zadáš pri výbere lístka počet členov skupiny<br/>• vyplníš svoje údaje a emailovú adresu<br/>• zaplatíš všetky lístky</br>• po spustení registrácie postavy zašleme na tvoju adresu formulár pre každého člena tvojej skupiny<br>• ďalší hráč sa môžeš do tvojho kŕdľa pridať tým, že si kúpi štandardný lístok a dá nám vedieť, že patrí k vám<br/>• ak si už zakúpil lístok, ale chceš sa pridať ku kŕdľu vtáčat, daj nám o tom vedieť ty alebo šéf tvojho kŕdľa
+
+
+  \*
 
 
   Predherná registrácia tento rok prebieha v stredu 23. júla popoludní a hra začína 24. júla ráno.<br/> 
 
 
-  Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať [vyplneným a podpísaným súhlasom rodičov](https://kralovstvovina.event-horizon.sk/wp-content/uploads/2019/05/190505_KV_vyhlasenie_nad_15r.pdf) s účasťou dieťaťa na hre. <br/>V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal [vyplnený a podpísaný súhlas rodiča](https://kralovstvovina.event-horizon.sk/wp-content/uploads/2019/05/190505_KV_vyhlasenie_do_15r.pdf).
+  Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným súhlasom rodičov s účasťou dieťaťa na hre.<br/>V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča.
 
 
-  <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
-
-
-  • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • koniec nekonečným emailom - za celú skupinu bude s majstrom komunikovať iba jeden zástupca<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
+  Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke.
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
   - step_title: Kúpiš si lístok
