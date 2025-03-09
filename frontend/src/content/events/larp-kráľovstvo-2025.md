@@ -5,17 +5,15 @@ place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
 image: src/images/uploads/dedina_s_ľuďmi.jpg
 subTitle: Čo je nové v Kráľovstve?
-annotation: >-
-  Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
+annotation: Lešij, ktorý posledné tri roky vládol pohraničným oblastiam,
   zanechal povinnosti ľudského zemepána a vrátil sa na svoje právoplatné miesto
   boha lovu. Spojenci aj nepriatelia, ktorých za sebou zanechal, sú oslabení.
-  </br></br>
-  Časy sa menia a prišiel čas načiahnuť sa po moci - pre seba, pre svojho kráľa,
-  pre svoju vieru!
-storyIntroText: Vlčie Skaly, 1325
+  </br></br> Časy sa menia a prišiel čas načiahnuť sa po moci - pre seba, pre
+  svojho kráľa, pre svoju vieru!
+storyIntroText: Vlčie skaly, 1325
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava_cropped.jpg
 story1Title: Praotec out, Myrmek in, Fungus s vami
-story1Text: Vlčie Skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
+story1Text: Vlčie skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
   dcéry Zirnitry a uctievačov Fungusa (ktorí rastú ako huby po daždi) vyvolalo
   mnohé otázky. Nehľadá cirkev Praotcova nového biskupa? Budú aj tento rok na
   púti kyselé žížaly? Mám priviesť ľudí na tú správnu vieru práve ja?
