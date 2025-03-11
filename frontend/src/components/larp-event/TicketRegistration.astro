@@ -1,20 +1,18 @@
 ---
 import * as content from '../../content/pages/current-larp-event.md'
 import StyledMarkdown from '../shared/StyledMarkdown.astro'
+import ViewTracker from '../shared/ViewTracker.astro'
 
 const eventId = content.frontmatter.tootoot_id
 ---
 
+<ViewTracker eventName='TicketRegistration' />
 <h1
     class='font-large flex px-7 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'
     id='larp-registration'
 >
     {content.frontmatter.ticketsTitle}
 </h1>
-<div class='leading-relaxed text-base m-6'>
-    <StyledMarkdown of={content.frontmatter.ticketsText} />
-</div>
-
 <iframe
     title='Nákup lístkov ces tootoot.sk'
     loading='lazy'
@@ -22,7 +20,12 @@ const eventId = content.frontmatter.tootoot_id
     id='tootoot-iframe'
     width='100%'
     allowtransparency='true'
-    src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}></iframe>
+    src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}
+>
+</iframe>
+<div class='leading-relaxed text-base m-6'>
+    <StyledMarkdown of={content.frontmatter.ticketsText} />
+</div>
 
 <script is:inline lang='javascript'>
     function initializeTootootIframe(window, document, iframeId) {
@@ -55,8 +58,6 @@ const eventId = content.frontmatter.tootoot_id
             newScript.src = 'https://tootoot.fm/buy-embedded/host.v2.js'
             scriptElement.parentNode.insertBefore(newScript, scriptElement)
         }
-
-        window.umami.track('Tootoot initialized')
     }
     initializeTootootIframe(window, document, 'tootoot-iframe')
 </script>

@@ -1,0 +1,29 @@
+---
+var { eventName } = Astro.props
+var id = `view-tracker-${eventName}`
+---
+
+<div id={id}></div>
+
+<script is:inline lang='javascript' define:vars={{ eventName }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const viewTracker = document.getElementById(`view-tracker-${eventName}`)
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting === true) {
+            umami.track(eventName)
+            observer.unobserve(viewTracker) // Stop observing after tracking
+          }
+        },
+        { threshold: [0.5] },
+      )
+
+      observer.observe(viewTracker)
+    } else {
+      // Fallback for browsers that do not support IntersectionObserver
+      window.umami.track('Viewed event', { event: eventName })
+    }
+  })
+</script>
