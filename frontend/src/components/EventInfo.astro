@@ -7,6 +7,7 @@ import DynamicImage from './shared/DynamicImage.astro'
 import * as contactSettings from '../content/pages/contact-settings.md'
 import * as eventContent from '../content/pages/current-larp-event.md'
 import StyledMarkdown from './shared/StyledMarkdown.astro'
+import ViewTracker from './shared/ViewTracker.astro'
 
 interface Props {
   eventName: string,
@@ -32,7 +33,7 @@ const event = eventColection[0].data
   </h2>
 </div>
 }
-
+<ViewTracker eventName="EventInfo">
 <div class='relative mx-auto max-w-5xl'>
 
   <!-- Hero image -->
@@ -125,7 +126,7 @@ const event = eventColection[0].data
   </div>
   }
 </div>
-
+</ViewTracker>
 { !event.archived &&
 <div class='m-4 mx-auto flex max-w-5xl flex-col bg-zinc-50 md:flex-row'>
   <div class='mt-36 text-zinc-900 md:mt-8 md:w-1/2'>
@@ -140,5 +141,4 @@ const event = eventColection[0].data
   <Button text='Registrácia' href='/larp-event#larp-registration' />
 </div>
 }
-  
-</div>
+</div>  

@@ -2,15 +2,18 @@
 import DynamicImage from './shared/DynamicImage.astro'
 import * as content from '../content/pages/world.md'
 import StyledMarkdownFullWidth from './shared/StyledMarkdownFullWidth.astro'
+import ViewTracker from './shared/ViewTracker.astro'
 ---
 
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem]'>
-  <DynamicImage src={content.frontmatter.intro_image} class:list={'object-cover object-center shadow-inner'} />
-</div>
+<ViewTracker eventName='WorldIntro'>
+  <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem]'>
+    <DynamicImage src={content.frontmatter.intro_image} class:list={'object-cover object-center shadow-inner'} />
+  </div>
 
-<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
-  <h2 class='font-large p-3 pl-0 text-5xl'>{content.frontmatter.intro_header}</h2>
-  <StyledMarkdownFullWidth of={content.frontmatter.intro_body} />
-</div>
+  <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+    <h2 class='font-large p-3 pl-0 text-5xl'>{content.frontmatter.intro_header}</h2>
+    <StyledMarkdownFullWidth of={content.frontmatter.intro_body} />
+  </div>
 
-<div class='text-2xl pb-32 font-display text-center'>Čoskoro pribudne viacej.</div>
+  <div class='text-2xl pb-32 font-display text-center'>Čoskoro pribudne viacej.</div>
+</ViewTracker>
