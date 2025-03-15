@@ -13,3 +13,4 @@ backend/node_modules
 backend/.astro
 backend/.vercel
 public/images
+frontend/.env.production

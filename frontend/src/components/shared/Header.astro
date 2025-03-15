@@ -18,8 +18,8 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
     <script
       id='umami-script'
       defer
-      src='https://cloud.umami.is/script.js'
-      data-website-id='b18c2215-9ec9-4393-a2e5-3eea30aa49a4'
+      src={import.meta.env.UMAMI_API_URL}
+      data-website-id={import.meta.env.UMAMI_SITE_CODE}
     />
   )
 }
@@ -31,9 +31,7 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
     <Image src={transparentLogo} alt='LOGO Kráľovstva - vínovy pohár s korunkou' loading={'eager'} />
   </a>
 
-  <div
-    class='font-display md:underlined-heading text-2xl tracking-tighter text-zinc-900 md:text-5xl self-end self-center'
-  >
+  <div class='font-display md:underlined-heading text-2xl tracking-tighter text-zinc-900 md:text-5xl self-end'>
     <h1 class='leading-none'>{title}</h1>
   </div>
 
