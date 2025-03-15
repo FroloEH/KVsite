@@ -25,8 +25,7 @@
     "tailwindcss": "^3.4.7",
     "trim": "^1.0.1",
     "typescript": "^5.5.4",
-    "zwitch": "^2.0.4",
-    "type": "module"
+    "hast-util-to-html": "^9.0.5"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
