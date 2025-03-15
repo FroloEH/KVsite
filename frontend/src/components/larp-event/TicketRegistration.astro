@@ -6,26 +6,29 @@ import ViewTracker from '../shared/ViewTracker.astro'
 const eventId = content.frontmatter.tootoot_id
 ---
 
-<ViewTracker eventName='TicketRegistration' />
-<h1
-    class='font-large flex px-7 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'
-    id='larp-registration'
->
-    {content.frontmatter.ticketsTitle}
-</h1>
-<iframe
-    title='Nákup lístkov ces tootoot.sk'
-    loading='lazy'
-    class='box-content pb-20'
-    id='tootoot-iframe'
-    width='100%'
-    allowtransparency='true'
-    src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}
->
-</iframe>
-<div class='leading-relaxed text-base m-6'>
-    <StyledMarkdown of={content.frontmatter.ticketsText} />
-</div>
+<ViewTracker eventName='TicketRegistration'>
+    <h1
+        class='font-large flex px-7 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'
+        id='larp-registration'
+    >
+        {content.frontmatter.ticketsTitle}
+    </h1>
+    <iframe
+        title='Nákup lístkov ces tootoot.sk'
+        loading='lazy'
+        class='box-content pb-20'
+        id='tootoot-iframe'
+        width='100%'
+        allowtransparency='true'
+        src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}
+    >
+    </iframe>
+</ViewTracker>
+<ViewTracker eventName='TicketDescription'>
+    <div class='leading-relaxed text-base m-6'>
+        <StyledMarkdown of={content.frontmatter.ticketsText} />
+    </div>
+</ViewTracker>
 
 <script is:inline lang='javascript'>
     function initializeTootootIframe(window, document, iframeId) {
