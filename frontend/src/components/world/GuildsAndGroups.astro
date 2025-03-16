@@ -1,0 +1,22 @@
+---
+import * as content from '../../content/pages/world.md'
+import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
+import AccordionItem from '../shared/AccordionItem.astro'
+
+const guilds = content.frontmatter.guilds as { name: string; description: string; image: string }[]
+const groups = content.frontmatter.groups as { name: string; description: string; image: string }[]
+---
+
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.guilds_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.guilds_body} />
+</div>
+
+{guilds.map((guild) => <AccordionItem title={guild.name} text={guild.description} image={guild.image} />)}
+
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.groups_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.groups_body} />
+</div>
+
+{groups.map((group) => <AccordionItem title={group.name} text={group.description} image={group.image} />)}
