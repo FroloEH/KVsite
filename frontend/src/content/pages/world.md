@@ -33,7 +33,7 @@ guilds:
     image: src/images/uploads/image-6-.png
   - name: Cech umení
     description: Text pre Cech umení
-    image: src/images/uploads/image-6-.png
+    image: src/images/uploads/cech_umeni.jpg
 vlcie_skaly_text: Vlčie skaly sú malá, napohľad bezvýznamná dedina, ktorá je
   výnimočná svojou polohou na hranici medzi Kráľovstvom a Vodárstvom. Boje medzi
   oboma mocnosťami neraz vedú k tomu, že sa časť dediny ocitne na jednej alebo
@@ -55,7 +55,13 @@ guilds_groups_body: NEZOBRAZUJE SA
 groups_header: Spolky vo Vlčích Skalách
 groups_body: Text pod Spolkami
 groups:
+  - name: Gilda mechanikov
+    description: Text o gilde
+    image: src/images/uploads/image-6-.png
+  - name: Tábor lesných bytostí
+    image: src/images/uploads/image-6-.png
+    description: Text o tábore
   - name: Zbojnícka družina
     description: Text o zbojníckej družine
-    image: src/images/uploads/NastupenaVlciaStraz.jpg
+    image: src/images/uploads/zbojnicka_druzina.jpg
 ---
