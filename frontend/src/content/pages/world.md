@@ -24,7 +24,16 @@ guilds:
 
 
       Ich symbolom je naklonená červená čaša s kvapkou krvi. Vo Vlčích skalách ich združuje Lazaret u nemilosrdných bratov, ktorý od roku 1324 sídli v miestnej pevnosti.
-    image: src/images/uploads/NastupenaVlciaStraz.jpg
+    image: src/images/uploads/cech_liecitelov.jpg
+  - name: Cech strát a nálezov (zlodejský cech)
+    description: Text pre Cech strát a nálezov
+    image: src/images/uploads/image-6-.png
+  - name: "Vysoká škola magických umení (VŠMU) "
+    description: Text pre VŠMU
+    image: src/images/uploads/image-6-.png
+  - name: Cech umení
+    description: Text pre Cech umení
+    image: src/images/uploads/image-6-.png
 vlcie_skaly_text: Vlčie skaly sú malá, napohľad bezvýznamná dedina, ktorá je
   výnimočná svojou polohou na hranici medzi Kráľovstvom a Vodárstvom. Boje medzi
   oboma mocnosťami neraz vedú k tomu, že sa časť dediny ocitne na jednej alebo
