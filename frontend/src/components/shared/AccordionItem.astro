@@ -1,0 +1,39 @@
+---
+import DynamicImage from './DynamicImage.astro'
+
+interface Props {
+  title: string
+  text: string
+  image: string
+}
+
+const { title, text, image } = Astro.props
+---
+
+<div class='space-y-4 m-2'>
+  <details
+    class='group border-s-4 border-yellow-500 bg-zinc-100 shadow-sm p-6 [&_summary::-webkit-details-marker]:hidden radius-lg'
+  >
+    <summary class='flex cursor-pointer items-center justify-between gap-1.5'>
+      <h5 class='text-lg font-medium text-zinc-900'>{title}</h5>
+
+      <span class='shrink-0 rounded-full bg-zinc-100 p-1.5 text-zinc-900 sm:p-3'>
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          class='size-5 shrink-0 transition duration-300 group-open:-rotate-45'
+          viewBox='0 0 20 20'
+          fill='currentColor'
+        >
+          <path
+            fill-rule='evenodd'
+            d='M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z'
+            clip-rule='evenodd'></path>
+        </svg>
+      </span>
+    </summary>
+
+    <p class='mt-4 mb-2 leading-relaxed text-zinc-700'>{text}</p>
+
+    <DynamicImage src={image} class='object-cover object-center' />
+  </details>
+</div>

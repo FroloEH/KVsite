@@ -438,9 +438,33 @@ collections:
         name: 'world'
         file: 'frontend/src/content/pages/world.md'
         fields:
+        #intro
           - { label: 'Obrázok intro', name: 'intro_image', widget: 'image' }
           - { label: 'Intro nadpis', name: 'intro_header', widget: 'string' }
           - { label: 'Intro do sveta', name: 'intro_body', widget: 'markdown' }
+        #Vlčie Skaly
+          - { label: 'Vlčie Skaly nadpis', name: 'vlcie_skaly_header', widget: 'string' }
+          - { label: 'Vlčie Skaly text', name: 'vlcie_skaly_body', widget: 'markdown' }
+          - { label: 'Vlčie Skaly obrázok', name: 'vlcie_skaly_image', widget: 'image' }
+        #guilds and groups
+          - { label: 'Cechy a skupiny nadpis', name: 'guilds_groups_header', widget: 'string' }
+          - { label: 'Cechy a spolky popis', name: 'guilds_groups_body', widget: 'markdown' }
+          - { label: 'Cechy nadpis', name: 'guilds_header', widget: 'string' }
+          - { label: 'Cechy popis', name: 'guilds_body', widget: 'markdown' }
+          - { label: 'Cechy (hráči sa vedia pridať)', name: 'guilds', widget: 'list', fields: [
+              { label: 'Názov', name: 'name', widget: 'string' },
+              { label: 'Popis', name: 'description', widget: 'markdown' },
+              { label: 'Obrázok', name: 'image', widget: 'image' },
+            ]
+          }
+          - { label: 'Skupiny naddpis', name: 'groups_header', widget: 'string' }
+          - { label: 'Skupiny popis', name: 'groups_body', widget: 'markdown' }
+          - { label: 'Skupiny (hráči sa NEvedia pridať)', name: 'groups', widget: 'list', fields: [
+              { label: 'Názov', name: 'name', widget: 'string' },
+              { label: 'Popis', name: 'description', widget: 'markdown' },
+              { label: 'Obrázok', name: 'image', widget: 'image' },
+            ]
+          }
       
       - label: 'Contact settings and socials'
         name: 'contact-settings'

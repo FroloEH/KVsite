@@ -12,4 +12,28 @@ intro_body: >-
 
 
   Pohraničná dedina **Vlčie skaly** je miesto, kde sa stretávajú verní občania Kráľovstva, inovátori aj špehovia z Vodárstva, ale hlavne dobrodruhovia z oboch strán.
+vlcie_skaly_header: Vlčie Skaly
+vlcie_skaly_text: >-
+  Vlčie skaly sú malá, napohľad bezvýznamná dedina, ktorá je výnimočná svojou polohou na hranici medzi Kráľovstvom a Vodárstvom. Boje medzi oboma mocnosťami neraz vedú k tomu, že sa časť dediny ocitne na jednej alebo druhej strane.
+vlcie_skaly_image: src/images/uploads/NastupenaVlciaStraz.jpg
+guilds_header: Gildy vo Vlčích Skalách
+guilds_body: >-
+  Vo Vlčích skalách pôsobia aj niektoré cechy, ktoré združujú majstrov daných remesiel z celého Kráľovstva. Do týchto cechov sa vie pridať ktokoľvek, kto prejaví záujem.
+guilds: 
+  - name: Cech strát a nálezov (zlodeji)
+    description: >-
+      Cech strát a nálezov, inšpirovaný Terryho Pratchettovým svetom, je neobyčajná zlodejská gildia s ironickým šarmom. Naoko pôsobí ako verejnoprospešná organizácia, ktorá zjednocuje stratené a nájdené veci, no v skutočnosti ide o ucelenú štruktúru profesionálnych zlodejov. Každý "nález" je starostlivo plánovanou akciou, a členovia gilde dbajú na to, aby ich krádeže pôsobili elegantne a takmer... zákonne. Zároveň dodržiavajú zložitý etický kódex, ktorý mieša pragmatizmus s nádychom absurdného humoru. Hlavným mottom gilde je: "Nie všetko, čo je stratené, čaká na nájdenie – niekedy len potrebuje... nový domov."
+    image: src/images/uploads/NastupenaVlciaStraz.jpg
+  - name: Cech strát a nálezov (zlodeji)
+    description: >-
+      Cech strát a nálezov, inšpirovaný Terryho Pratchettovým svetom, je neobyčajná zlodejská gildia s ironickým šarmom. Naoko pôsobí ako verejnoprospešná organizácia, ktorá zjednocuje stratené a nájdené veci, no v skutočnosti ide o ucelenú štruktúru profesionálnych zlodejov. Každý "nález" je starostlivo plánovanou akciou, a členovia gilde dbajú na to, aby ich krádeže pôsobili elegantne a takmer... zákonne. Zároveň dodržiavajú zložitý etický kódex, ktorý mieša pragmatizmus s nádychom absurdného humoru. Hlavným mottom gilde je: "Nie všetko, čo je stratené, čaká na nájdenie – niekedy len potrebuje... nový domov."
+    image: src/images/uploads/NastupenaVlciaStraz.jpg
+groups_header: Spolky vo Vlčích Skalách
+groups_body: >-
+  Vo Vlčích skalách pôsobia aj niektoré cechy, ktoré združujú majstrov daných remesiel z celého Kráľovstva. Do týchto cechov sa vie pridať ktokoľvek, kto prejaví záujem.
+groups:
+  - name: Cech strát a nálezov (zlodeji)
+    description: >-
+      Cech strát a nálezov, inšpirovaný Terryho Pratchettovým svetom, je neobyčajná zlodejská gildia s ironickým šarmom. Naoko pôsobí ako verejnoprospešná organizácia, ktorá zjednocuje stratené a nájdené veci, no v skutočnosti ide o ucelenú štruktúru profesionálnych zlodejov. Každý "nález" je starostlivo plánovanou akciou, a členovia gilde dbajú na to, aby ich krádeže pôsobili elegantne a takmer... zákonne. Zároveň dodržiavajú zložitý etický kódex, ktorý mieša pragmatizmus s nádychom absurdného humoru. Hlavným mottom gilde je: "Nie všetko, čo je stratené, čaká na nájdenie – niekedy len potrebuje... nový domov."
+    image: src/images/uploads/NastupenaVlciaStraz.jpg
 ---
