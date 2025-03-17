@@ -26,7 +26,7 @@ guilds:
     image: src/images/uploads/cech_liecitelov.jpg
   - name: Cech strát a nálezov (zlodejský cech)
     description: Text pre Cech strát a nálezov
-    image: src/images/uploads/image-6-.png
+    image: src/images/uploads/cech_strat.jpg
   - name: "Vysoká škola magických umení (VŠMU) "
     description: Text pre VŠMU
     image: src/images/uploads/image-6-.png
@@ -56,7 +56,7 @@ groups_body: Text pod Spolkami
 groups:
   - name: Gilda mechanikov
     description: Text o gilde
-    image: src/images/uploads/image-6-.png
+    image: src/images/uploads/gilda_mechanikov.jpg
   - name: Zbojnícka družina
     description: Text o zbojníckej družine
     image: src/images/uploads/zbojnicka_druzina.jpg
