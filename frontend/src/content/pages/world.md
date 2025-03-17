@@ -10,7 +10,7 @@ guilds_body: Vo Vlčích skalách pôsobia aj niektoré cechy, ktoré združujú
 guilds:
   - name: Cech dobrodruhov
     description: >-
-      Heslo: Za česť, slávu a peniaze! Poradie voliteľné. 
+      Heslo: Za česť, slávu a peniaze! Poradie voliteľné.<br> 
 
 
       Tento cech spája nádejných aj profesionálnych dobrodruhov, ktorí sa svojim mečom či umom neváhajú popasovať s každou hrozbou pre Vlčie skaly, či už dedinu ohrozuje divoká zver, alebo krčmárovi došla zverina do guláša.
@@ -52,7 +52,7 @@ intro_body: >-
 vlcie_skaly_image: src/images/uploads/NastupenaVlciaStraz.jpg
 guilds_groups_header: NEZOBRAZUJE SA
 guilds_groups_body: NEZOBRAZUJE SA
-groups_header: Spolky vo Vlčích Skalách
+groups_header: Spolky vo Vlčích skalách
 groups_body: Text pod Spolkami
 groups:
   - name: Gilda mechanikov
