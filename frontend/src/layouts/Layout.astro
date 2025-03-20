@@ -2,6 +2,7 @@
 import Header from '../components/shared/Header.astro'
 import Footer from '../components/shared/Footer.astro'
 import AnnouncementBanner from '../components/AnnouncementBanner.astro'
+import BackToTopButton from '../components/shared/BackToTopButton.astro'
 
 interface Props {
   title: string
@@ -41,7 +42,11 @@ const { title, socialImage } = Astro.props
     <div style='overflow-x:hidden'>
       <slot />
     </div>
-    <AnnouncementBanner />
+    <div class='fixed bottom-0 w-full z-20'>
+      <BackToTopButton />
+      <AnnouncementBanner />
+    </div>
+
     <Footer />
   </body>
 </html>
