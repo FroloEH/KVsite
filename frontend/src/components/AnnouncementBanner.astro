@@ -7,11 +7,11 @@ const anouncments = await getCollection('announcements', (announcment) => announ
 {
   anouncments.map((announcement) => (
   <div 
-+      class='fixed inset-x-0 bottom-0 announcement-banner z-50'
++      class='relative inset-x-0 bottom-0 announcement-banner z-20'
 +      role="alert"
 +      aria-live="polite"
 +      id={`announcement-${announcement.id}`}>
-      <div class='relative flex items-center justify-between gap-4 bg-emerald-700 px-4 py-3 text-white'>
+      <div class='relative flex items-center justify-between gap-4 bg-emerald-800 px-4 py-3 text-white'>
         <p class='text-sm font-medium'>
           {announcement.data.text}
           <a

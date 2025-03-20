@@ -8,7 +8,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ['fixel', ...defaultTheme.fontFamily.sans],
-      display: ['inknut antiqua', ...defaultTheme.fontFamily.serif],
+      display: ['inknut', ...defaultTheme.fontFamily.serif],
       large: ['maitree', ...defaultTheme.fontFamily.serif],
     },
     extend: {},

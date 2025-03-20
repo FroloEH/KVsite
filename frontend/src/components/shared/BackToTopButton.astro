@@ -1,0 +1,37 @@
+---
+const { threshold = 2 } = Astro.props
+const id = 'back-to-top-button'
+---
+
+<button
+  id={id}
+  class='hidden font-sans font-bold text-xl relative left-[80%] md:left-[95%] mb-2 p-2 bg-emerald-800 text-yellow-400 border border-yellow-400 rounded-full w-16 z-20'
+>
+  ↑
+</button>
+
+<script is:inline lang='javascript' define:vars={{ threshold, id }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById(id)
+    const thresholdHeight = window.innerHeight * threshold
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > thresholdHeight) {
+        button.classList.remove('hidden')
+        window.removeEventListener('scroll', () => {})
+      } else {
+        button.classList.add('hidden')
+      }
+    })
+
+    button.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    })
+  })
+</script>
+
+<style>
+  #back-to-top-button.hidden {
+    display: none;
+  }
+</style>
