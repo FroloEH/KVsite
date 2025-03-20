@@ -1,5 +1,5 @@
 #Decap CMS settings
-#local_backend: true
+local_backend: true
 
 backend:
   name: github
@@ -465,7 +465,32 @@ collections:
               { label: 'Obrázok', name: 'image', widget: 'image' },
             ]
           }
-      
+        #tabor
+            - { label: 'Tábor nadpis', name: 'tabor_header', widget: 'string' }
+            - { label: 'Tábor popis', name: 'tabor_body', widget: 'markdown' }
+            - { label: 'Tábor obrázok', name: 'tabor_image', widget: 'image' }
+        
+        #peklo
+            - { label: 'Peklo nadpis', name: 'peklo_header', widget: 'string' }
+            - { label: 'Peklo popis', name: 'peklo_body', widget: 'markdown' }
+            - { label: 'Peklo obrázok', name: 'peklo_image', widget: 'image' }
+        
+        #druhy
+            - { label: 'Druhy nadpis', name: 'druhy_header', widget: 'string' }
+            - { label: 'Druhy popis', name: 'druhy_body', widget: 'markdown' }
+            - { label: 'Druhy obrázok', name: 'druhy_image', widget: 'image' }
+        
+        #cultures
+            - { label: 'Kultúry nadpis', name: 'cultures_header', widget: 'string' }
+            - { label: 'Kultúry popis', name: 'cultures_body', widget: 'markdown' }
+            - { label: 'Kultúry sekundárny popis', name: 'cultures__secondary_body', widget: 'markdown' }
+            - { label: 'Kultúry obrázok', name: 'cultures_image', widget: 'image' }
+            - { label: 'Kultúry', name: 'cultures', widget: 'list', fields: [
+                { label: 'Názov', name: 'name', widget: 'string' },
+                { label: 'Popis', name: 'description', widget: 'markdown' },
+                { label: 'Obrázok', name: 'image', widget: 'image' },
+              ]
+            }
       - label: 'Contact settings and socials'
         name: 'contact-settings'
         file: 'frontend/src/content/pages/contact-settings.md'

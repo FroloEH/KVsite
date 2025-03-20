@@ -1,12 +1,18 @@
 ---
+import DynamicImage from '../shared/DynamicImage.astro'
 import * as content from '../../content/pages/world.md'
 import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
 import AccordionItem from '../shared/AccordionItem.astro'
 
 const guilds = content.frontmatter.guilds as { name: string; description: string; image: string }[]
 const groups = content.frontmatter.groups as { name: string; description: string; image: string }[]
+const tabor = content.frontmatter.cultures as { name: string; description: string; image: string }[]
+const peklo = content.frontmatter.cultures as { name: string; description: string; image: string }[]
+const druhy = content.frontmatter.cultures as { name: string; description: string; image: string }[]
+const cultures = content.frontmatter.cultures as { name: string; description: string; image: string }[]
 ---
 
+<!-- cechy -->
 <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
   <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.guilds_header}</h3>
   <StyledMarkdownFullWidth of={content.frontmatter.guilds_body} />
@@ -14,9 +20,60 @@ const groups = content.frontmatter.groups as { name: string; description: string
 
 {guilds.map((guild) => <AccordionItem title={guild.name} text={guild.description} image={guild.image} />)}
 
+
+<!-- spolky -->
 <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
   <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.groups_header}</h3>
   <StyledMarkdownFullWidth of={content.frontmatter.groups_body} />
 </div>
 
 {groups.map((group) => <AccordionItem title={group.name} text={group.description} image={group.image} />)}
+
+<!-- tábor lesných bytostí -->
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.tabor_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.tabor_body} />
+</div>
+
+<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+  <DynamicImage src={content.frontmatter.tabor_image} class:list={'object-cover object-center shadow-inner'} />
+</div>
+
+<!-- peklo -->
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.peklo_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.peklo_body} />
+</div>
+
+<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+  <DynamicImage src={content.frontmatter.peklo_image} class:list={'object-cover object-center shadow-inner'} />
+</div>
+
+
+<!-- druhy -->
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.druhy_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.druhy_body} />
+</div>
+
+<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+  <DynamicImage src={content.frontmatter.druhy_image} class:list={'object-cover object-center shadow-inner'} />
+</div>
+
+
+<!-- kultúry -->
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.cultures_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.cultures_body} />
+</div>
+
+<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+  <DynamicImage src={content.frontmatter.cultures_image} class:list={'object-cover object-center shadow-inner'} />
+</div>
+
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <StyledMarkdownFullWidth of={content.frontmatter.cultures_secondary_body} />
+</div>
+
+{cultures.map((culture) => <AccordionItem title={culture.name} text={culture.description} image={culture.image} />)}
+
