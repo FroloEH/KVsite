@@ -87,7 +87,39 @@ peklo_image: src/images/uploads/zbojnicka_druzina.jpg
 
 druhy_header: Druhy
 druhy_body: Text o druhoch
-druhy_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_1_header: Ľudia
+druhy_karta_1_text: Obyvatelia Kráľovstva aj susedného Vodárstva sú prevažne ľudia. Na území oboch kráľovstiev sa mieša množstvo kultúr a roľníci sú v mnohých krajoch uznávaní rovnako ako inde remeselníci či vojaci. Bohatí a šľachta sa združujú najmä v mestách, no tí s dobrodružnou povahou zachádzajú aj do nebezpečných pohraničných krajov.
+druhy_karta_1_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_2_header: Elfovia
+druhy_karta_2_text: Menej nápadná, no početná skupina obyvateľov Kráľovstva, najmä v oblasti **Fragmundských lesov**. Tradične udržiavajú starú kultúru založenú na spriaznenosti s prírodou, no moderných elfov bežne nájdeme aj v mestách, kde sa im núkajú rovnaké možnosti ako bežným ľuďom.
+druhy_karta_2_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_3_header: Trpaslíci
+druhy_karta_3_text: Zdanlivo menšia skupina obyvateľov ako elfovia, no iba preto, že značnú časť života trávia v **Alpských vrchoch a doloch**. Patria medzi najväčších odborníkov na oblasť baníctva a remeselníctva, sú povestní svojou láskou k pivu silnými morálnymi zásadami.
+druhy_karta_3_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_4_header: Hobiti
+druhy_karta_4_text: Hobiti pochádzajú z malebného vidieka, kde sa venujú poľnohospodárstvu, literatúre a občas organizovanému zločinu – alebo to tak tvrdia zlé jazyky. Dobrosrdeční hobiti si z podobných klebiet málokedy robia ťažkú hlavu. Svoju domovskú **Žitnú nížinu** opúšťajú len málokedy, no hobití cestovatelia prinášajú dobrú náladu všade, kam ich nohy zavedú. 
+druhy_karta_4_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_5_header: Lesné bytosti
+druhy_karta_5_text: Lesné víly, nymfy, dryády, enti a všetci ostatní starodávni obyvatelia lesov po celom Kráľovstve. Lesné bytosti sú vážení ochrancovia prírody, ktorí sú v prípade, že sa rozhodnú opustiť svoj domov, vítaní v každej dedine či meste. Napriek tomu uprednostňujú pobyt v prírode, kde nad nimi držia ochrannú ruku božstvá **Lešij a Lesovik**. 
+druhy_karta_5_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_6_header: Divokí
+druhy_karta_6_text: Divokí sú druh na pomedzí medzi lesnými bytosťami a ľuďmi – patria sem vlkolaci a im podobné tvory (od medveďolakov po zebrolakov), satyrovia, kentauri, obri a iní. Hoci napohľad vďaka svojmu vzhľadu vzbudzujú strach, nevyznačujú sa mimoriadnou agresivitou. Tradične sa vyhýbajú veľkým mestám a udržiavajú dobré vzťahy s lesnými bytosťami. 
+druhy_karta_6_image: src/images/uploads/druh_divoki.jpg
+
+druhy_karta_7_header: Pekelníci
+druhy_karta_7_text: text
+druhy_karta_7_image: src/images/uploads/zbojnicka_druzina.jpg
+
+druhy_karta_8_header: Iné
+druhy_karta_8_text: V Kráľovstve žije množstvo ďalších bytostí vrátane tajomných džinov, ľstivých vodníkov a prešibaných ježibáb. Týchto tvorov je spravidla príliš málo, aby vytvorili celé komunity. Jednotlivci sa však sem-tam objavia a prekvapia obyvateľov Kráľovstva tým, čo všetko sa v jeho zákutiach ešte skrýva.
+druhy_karta_8_image: src/images/uploads/zbojnicka_druzina.jpg
+
 
 cultures_header: Kultúry
 cultures_body: Text o Červenokamenskej kultúre
