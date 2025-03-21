@@ -1,6 +1,6 @@
 ---
 thank_you_title: Ďakujeme!
-thank_you_image: src/images/uploads/453999322_906588268176526_7839005840033530243_n.jpg
+thank_you_image: src/images/uploads/pekelny_byrokrat.jpg
 ---
 S realizáciou našich akcií nám pomáhali a stále pomáhajú mnohí ľudia, ktorí nám nezištne poskytujú svoj čas, schopnosti, náradie, materiál, názory, postrehy, nápady a mnoho iného. Vážime si pomoc každého a dúfame, že nám ostanete verní aj v budúcnosti.
 
