@@ -469,11 +469,21 @@ collections:
             - { label: 'Tábor nadpis', name: 'tabor_header', widget: 'string' }
             - { label: 'Tábor popis', name: 'tabor_body', widget: 'markdown' }
             - { label: 'Tábor obrázok', name: 'tabor_image', widget: 'image' }
-        
+
+        #nabozenstva
+            - { label: 'Náboženstvá nadpis', name: 'nabozenstva_header', widget: 'string' }
+            - { label: 'Náboženstvá popis', name: 'nabozenstva_body', widget: 'markdown' }
+            - { label: 'Náboženstvá obrázok', name: 'nabozenstva_image', widget: 'image' }
+
         #peklo
             - { label: 'Peklo nadpis', name: 'peklo_header', widget: 'string' }
             - { label: 'Peklo popis', name: 'peklo_body', widget: 'markdown' }
             - { label: 'Peklo obrázok', name: 'peklo_image', widget: 'image' }
+        
+        #vodari
+            - { label: 'Vodári nadpis', name: 'vodari_header', widget: 'string' }
+            - { label: 'Vodári popis', name: 'vodari_body', widget: 'markdown' }
+            - { label: 'Vodári obrázok', name: 'vodari_image', widget: 'image' }
         
         #druhy
             - { label: 'Druhy nadpis', name: 'druhy_header', widget: 'string' }
