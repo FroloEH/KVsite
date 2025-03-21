@@ -514,7 +514,7 @@ collections:
         #cultures
             - { label: 'Kultúry nadpis', name: 'cultures_header', widget: 'string' }
             - { label: 'Kultúry popis', name: 'cultures_body', widget: 'markdown' }
-            - { label: 'Kultúry sekundárny popis', name: 'cultures__secondary_body', widget: 'markdown' }
+            - { label: 'Kultúry sekundárny popis', name: 'cultures_secondary_body', widget: 'markdown' }
             - { label: 'Kultúry obrázok', name: 'cultures_image', widget: 'image' }
             - { label: 'Kultúry', name: 'cultures', widget: 'list', fields: [
                 { label: 'Názov', name: 'name', widget: 'string' },
