@@ -3,12 +3,9 @@ import DynamicImage from '../shared/DynamicImage.astro'
 import * as content from '../../content/pages/world.md'
 import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
 import AccordionItem from '../shared/AccordionItem.astro'
-import CardComponent from '../shared/CardComponent.astro'
-import ViewTracker from '../shared/ViewTracker.astro'
 
 const guilds = content.frontmatter.guilds as { name: string; description: string; image: string }[]
 const groups = content.frontmatter.groups as { name: string; description: string; image: string }[]
-const cultures = content.frontmatter.cultures as { name: string; description: string; image: string }[]
 ---
 
 <!-- Cechy -->
@@ -66,92 +63,3 @@ const cultures = content.frontmatter.cultures as { name: string; description: st
 <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
   <DynamicImage src={content.frontmatter.vodari_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
-
-<!-- Druhy -->
-<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
-  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.druhy_header}</h3>
-  <StyledMarkdownFullWidth of={content.frontmatter.druhy_body} />
-</div>
-
-<ViewTracker eventName='UspCards'>
-  <section class='body-font text-gray-600'>
-    <div class='container mx-auto py-12'>
-      <div class='flex flex-row flex-wrap'>
-        <CardComponent
-          title={content.frontmatter.druhy_karta_1_header}
-          text={content.frontmatter.druhy_karta_1_text}
-          image={content.frontmatter.druhy_karta_1_image}
-        />
-        <CardComponent
-          title={content.frontmatter.druhy_karta_2_header}
-          text={content.frontmatter.druhy_karta_2_text}
-          image={content.frontmatter.druhy_karta_2_image}
-        />
-        <CardComponent
-          title={content.frontmatter.druhy_karta_3_header}
-          text={content.frontmatter.druhy_karta_3_text}
-          image={content.frontmatter.druhy_karta_3_image}
-        />
-      </div>
-    </div>
-  </section>
-</ViewTracker>
-
-<ViewTracker eventName='UspCards'>
-  <section class='body-font text-gray-600'>
-    <div class='container mx-auto py-12'>
-      <div class='flex flex-row flex-wrap'>
-        <CardComponent
-          title={content.frontmatter.druhy_karta_4_header}
-          text={content.frontmatter.druhy_karta_4_text}
-          image={content.frontmatter.druhy_karta_4_image}
-        />
-        <CardComponent
-          title={content.frontmatter.druhy_karta_5_header}
-          text={content.frontmatter.druhy_karta_5_text}
-          image={content.frontmatter.druhy_karta_5_image}
-        />
-        <CardComponent
-          title={content.frontmatter.druhy_karta_6_header}
-          text={content.frontmatter.druhy_karta_6_text}
-          image={content.frontmatter.druhy_karta_6_image}
-        />
-      </div>
-    </div>
-  </section>
-</ViewTracker>
-
-<ViewTracker eventName='UspCards'>
-  <section class='body-font text-gray-600'>
-    <div class='container mx-auto py-12'>
-      <div class='flex flex-row flex-wrap'>
-        <CardComponent
-          title={content.frontmatter.druhy_karta_7_header}
-          text={content.frontmatter.druhy_karta_7_text}
-          image={content.frontmatter.druhy_karta_7_image}
-        />
-        <CardComponent
-          title={content.frontmatter.druhy_karta_8_header}
-          text={content.frontmatter.druhy_karta_8_text}
-          image={content.frontmatter.druhy_karta_8_image}
-        />
-      </div>
-    </div>
-  </section>
-</ViewTracker>
-
-<!-- Kultúry -->
-<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
-  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.cultures_header}</h3>
-  <StyledMarkdownFullWidth of={content.frontmatter.cultures_body} />
-</div>
-
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
-  <DynamicImage src={content.frontmatter.cultures_image} class:list={'object-cover object-center shadow-inner'} />
-</div>
-
-<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
-  <StyledMarkdownFullWidth of={content.frontmatter.cultures_secondary_body} />
-</div>
-
-{cultures.map((culture) => <AccordionItem title={culture.name} text={culture.description} image={culture.image} />)}

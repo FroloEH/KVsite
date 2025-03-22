@@ -1,0 +1,64 @@
+---
+import ExpandableCard from '../shared/ExpandableCard.astro'
+import ViewTracker from '../shared/ViewTracker.astro'
+import * as content from '../../content/pages/world.md'
+import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
+---
+
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.druhy_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.druhy_body} />
+</div>
+
+<ViewTracker eventName='Druhy'>
+  <section>
+    <div class='container mx-auto py-12'>
+      <div class='flex flex-row flex-wrap'>
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_1_header}
+          text={content.frontmatter.druhy_karta_1_text}
+          image={content.frontmatter.druhy_karta_1_image}
+        />
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_2_header}
+          text={content.frontmatter.druhy_karta_2_text}
+          image={content.frontmatter.druhy_karta_2_image}
+        />
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_3_header}
+          text={content.frontmatter.druhy_karta_3_text}
+          image={content.frontmatter.druhy_karta_3_image}
+        />
+      </div>
+      <div class='flex flex-row flex-wrap'>
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_4_header}
+          text={content.frontmatter.druhy_karta_4_text}
+          image={content.frontmatter.druhy_karta_4_image}
+        />
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_5_header}
+          text={content.frontmatter.druhy_karta_5_text}
+          image={content.frontmatter.druhy_karta_5_image}
+        />
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_6_header}
+          text={content.frontmatter.druhy_karta_6_text}
+          image={content.frontmatter.druhy_karta_6_image}
+        />
+      </div>
+      <div class='flex flex-row flex-wrap'>
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_7_header}
+          text={content.frontmatter.druhy_karta_7_text}
+          image={content.frontmatter.druhy_karta_7_image}
+        />
+        <ExpandableCard
+          title={content.frontmatter.druhy_karta_8_header}
+          text={content.frontmatter.druhy_karta_8_text}
+          image={content.frontmatter.druhy_karta_8_image}
+        />
+      </div>
+    </div>
+  </section>
+</ViewTracker>
