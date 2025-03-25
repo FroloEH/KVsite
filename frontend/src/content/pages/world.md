@@ -102,7 +102,7 @@ guilds:
       \
       
       Školský rok tradične začína a končí v mesiaci júl, ktorý pre nových, súčasných aj končiacich študentov znamená odovzdávanie akreditačnej práce.
-    image: src/images/uploads/image-6-.png
+    image: src/images/uploads/cech_vsmu.jpg
 
 # Spolky
 guilds_groups_header: NEZOBRAZUJE SA, ale je v admin editore
@@ -144,8 +144,55 @@ tabor_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 # Náboženstvá
 nabozenstva_header: Náboženstvá
 nabozenstva_body: >-
-  Na sekcii sa pracuje.
-nabozenstva_image: src/images/uploads/plagaty.jpg
+  Veriaci v Kráľovstve sa v otázke duchovného života uberajú jedným z troch smerov: k **panteónu Praotca**, k **monoteistickej viere v Myrmeka** alebo k **animistickým prírodným náboženstvám**.
+nabozenstva_image: src/images/uploads/nabozenstva_zehnanie_mitickeho.jpg
+nabozenstva:
+  - name: Cirkev Praotcova
+    description: >-
+      Väčšina obyvateľov Kráľovstva vyznáva tradičnú vieru v **Praotca vínnej révy**, ktorý stvoril všetko živé a daroval svetu vinič a víno. Morálne hodnoty Cirkvi Praotcovej sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou. Za veľmi dobrý skutok sa považuje zdieľanie svojho vína s blížnymi.\
+
+      \
+      
+      K Praotcovi vínnej révy patrí **Pramatka piva** a ich mnohé deti, ktoré darovali svetu rôzne iné nápoje. Medzi tých s najväčším počtom nasledovníkov patrí patrónka kofeínových nápojov **Kofeína** a **Rumcajz**, tradične zobrazovaný pri jazde na krakenovi.\
+      
+      \
+
+      Základným textom vierouky sú **Sväté listy viničné**, v ktorých sú popísané jednotlivé skutky Praotca, jeho potomkov a významných prorokov.\
+      
+      \
+
+      Najväčším cirkevným sviatkom je **Sviatok otvorenia sudu Praotcovho**, ktorý sa slávi vždy uprostred zimy a býva spojený s veľkými oslavami a otváraním archívnych vín. Druhým významným sviatkom je **Sviatok bohatých viníc**, ktorý sa slávi v lete a jeho súčasťou sú modlitby prosiace o dobrú jesennú úrodu.   
+    
+    image: src/images/uploads/nabozenstva_praotec.jpg
+  - name: Jašteričí boh Myrmek
+    description: >-
+      Menej početní, no o to horlivejší sú uctievači jašteričieho boha **Myrmeka**, ktorému je pochuti všetko nové a neošúchané.\
+      
+      \
+      
+      Hlavnou morálnou zásadou Myrmekovej cirkvi je byť úprimný a férový sám k sebe. Kto koná tak, ako sám považuje za dobré a správne, nemusí sa zodpovedať ostatným, ktorí sa môžu cítiť ukrivdení. Zásady konania v rôznych typoch situácií je možné prispôsobovať vlastným potrebám a zo starých názorov sa možno zvliecť rovnako, ako keď sa jašter zvlieka zo starej kože. Myrmek nevyzýva k zlobe a falošnosti, ale nekladie dobro ostatných pred svoje vlastné.\
+
+      \
+
+      Najvýznamnejším textom Myrmekovej cirkvi je **Kniha pazúrov a chvostov**, v ktorej Myrmekov prvý vyznávač Leguánius z Podkameňa zachytil jeho mnohé skutky moci a slávy.\
+      
+      \
+      
+      Najväčším sviatkom Myrmekovej cirkvi je **Deň horúceho kameňa**, ktorý sa oslavuje v najdlhší deň leta spoločným posedením na slnkom vyhriatych kameňoch a nasýtením sa zemným hmyzom. Okrem toho by si každý veriaci mal nájsť aspoň jeden deň v týždni, kedy venuje Myrmekovi tichú modlitbu, pričom by sa tiež mal nachádzať na kameni (kameň vo všedný deň nemusí byť vyhriaty).
+
+    image: src/images/uploads/plagaty.jpg
+  - name: Prírodné náboženstvá
+    description: >-
+      Niektorí veriaci namiesto jedného všemocného boha vzdávajú úctu jednotlivým prírodným duchom a malým božstvám. Prírodné náboženstvá vo všeobecnosti vedú svojich veriacich k mierumilovnému životu, vzájomnej úcte a spriaznenosti s prírodou. Rôzne odnože majú rôzne postoje k zločinu a jednotlivým formám trestov, sú tolerantné k mágii a liečiteľstvu.\
+      
+      \
+
+      V oblasti Vlčích skál sú najvyššou náboženskou autoritou božstvá **Lešij a Lesovik** spojené s aspektami kolobehu života a prírody.\
+      
+      \
+
+      Prírodné náboženstvá nemajú stanovené špeciálne sviatočné dni.
+    image: src/images/uploads/plagaty.jpg
 
 peklo_header: Peklo
 peklo_body: >-
@@ -158,7 +205,7 @@ peklo_body: >-
   <br>Okrem nich miestne Peklo priťahuje rôznych démonov, ktorí robia spoločnosť miestnej Smrti, a takisto **smrtonosov**, ktorí sa vydávajú na svet a lovia duše umierajúcich a chorých. 
   <br>
   <br>Od roku 1323 pracuje ako Smrť bývalý vladyka a certifikovaná ľudská troska **Boris Toliar**. 
-peklo_image: src/images/uploads/plagaty.jpg
+peklo_image: src/images/uploads/smrť_a_pekelníci.jpg
 
 # Vodári vo Vlčích skalách, krátky text o Vodároch, nie o histórii Vodárstva
 vodari_header: Vodári
@@ -171,15 +218,15 @@ druhy_header: Obyvatelia Kráľovstva
 
 druhy_karta_1_header: Ľudia
 druhy_karta_1_text: Obyvatelia Kráľovstva aj susedného Vodárstva sú prevažne ľudia. Na území oboch kráľovstiev sa mieša množstvo kultúr a roľníci sú v mnohých krajoch uznávaní rovnako ako inde remeselníci či vojaci. Bohatí a šľachta sa združujú najmä v mestách, no tí s dobrodružnou povahou zachádzajú aj do nebezpečných pohraničných krajov.
-druhy_karta_1_image: src/images/uploads/plagaty.jpg
+druhy_karta_1_image: src/images/uploads/druh_ludia.jpg
 
 druhy_karta_2_header: Elfovia
 druhy_karta_2_text: Menej nápadná, no početná skupina obyvateľov Kráľovstva, najmä v oblasti Fragmundských lesov. Tradične udržiavajú starú kultúru založenú na spriaznenosti s prírodou, no moderných elfov bežne nájdeme aj v mestách, kde sa im núkajú rovnaké možnosti ako bežným ľuďom.
-druhy_karta_2_image: src/images/uploads/plagaty.jpg
+druhy_karta_2_image: src/images/uploads/druh_elfovia.jpg
 
 druhy_karta_3_header: Trpaslíci
 druhy_karta_3_text: Zdanlivo menšia skupina obyvateľov ako elfovia, no iba preto, že značnú časť života trávia v Alpských vrchoch a doloch. Patria medzi najväčších odborníkov na oblasť baníctva a remeselníctva, sú povestní svojou láskou k pivu silnými morálnymi zásadami.
-druhy_karta_3_image: src/images/uploads/plagaty.jpg
+druhy_karta_3_image: src/images/uploads/druh_trpaslici.jpg
 
 druhy_karta_4_header: Hobiti
 druhy_karta_4_text: Hobiti pochádzajú z malebného vidieka, kde sa venujú poľnohospodárstvu, literatúre a občas organizovanému zločinu – alebo to tak tvrdia zlé jazyky. Dobrosrdeční hobiti si z podobných klebiet málokedy robia ťažkú hlavu. Svoju domovskú Žitnú nížinu opúšťajú len málokedy, no hobití cestovatelia prinášajú dobrú náladu všade, kam ich nohy zavedú. 
@@ -194,7 +241,7 @@ druhy_karta_6_text: Divokí sú druh na pomedzí medzi lesnými bytosťami a ľu
 druhy_karta_6_image: src/images/uploads/druh_divoki.jpg
 
 druhy_karta_7_header: Pekelníci
-druhy_karta_7_text: Pekelníci sú nesmrteľné bytosti z Pekla, ktoré vychádzajú na svet počas súťaženia o čo najepickejšiu smrť, alebo aby so sebou pobrali duše smrteľne ranených a nakazených. Ich pôvod, zdroj ich nesmrteľnosti a to, čo ich priviedlo k práci v Pekle, ostáva doteraz tajomstvom – a keďže ich bojový pokrik „Kríp!” stále vzbudzuje patričnú hrôzu, pravdepodobne to tak ešte dlho ostane.
+druhy_karta_7_text: Pekelníci sú nesmrteľné bytosti z Pekla, ktoré vychádzajú na svet počas súťaženia o čo najepickejšiu smrť. Stereotyp, že nepoznajú iné slovo ako „kríp” už dávno neplatí - hoci je pravda, že ak sú nervózni alebo nadšení, občas im medzi rečou ujde. Ich pôvod, zdroj nesmrteľnosti a to, čo ich priviedlo k práci v Pekle, však naďalej ostáva tajomstvom.
 druhy_karta_7_image: src/images/uploads/druh_pekelnici.jpg
 
 druhy_karta_8_header: Iné
@@ -257,6 +304,8 @@ cultures:
       \
       
       Mnohí obyvatelia kráľovstva pôvodom z Al-Noreidu (známeho aj pod cudzím názvom Norveid) sa živia obchodom. Majú povesť obchodníkov, ktorí vám za správnu cenu zoženú všetko, a sú hrdí na všetko spojené so svojim remeslom: od spôsobu predávania tovaru cez zjednávanie ceny až po podpis zmluvy. Často sa s celým procesom spája jedinečný postup typický pre každého obchodníka.\
+
+      \
       
       Zaujímavosťou je ich láska k turnajom na každú životnú príležitosť, či už ide o turnaj narodeninový, zásnubný, svadobný alebo rozvodový.\
       
@@ -272,12 +321,97 @@ cultures:
 
     image: src/images/uploads/plagaty.jpg
   - name: Vodárske kultúry
-    description: Na sekcii sa pracuje.
+    description: >-
+      **Akvilónska kultúra**\
+
+      Vodárska kultúra, s ktorou sa stretávajú najmä bežní obyvatelia. Akvilónčana prezradí jeho nekonečná láska k vode, vodným telesám, kráľovi Miklušovi a všetkému mokrému. Ak sa to nejako týka vody, vo Vodárstve to skrátka majú lepšie, či už ide o kvalitu dažďa alebo ponuku nápojov v krčme. Vodári zároveň veria v meritokraciu (vládu ľudí so zásluhami), dramatické prejavy o úúúžasnom kráľovi Miklušovi a prinášanie revolúcii a revolučných technológii všade, kde ich treba (a v suchom Kráľovstve ich treba).\
+      
+      \
+
+      **Korzárska kultúra**\
+
+      Tam, kde to nejde vo Vodárstve po dobrom, nastupujú korzári, ktorí zabezpečujú Akvilónii nadvládu nad vodnými telesami. Sú hrdí na všetko, čo súvisí s riekoplavbou, jazeroplavbou a moroplavbou, na svoje schopnosti čítať a kresliť mapy s krásnym veľkým X, na piesne velebiace Praotcovho syna Rumcajza a na svoje zručné narábanie lopatou – nie nadarmo sa hovorí, že mnoho dnešných hrobárov sú korzári na dôchodku (a naopak).\
+      
+      \
+
+      Títo veční dobroduhovia zároveň radi preháňajú o svojich dobrodružstvách (tí nepriatelia určite neboli traja, bolo ich minimálne tridsať!) a nedokážu žiť bez tragickej lásky. Je to vôbec pravý korzár alebo korzárka, ak večer nehľadí na západ slnka nad vodou a neskladá ľúbostnú poéziu pre morskú či suchozemskú pannu zanechanú v ďalekých krajoch?  
     image: src/images/uploads/plagaty.jpg
   - name: Druhové kultúry
-    description: Na sekcii sa pracuje.
+    description: >-
+    
+      **Elfská**\
+      
+      Známa aj ako lesná alebo fragmundská. Elfovia a lesné bytosti z Fragmundských lesov sú známe svojou súdržnosťou: ak niekto spriatelí s jedným z nich, stane sa priateľom všetkých. Fragmundčania si potrpia na tradície a s každou veľkou zmenou v ich komunite (ako spomínané uzavretie priateľstva alebo naopak, nepriateľstva) sa spája menší alebo väčší tradičný rituál. Keďže veria, že tradície sa majú zachovávať, radi každého poučia aj o tradičnom spôsobe sadania na stoličku alebo tradičnom spôsobe konzumácie jedla v krčme.\
+      
+      \
+      
+      Civilizačné konflikty vyznávačov tejto kultúry nezaujímajú, pokiaľ sa nedotýkajú prírody. Vtedy sa tieto inokedy mierumilovné bytosti neváhajú chopiť zbraní. Ochrana prírody je ich doména, a keďže žijú v jej lone, vedia, že nikto iný k tejto úlohe nepristupuje s toľkou vážnosťou ako oni.\
+      
+      \
+      
+      **Trpaslícka**\
+      
+      Známa aj ako horská. Trpaslíci z Alpských vrchov sú známi odborníci na zbroj a zbrane. Z centra tejto kultúry odchádzajú prevažne preto, aby nabrali skúsenosti s cudzími zbraňami, či už priamo u kováčov alebo na bojovom poli. Každý správny horský trpaslík si zakladá na svojom dobrom mene a nechať si certifikovať zbraň či zbroj trpaslíckym odborníkom je pre mnohých bežných obyvateľov Kráľovstva či Vodárstva skutočná výsada.\
+      
+      \
+      
+      Horskí trpaslíci vždy myslia v prvom rade na svoju rodinu a na česť či potupu, ktorú by jej svojimi činmi priniesli. Okrem toho sú veľmi hrdí na svoje brady, ktoré nájdete na trpaslíkoch bez ohľadu na vek či pohlavie v širokom spektre variácií.\
+      
+      \
+      
+      **Permonícka**\
+      
+      Známa aj ako banská. Nikdy neurazte obyvateľa Alpských dolov tým, že by ste ho označili za trpaslíka – miestni totiž preferujú označenie permoník.\
+      
+      \
+      
+      Permoníci sú odborníci na šperky a remeselné výrobky. Z centra tejto kultúry odchádzajú prevažne preto, aby nabrali skúsenosti s cudzími remeselníkmi a inými odborníkmi. Tých najlepších expertov na všetko spojené s prácou v baniach (od šperkov až po kurzy BOZP – bane, ochranka, zámky, pasce) nájdete práve medzi permoníkmi a ich certifikáty majú platnosť v celom Kráľovstve aj Vodárstve.\
+      
+      \
+      
+      Permoníci vždy myslia v prvom rade na svojich priateľov a spolupracovníkov - pretože ako sa hovorí, rodinu si nevyberáš, ale kolegov v bani áno. Sú hrdí na svoje dlhé mená s cvengom (ako napríklad Drahoš Blikblink Leskoblištivý), ktoré vypovedajú o povahe ich práce v baniach, a rovnako nablýskané čapičky.\
+      
+      \
+      
+      **Hobitská**\
+      
+      Hobiti málokedy opúšťajú svoj pohodlný život na vidieku. Každá cesta do ďalekých krajov je pre nich jedno veľké dobrodružstvo. Nové mesto? Dobrodružstvo! Nové jedlá? Dobrodružstvo! Noví priatelia? Dobrodružstvo! Nejeden hobit si pred odchodom na cesty pripraví zoznam všetkého, čo by chcel na svojom drobrodružstve zažiť, a to od ochutnania čajového pečiva až po vylúpenie banky, tak ako sa píše v dobrodružných knihách.\
+      
+      \
+      
+      Správny cestovateľ si samozrejme musí písať svoj cestopis, ktorý neskôr poslúži ako základ na knihu o jeho dobrodružstvách. Na svoju kariéru spisovateľa sa pripravujú už počas pobytu na dobrodružstve, radi sa vyjadrujú čo najkvetnatejšie a používajú pri opisoch metafory spojené s jedlom. Ak vám niekto spomínal ženu v jablkových šatách či muža s výrazom ako studená kaša, bol to určite hobit.\
+      
+      \
+
+      **Divokí**\
+      
+      Divoká kultúra byť najlepšia kultúra. Divoký národ byť hrdý národ. Divokí vedieť počítať. Jeden. Dva. Mnoho!\
+      
+      \
+      
+      Divokí sa buď narodiť, alebo sa divokí stať. Moderní divokí šíriť... ovce? Omeleta? Nie, osveta! Tak! Ty písať dizertačka? Ty depresia? Ty nechcieť dizertačka zjesť? Divokí pomôcť!\
+      
+      \
+      
+      Divokí nepoznať dane. Divokí nechcieť spoznať dane. Divokí rešpektovať zákon, ale divokí nerozumieť.\
+      
+      \
+      
+      Divokí mať jednoduchí život. Vedieť zaspať hocikde. Chrrrr! To znamenať, že divokí mať toto miesto rád!\
+
+      \
+
+      Ty nechcieť pridať divokí? 
+
     image: src/images/uploads/plagaty.jpg
   - name: Pekelná kultúra
-    description: Na sekcii sa pracuje.
+    description: >-
+      **Pekelná kultúra**\
+
+      Jedinečná kultúra Pekla vo Vlčích skalách sa zrodila po tom, ako Smrť začala navracať duše mŕtvych späť do života – čo radikálne zmenilo prístup miestnych k Peklu a umieraniu a našlo Smrti fanúšikov z rád živých aj pekelných bytostí.\
+      
+      \
+      
+      Vyznávači pekelnej kultúry chcú zažívať smrť čo najviac, najrozličnejšie a najoriginálnejšie. Umieranie nemá byť smutný koniec, ale radostný dôvod vrátiť sa do Pekla, užiť si pekelný trest (či už ako trestač alebo potrestaný), vymeniť klebety so Smrťou a znova vyraziť na novú a lepšiu smrť. Vyznávači tejto kultúry, ktorí neprebývajú priamo v Pekle, radi píšu Smrti fanúšikovné listy a hľadajú príležitosti na prežitie čo najlepšieho umierania. 
     image: src/images/uploads/plagaty.jpg
 ---

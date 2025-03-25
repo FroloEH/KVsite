@@ -9,6 +9,7 @@ import ViewTracker from '../shared/ViewTracker.astro'
 const guilds = content.frontmatter.guilds as { name: string; description: string; image: string }[]
 const groups = content.frontmatter.groups as { name: string; description: string; image: string }[]
 const cultures = content.frontmatter.cultures as { name: string; description: string; image: string }[]
+const nabozenstva = content.frontmatter.nabozenstva as { name: string; description: string; image: string }[]
 ---
 
 <!-- Cechy -->
@@ -37,6 +38,16 @@ const cultures = content.frontmatter.cultures as { name: string; description: st
   <DynamicImage src={content.frontmatter.tabor_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 
+<!-- Peklo -->
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.peklo_header}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.peklo_body} />
+</div>
+
+<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+  <DynamicImage src={content.frontmatter.peklo_image} class:list={'object-cover object-center shadow-inner'} />
+</div>
+
 <!-- Náboženstvá -->
 <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
   <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.nabozenstva_header}</h3>
@@ -47,15 +58,7 @@ const cultures = content.frontmatter.cultures as { name: string; description: st
   <DynamicImage src={content.frontmatter.nabozenstva_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 
-<!-- Peklo -->
-<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
-  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.peklo_header}</h3>
-  <StyledMarkdownFullWidth of={content.frontmatter.peklo_body} />
-</div>
-
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
-  <DynamicImage src={content.frontmatter.peklo_image} class:list={'object-cover object-center shadow-inner'} />
-</div>
+{nabozenstva.map((nabozenstva) => <AccordionItem title={nabozenstva.name} text={nabozenstva.description} image={nabozenstva.image} />)}
 
 <!-- Vodári vo Vlčích skalách -->
 <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
