@@ -1,16 +1,18 @@
 ---
-larp_rules_title: TBD_LARP Pravidlá
+larp_rules_title: Pravidlá
 background_image: src/images/uploads/NastupenaVlciaStraz.jpg
 rules_intro: >-
-  TBD_Nižšie nájdeš všetky pravidlá pre LARP Kráľovstvo.  Ak k ním máš otázky neváhaj sa ozvať na  </br>
-  - DISCORDE  </br>
-  - Svojmu majstrovi </br> 
-  - Email kralovstvo@event-horizon.sk </br> 
+  Táto stránka obsahuje pravidlá pre LARP Kráľovstvo. S otázkami sa neváhaj ozvať na </br>
+  • <a href="https://www.larpy.sk/"><u>Discorde Larpy.sk</u></a> v sekcii Kráľovstvo</br>
+  • email svojmu majstrovi </br> 
+  • email kralovstvo@event-horizon.sk </br> 
   **Všeobecné pravidlá** : Základné pravidlá, ktoré potrebuje poznať každý hráč. </br> 
   **Povolania**: Špeciálne schopnosti, ktoré si vyberieš pri tvorbe postavy alebo získaš počas hry.  </br>
-  **Errata**: Úpravy pravidieľ, ktoré sme spravili medzi hrami.</br>
+  **Errata**: Prehľad úprav pravidiel, ktoré sme spravili medzi hrami.</br>
 
-basic_rules_title: TBD_Všeobecné pravidlá
+# Pri Discorde sa automaticky graficky neodlíši link! Dala som tam natvrdo <u>, ak chceš, tak si to zmeň.
+
+basic_rules_title: Všeobecné pravidlá
 basic_rules_description: >-
   TBD_Nižšie nájdeš krátke zhrnutie.
 basic_rules_intro: >-
@@ -57,11 +59,23 @@ class_rules_parts:
   - part_title: TBD_BOJ
     part_description: >-
       TBD_Bojuje sa mäkčenými zbraňami. Bodanie je zakázané. Vrhacie zbrane musia byť celé mäkčené a bez tvrdého základu (vrhacie dýky…). Ak si chcete priniesť aj štít, je nevyhnutné si zmäkčiť jeho okraje. Zbrane kontrolujeme, nebezpečné na hru nepustíme. Neútočí sa na hlavu, krk a rozkrok. Protivníka nekopeme, nevykrúcame mu údy, neváľame ho na zem, ak s daným hráčom nie ste dohodnutí, že je to v poriadku. Či došlo k zásahu, určuje zasiahnutý hráč a na jeho cti je, aby to tak aj zahral. Po zásahu do končatiny ju nesmiete používať, dokým vás nevyliečia (min. 1 hodina). Po zásahu do trupu ste porazení, padáte na zem s ťažkým zranením, okrem plazenia a žobrania o pomoc už nič viac nedokážete, dokým vás nevyliečia (min. 3 hod). Ak tak uznáte za vhodné alebo to zo situácie vyplýva, môže sa stať, že vaša postava príde o končatinu alebo zmyslový orgán. Postava umiera, ak je explicitne zabitá, tzv. dorazená po tom, ako bola v stave ťažkého zranenia alebo ak bola podlo zavraždená mimo boja (napr. podrezanie), prípadne ak ju po dve zvonenia z ťažkého zranenia nikto neliečil.
-errata_title: TBD_Errata pravidieľ
+errata_title: Errata pravidiel na rok 2025
 errata_description: >-
-  TBD_Errata pravidieľ roku 2024
+  Toto sa nikde nezobrazuje.
 errata_parts:
-  - part_title: TBD_POČÚVAJ ORGANIZÁTOROV
+  - part_title: KŇAZ SA MENÍ NA DUCHOVÉHO
     part_description: >-
-      TBD_Pokyny organizátorov sú nad všetkými ostatnými pravidlami. Pravidlá nie sú veľmi striktné, lebo hráčom dôverujeme, že chcú hlavne vytovriť spoločný dobrý zážitok. Dôverujte prosim aj vy nám, že keď vám niečo hovoríme, tak je to aby hra bola lepšia a bezpečnejšia pre všetkých.
+      Bývalé povolanie kňaz sa ponovom nazýva DUCHOVNÝ a zo svedomí sa stávajú DUŠIČKY. Duchovného je možné hrať v troch variantoch: KŇAZ (totožný s tým, čo sme pod pojmom kňaz rozumeli doteraz), ČERNOKŇAŽNÍK (temná verzia kňaza) a PROROK (hlásateľ začínajúceho náboženstva).
+  - part_title: NEKROMANTI
+    part_description: >-
+      Špaciálne povolanie nekromant ZANIKÁ. Ak si toto povolanie hral a chceš v ňom pokračovať, odporúčame ti vyššie spomínané povolanie ČERNOKŇAŽNÍK. Lórovo je táto zmena odôvodnená tým, že spolu s Lešijovým odchodom stratili nekromanti významnú časť svojej moci a opustili Vlčie skaly.
+  - part_title: REVENANTI
+    part_description: >-
+      Spolu s nekromntami nás opúštajú aj revenanti. Ak si hral revenanta a pokračuješ s postavou, moc tvojho pána nad tebou vyprchala.
+  - part_title: MÁGIA
+    part_description: >-
+      Ruší sa sila kúzla. Všetky kúzla trvajú do najbližšieho zazvonenia alebo zrušenia zosielateľom. Cieľom kúzla je vždy len jedna osoba. Na jednej osobe môže byť len jedno kúzlo toho istého efektu. Všetky kúzla všetkých druhov mágie sú si cenou rovné a stoja jednu prísadu. Existuje kúzlo ochrany pred mágiou, ktoré chráni osobu pred jedným kúzlom. 
+  - part_title: LESNÝ PASTIER
+    part_description: >-
+      Špeciálne povolanie lesný pastier už NIE JE obmedzené iba pre lesné bytosti. Lesným pastierom sa môže stať ktokoľvek.
 ---
