@@ -65,10 +65,10 @@ errata_description: >-
 errata_parts:
   - part_title: KŇAZ SA MENÍ NA DUCHOVÉHO
     part_description: >-
-      Bývalé povolanie kňaz sa ponovom nazýva DUCHOVNÝ a zo svedomí sa stávajú DUŠIČKY. Duchovného je možné hrať v troch variantoch: KŇAZ (totožný s tým, čo sme pod pojmom kňaz rozumeli doteraz), ČERNOKŇAŽNÍK (temná verzia kňaza) a PROROK (hlásateľ začínajúceho náboženstva).
+      Bývalé povolanie kňaz sa ponovom nazýva DUCHOVNÝ a zo svedomí sa stávajú DUŠIČKY. Duchovného je možné hrať v troch variantoch: KŇAZ (totožný s tým, čo sme pod pojmom kňaz rozumeli doteraz), HERETIK (temná verzia kňaza) a APOŠTOL (hlásateľ začínajúceho náboženstva).
   - part_title: NEKROMANTI
     part_description: >-
-      Špaciálne povolanie nekromant ZANIKÁ. Ak si toto povolanie hral a chceš v ňom pokračovať, odporúčame ti vyššie spomínané povolanie ČERNOKŇAŽNÍK. Lórovo je táto zmena odôvodnená tým, že spolu s Lešijovým odchodom stratili nekromanti významnú časť svojej moci a opustili Vlčie skaly.
+      Špaciálne povolanie nekromant ZANIKÁ. Ak si toto povolanie hral a chceš v ňom pokračovať, odporúčame ti vyššie spomínané povolanie HERETIK. Lórovo je táto zmena odôvodnená tým, že spolu s Lešijovým odchodom stratili nekromanti významnú časť svojej moci a opustili Vlčie skaly.
   - part_title: REVENANTI
     part_description: >-
       Spolu s nekromntami nás opúštajú aj revenanti. Ak si hral revenanta a pokračuješ s postavou, moc tvojho pána nad tebou vyprchala.
