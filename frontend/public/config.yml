@@ -442,7 +442,7 @@ collections:
           - { label: 'Obrázok intro', name: 'intro_image', widget: 'image' }
           - { label: 'Intro nadpis', name: 'intro_header', widget: 'string' }
           - { label: 'Intro do sveta', name: 'intro_body', widget: 'markdown' }
-        #Vlčie Skaly
+        #Vlčie skaly
           - { label: 'Vlčie Skaly nadpis', name: 'vlcie_skaly_header', widget: 'string' }
           - { label: 'Vlčie Skaly text', name: 'vlcie_skaly_body', widget: 'markdown' }
           - { label: 'Vlčie Skaly obrázok', name: 'vlcie_skaly_image', widget: 'image' }
@@ -469,7 +469,6 @@ collections:
             - { label: 'Tábor nadpis', name: 'tabor_header', widget: 'string' }
             - { label: 'Tábor popis', name: 'tabor_body', widget: 'markdown' }
             - { label: 'Tábor obrázok', name: 'tabor_image', widget: 'image' }
-
         #nabozenstva
             - { label: 'Náboženstvá nadpis', name: 'nabozenstva_header', widget: 'string' }
             - { label: 'Náboženstvá popis', name: 'nabozenstva_body', widget: 'markdown' }
@@ -484,48 +483,37 @@ collections:
             - { label: 'Peklo nadpis', name: 'peklo_header', widget: 'string' }
             - { label: 'Peklo popis', name: 'peklo_body', widget: 'markdown' }
             - { label: 'Peklo obrázok', name: 'peklo_image', widget: 'image' }
-        
         #vodari
             - { label: 'Vodári nadpis', name: 'vodari_header', widget: 'string' }
             - { label: 'Vodári popis', name: 'vodari_body', widget: 'markdown' }
             - { label: 'Vodári obrázok', name: 'vodari_image', widget: 'image' }
-        
         #druhy
             - { label: 'Druhy nadpis', name: 'druhy_header', widget: 'string' }
             - { label: 'Druhy popis', name: 'druhy_body', widget: 'markdown' }
-
             - { label: 'Druhy karta 1 nadpis', name: 'druhy_karta_1_header', widget: 'string' }
             - { label: 'Druhy karta 1 popis', name: 'druhy_karta_1_text', widget: 'string' }
             - { label: 'Druhy karta 1 obrázok', name: 'druhy_karta_1_image', widget: 'image' }
-
             - { label: 'Druhy karta 2 nadpis', name: 'druhy_karta_2_header', widget: 'string' }
             - { label: 'Druhy karta 2 popis', name: 'druhy_karta_2_text', widget: 'string' }
             - { label: 'Druhy karta 2 obrázok', name: 'druhy_karta_2_image', widget: 'image' }
-
             - { label: 'Druhy karta 3 nadpis', name: 'druhy_karta_3_header', widget: 'string' }
             - { label: 'Druhy karta 3 popis', name: 'druhy_karta_3_text', widget: 'string' }
             - { label: 'Druhy karta 3 obrázok', name: 'druhy_karta_3_image', widget: 'image' }
-
             - { label: 'Druhy karta 4 nadpis', name: 'druhy_karta_4_header', widget: 'string' }
             - { label: 'Druhy karta 4 popis', name: 'druhy_karta_4_text', widget: 'string' }
             - { label: 'Druhy karta 4 obrázok', name: 'druhy_karta_4_image', widget: 'image' }
-
             - { label: 'Druhy karta 5 nadpis', name: 'druhy_karta_5_header', widget: 'string' }
             - { label: 'Druhy karta 5 popis', name: 'druhy_karta_5_text', widget: 'string' }
             - { label: 'Druhy karta 5 obrázok', name: 'druhy_karta_5_image', widget: 'image' }
-
             - { label: 'Druhy karta 6 nadpis', name: 'druhy_karta_6_header', widget: 'string' }
             - { label: 'Druhy karta 6 popis', name: 'druhy_karta_6_text', widget: 'string' }
             - { label: 'Druhy karta 6 obrázok', name: 'druhy_karta_6_image', widget: 'image' }
-
             - { label: 'Druhy karta 7 nadpis', name: 'druhy_karta_7_header', widget: 'string' }
             - { label: 'Druhy karta 7 popis', name: 'druhy_karta_7_text', widget: 'string' }
             - { label: 'Druhy karta 7 obrázok', name: 'druhy_karta_7_image', widget: 'image' }
-
             - { label: 'Druhy karta 8 nadpis', name: 'druhy_karta_8_header', widget: 'string' }
             - { label: 'Druhy karta 8 popis', name: 'druhy_karta_8_text', widget: 'string' }
             - { label: 'Druhy karta 8 obrázok', name: 'druhy_karta_8_image', widget: 'image' }
-        
         #cultures
             - { label: 'Kultúry nadpis', name: 'cultures_header', widget: 'string' }
             - { label: 'Kultúry popis', name: 'cultures_body', widget: 'markdown' }
