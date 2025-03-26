@@ -8,7 +8,7 @@ ticketsText: >-
   ti pripomienku emailom.</a><br/>
 
 
-  Ranné vtáča: <b>50 EUR</b> pre prvých 10-tich - VYPREDANÉ!<br>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>\
+  Ranné vtáča: <b>50 EUR</b> pre prvých 10-tich - VYPREDANÉ!<br>Šťastné vtáča: <b>60 EUR</b> pre ďalších 30-tich - VYPREDANÉ!<br>Bežné vtáča: <b>70 EUR</b> - štandardný lístok<br/> Ľúbezné vtáča: <b>80 EUR</b> - dobrovoľný štandardný lístok s poďakovaním v záverečných titulkoch<br/>\
 
   Registračný formulár postavy dorazí na zadanú emailovú adresu po spustení registrácie postáv.<br/>
 
