@@ -127,7 +127,7 @@ groups:
       \
 
       Slovami samotného Oskara Lapiducha: „Zbojníci združujú bez rozdielov všetky rasy, kultúry, národy, náboženstvá a bytosti tohto sveta. Sú výnimočnou charitatívnou organizáciou, ktorá ako jediná proaktívne rieši chudobu a nespravodlivé spoločenské pomery Vlčích skál. Niet v skutku vyššej cnosti, než byť zbojníkom.”
-    image: src/images/uploads/zbojnicka_druzina.jpg
+    image: src/images/uploads/spolky_zbojnicka_druzina.jpg
 
 
 tabor_header: Tábor lesných bytostí
@@ -210,8 +210,20 @@ peklo_image: src/images/uploads/smrť_a_pekelníci.jpg
 # Vodári vo Vlčích skalách, krátky text o Vodároch, nie o histórii Vodárstva
 vodari_header: Vodári
 vodari_body: >-
-  Na sekcii sa pracuje.
-vodari_image: src/images/uploads/plagaty.jpg
+  Hranica medzi Kráľovstvom a Akvilóniou, o ktorú sa obe strany už dlhé roky sporia, zhodou okolností prechádza práve okolím Vlčích skál. V roku 1322 sa po bitke o neďaleký priesmyk dokonca posunula **priamo do stredu dediny**, ktorá bola niekoľko mesiacov rozdelená medzi obe kráľovstvá, až kým v lete toho istého roku prírodný boh Lešij nevyhlásil, že obe časti dediny patria jemu.\
+  
+  \
+  
+  Od ukončenia Lešijovej hrôzovlády v lete 1324 si nikto nie je celkom istý, kadiaľ hranica vedie. Neexistuje formálny výnos, ktorý by stanovoval, ktorá časť územia patrí na čiu stranu.\
+  
+  \
+
+  Nejednoznačnosť hranice nahráva predovšetkým Vodárom, ktorí v hojnom počte prúdia do blízkeho okolia. Vzťahy medzi nimi a miestnymi už dávno nie sú vyhrotené a Vodári, ktorí sa riadia dedinskými zákonmi, sú vo Vlčích skalách akceptovaní.\
+  
+  \
+  
+  Vodárske komandá špehov a lojalistov, ktorí sú odhodlaní zjednotiť obe kráľovstvá pod vládou **akvilónskeho kráľa Mikluša**, za posledných pár rokov nebolo vo Vlčích skalách veľmi vidieť. Znamená to, že odtiaľto odišli, alebo že sa veľmi dobre skrývajú? Pravdu zrejme odhalí len čas – a posúvanie kráľovstvo-vodárskej hranice. 
+vodari_image: src/images/uploads/vodari_piratka_s_flasou.jpg
 
 # Druhy
 druhy_header: Obyvatelia Kráľovstva
@@ -326,6 +338,10 @@ cultures:
 
       Vodárska kultúra, s ktorou sa stretávajú najmä bežní obyvatelia. Akvilónčana prezradí jeho nekonečná láska k vode, vodným telesám, kráľovi Miklušovi a všetkému mokrému. Ak sa to nejako týka vody, vo Vodárstve to skrátka majú lepšie, či už ide o kvalitu dažďa alebo ponuku nápojov v krčme. Vodári zároveň veria v meritokraciu (vládu ľudí so zásluhami), dramatické prejavy o úúúžasnom kráľovi Miklušovi a prinášanie revolúcii a revolučných technológii všade, kde ich treba (a v suchom Kráľovstve ich treba).\
       
+      \
+
+      Posadnutosť všetkým mokrým a revolučným však viedla k vzniku nejednej konšpiračnej teórie o tom, o čo vlastne Vodárom ide: ich cieľom je postaviť veľký vodovod, ktorým zatopia celé Kráľovstvo a prebudujú ho na svoj obraz. Čo je na tejto vízii budúcnosti pravdivé však ostáva tajomstvom.\
+
       \
 
       **Korzárska kultúra**\
