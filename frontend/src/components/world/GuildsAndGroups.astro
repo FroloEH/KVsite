@@ -70,10 +70,15 @@ const nabozenstva = content.frontmatter.nabozenstva as { name: string; descripti
   <DynamicImage src={content.frontmatter.vodari_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 
-<!-- Druhy -->
+<!-- Širší svet, iba nadpis a textové pole bez obrázka -->
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h2 class='font-large pb-3 pl-0 text-5xl'>{content.frontmatter.sirsi_svet_header}</h2>
+  <StyledMarkdownFullWidth of={content.frontmatter.sirsi_svet_body} />
+</div>
+
+<!-- Obyvatelia/druhy, iba nadpis a kartičky -->
 <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
   <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.druhy_header}</h3>
-  <StyledMarkdownFullWidth of={content.frontmatter.druhy_body} />
 </div>
 
 <ViewTracker eventName='UspCards'>
