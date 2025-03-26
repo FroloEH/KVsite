@@ -222,8 +222,11 @@ vodari_body: >-
   
   \
   
-  Vodárske komandá špehov a lojalistov, ktorí sú odhodlaní zjednotiť obe kráľovstvá pod vládou **akvilónskeho kráľa Mikluša**, za posledných pár rokov nebolo vo Vlčích skalách veľmi vidieť. Znamená to, že odtiaľto odišli, alebo že sa veľmi dobre skrývajú? Pravdu zrejme odhalí len čas – a posúvanie kráľovstvo-vodárskej hranice. 
+  Vodárske komandá špehov a lojalistov, ktoré potajme pracujú na zvrhnutí **kráľa Pataja Šuhaja I.** a zjednotení obcoh kráľovstiev pod vládou **akvilónskeho kráľa Mikluša**, za posledných pár rokov nebolo vo Vlčích skalách veľmi vidieť. Znamená to, že odtiaľto odišli, alebo že sa veľmi dobre skrývajú? Pravdu zrejme odhalí len čas – a posúvanie kráľovstvo-vodárskej hranice. 
 vodari_image: src/images/uploads/vodari_piratka_s_flasou.jpg
+
+sirsi_svet_header: Širší svet
+sirsi_svet_body: Na sekcii sa pracuje. Bude obsahovať prehľad druhov, kultúr, šľachtických rodov, geografie Kráľovstva a históriu konfliktu so susedným Vodárstvom, ktorú píšete prostredníctvom bojoviek.
 
 # Druhy
 druhy_header: Obyvatelia Kráľovstva
@@ -340,7 +343,7 @@ cultures:
       
       \
 
-      Posadnutosť všetkým mokrým a revolučným však viedla k vzniku nejednej konšpiračnej teórie o tom, o čo vlastne Vodárom ide: ich cieľom je postaviť veľký vodovod, ktorým zatopia celé Kráľovstvo a prebudujú ho na svoj obraz. Čo je na tejto vízii budúcnosti pravdivé však ostáva tajomstvom.\
+      Posadnutosť všetkým mokrým a revolučným však viedla k vzniku nejednej konšpiračnej teórie o tom, o čo vlastne Vodárom ide. Ich cieľom je údajne postaviť veľký vodovod, ktorým zatopia celé Kráľovstvo a prebudujú ho na svoj obraz. Čo je na tejto vízii budúcnosti pravdivé však ostáva tajomstvom, ktoré poznajú len samotní Vodári.\
 
       \
 
