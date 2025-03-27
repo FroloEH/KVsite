@@ -408,7 +408,7 @@ cultures:
       
       \
       
-      Divokí sa buď narodiť, alebo sa divokí stať. Moderní divokí šíriť... ovce? Omeleta? Nie, osveta! Tak! Ty písať dizertačka? Ty depresia? Ty nechcieť dizertačka zjesť? Divokí pomôcť!\
+      Divokí sa buď narodiť, alebo sa divokí stať. Moderní divokí šíriť... ovce? Ovsená kaša? Nie, osveta! Tak! Ty písať dizertačka? Ty depresia? Ty nechcieť dizertačka zjesť? Divokí pomôcť!\
       
       \
       
@@ -416,7 +416,7 @@ cultures:
       
       \
       
-      Divokí mať jednoduchí život. Vedieť zaspať hocikde. Chrrrr! To znamenať, že divokí mať toto miesto rád!\
+      Divokí mať jednoduchý život. Vedieť zaspať hocikde. Chrrrr! To znamenať, že divokí mať toto miesto rád!\
 
       \
 
