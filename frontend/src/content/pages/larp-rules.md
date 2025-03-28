@@ -91,7 +91,7 @@ basic_rules_parts:
   - part_title: VÝNIMKY A TRESTY
     part_description: Majstri môžu hráčovi vopred udeliť výnimku z pravidiel, ako aj
       trest za porušovanie pravidiel. Príkladom trestu je napomenutie,
-      10-minútové vylúčenie z herného priestoru a úplné vylúčenie s hry.
+      10-minútové vylúčenie z herného priestoru a úplné vylúčenie z hry.
 class_rules_title: Povolania
 class_rules_description: TBD_Description
 class_rules_intro: TBD_Not final, preberieme ešte s Elfom.
