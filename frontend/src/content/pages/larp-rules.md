@@ -46,16 +46,19 @@ basic_rules_parts:
   - part_title: MÁGIA
     part_description: >-
       Ak ste zasiahnutí kúzlom, musíte splniť povinnosť, ktorú vám dáva zosielateľ. Túto povinnosť sa dozviete buď z kontextu zaklínadla, ktoré počujete, alebo vám ju prezradí majster. Začarovať vás môžu zaklínadlom (veršovaným), runami (magické obrazce), alchýmiou (nápoje, amulety) alebo čarovným predmetom. Mágia má isté obmedzenia, napríklad vám nikto nedokáže magicky prikázať, aby ste priamo vzali život inej postave.
-  - part_title: TBD_INTIMITA
+  - part_title: INTIMITA
     part_description: >-
-      TBD_Fyzickú náklonnosť môžete prejaviť len sprostredkovanými gestami (tzv. ars amandi). Spolu s patričnými pohľadmi a inými prejavmi sa dotykom od partnerovej dlane, prepracúvate vyššie po jeho ruke až po rameno, čo sa považuje za nanajvýš intímne. Vzájomné držanie ramien sa už považuje za splynutie duší, či veľké zneuctenie. Tieto techniky majú zmysel len v kontexte danej situácie, ktorá musí byť sprevádzaná pohľadmi, nežnými či slizkými slovami až vzdychmi. Bez tohto kontextu je táto technika nefunkčná.
-  - part_title: TBD_VÝNIMKY A TRESTY
+      Fyzickú náklonnosť prejavujeme len sprostredkovanými gestami (tzv. ars amandi). Dotýkame sa partnerovej dlane a prechádzame vyššie po ruke až po rameno, čo sa považuje za nanajvýš intímne. Vzájomné držanie ramien sa už považuje za splynutie duší alebo veľké zneuctenie. Tieto techniky majú zmysel len v kontexte danej situácie, ktorá musí byť sprevádzaná pohľadmi a nežnými či slizkými slovami. Bez tohto kontextu je táto technika nefunkčná. Ako vždy platí pravidlo ŽLTÁ STOP a ČERVENÁ STOP.
+  - part_title: VÝNIMKY A TRESTY
     part_description: >-
-      TBD_Majstri môžu udeliť hráčovi (len vopred) výnimku z pravidiel, ale aj trest za porušovanie pravidiel. Príkladom trestu je napríklad napomenutie alebo 10 minútové vylúčenie z herného priestoru (pre horúce hlavy) až po vylúčenie z hry.
+      Majstri môžu hráčovi vopred udeliť výnimku z pravidiel, ako aj trest za porušovanie pravidiel. Príkladom trestu je napomenutie, 10-minútové vylúčenie z herného priestoru a úplné vylúčenie s hry.
 class_rules_title: Povolania
-class_rules_description: >-
-  TBD_Nižšie nájdeš krátke zhrnutie.
+class_rules_intro: >-
+  TBD_Not final, preberieme ešte s Elfom. (Čau ľudia z Discordu!)
 class_rules_parts:
+  - part_title: BOJOVNÍK
+    part_description: >-
+      Pravidlá neposkytujú bojovníkovi mechanickú výhodu. Sila a skúsenosti bojovníka závisia od reálnej schopnosti hráča bojovať.
   - part_title: LIEČENIE ZRANENÍ
     part_description: >-
       Liečiteľ na liečbu zranenia musí vytvoriť liek. Suroviny (bylinkové čaje) vkladajú do hry organizátori. Liečitelia ich môžu nájsť na hernom území alebo kúpiť od šmelinára či iného hráča. Liečiteľ obhliadne zraneného, zistí anamnézu, stanoví diagnózu a nasadí liečbu. Tá sa môže u jednotlivých liečiteľov líšiť, spoločné však majú to, že zranenému podajú jednoliek na ľahké zranenie alebo štvorliek na ťažké zranenie. Potom prípadne zranenie obviažu, natrú masťou alebo inou formou prikryjú (kreativite sa medze nekladú). Liek musí pôsobiť presne stanovenú dobu. Jednoliek do najbližšieho zazvonenia a štvorliek do druhého najbližšieho zazvonenia.
@@ -64,22 +67,25 @@ class_rules_parts:
       Hráč chorej postavy popíše symptómy choroby, ktorú má, ale neoznamuje názov choroby. Liečiteľ na základe toho prejde Medicón, kde má popísané symptómy a postupy pri liečení. Namieša vybraný odvar a aplikuje liečbu. Keď chorá postava vypije odvar, liečiteľ hráčovi oznámi chorobu, ktorú odvar liečil. Ak liečiteľ správne identifikoval liečenú chorobu, chorý je vyliečený. Ak liečiteľ identifikoval chorobu nesprávne, hráč chorého mu to naznačí a ďalej hrá symptómy choroby.
   - part_title: DUCHOVNÝ
     part_description: >-
-      TBD_Pokyny organizátorov sú nad všetkými ostatnými pravidlami. Pravidlá nie sú veľmi striktné, lebo hráčom dôverujeme, že chcú hlavne vytovriť spoločný dobrý zážitok. Dôverujte prosim aj vy nám, že keď vám niečo hovoríme, tak je to aby hra bola lepšia a bezpečnejšia pre všetkých.
+      Doplníme z novej verzie pravidiel.
   - part_title: ZLODEJ
     part_description: >-
       Kradnúť dokáže len zlodej. Rovnako dokáže len zlodej brať nájdené veci, ktoré jeho postave nepatria. Ukradnuté veci zlodej donesie šmelinárovi, ktorý mu za ne dá odmenu. Podľa ich kategórie ich ďalej ponúka alebo uloží do truhlice, kde budú čakať na vykúpenie majiteľom.
   - part_title: ČARODEJNÍK
     part_description: >-
-      TBD_Pokyny organizátorov sú nad všetkými ostatnými pravidlami. Pravidlá nie sú veľmi striktné, lebo hráčom dôverujeme, že chcú hlavne vytovriť spoločný dobrý zážitok. Dôverujte prosim aj vy nám, že keď vám niečo hovoríme, tak je to aby hra bola lepšia a bezpečnejšia pre všetkých.
+      Doplníme z novej verzie pravidiel.
   - part_title: LESNÝ PASTIER
     part_description: >-
-      TBD_Pokyny organizátorov sú nad všetkými ostatnými pravidlami. Pravidlá nie sú veľmi striktné, lebo hráčom dôverujeme, že chcú hlavne vytovriť spoločný dobrý zážitok. Dôverujte prosim aj vy nám, že keď vám niečo hovoríme, tak je to aby hra bola lepšia a bezpečnejšia pre všetkých.
+      Doplníme z novej verzie pravidiel.
   - part_title: LESNÁ BYTOSŤ
     part_description: >-
-      TBD_Pokyny organizátorov sú nad všetkými ostatnými pravidlami. Pravidlá nie sú veľmi striktné, lebo hráčom dôverujeme, že chcú hlavne vytovriť spoločný dobrý zážitok. Dôverujte prosim aj vy nám, že keď vám niečo hovoríme, tak je to aby hra bola lepšia a bezpečnejšia pre všetkých.
+      Povolania lesných bytostí sa líšia iba názvom, nie mechanicky. Lesné bytosti označujú svojich bojovníkov termínom tanečníkmi meča, duchovní sú pre nich druidi, runoví mágovia sú runotepci. Lesná bytosť si môže zvoliť akúkoľvek kultúru a akékoľvek povolanie.
   - part_title: RADNÝ
     part_description: >-
-      TBD_Pokyny organizátorov sú nad všetkými ostatnými pravidlami. Pravidlá nie sú veľmi striktné, lebo hráčom dôverujeme, že chcú hlavne vytovriť spoločný dobrý zážitok. Dôverujte prosim aj vy nám, že keď vám niečo hovoríme, tak je to aby hra bola lepšia a bezpečnejšia pre všetkých.
+      Radný je člen dedinskej rady, ktorý má za sebou dostatok podporovateľov na zastupovanie ich záujmov. Prípravou teda je politický plán a kampaň, vďaka ktorým si získa dostatok hlasov zvyšku hráčov na hre. Radného moc je úmerná počtu jeho nasledovníkov. Čím viac „lojality“ (vyjadrenej za pomoci špeciálnych žetónov) má, tým väčšie je jeho slovo pri rozhodovaní v dedinskej rade a tým skôr sa dostáva na radu pri výbere výsad pre svojich ľudí. Radný sa môže o lojalitu ostatných obyvateľov Vlčích Skál uchádzať tým, že ich presvedčí svojim programom alebo im ponúkne určité výhody alebo výsady.
+  - part_title: SLOBODNÉ POVOLANIA
+    part_description: >-
+      Existuje množstvo povolaní, ktoré je možné na LARPe Kráľovstva Vína hrať bez potreby zásahu mechaniky pravidiel. Novinári, úradníci, remeselníci, farmári, umelci... V týchto prípadoch je príprava z veľkej časti na vás a na informovaní organizátorov o vašich prípadných potrebách na zabezpečenie. 
 errata_title: Errata pravidiel na rok 2025
 errata_description: >-
   Toto sa nikde nezobrazuje.
