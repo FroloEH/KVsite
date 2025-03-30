@@ -94,65 +94,14 @@ basic_rules_parts:
       10-minútové vylúčenie z herného priestoru a úplné vylúčenie z hry.
 class_rules_title: Povolania
 class_rules_description: TBD_Description
-class_rules_intro: TBD_Not final, preberieme ešte s Elfom.
+class_rules_intro: >-
+  Na stránke sa pracuje. <br><br>Celé znenie pravidiel pre povolania si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/špeciálne-pravidlá-2025.pdf">POVOLANIA</a>
 class_rules_parts:
-  - part_title: BOJOVNÍK
-    part_description: Pravidlá neposkytujú bojovníkovi mechanickú výhodu. Sila a
-      skúsenosti bojovníka závisia od reálnej schopnosti hráča bojovať.
-  - part_title: LIEČENIE ZRANENÍ
-    part_description: Liečiteľ na liečbu zranenia musí vytvoriť liek. Suroviny
-      (bylinkové čaje) vkladajú do hry organizátori. Liečitelia ich môžu nájsť
-      na hernom území alebo kúpiť od šmelinára či iného hráča. Liečiteľ
-      obhliadne zraneného, zistí anamnézu, stanoví diagnózu a nasadí liečbu. Tá
-      sa môže u jednotlivých liečiteľov líšiť, spoločné však majú to, že
-      zranenému podajú jednoliek na ľahké zranenie alebo štvorliek na ťažké
-      zranenie. Potom prípadne zranenie obviažu, natrú masťou alebo inou formou
-      prikryjú (kreativite sa medze nekladú). Liek musí pôsobiť presne stanovenú
-      dobu. Jednoliek do najbližšieho zazvonenia a štvorliek do druhého
-      najbližšieho zazvonenia.
-  - part_title: LIEČENIE CHOROBY
-    part_description: Hráč chorej postavy popíše symptómy choroby, ktorú má, ale
-      neoznamuje názov choroby. Liečiteľ na základe toho prejde Medicón, kde má
-      popísané symptómy a postupy pri liečení. Namieša vybraný odvar a aplikuje
-      liečbu. Keď chorá postava vypije odvar, liečiteľ hráčovi oznámi chorobu,
-      ktorú odvar liečil. Ak liečiteľ správne identifikoval liečenú chorobu,
-      chorý je vyliečený. Ak liečiteľ identifikoval chorobu nesprávne, hráč
-      chorého mu to naznačí a ďalej hrá symptómy choroby.
-  - part_title: DUCHOVNÝ
-    part_description: Doplníme z novej verzie pravidiel.
-  - part_title: ZLODEJ
-    part_description: Kradnúť dokáže len zlodej. Rovnako dokáže len zlodej brať
-      nájdené veci, ktoré jeho postave nepatria. Ukradnuté veci zlodej donesie
-      šmelinárovi, ktorý mu za ne dá odmenu. Podľa ich kategórie ich ďalej
-      ponúka alebo uloží do truhlice, kde budú čakať na vykúpenie majiteľom.
-  - part_title: ČARODEJNÍK
-    part_description: Doplníme z novej verzie pravidiel.
-  - part_title: LESNÝ PASTIER
-    part_description: Doplníme z novej verzie pravidiel.
-  - part_title: LESNÁ BYTOSŤ
-    part_description: Povolania lesných bytostí sa líšia iba názvom, nie mechanicky.
-      Lesné bytosti označujú svojich bojovníkov termínom tanečníkmi meča,
-      duchovní sú pre nich druidi, runoví mágovia sú runotepci. Lesná bytosť si
-      môže zvoliť akúkoľvek kultúru a akékoľvek povolanie.
-  - part_title: RADNÝ
-    part_description: Radný je člen dedinskej rady, ktorý má za sebou dostatok
-      podporovateľov na zastupovanie ich záujmov. Prípravou teda je politický
-      plán a kampaň, vďaka ktorým si získa dostatok hlasov zvyšku hráčov na hre.
-      Radného moc je úmerná počtu jeho nasledovníkov. Čím viac „lojality“
-      (vyjadrenej za pomoci špeciálnych žetónov) má, tým väčšie je jeho slovo
-      pri rozhodovaní v dedinskej rade a tým skôr sa dostáva na radu pri výbere
-      výsad pre svojich ľudí. Radný sa môže o lojalitu ostatných obyvateľov
-      Vlčích Skál uchádzať tým, že ich presvedčí svojim programom alebo im
-      ponúkne určité výhody alebo výsady.
-  - part_title: SLOBODNÉ POVOLANIA
-    part_description: "Existuje množstvo povolaní, ktoré je možné na LARPe
-      Kráľovstva Vína hrať bez potreby zásahu mechaniky pravidiel. Novinári,
-      úradníci, remeselníci, farmári, umelci... V týchto prípadoch je príprava z
-      veľkej časti na vás a na informovaní organizátorov o vašich prípadných
-      potrebách na zabezpečenie. "
+  - part_title: Na stránke sa pracuje.
+    part_description: Na stránke sa pracuje.
 errata_title: Errata pravidiel na rok 2025
 errata_description: Toto sa nikde nezobrazuje.
-errata_intro: TBD_Errata info
+errata_intro:
 errata_parts:
   - part_title: KŇAZ SA MENÍ NA DUCHOVÉHO
     part_description: "Bývalé povolanie kňaz sa ponovom nazýva DUCHOVNÝ a zo svedomí

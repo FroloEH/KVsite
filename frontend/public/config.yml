@@ -520,13 +520,21 @@ collections:
             - { label: 'Kultúry nadpis', name: 'cultures_header', widget: 'string' }
             - { label: 'Kultúry popis', name: 'cultures_body', widget: 'markdown' }
             - { label: 'Kultúry sekundárny popis', name: 'cultures_secondary_body', widget: 'markdown' }
+            - { label: 'Kultúry terciárny popis', name: 'cultures_tertiary_body', widget: 'markdown' }
             - { label: 'Kultúry obrázok', name: 'cultures_image', widget: 'image' }
-            - { label: 'Kultúry', name: 'cultures', widget: 'list', fields: [
+            - { label: 'Kráľovské kultúry', name: 'kralovske_kultury', widget: 'list', fields: [
                 { label: 'Názov', name: 'name', widget: 'string' },
                 { label: 'Popis', name: 'description', widget: 'markdown' },
                 { label: 'Obrázok', name: 'image', widget: 'image' },
               ]
             }
+            - { label: 'Ostatné kultúry', name: 'ostatne_kultury', widget: 'list', fields: [
+                { label: 'Názov', name: 'name', widget: 'string' },
+                { label: 'Popis', name: 'description', widget: 'markdown' },
+                { label: 'Obrázok', name: 'image', widget: 'image' },
+              ]
+            }
+
       - label: 'Contact settings and socials'
         name: 'contact-settings'
         file: 'frontend/src/content/pages/contact-settings.md'
