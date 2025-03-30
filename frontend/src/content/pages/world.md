@@ -266,11 +266,6 @@ druhy_karta_8_image: src/images/uploads/druh_ine.jpg
 # Kultúry
 cultures_header: Regióny a kultúry
 cultures_body: >- 
-  Na sekcii sa pracuje.
-
-cultures_image: src/images/uploads/plagaty.jpg
-
-cultures_secondary_body: >- 
   Vlčie skaly sa nachádzajú na území **Červenokamenskej vojvodiny**. Vďaka blízkosti hraníc s Vodárstvom je prvou a poslednou zastávkou cestovateľov z oboch smerov, vďaka čomu sa v danej oblasti stretávajú vplyvy z oboch kráľovstiev.\
   
   \
@@ -283,10 +278,53 @@ cultures_secondary_body: >-
   
   \
 
-  Táto atmosféra však priťahuje nádejných hrdinov z celého Kráľovstva – ak sa totiž chcete stať skutočným hrdinom a podarí sa vám to práve v Červenokamenskej vojvodine, tak to už niečo znamená. 
+  Táto atmosféra však priťahuje nádejných hrdinov z celého Kráľovstva – ak sa totiž chcete stať skutočným hrdinom a podarí sa vám to práve v Červenokamenskej vojvodine, tak to už niečo znamená.\
 
-cultures:
-  - name: Kráľovské kultúry
+  \
+
+  **Významné rody**\
+
+  **Hájničkovci**\
+
+  V tejto dobe v ťažkom postavení. No nie je to pre nich nič nové. Poloha ich územia a konflikt Kráľovstva s Vodárstvom tu už raz boli a vojvodina to prečkala. Preto nielen členovia rodu, ale celý kraj, stoja večne ostražití na stráži. Nieto divu, že práve tu sa pravidelne rodia neohrození hrdinovia konajúci legendami opradené skutky. Hájničkovci sa teda neboja ísť do každej výzvy s vierou jednoznačného víťazstva na ich strane. Lebo bez nich by ani žiadne nebolo.\
+
+  \
+
+  **Zachovci**\
+
+  Veľmi starý rod. Možno jeden z najstarších. Odkedy existujú zápisy o Kráľovstve vínnej révy, tak v nich vystupujú ako správcovia, kasteláni a úradníci v Červenokamenskej vojvodine. Zachovci sa pýšia tým, že poznajú každý kút tohto kraja. Vedia, kde je každý kopec, každá cesta, kde postaviť hrad a kde za hrad vydá chatrč. Kedy je čas na činy a kedy na premýšľanie. Vždy dokážu prísť s riešením. Je to hrdý, rozvážny a zdržanlivý rod, ktorý je hrdý na svoju pozíciu. Sú s ňou spokojní, kým ich nikto neohrozuje. Politicky, vojensky ani nábožensky.\
+
+  \
+
+  **Erdüdy**\
+
+  Sú silne patriarchálnou rodinou podporujúcou výhradne cirkev Praotcovu. Erdüdy veria, že práve oni boli Praotcom poverení dohľadom nad dodržiavaním zákonov. Kráľovských, ale predovšetkým cirkevných. Tie pre rod stoja na oveľa vyššom mieste. Každý slušný Praotcov veriaci má nárok na boží súd a božie rozhrešenie. A niet pozemského zákona, ktorý by mohol znamenať viac. Hoci by šlo o kráľovské zákony a nariadenia, ktoré si ctia a vyžadujú ich dodržiavanie.\
+  
+  \
+
+  **Rod Saether**\
+
+  Šľachtický rod pôvodom z ďalekého Dorn-Felderu, ktorého zástupkyňou vo Vlčích Skalách bola bývalá vladyka dediny Lady Violet.\
+
+  \
+
+  **Rod McEesh**\
+
+  Horali z rodu McEeshovcov žijú najmä vysoko v kopcoch Vysočiny rozprestierajúcej sa nad Vlčími skalami. Majú radi whisky, ovce a ľahko zarobený dukát, občas sa pripletú do podozrivých obchodov, no málokedy im niekto niečo dokáže. Mnohí príslušníci tohto rodu patria medzi chýrnych zbabelcov a naničhodných povaľačov. Tradične sú oblečení do červených károvaných kiltov a nosia barety s pierkom.\
+
+  \
+
+  **Rod Neronethi**\
+
+  História rodu Neronethi siaha do dôb spred založenia Kráľovstva. Do tejto časti zeme prišli s cieľom zachrániť mladú vznešenú elfku, nevestu najstaršieho syna hlavy rodu, ktorý výpravu viedol. Podarilo sa im to, no nikdy sa už z Fragumndských lesov nevrátili. Elfom rodu Neronethi údajne prúdi v krvi stará mágia a patria medzi najvznešenejších elfov v kráľovstve. Od slávneho cestovateľa a dobrého priateľa kráľa, baróna Rozentramína, získali písomné uznanie svojho postavenia medzi šľachtou kráľovstva. Po opätovnom potvrdení tohto stavu vojvodom Hájničkom dostali od neho dokonca aj správu nad stále divokými Fragmundskými lesmi, kde v priebehu rokov zjednocujú jednotlivé elfské kmene a opätovne objavujú svoju zašlú slávu. 
+
+cultures_secondary_body: >- 
+  V Kráľovstve ďalej nájdeme štyri veľké vojvodiny, ktoré sa vyznačujú vlastnou kultúrou.
+
+cultures_image: src/images/uploads/plagaty.jpg
+
+kralovske_kultury:
+  - name: Kráľovské mesto
     description: >-
       **Kultúra Kráľovského mesta**\
       
@@ -298,10 +336,37 @@ cultures:
 
       \
       
-      Mešťanov – či už šľachticov alebo obyčajných sedliakov – však spája aj neochvejná oddanosť kráľovi Patajovi, ktorý už niekedy určite navštívil ich sídlo, kláštor či statok (a ak nie, sľúbil, že to urobí) a nespochybniteľná viera v Praotca. V otázke lojality či viery nenájdete v celom Kráľovstve nikoho, kto by za ne bojoval so silnejším zápalom.\
+      Mešťanov – či už šľachticov alebo obyčajných sedliakov – však spája aj neochvejná oddanosť kráľovi Patajovi, ktorý už niekedy určite navštívil ich sídlo, kláštor či statok (a ak nie, sľúbil, že to urobí) a nespochybniteľná viera v Praotca. V otázke lojality či viery nenájdete v celom Kráľovstve nikoho, kto by za ne bojoval so silnejším zápalom.
+
+
+      **Významné rody**\
+
+      **Rod Šuhajovcov**\
+
+      Bohatý a vplyvný rod, z ktorého pochádzali kráľovskí správcovia. V priebehu rokov vybudovali na kráľovskom dvore masívny byrokratický aparát a zbohatli a výrobou a predajom papiera, ktorého recept si úzkostlivo strážia. Hlava rodu, Pataj I. je súčasným kráľom Kráľovstva vínnej révy, s čím niektorí šľachtici nesúhlasia, pretože rod Šuhajovcov ako jediný z významných rodov nepatrí medzi staré vinárske rody.\
+      
+      \
+
+      **Rod Rosentramínovcov**\
+
+      Starobylý rod, ktorý odvodzuje svoj pôvod z rytierskej družiny prvého panovníka v kráľovstve. Majú veľmi dobré kontakty medzi rôznymi šľachticmi a patria medzi uznávaných diplomatov. Väčšina bohatstva tohto rodu pochádza z umeleckých predmetov, prastarých artefaktov a listín. Sú známymi mecenášmi a arbitrami elegancie, ktorým údajne koluje v žilách elfská krv. V podstate stvorili a ovládajú veľkú Kráľovskú burzu.\
 
       \
 
+      **Rod Vasilovcov**\
+
+      Jeden z mála rodov, ktorý udržiava čistú (vinársku) pokrvnú líniu už od počiatkov kráľovstva. Vasilovci majú veľké sídlo na Révovej ulici v hlavnom meste kráľovstva. Sú známi najmä tým, že vlastnia obrovské pozemky v Žitnej nížine, ktoré prenajímajú obyčajným ľuďom. Rodina Vasilovcov je dlhoročným sponzorom Gildy mechanikov.\
+
+      \
+
+      **Rod Pretzelmayerovcov**\
+
+      Nenápadný vinársky rod, ktorý za posledné dve generácie výrazne zbohatol. Ich zisky pochádzajú hlavne z lokalít, ktoré výrazne postihoval mor. Pretzelmayerovci sa snažia udržiavať priateľské vzťahy s významnejšími šľachticmi, čo im umožňuje obchodovať po celom kráľovstve. Mnohí ich upodozrievajú z obchodných podvodov a zločinov, ale nikdy im nebolo nič dokázané.
+
+    image: src/images/uploads/plagaty.jpg
+
+  - name: Rizlingdorf
+    description: >-
       **Rizlingdorfská kultúra**\
 
       Kultúra hrdých bojovníkov a námorníkov zo severu. O Rizlingdorfčanoch sa hovorí, že sú to majstri kamennej tváre, ktorí hrdo a vážne priložia ruku k akémukoľvek hodnotnému dielu. Milujú epické básne o hrdinských činoch a moreplavbe, predovšetkým tie severské, pretože severské básne – tak ako pravý Rizlingdorfčan - nikdy neklamú.\
@@ -311,7 +376,27 @@ cultures:
       Zároveň sa o nich vie, že sú poverčiví, a preto si dávajú ťažko vysloviteľné mená. Ich obľúbená farba je červená a pochutia si na všetkom od kyslého vína cez kyslé uhorky až po kyslý ksicht každého, kto si z týchto úctyhodných severanov skúsi vystreliť.\
       
       \
-      
+
+      **Významné rody**\
+
+      **Rod von Rizlingsdorf**\
+
+      Rod von Rizlingsdorf (Rizlingovci) patrí medzi hrdé a bojovné rody. Jeho synovia tradične študujú na vojenskej akadémii a stávajú sa vojvodcami a bojovníkmi. V súčasnosti velí patriarcha rodu Herbert najväčšej bojovej družine v celom kráľovstve. Dlhoročným zvykom u Rizlingovcov je konzumácia kyslých uhoriek, kyslej kapusty, smotany a najmä kyslého vína, čomu sú prisudzované kyslé výrazy tvárí na rodinných portrétoch.\
+
+      \
+
+      **Rod Grablhastovcov**\
+
+      Rod skvelých námorníkov a moreplavcov. Majú pod palcom hlavne lov veľrýb, ale tiež krčmy a verejné domy. Ostatné rody si od nich držia odstup pre ich blízky vzťah k spodine, ale málokto sa im to odváži povedať do očí, pretože sa o nich vie, že sú ostrejší než harpúna.\
+
+      \
+
+      **Rod Kumsmodovcov**\
+
+      Rod dnes známy svojou medovinou a liečivým medom. Ide však o prastarý rod, z ktorého pochádzalo mnoho slávnych hrdinov a dobrodruhov. Kumsmodovci sú tiež známi svojou lukostreleckou jednotkou zvanou Tisíc žihadiel. 
+    image: src/images/uploads/plagaty.jpg
+  - name: Al-Noreid
+    description: >-
       **Al-Noreidská kultúra**\
       
       Kultúra obchodníkov, cestovateľov, vynálezcov a výmyselníkov. Al-Noreidčania nevynechajú nič, čo je momentálne in, a to od 5G presýpačiek po kryptozlato. Neváhajú sa pustiť do čokohoľvek – všetko je predsa príležitosť zbohatnúť, ak nie finančne, tak aspoň osobnostne.\
@@ -325,16 +410,48 @@ cultures:
       Zaujímavosťou je ich láska k turnajom na každú životnú príležitosť, či už ide o turnaj narodeninový, zásnubný, svadobný alebo rozvodový.\
       
       \
-      
-      **Dorn-Felderská kultúra**\
-      
-      Kultúra vzdelancov, umelcov a znalcov mnohých cudzích slov ako „baktérie“ alebo „diskriminácia“, ktoré radi používajú v akomkoľvek kontexte. Dorn-Felderčanov poznáte vďaka ich someliérskemu prístupu k všetkému od drahých vín až po atrament v knihách (čuch, čuch). Sú všade, kde sa niečo deje, s obľubou klebetia a rozplývajú sa nad všetkým, v čom vidia umelecký potenciál, aj keď je to len blato pred krčmou.\
-      
+
+      **Významné rody**\
+
+      **Rod Aulitijovcov**\
+
+      Najbohatší rod v kráľovstve. Mnohé rody im vyčítajú, že sú viac obchodníci ako šľachtici a mnohí menovanie Aulitijovcov do funkcie správcov Al-Noreidu považujú za jediné chybné rozhodnutie kráľa Jana III. Ozývajú sa dokonca hlasy, že Aulitijovci sú prepojení s miestnym podsvetím a ich majetky majú v niektorých prípadoch pochybný pôvod.\
+
       \
-      
-      Títo majstri slov a diplomacie radi vymenia akékoľvek spory za príjemný večer nad vínom. Veria v lepšiu budúcnosť založenú na empatii a vzájomnej pomoci a snažia sa ísť svojím presvedčením príkladom. 
+
+      **Rod al Uma**\
+
+      Tento rod svoju vážnosť odvodzuje z bohatej tradície doktorov, filozofov a učencov. Jeho učitelia sa ujímajú výchovy mladých kráľov a bohatých šľachticov z celého kráľovstva. Nejeden šľachtic vďačí za svoje zdravie, vzdelanie a bohatstvo práve im. Hovorí sa, že v podzemí svojho sídla majú najväčšiu knižnicu v celom kráľovstve, no málokto má toľko šťastia, že sa do nej dostane.\
+
+      \
+
+      **Rod al Hazzali**\
+
+      Je jedným z najrozpínavejších rodov v Al-Noreide (a možno i v celom kráľovstve). Obchodujú s luxusným tovarom a ich flotila obchodných lodí je najväčšia v celom kráľovstve. Bohatstvo však vyvoláva závisť a mnohých členov z rodu obviňujú z paktovania s cudzincami a nečistými silami. 
 
     image: src/images/uploads/plagaty.jpg
+  - name: Dorn-Felder
+    description: >-
+     **Dorn-Felderská kultúra**\
+      Kultúra vzdelancov, umelcov a znalcov mnohých cudzích slov ako „baktérie“ alebo „diskriminácia“, ktoré radi používajú v akomkoľvek kontexte. Dorn-Felderčanov poznáte vďaka ich someliérskemu prístupu k všetkému od drahých vín až po atrament v knihách (čuch, čuch). Sú všade, kde sa niečo deje, s obľubou klebetia a rozplývajú sa nad všetkým, v čom vidia umelecký potenciál, aj keď je to len blato pred krčmou.
+
+      Títo majstri slov a diplomacie radi vymenia akékoľvek spory za príjemný večer nad vínom. Veria v lepšiu budúcnosť založenú na empatii a vzájomnej pomoci a snažia sa ísť svojím presvedčením príkladom.
+
+      **Významné rody**\
+      **Rod Merlotini**\
+      Bohatý a vznešený rod, ktorý spojil mestá Dorn a Felder do jedného. Obchodujú s vínom a vzácnymi pochutinami. Ich panstvom je nádherný zámok Belcol, azda najrozsiahlejšie a najprepychovejšie sídlo v celom kráľovstve. Tu majú takmer nekonečné sady a zbierku exotických rastlín a fantastických zverov.
+
+      **Bur Džaci**\
+      Zažili svojho času mnoho nešťastí a tragédii, ktoré ničili každú jednu ich generáciu. Odkedy sa však obrátili na vieru a venujú jej väčšinu svojej pozornosti, ich kliatba akoby pominula. Tento zázrak si ctia nadovšetko a svojou skúsenosťou osvecujú všetkých okolo seba. Pre nich nemá podstatnú hodnotu, koho osoba vyznáva, ale či a ako silno. Pretože len pod ochranou svojho boha môžem človek nájsť čistotu a spásu. A duševne čistý človek zlo konať nemôže.
+
+      **Rod di Selva**\
+      V dnešnej dobe ich nikto nepozná inak ako patrónov umenia a vedy. Dokonca je raritou, ak sa niekto v samotnom rode vydá iným smerom vo výbere povolania. Di Selva sú vďaka tomu veľmi obratní v kontakte s každou vrstvou spoločnosti. Na oplátku takto čerpajú inšpiráciu a informácie. Iní šľachtici v nich vidia skvelých informátorov a diplomatov. Navyše, čo sa týka umenia, niet lepších kritikov, znalcov a obchodníkov.
+    image: src/images/uploads/plagaty.jpg
+
+cultures_tertiary_body: >- 
+  Okrem týchto dominantných kultúr nájdeme v Kráľovstve aj obyvateľov susedného Vodárstva a kultúry jeho neľudských obyvateľov.
+
+ostatne_kultury:
   - name: Vodárske kultúry
     description: >-
       **Akvilónska kultúra**\

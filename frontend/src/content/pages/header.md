@@ -3,10 +3,8 @@ header_1st_column_header: LARP Kráľovstvo
 header_1st_column_links:
   - link_text: Leto 2025
     link_target: /larp-event
-  - link_text: Všeobecné pravidlá
-    link_target: /vseobecne-pravidla-2023.pdf
-  - link_text: Povolania
-    link_target: /špeciálne-pravidlá-2024.pdf
+  - link_text: Pravidlá
+    link_target: /larp-rules
 header_2nd_column_header: Bojovka Hranica
 header_2nd_column_links:
   - link_text: Jeseň 2022
