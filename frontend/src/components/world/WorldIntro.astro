@@ -2,6 +2,7 @@
 import DynamicImage from '../shared/DynamicImage.astro'
 import * as content from '../../content/pages/world.md'
 import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
+import AccordionItem from '../shared/AccordionItem.astro'
 ---
 
 <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem]'>
@@ -16,6 +17,20 @@ import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
 <div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
   <h2 class='font-large pb-3 pl-0 text-5xl'>{content.frontmatter.vlcie_skaly_header}</h2>
   <StyledMarkdownFullWidth of={content.frontmatter.vlcie_skaly_text} />
+</div>
+
+<!-- Vodári Vlčích skalách -->
+<div class='mx-auto max-w-screen-xl pb-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <AccordionItem
+    title={content.frontmatter.kralovstvo_header}
+    text={content.frontmatter.kralovstvo_body}
+    image={content.frontmatter.kralovstvo_image}
+  />
+  <AccordionItem
+    title={content.frontmatter.vodari_header}
+    text={content.frontmatter.vodari_body}
+    image={content.frontmatter.vodari_image}
+  />
 </div>
 
 <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
