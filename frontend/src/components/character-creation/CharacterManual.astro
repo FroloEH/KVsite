@@ -1,0 +1,66 @@
+---
+import * as content from '../../content/pages/character-creation.md'
+import DynamicImage from '../shared/DynamicImage.astro'
+import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
+---
+
+<div class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h2 class='font-large pb-3 pl-0 text-5xl'>{content.frontmatter.manualTitle}</h2>
+</div>
+
+<!-- Intro -->
+<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] my-4'>
+  <DynamicImage src={content.frontmatter.manualIntroImage} class:list={'object-cover object-center shadow-inner'} />
+</div>
+<div class='mx-auto max-w-screen-xl px-4 pt-8 pb-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.manualSubtitle}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.manualIntro} />
+</div>
+
+<div
+  class='mx-2 max-w-screen-xl p-4 sm:px-6 sm:py-12 lg:px-8 bg-yellow-50 rounded-lg shadow-sm border-yellow-500 border-2'
+>
+  <StyledMarkdownFullWidth of={content.frontmatter.manualIntroNewPlayerTip} />
+</div>
+
+<!-- Druhy -->
+<div class='mx-auto max-w-screen-xl px-4 pt-8 pb-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.racesHeader}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.racesBody} />
+</div>
+
+<div
+  class='mx-2 max-w-screen-xl p-4 sm:px-6 sm:py-12 lg:px-8 bg-yellow-50 rounded-lg shadow-sm border-yellow-500 border-2'
+>
+  <StyledMarkdownFullWidth of={content.frontmatter.racesNewPlayerTip} />
+</div>
+
+<!-- Kultúry -->
+<div class='mx-auto max-w-screen-xl px-4 pt-8 pb-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.culturesHeader}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.culturesIntro} />
+  <h4 class='font-large my-2 text-2xl'>{content.frontmatter.kingdomCulturesHeader}</h4>
+  <StyledMarkdownFullWidth of={content.frontmatter.kingdomCulturesBody} />
+  <h4 class='font-large my-2 text-2xl'>{content.frontmatter.akvilonianHeader}</h4>
+  <StyledMarkdownFullWidth of={content.frontmatter.akvilonianBody} />
+  <h4 class='font-large my-2 text-2xl'>{content.frontmatter.raceCultureHeader}</h4>
+  <StyledMarkdownFullWidth of={content.frontmatter.raceCultureBody} />
+</div>
+
+<!-- Povolanie -->
+<div class='mx-auto max-w-screen-xl px-4 pt-8 pb-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.classesHeader}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.classesBody} />
+</div>
+
+<!-- Ďalšie otázky -->
+<div class='mx-auto max-w-screen-xl px-4 pt-8 pb-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.furtherQuestionsHeader}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.furtherQuestionsBody} />
+</div>
+
+<!-- Kráľ -->
+<div class='mx-auto max-w-screen-xl px-4 pt-8 pb-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.kingHeader}</h3>
+  <StyledMarkdownFullWidth of={content.frontmatter.kingBody} />
+</div>

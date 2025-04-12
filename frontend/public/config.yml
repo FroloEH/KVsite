@@ -535,6 +535,36 @@ collections:
               ]
             }
 
+      - label: 'Character creation'
+        name: 'character-creation'
+        file: 'frontend/src/content/pages/character-creation.md'
+        fields:
+          - { label: 'Nadpis', name: 'header', widget: 'string' }
+          - { label: 'Text', name: 'body', widget: 'markdown' }
+          - { label: 'Kód na vloženie', name: 'embedCode', widget: 'markdown' }
+          - { label: 'Nadpis manuálu', name: 'manualTitle', widget: 'string' }
+          - { label: 'Podnadpis manuálu', name: 'manualSubtitle', widget: 'string' }
+          - { label: 'Úvod manuálu', name: 'manualIntro', widget: 'markdown' }
+          - { label: 'Tip pre nových hráčov v úvode manuálu', name: 'manualIntroNewPlayerTip', widget: 'markdown' }
+          - { label: 'Úvodný obrázok manuálu', name: 'manualIntroImage', widget: 'image' }
+          - { label: 'Nadpis druhov', name: 'racesHeader', widget: 'string' }
+          - { label: 'Text o druhoch', name: 'racesBody', widget: 'markdown' }
+          - { label: 'Tip pre nových hráčov o druhoch', name: 'racesNewPlayerTip', widget: 'markdown' }
+          - { label: 'Nadpis kultúr', name: 'culturesHeader', widget: 'string' }
+          - { label: 'Úvod ku kultúram', name: 'culturesIntro', widget: 'markdown' }
+          - { label: 'Nadpis kráľovských kultúr', name: 'kingdomCulturesHeader', widget: 'string' }
+          - { label: 'Text o kráľovských kultúrach', name: 'kingdomCulturesBody', widget: 'markdown' }
+          - { label: 'Nadpis vodárskych kultúr', name: 'akvilonianHeader', widget: 'string' }
+          - { label: 'Text o vodárskych kultúrach', name: 'akvilonianBody', widget: 'markdown' }
+          - { label: 'Nadpis druhových kultúr', name: 'raceCultureHeader', widget: 'string' }
+          - { label: 'Text o druhových kultúrach', name: 'raceCultureBody', widget: 'markdown' }
+          - { label: 'Nadpis povolaní', name: 'classesHeader', widget: 'string' }
+          - { label: 'Text o povolaniach', name: 'classesBody', widget: 'markdown' }
+          - { label: 'Nadpis ďalších otázok', name: 'furtherQuestionsHeader', widget: 'string' }
+          - { label: 'Text o ďalších otázkach', name: 'furtherQuestionsBody', widget: 'markdown' }
+          - { label: 'Nadpis o kráľovi', name: 'kingHeader', widget: 'string' }
+          - { label: 'Text o kráľovi', name: 'kingBody', widget: 'markdown' }
+          
       - label: 'Contact settings and socials'
         name: 'contact-settings'
         file: 'frontend/src/content/pages/contact-settings.md'
