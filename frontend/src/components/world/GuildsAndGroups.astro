@@ -39,8 +39,8 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
   <StyledMarkdownFullWidth of={content.frontmatter.tabor_body} />
 </div>
 
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
-  <DynamicImage src={content.frontmatter.tabor_image} class:list={'object-cover object-center shadow-inner'} />
+<div class='relative overflow-hidden rounded-lg shadow-inner mb-8'>
+  <DynamicImage src={content.frontmatter.tabor_image} class:list={'object-contain object-center shadow-inner'} />
 </div>
 
 <!-- Peklo -->
@@ -49,7 +49,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
   <StyledMarkdownFullWidth of={content.frontmatter.peklo_body} />
 </div>
 
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+<div class='relative overflow-hidden rounded-lg shadow-inner mb-8'>
   <DynamicImage src={content.frontmatter.peklo_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 
@@ -59,7 +59,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
   <StyledMarkdownFullWidth of={content.frontmatter.nabozenstva_body} />
 </div>
 
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+<div class='relative overflow-hidden rounded-lg shadow-inner mb-8'>
   <DynamicImage src={content.frontmatter.nabozenstva_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 
@@ -80,7 +80,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
   <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.druhy_header}</h3>
 </div>
 
-<ViewTracker eventName='UspCards'>
+<ViewTracker eventName='druhy'>
   <section class='body-font text-gray-600'>
     <div class='container mx-auto py-12'>
       <div class='flex flex-row flex-wrap'>
@@ -102,9 +102,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
       </div>
     </div>
   </section>
-</ViewTracker>
 
-<ViewTracker eventName='UspCards'>
   <section class='body-font text-gray-600'>
     <div class='container mx-auto py-12'>
       <div class='flex flex-row flex-wrap'>
@@ -126,9 +124,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
       </div>
     </div>
   </section>
-</ViewTracker>
 
-<ViewTracker eventName='UspCards'>
   <section class='body-font text-gray-600'>
     <div class='container mx-auto py-12'>
       <div class='flex flex-row flex-wrap'>
@@ -153,7 +149,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
   <StyledMarkdownFullWidth of={content.frontmatter.cultures_body} />
 </div>
 
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
+<div class='relative overflow-hidden rounded-lg shadow-inner mb-8'>
   <DynamicImage src={content.frontmatter.cultures_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 

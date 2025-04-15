@@ -143,7 +143,7 @@ tabor_body: >-
   <br>Všetci obyvatelia tábora chápu, aká je príroda dôležitá, a snažia sa to dedinčanom pripomínať. Pomáhajú im v tom lesní bohovia **Lešij a Lesovik**, ktorých vďaka svojmu mimoriadnemu spojeniu s prírodou dokážu požiadať o pomoc.
   <br>
   <br>V blízkosti tábora sa ďalej nachádza lesný kruh s mnohými magickými vlastnosťami a posvätný haj, kam majú prístup iba kňazi lesných bytostí známi ako **druidi**. 
-tabor_image: src/images/uploads/lesovikdramatickyvykrik.jpg
+tabor_image: src/images/uploads/lesnytabor_klananie_sa_lesovikovi.jpg
 
 # Náboženstvá
 nabozenstva_header: Náboženstvá
