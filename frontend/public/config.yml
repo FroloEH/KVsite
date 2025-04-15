@@ -487,6 +487,10 @@ collections:
             - { label: 'Vodári nadpis', name: 'vodari_header', widget: 'string' }
             - { label: 'Vodári popis', name: 'vodari_body', widget: 'markdown' }
             - { label: 'Vodári obrázok', name: 'vodari_image', widget: 'image' }
+        #kráľovstvo
+            - { label: 'Kráľovstvo nadpis', name: 'kralovstvo_header', widget: 'string' }
+            - { label: 'Kráľovstvo popis', name: 'kralovstvo_body', widget: 'markdown' }
+            - { label: 'Kráľovstvo obrázok', name: 'kralovstvo_image', widget: 'image' }
         #Širší svet
             - { label: 'Širší svet nadpis', name: 'sirsi_svet_header', widget: 'string' }
             - { label: 'Širší svet text', name: 'sirsi_svet_body', widget: 'markdown' }

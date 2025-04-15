@@ -1,5 +1,5 @@
 ---
-intro_image: src/images/uploads/dedina_s_ľuďmi.jpg
+intro_image: src/images/uploads/les.jpg
 intro_header: Svet Kráľovstva
 intro_body: >-
   Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami
@@ -28,7 +28,11 @@ vlcie_skaly_text: >-
   
   \
 
-  Na dodržiavanie nariadení dedinskej rady dozerá **Vlčia stráž**. 
+  Na dodržiavanie nariadení dedinskej rady dozerá **Vlčia stráž**. \
+
+  \
+
+  Ešte v roku 1322 viedla **hranica medzi Akvilóniou a Kráľovstvom vinnej révy** presne ces stred dediny. No po troch rokoch hrôzovlády Lešija sa Vlčie Skaly a ich okolie stalo zemou nikoho.
 vlcie_skaly_image: src/images/uploads/plagaty.jpg
 
 # Cechy
@@ -139,7 +143,7 @@ tabor_body: >-
   <br>Všetci obyvatelia tábora chápu, aká je príroda dôležitá, a snažia sa to dedinčanom pripomínať. Pomáhajú im v tom lesní bohovia **Lešij a Lesovik**, ktorých vďaka svojmu mimoriadnemu spojeniu s prírodou dokážu požiadať o pomoc.
   <br>
   <br>V blízkosti tábora sa ďalej nachádza lesný kruh s mnohými magickými vlastnosťami a posvätný haj, kam majú prístup iba kňazi lesných bytostí známi ako **druidi**. 
-tabor_image: src/images/uploads/lesovikdramatickyvykrik.jpg
+tabor_image: src/images/uploads/lesnytabor_klananie_sa_lesovikovi.jpg
 
 # Náboženstvá
 nabozenstva_header: Náboženstvá
@@ -208,7 +212,7 @@ peklo_body: >-
 peklo_image: src/images/uploads/smrť_a_pekelníci.jpg
 
 # Vodári vo Vlčích skalách, krátky text o Vodároch, nie o histórii Vodárstva
-vodari_header: Vodári
+vodari_header: Akvilónia
 vodari_body: >-
   Hranica medzi Kráľovstvom a Akvilóniou, o ktorú sa obe strany už dlhé roky sporia, zhodou okolností prechádza práve okolím Vlčích skál. V roku 1322 sa po bitke o neďaleký priesmyk dokonca posunula **priamo do stredu dediny**, ktorá bola niekoľko mesiacov rozdelená medzi obe kráľovstvá, až kým v lete toho istého roku prírodný boh Lešij nevyhlásil, že obe časti dediny patria jemu.\
   
@@ -224,6 +228,23 @@ vodari_body: >-
   
   Vodárske komandá špehov a lojalistov, ktoré potajme pracujú na zvrhnutí **kráľa Pataja Šuhaja I.** a zjednotení obcoh kráľovstiev pod vládou **akvilónskeho kráľa Mikluša**, za posledných pár rokov nebolo vo Vlčích skalách veľmi vidieť. Znamená to, že odtiaľto odišli, alebo že sa veľmi dobre skrývajú? Pravdu zrejme odhalí len čas – a posúvanie kráľovstvo-vodárskej hranice. 
 vodari_image: src/images/uploads/vodari_piratka_s_flasou.jpg
+
+kralovstvo_header: Kráľovstvo vínnej révy
+kralovstvo_body: >-
+  Hranica medzi Kráľovstvom a Akvilóniou, o ktorú sa obe strany už dlhé roky sporia, zhodou okolností prechádza práve okolím Vlčích skál. V roku 1322 sa po bitke o neďaleký priesmyk dokonca posunula **priamo do stredu dediny**, ktorá bola niekoľko mesiacov rozdelená medzi obe kráľovstvá, až kým v lete toho istého roku prírodný boh Lešij nevyhlásil, že obe časti dediny patria jemu.\
+  
+  \
+  
+  Od ukončenia Lešijovej hrôzovlády v lete 1324 si nikto nie je celkom istý, kadiaľ hranica vedie. Neexistuje formálny výnos, ktorý by stanovoval, ktorá časť územia patrí na čiu stranu.\
+  
+  \
+
+  Nejednoznačnosť hranice nahráva predovšetkým Vodárom, ktorí v hojnom počte prúdia do blízkeho okolia. Vzťahy medzi nimi a miestnymi už dávno nie sú vyhrotené a Vodári, ktorí sa riadia dedinskými zákonmi, sú vo Vlčích skalách akceptovaní.\
+  
+  \
+  
+  Vodárske komandá špehov a lojalistov, ktoré potajme pracujú na zvrhnutí **kráľa Pataja Šuhaja I.** a zjednotení obcoh kráľovstiev pod vládou **akvilónskeho kráľa Mikluša**, za posledných pár rokov nebolo vo Vlčích skalách veľmi vidieť. Znamená to, že odtiaľto odišli, alebo že sa veľmi dobre skrývajú? Pravdu zrejme odhalí len čas – a posúvanie kráľovstvo-vodárskej hranice. 
+kralovstvo_image: src/images/uploads/vodari_piratka_s_flasou.jpg
 
 sirsi_svet_header: Širší svet
 sirsi_svet_body: Na sekcii sa pracuje. Bude obsahovať prehľad druhov, kultúr, šľachtických rodov, geografie Kráľovstva a históriu konfliktu so susedným Vodárstvom, ktorú píšete prostredníctvom bojoviek.
