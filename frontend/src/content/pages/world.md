@@ -1,5 +1,5 @@
 ---
-intro_image: src/images/uploads/dedina_s_ľuďmi.jpg
+intro_image: src/images/uploads/les.jpg
 intro_header: Svet Kráľovstva
 intro_body: >-
   Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami
