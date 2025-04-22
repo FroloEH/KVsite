@@ -566,6 +566,10 @@ collections:
           - { label: 'Text o povolaniach', name: 'classesBody', widget: 'markdown' }
           - { label: 'Nadpis ďalších otázok', name: 'furtherQuestionsHeader', widget: 'string' }
           - { label: 'Text o ďalších otázkach', name: 'furtherQuestionsBody', widget: 'markdown' }
+          - { label: 'Nadpis o skupinách', name: 'nabozenstvoHeader', widget: 'string' }
+          - { label: 'Text o skupinách', name: 'nabozenstvoBody', widget: 'markdown' }
+          - { label: 'Nadpis o skupinách', name: 'skupinaHeader', widget: 'string' }
+          - { label: 'Text o skupinách', name: 'skupinaBody', widget: 'markdown' }
           - { label: 'Nadpis o kráľovi', name: 'kingHeader', widget: 'string' }
           - { label: 'Text o kráľovi', name: 'kingBody', widget: 'markdown' }
           
