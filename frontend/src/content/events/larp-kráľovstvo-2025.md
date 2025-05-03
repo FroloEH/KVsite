@@ -5,7 +5,9 @@ place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
 image: src/images/uploads/dedina_s_ľuďmi.jpg
 subTitle: Čo je nové v Kráľovstve?
-annotation: Prázdno po Lešijovi? Veriaci, ktorí rastú ako huby po daždi? Mokré škvrny?
+annotation: >-
+  Lešijova krutovláda sa skončila, chaos však nie. Kataster sa stratil a hľadajú sa nové hranice.</br>
+  Medzi náboženstvami to vrie a lesom sa stále potulujú Lešijovi generáli. Oslavy Lesovzatia zrejme budú všetko, len nie pokojné.
 storyIntroText: Vlčie skaly, 1325
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava_cropped.jpg
 story1Title: Kde sa dvaja bijú...
