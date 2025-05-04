@@ -1,30 +1,26 @@
 ---
 import * as content from '../content/pages/home.md'
 import CardComponent from './shared/CardComponent.astro'
-import DynamicImage from './shared/DynamicImage.astro'
 import ViewTracker from './shared/ViewTracker.astro'
+import ThreeColumns from './shared/ThreeColumns.astro'
 ---
 
 <ViewTracker eventName='UspCards'>
-  <section class='body-font text-gray-600'>
-    <div class='container mx-auto py-12'>
-      <div class='flex flex-row flex-wrap'>
-        <CardComponent
-          title={content.frontmatter.usp1_header}
-          text={content.frontmatter.usp1_text}
-          image={content.frontmatter.usp1_image}
-        />
-        <CardComponent
-          title={content.frontmatter.usp2_header}
-          text={content.frontmatter.usp2_text}
-          image={content.frontmatter.usp2_image}
-        />
-        <CardComponent
-          title={content.frontmatter.usp3_header}
-          text={content.frontmatter.usp3_text}
-          image={content.frontmatter.usp3_image}
-        />
-      </div>
-    </div>
-  </section>
+  <ThreeColumns>
+    <CardComponent
+      title={content.frontmatter.usp1_header}
+      text={content.frontmatter.usp1_text}
+      image={content.frontmatter.usp1_image}
+    />
+    <CardComponent
+      title={content.frontmatter.usp2_header}
+      text={content.frontmatter.usp2_text}
+      image={content.frontmatter.usp2_image}
+    />
+    <CardComponent
+      title={content.frontmatter.usp3_header}
+      text={content.frontmatter.usp3_text}
+      image={content.frontmatter.usp3_image}
+    />
+  </ThreeColumns>
 </ViewTracker>
