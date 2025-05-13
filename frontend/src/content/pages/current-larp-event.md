@@ -13,7 +13,34 @@ ticketsText: >-
   Registračný formulár postavy dorazí na zadanú emailovú adresu po spustení registrácie postáv.<br/>
 
 
-  <b>Ak si sa stal obeťou technickej chyby a kúpil si si 1. marca v čase medzi 00.00 - 01.00 drahší lístok, vrátime ti na hre rozdiel v minciach do hernej krčmy.</b><h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
+  <b>Ak si sa stal obeťou technickej chyby a kúpil si si 1. marca v čase medzi 00.00 - 01.00 drahší lístok, vrátime ti na hre rozdiel v minciach do hernej krčmy.</b>
+  
+  <h3>Bežné vtáča</h3>
+  Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
+  <br>
+  Majstri sa ťa pokúsia prepojiť s inými hráčmi a rôznymi dejovými linkami. Ako postava s bežným lístkom sa môžeš pridať niektorej z veľkých skupín (ako je Cech dobrodruhov, Cech liečiteľov...), ktoré sú tradične od začiatku zapojené do deja. Ak prichádzaš do Vlčích skál bez skupiny, nasmerujú ťa k niečomu, čo by ťa mohlo zaujímať.
+  <br>
+  Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba. 
+  
+  <h3>Oneskorené vtáča</h3>
+  Po ukončení predaja bežných lístkov ponúkame už len špeciálny lístok, pri ktorom si vyberáš jednu z týchto troch rolí: strážnik, pekelník alebo dedinčan. 
+  <br>
+  Hra, ktorá ťa čaká, je v jadre rovnaká ako tá pre hráčov s bežným lístkom. Ako strážnik alebo pekelník sa môžeš zapájať do všetkého, čo je na hre pripravené. Niektoré dejové linky dokonca špecificky rátajú so zapojením týchto skupín.
+  <br>
+  Jediný rozdiel spočíva v tom, že o svojej postave nebudeš komunikovať s majstrom. Pred hrou dostaneš informácie o tom, čo sa v okolí deje, ale zapojenie do jednotlivých dejových liniek bude čisto na tebe. 
+  <br>
+  Tento lístok predávame až do začiatku hry a na svoju rolu sa nemusíš nijako pripravovať.
+  <br>
+  <br>
+  Ako <b>strážnik</b> budeš riešiť úlohy spojené s udržiavaním poriadku v dedine. Naši strážnici sú pojatí ako policajti alebo vojaci z parodických filmov. Pri hraní strážnika sa zabavíš na improvizovaní rôznych klišé. Dedinu v minulých ročníkoch napríklad strážila dvojica, ktorá chodila všade spolu, pretože iba jeden vedel čítať a iba jeden vedel písať, alebo trojica Dlhý, Široký a Bystro z Ráky.
+  <br>
+  <br>
+  Ako <b>pekelník</b> budeš „bývať“ v hernej lokácii Peklo, kam chodia mŕtve postavy. Pekelníci majú zoznam achievementov spojených s umieraním, ktoré sa snažia plniť, od jednoduchého „zomri v obkľúčení“ až po „zomri na svadbe“. Hranie pekelníka je o vtipných momentoch, ktoré nastanú, keď sa snažíš ostatných hráčov zmanipulovať tak, aby nastala situácia, v ktorej môžeš umrieť.
+  <br>
+  <br>
+  Ako <b>dedinčan</b> budeš mať svoju hru vo vlastných rukách. Môžeš sa spojiť s inými hráčmi, vyučiť sa nejakému povolaniu, pridať sa k už existujúcim skupinám alebo si založiť vlastnú. 
+  
+  <h3>Novinka: KŔDEĽ VTÁČAT</h3> Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
 
 
   • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude predherná komunikácia prebiehať iba cez jedného zástupcu<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
