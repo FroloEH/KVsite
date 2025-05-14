@@ -41,6 +41,7 @@ team_members:
   - Peter 'Pie' Buzáš
   - Michal 'Ismo' Dobrota
   - Richard 'Rišo' Frolkovič
+  - Michal 'Isky' Hrabovský
   - "Roman 'Vizi' Vizváry "
   - Veronika 'Verča' Blahová
   - Jonáš Jánsky
@@ -48,7 +49,6 @@ team_members:
   - Marek 'Horalka' Horanský
   - Peter 'Peťo' Patrnčiak
   - Filip Červenák
-  - Michal 'Isky' Hrabovský
 player_stories_header: Vaše príbehy
 player_stories_text: Menší výber príbehov od hráčov
 player_stories_collection:
