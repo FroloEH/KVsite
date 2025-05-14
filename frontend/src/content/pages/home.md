@@ -33,22 +33,22 @@ team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva očaril
 team_call_to_action_text: Chceš sa pridať do nášho organizačného tímu? Stačí
   napísať na kralovstvo@event-horizon.sk
 team_members:
+  - Marek 'Horalka' Horanský
   - Andrej 'Áčko' Sekáč
-  - Jakub 'Kub' Vojtko
   - Patrícia 'Paťa' Illichová
+  - Michal 'Isky' Hrabovský
   - "Ivana 'Ivka' Cingelová "
+  - Peter 'Peťo' Patrnčiak
   - Lukáš 'Elf' Reviľák
   - Peter 'Pie' Buzáš
   - Michal 'Ismo' Dobrota
+  - Jakub 'Kub' Vojtko
   - Richard 'Rišo' Frolkovič
   - "Roman 'Vizi' Vizváry "
   - Veronika 'Verča' Blahová
   - Jonáš Jánsky
   - Maroš Ďuratný
-  - Marek 'Horalka' Horanský
-  - Peter 'Peťo' Patrnčiak
   - Filip Červenák
-  - Michal 'Isky' Hrabovský
 player_stories_header: Vaše príbehy
 player_stories_text: Menší výber príbehov od hráčov
 player_stories_collection:
