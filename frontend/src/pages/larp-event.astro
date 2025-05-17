@@ -6,6 +6,7 @@ import * as content from '../content/pages/current-larp-event.md'
 import { getCollection } from 'astro:content'
 import TicketRegistration from '../components/larp-event/TicketRegistration.astro'
 import RegistrationSteps from '../components/larp-event/RegistrationSteps.astro'
+import ChildrenGame from '../components/larp-event/ChildrenGame.astro'
 
 const eventColection = await getCollection(
   'events',
@@ -23,5 +24,6 @@ const event = eventColection[0].data
     <StoryInfo eventTitle={event.title} />
     <TicketRegistration />
     <RegistrationSteps />
+    <ChildrenGame />
   </div>
 </Layout>

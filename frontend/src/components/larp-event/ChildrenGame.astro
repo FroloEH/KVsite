@@ -1,0 +1,19 @@
+---
+import * as content from '../../content/pages/children-game.md'
+import DynamicImage from '../shared/DynamicImage.astro'
+import StyledMarkdownFullWidth from '../shared/StyledMarkdownFullWidth.astro'
+---
+
+<div class='flex flex-row flex-wrap content-start pb-20'>
+  <DynamicImage
+    src={content.frontmatter.image}
+    alt={content.frontmatter.header}
+    class='w-full md:w-1/2 rounded-lg shadow object-cover mb-8'
+  />
+  <div class='w-full md:w-1/2 px-4'>
+    <h2 class='font-large pb-3 pl-0 text-5xl'>{content.frontmatter.header}</h2>
+    <StyledMarkdownFullWidth of={content.frontmatter.text} />
+  </div>
+</div>
+
+<StyledMarkdownFullWidth of={content.frontmatter.steps} />
