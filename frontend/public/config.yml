@@ -739,4 +739,3 @@ collections:
       - { label: 'Nadpis', name: 'header', widget: 'string' }
       - { label: 'Obrázok', name: 'image', widget: 'image' }
       - { label: 'Text', name: 'text', widget: 'markdown' }
-      - { label: 'Postup', name: 'steps', widget: 'markdown'}
