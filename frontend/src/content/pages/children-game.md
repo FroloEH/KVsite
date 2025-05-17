@@ -1,13 +1,13 @@
 ---
 header: Detská hra
 image: src/images/uploads/dieta.jpg
-text: >-
+text: |-
   Milá naša rovesnícka generácia, chceli by ste znovu zájsť na LARP, ale babička vám práve nemôže postrážiť ratolesti? Alebo by ste ich chceli zobrať so sebou a predstaviť im LARP? Na Kráľovstve je to možné.
-  <br><br>
+  
   Pre deti do 10 rokov sme pripravili detskú hru, ktorú s pomocou rodičov vedie dedikovaný organizátor. Deti čakajú veku-primerané aktivity a vlastná dejová linka.
-  <br><br>
+  
   Deti do 10 rokov vstupné neplatia. Pri starších potomkoch máte na výber, či sa s vlastným lístkom zapoja do hlavného deja, alebo do detskej hry.
-  <br><br>
+  
 
   **Ako na to?**
 
