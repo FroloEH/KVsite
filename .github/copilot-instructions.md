@@ -15,5 +15,6 @@ We use single quotes for strings in JavaScript and TypeScript files, and double 
 We do not use semicolons at the end of lines in JavaScript and TypeScript files.
 We use 2 spaces for indentation in JavaScript and TypeScript files.
 Use as few comments as possible, and only when necessary.
+Use typesafe code, and use TypeScript types when possible.
 
 In agent mode you can verify the build with the command "npm run build".

@@ -13,6 +13,8 @@ ticketsText: >-
 
 ticketTypes:
   - title: Bežné vtáča
+    subheader: 'Bežný lístok zahŕňajúc príbehovú konzultáciu z majstrom.'
+    sale_end: '2025-05-20'
     text: >-
       Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
       <br>
@@ -20,6 +22,8 @@ ticketTypes:
       <br>
       Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba.
   - title: Oneskorené vtáča
+    subheader: 'Zjednodušené postavy, ktoré si nevyžadujú príbehovú konzultáciu.'
+    sale_end: '2025-07-23'
     text: >-
       Po ukončení predaja bežných lístkov ponúkame už len špeciálny lístok, pri ktorom si vyberáš jednu z týchto troch rolí: strážnik, pekelník alebo dedinčan. 
       <br>
@@ -38,6 +42,8 @@ ticketTypes:
       <br>
       Ako <b>dedinčan</b> budeš mať svoju hru vo vlastných rukách. Môžeš sa spojiť s inými hráčmi, vyučiť sa nejakému povolaniu, pridať sa k už existujúcim skupinám alebo si založiť vlastnú.
   - title: 'Novinka: KŔDEĽ VTÁČAT'
+    subheader: 'Zvýhodnené skupinové lístky.'
+    sale_end: ''
     text: >-
       Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
       • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude predherná komunikácia prebiehať iba cez jedného zástupcu<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy

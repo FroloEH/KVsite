@@ -412,6 +412,8 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Názov typu lístka', name: 'title', widget: 'string' }
+              - { label: 'Podnadpis typu lístka', name: 'subheader', widget: 'string', required: false }
+              - { label: 'Koniec predaja', name: 'sale_end', widget: 'datetime', required: false, hint: 'Dátum alebo čas, kedy končí predaj tohto typu lístka.' }
               - { label: 'Popis typu lístka', name: 'text', widget: 'markdown' }
           - { label: 'Obrázok pri registračných krokoch', name: 'registrationImage', widget: 'image' }
           - { label: 'Kroky registrácie', name: 'registration_steps', widget: 'list',

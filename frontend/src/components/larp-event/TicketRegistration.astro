@@ -32,7 +32,14 @@ const eventId = content.frontmatter.tootoot_id
             {
                 content.frontmatter.ticketTypes &&
                     content.frontmatter.ticketTypes.map((type, idx) => (
-                        <AccordionItem title={type.title} text={type.text} image='' key={idx} />
+                        <AccordionItem
+                            title={type.title}
+                            subheader={type.subheader}
+                            sale_end={type.sale_end}
+                            text={type.text}
+                            image=''
+                            key={idx}
+                        />
                     ))
             }
         </div>
