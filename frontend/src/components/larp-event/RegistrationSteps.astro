@@ -36,9 +36,14 @@ function sanitizeSvg(svg: string) {
 
 <ViewTracker eventName='RegistrationSteps'>
   <section class='text-zinc-600 body-font' aria-label='Registration Steps'>
-    <div class='container px-5 md:py-24 mx-auto flex flex-wrap'>
-      <div class='flex flex-wrap w-full'>
-        <div class='lg:w-2/5 md:w-1/2 md:pr-10 md:py-6' role='list'>
+    <div class='container md:py-20 mx-auto flex flex-wrap'>
+      <div class='flex flex-wrap w-full sm:flex-row-reverse'>
+        <DynamicImage
+          class='md:w-1/2 my-4 w-full object-cover object-center rounded-lg md:mt-0 mt-12'
+          src={content.frontmatter.registrationImage}
+          alt='step'
+        />
+        <div class='px-5 md:w-1/2 md:pr-10 md:py-6' role='list'>
           {
             steps.map((step, index) => (
               <div class='flex relative pb-12' role='listitem'>
@@ -74,11 +79,6 @@ function sanitizeSvg(svg: string) {
             ))
           }
         </div>
-        <DynamicImage
-          class='lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12'
-          src={content.frontmatter.registrationImage}
-          alt='step'
-        />
       </div>
     </div>
   </section>

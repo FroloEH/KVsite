@@ -731,3 +731,11 @@ collections:
       - { label: 'Nadpis', name: 'header', widget: 'string' }
       - { label: 'Titulný obrázok', name: 'cover_image', widget: 'image' }
       - { label: 'Text', name: 'text', widget: 'markdown' }
+
+  - label: 'Detská hra'
+    name: 'children-game'
+    file: 'frontend/src/content/pages/children-game.md'
+    fields:
+      - { label: 'Nadpis', name: 'header', widget: 'string' }
+      - { label: 'Obrázok', name: 'image', widget: 'image' }
+      - { label: 'Text', name: 'text', widget: 'markdown' }
