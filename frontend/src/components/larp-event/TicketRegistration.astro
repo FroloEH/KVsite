@@ -2,6 +2,7 @@
 import * as content from '../../content/pages/current-larp-event.md'
 import StyledMarkdown from '../shared/StyledMarkdown.astro'
 import ViewTracker from '../shared/ViewTracker.astro'
+import AccordionItem from '../shared/AccordionItem.astro'
 
 const eventId = content.frontmatter.tootoot_id
 ---
@@ -27,6 +28,21 @@ const eventId = content.frontmatter.tootoot_id
 <ViewTracker eventName='TicketDescription'>
     <div class='leading-relaxed text-base m-6'>
         <StyledMarkdown of={content.frontmatter.ticketsText} />
+        <div class='mt-8'>
+            {
+                content.frontmatter.ticketTypes &&
+                    content.frontmatter.ticketTypes.map((type, idx) => (
+                        <AccordionItem
+                            title={type.title}
+                            subheader={type.subheader}
+                            sale_end={type.sale_end}
+                            text={type.text}
+                            image=''
+                            key={idx}
+                        />
+                    ))
+            }
+        </div>
     </div>
 </ViewTracker>
 

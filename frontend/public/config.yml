@@ -407,6 +407,14 @@ collections:
           - { label: 'Id eventu v tootoot.fm', name: 'tootoot_id', widget: 'string', pattern: ['^[0-9a-f]{24}$', 'Must be a 24-character hexadecimal string'], hint: 'Napríklad: 65bd0d301b234e08804169cb, nájdeš ho v url konkrétneho eventu na tootoot stránke. Netreba login práva.' }
           - { label: 'Nadpis nad lístkami', name: 'ticketsTitle', widget: 'string', default: 'Lístky' }
           - { label: 'Text nad lístkami', name: 'ticketsText', widget: 'markdown' }
+          - label: 'Typy lístkov'
+            name: 'ticketTypes'
+            widget: 'list'
+            fields:
+              - { label: 'Názov typu lístka', name: 'title', widget: 'string' }
+              - { label: 'Podnadpis typu lístka', name: 'subheader', widget: 'string', required: false }
+              - { label: 'Koniec predaja', name: 'sale_end', widget: 'datetime', required: false, hint: 'Dátum alebo čas, kedy končí predaj tohto typu lístka.' }
+              - { label: 'Popis typu lístka', name: 'text', widget: 'markdown' }
           - { label: 'Obrázok pri registračných krokoch', name: 'registrationImage', widget: 'image' }
           - { label: 'Kroky registrácie', name: 'registration_steps', widget: 'list',
               fields: [
@@ -713,3 +721,13 @@ collections:
       - { label: 'Link', name: 'link', widget: 'string' }
       - { label: 'Link text', name: 'link_text', widget: 'string' }
       - { label: 'Active', name: 'active', widget: 'boolean' }
+
+  - name: 'our-story'
+    label: 'Náš príbeh'
+    folder: 'frontend/src/content/pages'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Nadpis', name: 'header', widget: 'string' }
+      - { label: 'Titulný obrázok', name: 'cover_image', widget: 'image' }
+      - { label: 'Text', name: 'text', widget: 'markdown' }

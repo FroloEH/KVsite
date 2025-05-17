@@ -1,5 +1,5 @@
 ---
 name: Jonáš Jánsky
 role: Majsterská kvasinka
-image: src/images/uploads/image-6-.png
+image: src/images/uploads/jonas.jpg
 ---

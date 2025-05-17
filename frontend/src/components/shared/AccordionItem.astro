@@ -7,18 +7,42 @@ interface Props {
   title: string
   text: string
   image: string
+  subheader?: string
+  sale_end?: string
 }
 
-const { title, text, image } = Astro.props
+const { title, text, image, subheader, sale_end } = Astro.props
+
+function getDaysLeft(saleEnd?: string): number | null {
+  if (!saleEnd) return null
+  const end = new Date(saleEnd)
+  const now = new Date()
+  // Zero out time for both dates for day-accurate diff
+  end.setHours(0, 0, 0, 0)
+  now.setHours(0, 0, 0, 0)
+  const diff = Math.ceil((end - now) / (1000 * 60 * 60 * 24))
+  return diff >= 0 ? diff : null
+}
+const daysLeft = getDaysLeft(sale_end)
 ---
 
 <div class='space-y-4 m-2'>
   <details
     class='group border-s-4 border-yellow-500 bg-zinc-100 shadow-sm p-6 [&_summary::-webkit-details-marker]:hidden radius-lg'
   >
-    <summary class='flex cursor-pointer items-center justify-between gap-1.5'>
-      <h5 class='text-lg font-medium text-zinc-900'>{title}</h5>
-
+    <summary class='flex items-center justify-between gap-1.5'>
+      <div class='sm:w-1/2 w-full'>
+        <h5 class='text-lg font-medium text-zinc-900'>{title}</h5>
+        {subheader && <div class='text-sm text-zinc-600 hidden sm:block'>{subheader}</div>}
+      </div>
+      {
+        daysLeft !== null && (
+          <div class='flex flex-col items-end w-32 ml-4'>
+            <span class='text-4xl font-bold text-yellow-700 leading-none'>{daysLeft}</span>
+            <span class='text-xs text-yellow-700 text-right'>dní do konca predaja</span>
+          </div>
+        )
+      }
       <span class='shrink-0 rounded-full bg-zinc-100 p-1.5 text-zinc-900 sm:p-3'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -35,10 +59,18 @@ const { title, text, image } = Astro.props
     </summary>
 
     <div class='flex flex-col md:flex-row gap-4'>
-      <div class='md:w-1/2 flex pt-2'>
-        <StyledMarkdownFullWidth of={text} />
-      </div>
-      <DynamicImage src={image} class='h-80 object-center object-cover md:w-1/2 flex rounded-md' />
+      {
+        image ?
+          <>
+            <div class='md:w-1/2 flex pt-2'>
+              <StyledMarkdownFullWidth of={text} />
+            </div>
+            <DynamicImage src={image} class='h-80 object-center object-cover md:w-1/2 flex rounded-md' />
+          </>
+        : <div class='w-full flex pt-2'>
+            <StyledMarkdownFullWidth of={text} />
+          </div>
+      }
     </div>
   </details>
 </div>
