@@ -3,7 +3,7 @@ title: LARP Kráľovstvo 2025
 date: Tri dni hry, 23. - 26. júla 2025
 place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
-image: src/images/uploads/dedina_s_ľuďmi.jpg
+image: src/images/uploads/lesij_odchadza.jpg
 subTitle: Čo je nové v Kráľovstve?
 annotation: >-
   Lešijova krutovláda sa skončila, chaos však nie. Kataster sa stratil a hľadajú sa nové hranice.</br>
