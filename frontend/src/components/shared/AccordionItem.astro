@@ -35,10 +35,18 @@ const { title, text, image } = Astro.props
     </summary>
 
     <div class='flex flex-col md:flex-row gap-4'>
-      <div class='md:w-1/2 flex pt-2'>
-        <StyledMarkdownFullWidth of={text} />
-      </div>
-      <DynamicImage src={image} class='h-80 object-center object-cover md:w-1/2 flex rounded-md' />
+      {
+        image ?
+          <>
+            <div class='md:w-1/2 flex pt-2'>
+              <StyledMarkdownFullWidth of={text} />
+            </div>
+            <DynamicImage src={image} class='h-80 object-center object-cover md:w-1/2 flex rounded-md' />
+          </>
+        : <div class='w-full flex pt-2'>
+            <StyledMarkdownFullWidth of={text} />
+          </div>
+      }
     </div>
   </details>
 </div>
