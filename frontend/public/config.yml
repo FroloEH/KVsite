@@ -721,3 +721,13 @@ collections:
       - { label: 'Link', name: 'link', widget: 'string' }
       - { label: 'Link text', name: 'link_text', widget: 'string' }
       - { label: 'Active', name: 'active', widget: 'boolean' }
+
+  - name: 'our-story'
+    label: 'Náš príbeh'
+    folder: 'frontend/src/content/pages'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Nadpis', name: 'header', widget: 'string' }
+      - { label: 'Titulný obrázok', name: 'cover_image', widget: 'image' }
+      - { label: 'Text', name: 'text', widget: 'markdown' }

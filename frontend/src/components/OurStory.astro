@@ -1,0 +1,12 @@
+---
+import * as content from '../content/pages/our-story.md'
+import ParagraphWithHeader from './shared/ParagraphWithHeader.astro'
+import DynamicImage from './shared/DynamicImage.astro'
+---
+
+<DynamicImage
+  src={content.frontmatter.cover_image}
+  alt={content.frontmatter.header}
+  class='w-full rounded-lg shadow object-cover'
+/>
+<ParagraphWithHeader header={content.frontmatter.header} body={content.frontmatter.text} />

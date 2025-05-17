@@ -13,7 +13,7 @@ interface Props {
 
 const { title, text, image, subheader, sale_end } = Astro.props
 
-function getDaysLeft(saleEnd) {
+function getDaysLeft(saleEnd?: string): number | null {
   if (!saleEnd) return null
   const end = new Date(saleEnd)
   const now = new Date()

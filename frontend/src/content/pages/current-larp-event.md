@@ -11,26 +11,36 @@ ticketsText: >-
 
   <b>Ak si sa stal obeťou technickej chyby a kúpil si si 1. marca v čase medzi 00.00 - 01.00 drahší lístok, vrátime ti na hre rozdiel v minciach do hernej krčmy.</b>
 
+  <br>
+  <br>
+  Predherná registrácia tento rok prebieha <b>v stredu 23. júla popoludní a hra začína 24. júla ráno</b>.
+  <br><br>  
+  Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným súhlasom rodičov s účasťou dieťaťa na hre.
+  <br><br>
+  V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča.
+  <br><br>
+  Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj  včas e-mailom.
+
 ticketTypes:
   - title: Bežné vtáča
-    subheader: 'Bežný lístok zahŕňajúc príbehovú konzultáciu z majstrom.'
-    sale_end: '2025-05-20'
+    subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
+    sale_end: '2025-05-21'
     text: >-
       Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
-      <br>
+      <br><br>
       Majstri sa ťa pokúsia prepojiť s inými hráčmi a rôznymi dejovými linkami. Ako postava s bežným lístkom sa môžeš pridať niektorej z veľkých skupín (ako je Cech dobrodruhov, Cech liečiteľov...), ktoré sú tradične od začiatku zapojené do deja. Ak prichádzaš do Vlčích skál bez skupiny, nasmerujú ťa k niečomu, čo by ťa mohlo zaujímať.
-      <br>
+      <br><br>
       Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba.
   - title: Oneskorené vtáča
     subheader: 'Zjednodušené postavy, ktoré si nevyžadujú príbehovú konzultáciu.'
     sale_end: '2025-07-23'
     text: >-
-      Po ukončení predaja bežných lístkov ponúkame už len špeciálny lístok, pri ktorom si vyberáš jednu z týchto troch rolí: strážnik, pekelník alebo dedinčan. 
-      <br>
+      Po ukončení predaja bežných lístkov ponúkame už len špeciálny lístok, pri ktorom si vyberáš jednu z týchto troch rolí: <b>strážnik</b>, <b>pekelník</b> alebo <b>dedinčan</b>. 
+      <br><br>
       Hra, ktorá ťa čaká, je v jadre rovnaká ako tá pre hráčov s bežným lístkom. Ako strážnik alebo pekelník sa môžeš zapájať do všetkého, čo je na hre pripravené. Niektoré dejové linky dokonca špecificky rátajú so zapojením týchto skupín.
-      <br>
+      <br><br>
       Jediný rozdiel spočíva v tom, že o svojej postave nebudeš komunikovať s majstrom. Pred hrou dostaneš informácie o tom, čo sa v okolí deje, ale zapojenie do jednotlivých dejových liniek bude čisto na tebe. 
-      <br>
+      <br><br>
       Tento lístok predávame až do začiatku hry a na svoju rolu sa nemusíš nijako pripravovať.
       <br>
       <br>
@@ -45,13 +55,12 @@ ticketTypes:
     subheader: 'Zvýhodnené skupinové lístky.'
     sale_end: ''
     text: >-
-      Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br/>
-      • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude predherná komunikácia prebiehať iba cez jedného zástupcu<br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
+      Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br><br>
+      • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude <b>predherná komunikácia prebiehať iba cez jedného zástupcu</b><br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
+      <br><br>
       <b>Ako si kúpiť kŕdeľ vtáčat</b>:
-      • zadáš pri výbere lístka počet členov skupiny<br/>• vyplníš svoje údaje a emailovú adresu<br/>• zaplatíš všetky lístky</br>• po spustení registrácie postavy zašleme na tvoju adresu formulár pre každého člena tvojej skupiny<br>• ďalší hráč sa môžeš do tvojho kŕdľa pridať tým, že si kúpi štandardný lístok a dá nám vedieť, že patrí k vám<br/>• ak si už zakúpil lístok, ale chceš sa pridať ku kŕdľu vtáčat, daj nám o tom vedieť ty alebo šéf tvojho kŕdľa
-      Predherná registrácia tento rok prebieha v stredu 23. júla popoludní a hra začína 24. júla ráno.<br/>  
-      Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným súhlasom rodičov s účasťou dieťaťa na hre.<br/>V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča.
-      Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke.
+      <br>• zadáš pri výbere lístka počet členov skupiny<br/>• vyplníš svoje údaje a emailovú adresu<br/>• zaplatíš všetky lístky</br>• po spustení registrácie postavy zašleme na tvoju adresu formulár pre každého člena tvojej skupiny<br>• ďalší hráč sa môžeš do tvojho kŕdľa pridať tým, že si kúpi štandardný lístok a dá nám vedieť, že patrí k vám<br/>• ak si už zakúpil lístok, ale chceš sa pridať ku kŕdľu vtáčat, daj nám o tom vedieť ty alebo šéf tvojho kŕdľa
+
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
   - step_title: Kúpiš si lístok
@@ -64,7 +73,7 @@ registration_steps:
       </svg>
   - step_title: Tvorba postavy
     step_description: Po odštartovaní registrácie postavy (zhruba dva týždne po
-      spustení predaja lístkov) ti najneskôr na druhý deň príde email s
+      spustení predaja lístkov) ti najneskôr na druhý deň po kúpe lístka príde email s
       formulárom.
     step_icon: >-
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
