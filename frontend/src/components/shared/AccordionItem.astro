@@ -12,18 +12,6 @@ interface Props {
 }
 
 const { title, text, image, subheader, sale_end } = Astro.props
-
-function getDaysLeft(saleEnd?: string): number | null {
-  if (!saleEnd) return null
-  const end = new Date(saleEnd)
-  const now = new Date()
-  // Zero out time for both dates for day-accurate diff
-  end.setHours(0, 0, 0, 0)
-  now.setHours(0, 0, 0, 0)
-  const diff = Math.ceil((end - now) / (1000 * 60 * 60 * 24))
-  return diff >= 0 ? diff : null
-}
-const daysLeft = getDaysLeft(sale_end)
 ---
 
 <div class='space-y-4 m-2'>
@@ -36,9 +24,9 @@ const daysLeft = getDaysLeft(sale_end)
         {subheader && <div class='text-sm text-zinc-600 hidden sm:block'>{subheader}</div>}
       </div>
       {
-        daysLeft !== null && (
+        sale_end && (
           <div class='flex flex-col items-end w-32 ml-4'>
-            <span class='text-4xl font-bold text-yellow-700 leading-none'>{daysLeft}</span>
+            <span class='text-4xl font-bold text-yellow-700 leading-none' data-end-date={sale_end} />
             <span class='text-xs text-yellow-700 text-right'>dní do konca predaja</span>
           </div>
         )
@@ -74,3 +62,18 @@ const daysLeft = getDaysLeft(sale_end)
     </div>
   </details>
 </div>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-end-date]').forEach(function (el) {
+      const dateStr = el.getAttribute('data-end-date')
+      if (!dateStr) return
+      const end = new Date(dateStr)
+      const now = new Date()
+      end.setHours(0, 0, 0, 0)
+      now.setHours(0, 0, 0, 0)
+      const diff = Math.ceil((end - now) / (1000 * 60 * 60 * 24))
+      el.textContent = diff >= 0 ? diff.toString() : ''
+    })
+  })
+</script>
