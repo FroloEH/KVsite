@@ -18,7 +18,7 @@ ticketsText: >-
 ticketTypes:
   - title: Bežné vtáča
     subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
-    sale_end: '2025-05-21'
+    sale_end: '2025-05-31'
     text: >-
       Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
       <br><br>
