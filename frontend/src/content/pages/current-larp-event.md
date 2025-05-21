@@ -3,23 +3,17 @@ current_larp_event: LARP Kráľovstvo 2025
 tootoot_id: 67b1c25bd80b0c0d7bd954ee
 ticketsTitle: Lístky
 ticketsText: >-
-  Lístok si môžeš zakúpiť od **1. marca do 20. mája**. <br/>Bojíš sa, že
-  zabudneš? <a href="https://mailchi.mp/045a4f11a99d/kv-newsletter-page">Pošleme
-  ti pripomienku emailom.</a><br/>
-
-  Registračný formulár postavy dorazí na zadanú emailovú adresu po spustení registrácie postáv.<br/>
-
-  <b>Ak si sa stal obeťou technickej chyby a kúpil si si 1. marca v čase medzi 00.00 - 01.00 drahší lístok, vrátime ti na hre rozdiel v minciach do hernej krčmy.</b>
-
-  <br>
-  <br>
+  Po vypredaní lístku Bežné vtáča si až do akcie môžeš zakúpiť lístok <b>Jednoducho vtáča</b>, s ktorým môžeš hrať postavu dedinčana, strážnika alebo pekelníka. Viac o tomto type lístka nájdeš nižšie.
+  <br><br>
+  Prvých <b>5 lístkov pre strážnikov</b> a prvých <b>5 lístkov pre pekelníkov</b> si môžeš zakúpiť za akciovú cenu.
+  <br><br>
   Predherná registrácia tento rok prebieha <b>v stredu 23. júla popoludní a hra začína 24. júla ráno</b>.
   <br><br>  
   Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným súhlasom rodičov s účasťou dieťaťa na hre.
   <br><br>
   V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča.
   <br><br>
-  Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj  včas e-mailom.
+  Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj včas e-mailom.
 
 ticketTypes:
   - title: Bežné vtáča
@@ -31,7 +25,7 @@ ticketTypes:
       Majstri sa ťa pokúsia prepojiť s inými hráčmi a rôznymi dejovými linkami. Ako postava s bežným lístkom sa môžeš pridať niektorej z veľkých skupín (ako je Cech dobrodruhov, Cech liečiteľov...), ktoré sú tradične od začiatku zapojené do deja. Ak prichádzaš do Vlčích skál bez skupiny, nasmerujú ťa k niečomu, čo by ťa mohlo zaujímať.
       <br><br>
       Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba.
-  - title: Oneskorené vtáča
+  - title: Jednoducho vtáča
     subheader: 'Zjednodušené postavy, ktoré si nevyžadujú príbehovú konzultáciu.'
     sale_end: '2025-07-23'
     text: >-
