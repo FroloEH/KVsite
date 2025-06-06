@@ -5,8 +5,10 @@ interface Props {
   class?: string
   alt?: string
   lazy?: boolean
+  imageWidth?: number
+  imageHeight?: number
 }
-let { src: imageUrl, class: cssClass, alt, lazy } = Astro.props
+let { src: imageUrl, class: cssClass, alt, lazy, imageHeight, imageWidth } = Astro.props
 const imagePath = '/' + imageUrl.toLowerCase()
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/uploads/*.{jpeg,jpg,png,gif}')
 if (!images[imagePath])
@@ -29,4 +31,6 @@ const altText = alt || defaultAlt || 'Image'
   alt={altText}
   loading={lazy ? 'lazy' : 'eager'}
   decoding={lazy ? 'async' : 'sync'}
+  width={imageWidth || 0}
+  height={imageHeight || 0}
 />
