@@ -16,9 +16,9 @@ ticketsText: >-
   Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj včas e-mailom.
 
 ticketTypes:
-  - title: Bežné vtáča
+  - title: Bežné vtáča - posledné lístky!
     subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
-    sale_end: '2025-05-31'
+    sale_end: ''
     text: >-
       Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
       <br><br>
