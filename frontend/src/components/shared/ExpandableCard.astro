@@ -1,5 +1,6 @@
 ---
 import DynamicImage from './DynamicImage.astro'
+import StyledMarkdown from './StyledMarkdown.astro'
 
 interface Props {
   title: string
@@ -34,7 +35,7 @@ const { title, text, image } = Astro.props
       </summary>
 
       <p class='mb-3 leading-relaxed'>
-        {text}
+        <StyledMarkdown of={text} />
       </p>
     </details>
   </div>
