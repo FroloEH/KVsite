@@ -24,7 +24,31 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
 
 <!-- Spolky -->
 <ParagraphWithHeader header={content.frontmatter.groups_header} body={content.frontmatter.groups_body} />
-{groups.map((group) => <AccordionItem title={group.name} text={group.description} image={group.image} />)}
+
+<div class='mx-auto max-w-screen-xl px-4 pt-4 sm:px-6 lg:px-8'>
+</div>
+  <ThreeColumns>
+    <ExpandableCard
+      title={content.frontmatter.groups_1_header}
+      text={content.frontmatter.groups_1_body}
+      image={content.frontmatter.groups_1_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.groups_2_header}
+      text={content.frontmatter.groups_2_body}
+      image={content.frontmatter.groups_2_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.groups_3_header}
+      text={content.frontmatter.groups_3_body}
+      image={content.frontmatter.groups_3_image}
+    />
+    <ExpandableCard
+    title={content.frontmatter.groups_4_header}
+    text={content.frontmatter.groups_4_body}
+    image={content.frontmatter.groups_4_image}
+  />
+  </ThreeColumns>
 
 <!-- Tábor lesných bytostí -->
 <ParagraphWithHeader header={content.frontmatter.tabor_header} body={content.frontmatter.tabor_body} />

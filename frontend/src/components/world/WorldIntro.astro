@@ -3,6 +3,9 @@ import DynamicImage from '../shared/DynamicImage.astro'
 import * as content from '../../content/pages/world.md'
 import ParagraphWithHeader from '../shared/ParagraphWithHeader.astro'
 import AccordionItem from '../shared/AccordionItem.astro'
+import CardComponent from '../shared/CardComponent.astro'
+import ExpandableCard from '../shared/ExpandableCard.astro'
+import ThreeColumns from '../shared/ThreeColumns.astro'
 ---
 
 <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem]'>
@@ -12,19 +15,21 @@ import AccordionItem from '../shared/AccordionItem.astro'
 <ParagraphWithHeader header={content.frontmatter.intro_header} body={content.frontmatter.intro_body} />
 <ParagraphWithHeader header={content.frontmatter.vlcie_skaly_header} body={content.frontmatter.vlcie_skaly_text} />
 
-<!-- Vodári Vlčích skalách -->
-<div class='mx-auto max-w-screen-xl pb-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'>
-  <AccordionItem
-    title={content.frontmatter.kralovstvo_header}
-    text={content.frontmatter.kralovstvo_body}
-    image={content.frontmatter.kralovstvo_image}
-  />
-  <AccordionItem
-    title={content.frontmatter.vodari_header}
-    text={content.frontmatter.vodari_body}
-    image={content.frontmatter.vodari_image}
-  />
-</div>
+<!-- Kralovstvo a Vodarstvo -->
+<div class='mx-auto max-w-screen-xl px-4 pt-4 sm:px-6 lg:px-8'>
+  </div>
+  <ThreeColumns>
+    <CardComponent
+      title={content.frontmatter.kralovstvo_header}
+      text={content.frontmatter.kralovstvo_body}
+      image={content.frontmatter.kralovstvo_image}
+    />
+    <CardComponent
+      title={content.frontmatter.vodari_header}
+      text={content.frontmatter.vodari_body}
+      image={content.frontmatter.vodari_image}
+    />
+  </ThreeColumns>
 
 <div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
   <DynamicImage src={content.frontmatter.vlcie_skaly_image} class:list={'object-cover object-center shadow-inner'} />
