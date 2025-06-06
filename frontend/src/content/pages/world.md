@@ -12,18 +12,14 @@ intro_body: >-
   Všetkých obyvateľov Kráľovstva však spája hrdosť na víno a vinohrady, na ktoré si robí zálusk susedná **Akvilónia**, známa aj ako Vodárske kráľovstvo. Vodárstvo sníva o revolúcii, ktorú by do Kráľovstva prinieslo, o zalievaní vinohradov vodou z vodovodov, o miešaných nápojoch a ďalších moderných reformách.\
 
   \
-  
-  Pohraničná dedina **Vlčie skaly** je miesto, kde sa stretávajú verní občania Kráľovstva, inovátori aj špehovia z Vodárstva, ale hlavne dobrodruhovia z oboch strán.
+
+  Dobrodruhovia z oboch strán sa stretávajú na tom najneočakávanejšom mieste: v malej pohraničnej dedinke menom **Vlčie skaly**.
 
 vlcie_skaly_header: Vlčie skaly
 
 # V admin editore by sa malo zobrazovať políčko na editáciu _text, ale zobrazuje sa tam políčko na editáciu _body. Text z _body sa na stránke nezobrazuje.
 vlcie_skaly_body: NEZOBRAZUJE SA, ale je v admin editore
 vlcie_skaly_text: >-
-  Napohľad bezvýznamná dedina na okraji **Červenokamenskej vojvodiny** na seba neraz púta zrak celého Kráľovstva.\
-  
-  \
-
   Na čele dediny stojí od roku 1318 vladyka **André von Goldstein**, ktorý z poverenia pána Červenokamenského panstva udržiava v dedine poriadok. V tomto úsilí ho podporuje dedinská rada, ktorá pravidelne zasadá a rieši spolu s vladykom otázky fungovania dediny.\
   
   \
@@ -33,24 +29,24 @@ vlcie_skaly_text: >-
   \
 
   Ešte v roku 1322 viedla **hranica medzi Akvilóniou a Kráľovstvom vínnej révy** presne cez stred dediny. V lete toho istého roku však vládu nad dedinou prebral boh lovu Lešij, hranicu zrušil a prisvojil si obe polovice dediny. Od ukončenia jeho hrôzovlády v roku 1324 si nikto nie je istý, kadiaľ hranica viedla, a Vlčie skaly sa stali územím nikoho. 
-vlcie_skaly_image: src/images/uploads/plagaty.jpg
+vlcie_skaly_image: src/images/uploads/vlcie_skaly.jpg
 
+# Karty s odkazmi na reálie Kráľovstva a Akvilónie
 kralovstvo_header: Kráľovstvo vínnej révy
 kralovstvo_body: >-
-  Kráľovstvo je rozdelené na päť vojvodín a pýši sa rozsiahlym územím, rozmanitými kultúrami a bohatou históriou.\
+  Rozmanité tradíciami, kultúrami aj obyvateľmi. Staručký kráľ **Pataj Šuhaj I** pokladá akvilónskeho kráľa za vojnového štváča a rebela.\
 
   \
-  
-  Na jeho čele stojí staručký kráľ **Pataj Šuhaj I**. Akvilónskeho kráľa pokladá za vojnového štváča, rebela a veľmi nepríjemného človeka.
-kralovstvo_image: src/images/uploads/plagaty.jpg
+
+  Čítaj viac: REÁLIE KRÁĽOVSTVA.
+kralovstvo_image: src/images/uploads/kralovstvo_bitka.jpg
+
 vodari_header: Akvilónia
 vodari_body: >-
-  Kedysi vojvodina Kráľovstva, ktorá sa od neho odtrhla pre nezhody o nástupníctvo. Obe kráľovstvá sú odvtedy v dlhoročnej vojne.\
-  
-  \
-  
-  Akvilónsky kráľ **Mikluš I.** je priaznivcom pokroku a inovácií. Akvilónčania - známi aj ako Vodári - milujú vodu a všetko mokré od miešaných nápojov až po akvaparky, no predovšetkým milujú kráľa Mikluša.
-vodari_image: src/images/uploads/vodari_piratka_s_flasou.jpg
+  Bývalá vojvodina Kráľovstva, známa aj ako <b>Vodárstvo</b>. Akvilónčania milujú vodu a všetko mokré, no predovšetkým milujú pokrokového kráľa <b>Mikluša I.</b>
+  <br><br>
+  Čítaj viac: REÁLIE AKVILÓNIE.
+vodari_image: src/images/uploads/vodarstvo_piratka_s_flasou.jpg
 
 # Cechy
 guilds_header: Kráľovské cechy
@@ -130,7 +126,26 @@ guilds_groups_header: NEZOBRAZUJE SA, ale je v admin editore
 guilds_groups_body: NEZOBRAZUJE SA, ale je v admin editore
 
 groups_header: Spolky vo Vlčích skalách
-groups_body: Okrem veľkých cechov zohrávajú vo Vlčích skalách významnú rolu aj zástupcovia iných organizácii alebo miestne zoskupenia, ktoré všetci miestni dobre poznajú.
+groups_body: Okrem veľkých cechov zohrávajú vo Vlčích skalách významnú rolu aj zástupcovia iných organizácii alebo miestne zoskupenia.
+
+groups_1_header: Gilda mechanikov
+groups_1_body: Dedinu svojou návštevou pravidelne poctia zástupcovia Gildy mechanikov, nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov, či už v podobe dopravných prostriedkov, vojenskej a poľnohospodárskej techniky, alebo umelých ľudí. Vo Vlčích skalách príležitostne oživí golema. 
+groups_1_image: src/images/uploads/spolky_gilda_mechanikov.jpg
+
+groups_2_header: Svedkovia Fungusovi
+groups_2_body: Dedinu svojou návštevou pravidelne poctia zástupcovia Gildy mechanikov, nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov, či už v podobe dopravných prostriedkov, vojenskej a poľnohospodárskej techniky, alebo umelých ľudí. Vo Vlčích skalách príležitostne oživí golema. 
+groups_2_image: src/images/uploads/spolky_svedkovia_fungusovi.jpg
+
+groups_3_header: Škola tuniaka
+groups_3_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom. Slovami samotného Oskara Lapiducha - „Zbojníci združujú bez rozdielov všetky rasy, kultúry, národy, náboženstvá a bytosti tohto sveta. Sú výnimočnou charitatívnou organizáciou, ktorá ako jediná proaktívne rieši chudobu a nespravodlivé spoločenské pomery Vlčích skál. Niet v skutku vyššej cnosti, než byť zbojníkom.”
+groups_3_image: src/images/uploads/lod_kraca.jpg
+
+groups_4_header: Zbojnícka družina
+groups_4_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom. Slovami samotného Oskara Lapiducha - „Zbojníci združujú bez rozdielov všetky rasy, kultúry, národy, náboženstvá a bytosti tohto sveta. Sú výnimočnou charitatívnou organizáciou, ktorá ako jediná proaktívne rieši chudobu a nespravodlivé spoločenské pomery Vlčích skál. Niet v skutku vyššej cnosti, než byť zbojníkom.”
+groups_4_image: src/images/uploads/spolky_zbojnicka_druzina.jpg
+
+
+
 groups:
   - name: Gilda mechanikov
     description: >-
