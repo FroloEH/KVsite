@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params
 const articles = await getCollection('articles')
-const article = articles.find((a) => a.id === slug)
+const article = articles.find((a) => a.slug === slug)
 if (!article) {
   throw new Error(`Article not found: ${slug}`)
 }

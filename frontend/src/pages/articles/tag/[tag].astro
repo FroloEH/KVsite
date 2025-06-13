@@ -12,7 +12,7 @@ export async function getStaticPaths() {
       }
     }
   }
-  return Array.from(tagSet).map((tag) => ({ params: { tag } }))
+  return Array.from(tagSet).map((tag) => ({ params: { tag: encodeURIComponent(tag) } }))
 }
 
 const { tag } = Astro.params
