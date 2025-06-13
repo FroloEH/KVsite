@@ -6,8 +6,7 @@ const articles = await getCollection('articles')
 ---
 
 <Layout title='Články'>
-  <section class='max-w-3xl mx-auto py-12 px-4'>
-    <h1 class='text-4xl font-bold mb-8 text-center'>Články</h1>
+  <section class='px-4 bg-zinc-50 mx-auto max-w-5xl py-24'>
     <ul class='space-y-6'>
       {articles.length === 0 && <li class='text-gray-500'>Žiadne články zatiaľ neboli pridané.</li>}
       {
