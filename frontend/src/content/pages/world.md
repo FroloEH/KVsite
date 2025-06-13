@@ -34,18 +34,12 @@ vlcie_skaly_image: src/images/uploads/vlcie_skaly.jpg
 # Karty s odkazmi na reálie Kráľovstva a Akvilónie
 kralovstvo_header: Kráľovstvo vínnej révy
 kralovstvo_body: >-
-  Rozmanité tradíciami, kultúrami aj obyvateľmi. Staručký kráľ **Pataj Šuhaj I** pokladá akvilónskeho kráľa za vojnového štváča a rebela.\
-
-  \
-
-  Čítaj viac: REÁLIE KRÁĽOVSTVA.
+  Rozmanité tradíciami, kultúrami aj obyvateľmi. Staručký kráľ **Pataj Šuhaj I** pokladá akvilónskeho kráľa za vojnového štváča a rebela.
 kralovstvo_image: src/images/uploads/kralovstvo_bitka.jpg
 
 vodari_header: Akvilónia
 vodari_body: >-
-  Bývalá vojvodina Kráľovstva, známa aj ako <b>Vodárstvo</b>. Akvilónčania milujú vodu a všetko mokré, no predovšetkým milujú pokrokového kráľa <b>Mikluša I.</b>
-  <br><br>
-  Čítaj viac: REÁLIE AKVILÓNIE.
+  Bývalá vojvodina Kráľovstva, známa aj ako **Vodárstvo**. Akvilónčania milujú vodu a všetko mokré, no predovšetkým milujú pokrokového kráľa **Mikluša I.**
 vodari_image: src/images/uploads/vodarstvo_piratka_s_flasou.jpg
 
 # Cechy
@@ -129,19 +123,19 @@ groups_header: Spolky vo Vlčích skalách
 groups_body: Okrem veľkých cechov zohrávajú vo Vlčích skalách významnú rolu aj zástupcovia iných organizácii alebo miestne zoskupenia.
 
 groups_1_header: Gilda mechanikov
-groups_1_body: Dedinu svojou návštevou pravidelne poctia zástupcovia Gildy mechanikov, nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov, či už v podobe dopravných prostriedkov, vojenskej a poľnohospodárskej techniky, alebo umelých ľudí. Vo Vlčích skalách príležitostne oživí golema. 
+groups_1_body: Nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov - dopravných prostriedkov, vojenskej a poľnohospodárskej techniky aj umelých ľudí. Vo Vlčích skalách príležitostne oživí golema. 
 groups_1_image: src/images/uploads/spolky_gilda_mechanikov.jpg
 
 groups_2_header: Svedkovia Fungusovi
-groups_2_body: Dedinu svojou návštevou pravidelne poctia zástupcovia Gildy mechanikov, nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov, či už v podobe dopravných prostriedkov, vojenskej a poľnohospodárskej techniky, alebo umelých ľudí. Vo Vlčích skalách príležitostne oživí golema. 
+groups_2_body: Skupina hríboľudí prišla do Vlčích skál šíriť slovo prírodného boha Fungusa a hlásať rovnosť vo veľkom kolobehu prírody. Ich politickou hlavou je **Alexander Dubáček**.
 groups_2_image: src/images/uploads/spolky_svedkovia_fungusovi.jpg
 
 groups_3_header: Škola tuniaka
-groups_3_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom. Slovami samotného Oskara Lapiducha - „Zbojníci združujú bez rozdielov všetky rasy, kultúry, národy, náboženstvá a bytosti tohto sveta. Sú výnimočnou charitatívnou organizáciou, ktorá ako jediná proaktívne rieši chudobu a nespravodlivé spoločenské pomery Vlčích skál. Niet v skutku vyššej cnosti, než byť zbojníkom.”
+groups_3_body: Družina bojovných čárifukov a lovcov príšer sa priplavila do Vlčích skál na lodi **Kráčajúci Holanďan**. Ich viera v lesných duchov a ochranu rovnováhy ich vedie k loveniu monštier, rybárčeniu a dlhým filozofickým debatám.
 groups_3_image: src/images/uploads/lod_kraca.jpg
 
 groups_4_header: Zbojnícka družina
-groups_4_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom. Slovami samotného Oskara Lapiducha - „Zbojníci združujú bez rozdielov všetky rasy, kultúry, národy, náboženstvá a bytosti tohto sveta. Sú výnimočnou charitatívnou organizáciou, ktorá ako jediná proaktívne rieši chudobu a nespravodlivé spoločenské pomery Vlčích skál. Niet v skutku vyššej cnosti, než byť zbojníkom.”
+groups_4_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom.
 groups_4_image: src/images/uploads/spolky_zbojnicka_druzina.jpg
 
 
