@@ -40,12 +40,13 @@ const related = getRelatedArticles(article, articles)
 ---
 
 <Layout title='Kráľovská knižnica'>
-  <article class='prose flex flex-col md:flex-row md:gap-8 md:max-w-5xl bg-zinc-50 mx-auto max-w-5xl pt-36 pb-16 px-4'>
-    <div class='flex-1'>
-      <h2 class='text-3xl font-bold mb-2'>{data.title}</h2>
+  <article
+    class='prose flex flex-col-reverse md:flex-row md:gap-8 md:max-w-5xl bg-zinc-50 mx-auto max-w-5xl md:pt-36 py-16 px-4'
+  >
+    <div class='flex-1 px-8'>
+      <h2 class='font-large text-2xl font-bold'>{data.title}</h2>
       {data.description && <p class='mb-4 text-lg text-emerald-900'>{data.description}</p>}
       <StyledMarkdown of={body ? body : ''} />
-      {/* Less prominent date and tags below main text */}
       {
         (data.date || (data.tags && data.tags.length > 0)) && (
           <div class='mt-8 flex flex-col gap-2'>
@@ -53,7 +54,12 @@ const related = getRelatedArticles(article, articles)
             {data.tags && data.tags.length > 0 && (
               <div class='flex flex-wrap gap-2'>
                 {data.tags.map((tag: string) => (
-                  <span class='bg-emerald-50 text-emerald-500 px-2 py-1 rounded text-xs'>{tag}</span>
+                  <a
+                    href={`/articles/tag/${tag}/`}
+                    class='bg-emerald-50 text-emerald-800 px-2 py-1 rounded text-xs hover:bg-emerald-100 transition'
+                  >
+                    {tag}
+                  </a>
                 ))}
               </div>
             )}
@@ -63,13 +69,13 @@ const related = getRelatedArticles(article, articles)
     </div>
     {
       data.image && (
-        <div class='md:w-2/5 md:shrink-0 flex justify-center items-start mb-6 md:mb-0'>
+        <div class='md:w-2/5 md:shrink-0 flex justify-center items-start md:mb-0'>
           <DynamicImage src={data.image} alt={data.title} class='rounded-lg w-full max-h-96 object-cover' />
         </div>
       )
     }
   </article>
-  <section class='max-w-3xl mx-auto my-24'>
+  <section class='max-w-3xl mx-auto my-24 px-4'>
     <h2 class='text-2xl font-bold mb-4'>Súvisiace články</h2>
     <ul class='grid gap-4 md:grid-cols-3'>
       {

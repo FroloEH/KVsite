@@ -1,0 +1,50 @@
+---
+import Layout from '../../../layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles')
+  const tagSet = new Set<string>()
+  for (const article of articles) {
+    if (Array.isArray(article.data.tags)) {
+      for (const tag of article.data.tags) {
+        tagSet.add(tag)
+      }
+    }
+  }
+  return Array.from(tagSet).map((tag) => ({ params: { tag } }))
+}
+
+const { tag } = Astro.params
+const articles = await getCollection('articles')
+const filtered = articles.filter((a) => Array.isArray(a.data.tags) && a.data.tags.includes(tag))
+---
+
+<Layout title={`Články so štítkom: ${tag}`}>
+  <section class='px-4 bg-zinc-50 mx-auto max-w-5xl py-36'>
+    <h1 class='text-2xl font-bold mb-8'>Kategória: <span class='text-emerald-700'>{tag}</span></h1>
+    {filtered.length === 0 && <div class='text-gray-500'>Žiadne články s týmto štítkom.</div>}
+    <ul class='grid gap-8 md:grid-cols-2'>
+      {
+        filtered.map((article) => (
+          <li class='rounded-lg border border-zinc-200 bg-white shadow-sm hover:shadow-md transition p-0 flex flex-col h-full'>
+            <a href={`/articles/${article.id}/`} class='block h-full'>
+              {article.data.image && (
+                <img
+                  src={article.data.image}
+                  alt={article.data.title}
+                  class='rounded-t-lg w-full h-48 object-cover mb-0'
+                />
+              )}
+              <div class='p-5 flex flex-col h-full'>
+                <div class='text-emerald-800 font-semibold text-lg mb-1'>{article.data.title}</div>
+                {article.data.date && <div class='text-gray-400 text-xs mb-2'>{article.data.date}</div>}
+                {article.data.description && <div class='text-zinc-700 text-sm mb-3'>{article.data.description}</div>}
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>
