@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro'
 import StyledMarkdown from '../../components/shared/StyledMarkdown.astro'
 import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles')
@@ -15,13 +16,65 @@ if (!article) {
   throw new Error(`Article not found: ${slug}`)
 }
 const { data, body } = article
+
+// Find related articles by tag overlap, prefer newest
+function getRelatedArticles(
+  current: CollectionEntry<'articles'>,
+  all: CollectionEntry<'articles'>[],
+): CollectionEntry<'articles'>[] {
+  if (!current?.data?.tags) return all.filter((a) => a.id !== current.id).slice(0, 3)
+  return all
+    .filter((a) => a.id !== current.id)
+    .map((a) => ({
+      ...a,
+      tagScore: a.data.tags ? a.data.tags.filter((tag: string) => current.data.tags.includes(tag)).length : 0,
+    }))
+    .sort((a: any, b: any) => {
+      if (b.tagScore !== a.tagScore) return b.tagScore - a.tagScore
+      return new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+    })
+    .slice(0, 3)
+}
+const related = getRelatedArticles(article, articles)
 ---
 
 <Layout title={data.title}>
-  <article class='prose bg-zinc-50 mx-auto max-w-5xl py-24'>
+  <article class='prose mx-auto py-8'>
+    {data.image && <img src={data.image} alt={data.title} class='mb-6 rounded-lg w-full max-h-96 object-cover' />}
     <h1 class='text-3xl font-bold mb-2'>{data.title}</h1>
     {data.date && <p class='text-gray-500 text-sm mb-6'>{data.date}</p>}
+    {
+      data.tags && data.tags.length > 0 && (
+        <div class='mb-4 flex flex-wrap gap-2'>
+          {data.tags.map((tag: string) => (
+            <span class='bg-emerald-100 text-emerald-800 px-2 py-1 rounded text-xs'>{tag}</span>
+          ))}
+        </div>
+      )
+    }
     {data.description && <p class='mb-4 text-lg text-emerald-900'>{data.description}</p>}
     <StyledMarkdown of={body ? body : ''} />
   </article>
+  <section class='max-w-3xl mx-auto mt-12'>
+    <h2 class='text-2xl font-bold mb-4'>Súvisiace články</h2>
+    <ul class='grid gap-4 md:grid-cols-3'>
+      {
+        related.map((r) => (
+          <li class='border rounded-lg p-4 bg-zinc-50 hover:shadow'>
+            <a href={`/articles/${r.id}/`} class='font-semibold text-emerald-800 hover:underline'>
+              {r.data.title}
+            </a>
+            {r.data.date && <div class='text-gray-500 text-xs mt-1'>{r.data.date}</div>}
+            {r.data.tags && r.data.tags.length > 0 && (
+              <div class='mt-2 flex flex-wrap gap-1'>
+                {r.data.tags.map((tag: string) => (
+                  <span class='bg-emerald-50 text-emerald-700 px-1 py-0.5 rounded text-xs'>{tag}</span>
+                ))}
+              </div>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 </Layout>
