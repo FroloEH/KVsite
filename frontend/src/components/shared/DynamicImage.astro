@@ -9,10 +9,11 @@ interface Props {
   imageHeight?: number
 }
 let { src: imageUrl, class: cssClass, alt, lazy, imageHeight, imageWidth } = Astro.props
-const imagePath = '/' + imageUrl.toLowerCase()
+const imagePath = (imageUrl.startsWith('/') ? imageUrl.slice(1) : imageUrl).toLowerCase()
+const imageGlobPath = '/' + imagePath
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/uploads/*.{jpeg,jpg,png,gif}')
-if (!images[imagePath])
-  throw new Error(`"${imagePath}" does not exist in glob: "src/images/uploads/*.{jpeg,jpg,png,gif}"`)
+if (!images[imageGlobPath])
+  throw new Error(`"${imageGlobPath}" does not exist in glob: "src/images/uploads/*.{jpeg,jpg,png,gif}"`)
 
 if (lazy == undefined) lazy = true
 
@@ -26,7 +27,7 @@ const altText = alt || defaultAlt || 'Image'
 ---
 
 <Image
-  src={images[imagePath]()}
+  src={images[imageGlobPath]()}
   class={cssClass}
   alt={altText}
   loading={lazy ? 'lazy' : 'eager'}
