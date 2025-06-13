@@ -1,20 +1,25 @@
-Ignore the ./backend folder, unless explicitly asked about it.
-The backend is a REST API written in Node.js It is a monorepo with the frontend and backend in the same repository. The frontend is in the frontend folder, and the backend is in the backend folder.
+Ignore the ./backend folder unless explicitly asked about it.
+The backend is a REST API written in Node.js. This is a monorepo with both frontend and backend in the same repository. The frontend is in the frontend folder, and the backend is in the backend folder.
 
+The website uses Astro.js without any additional JavaScript frameworks.
+Styling is done with Tailwind CSS. Use Tailwind utility classes primarily; only use custom CSS when necessary.
+The website is static. Do not implement server-side rendering or client-side routing.
 
-The website is coded using Astro.js without any additional javascript framework.
-Styling is done with tailwind. The website is a static website. Mainly use tailwind utility classes, custom css is used only when necessary.
+Content is stored as markdown files in the frontend\src\content folder. The site is about a LARP event, so content covers the event, rules, and lore.
+The content structure is defined in frontend\public\config.yml (DecapCMS config).
+When modifying or adding content structure, always update config.yml accordingly.
+Create or update markdown files in frontend\src\content as needed, and reflect changes in config.yml.
 
-Content is stored in markdown files in the frontend\src\content folder. This is a website about a LARP event, so the content is mainly about the event, the rules, and the lore of the event. 
-The content structure is defined frontend\public\config.yml, which is a DecapCMS config file. 
-We are using DecapCMS, so when modifying or adding anything to the structure of the content files, we also need to modify the config.yml.
-Create the necessary content files in the frontend\src\content folder, and also modify the config.yml file to reflect the changes.
-The website is a static website, so there is no need to worry about server-side rendering or client-side routing.
+JavaScript and TypeScript files:
+- Use single quotes for strings.
+- Do not use semicolons at line ends.
+- Use 2 spaces for indentation.
+- Write typesafe code and use TypeScript types where possible.
+- Minimize comments; only add them when necessary.
 
-We use single quotes for strings in JavaScript and TypeScript files, and double quotes for HTML attributes.
-We do not use semicolons at the end of lines in JavaScript and TypeScript files.
-We use 2 spaces for indentation in JavaScript and TypeScript files.
-Use as few comments as possible, and only when necessary.
-Use typesafe code, and use TypeScript types when possible.
+HTML files:
+- Use double quotes for attribute values.
 
-In agent mode you can verify the build with the command "npm run build".
+Be concise. When showing code changes, use comments to represent unchanged code regions.
+
+To verify the build, use: npm run build
