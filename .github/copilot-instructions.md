@@ -20,6 +20,6 @@ JavaScript and TypeScript files:
 HTML files:
 - Use double quotes for attribute values.
 
-Be concise. When showing code changes, use comments to represent unchanged code regions.
+Be concise. When showing code changes, use comments only when the code is not self explenatory.
 
 To verify the build, use: cd frontend; npm run build
