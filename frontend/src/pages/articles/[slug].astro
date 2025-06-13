@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import StyledMarkdown from '../../components/shared/StyledMarkdown.astro'
+import { getEntry } from 'astro:content'
+
+export async function getStaticPaths() {
+  const articleFiles = await import.meta.glob('../../content/articles/*.md')
+  return Object.keys(articleFiles).map((file) => {
+    const slug = file.split('/').pop()?.replace('.md', '') ?? ''
+    return { params: { slug } }
+  })
+}
+
+const { slug } = Astro.params
+const article = await getEntry('articles', slug)
+if (!article) {
+  throw new Error(`Article not found: ${slug}`)
+}
+const { data, body } = article
+---
+
+<Layout title={data.title}>
+  <article class='prose mx-auto py-8'>
+    <h1 class='text-3xl font-bold mb-2'>{data.title}</h1>
+    {data.date && <p class='text-gray-500 text-sm mb-6'>{data.date}</p>}
+    {data.description && <p class='mb-4 text-lg text-emerald-900'>{data.description}</p>}
+    <StyledMarkdown of={body ? body : ''} />
+  </article>
+</Layout>

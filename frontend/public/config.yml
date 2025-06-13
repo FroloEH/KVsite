@@ -739,3 +739,16 @@ collections:
       - { label: 'Nadpis', name: 'header', widget: 'string' }
       - { label: 'Obrázok', name: 'image', widget: 'image' }
       - { label: 'Text', name: 'text', widget: 'markdown' }
+
+  - name: 'article'
+    label: 'Articles'
+    folder: 'frontend/src/content/articles'
+    preview_path: k-vsite-git-cms-article{{slug}}-froloehs-projects.vercel.app?via=pr-comment-visit-preview-link&passThrough=1
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

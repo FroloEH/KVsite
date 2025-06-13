@@ -22,4 +22,4 @@ HTML files:
 
 Be concise. When showing code changes, use comments to represent unchanged code regions.
 
-To verify the build, use: npm run build
+To verify the build, use: cd frontend; npm run build

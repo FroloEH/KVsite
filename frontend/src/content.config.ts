@@ -1,5 +1,5 @@
-import { z, defineCollection } from 'astro:content'
-
+import { z, defineCollection, reference } from 'astro:content'
+// ...existing code...
 const eventCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -21,7 +21,7 @@ const eventCollection = defineCollection({
     story3Text: z.string(),
   }),
 })
-
+// ...existing code...
 const partnersCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -30,7 +30,7 @@ const partnersCollection = defineCollection({
     link: z.string().url(),
   }),
 })
-
+// ...existing code...
 const teamCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -39,7 +39,7 @@ const teamCollection = defineCollection({
     role: z.string(),
   }),
 })
-
+// ...existing code...
 const storyCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -49,7 +49,7 @@ const storyCollection = defineCollection({
     event: z.string(),
   }),
 })
-
+// ...existing code...
 const galleryCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -60,7 +60,7 @@ const galleryCollection = defineCollection({
     })),
   }),
 })
-
+// ...existing code...
 const announcementCollection = defineCollection({
   type: 'content',
   schema: z.object({
@@ -71,7 +71,16 @@ const announcementCollection = defineCollection({
     active: z.boolean(),
   }),
 })
-
+// ...existing code...
+const articleCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.string(),
+    description: z.string().optional(),
+  }),
+})
+// ...existing code...
 export const collections = {
   events: eventCollection,
   partners: partnersCollection,
@@ -79,4 +88,5 @@ export const collections = {
   player_stories: storyCollection,
   gallery: galleryCollection,
   announcements: announcementCollection,
+  articles: articleCollection,
 }
