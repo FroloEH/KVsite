@@ -4,7 +4,7 @@ date: '2025-06-15'
 description: 'Základný text vierouky Praotcovej rodiny'
 image: '/src/images/uploads/list.jpg'
 tags:
-  - náboženstvo
+  - náboženstvá
   - Praotec
 ---
 

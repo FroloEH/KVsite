@@ -10,4 +10,4 @@ tags:
 
 Ôsmy vladyka Vlčích skál (1317 - 1318). Počas svojho pôsobenia uzákonil ochranu zebrodlaka na území Vlčích skál.
 
-Jeho jedinečný životný príbeh zaujal pekelných byrokratov, ktorí mu v roku 1323 ponúkli pracovnú pozície Smrte vo Vlčích skalách. Na tejto pozícii pôsobí dodnes.
+Jeho jedinečný životný príbeh zaujal pekelných byrokratov, ktorí mu v roku 1323 ponúkli pracovnú pozície Smrti vo Vlčích skalách. Na tejto pozícii pôsobí dodnes.

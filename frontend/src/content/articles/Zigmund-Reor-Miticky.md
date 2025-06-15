@@ -2,7 +2,7 @@
 title: 'Žigmund Reor Mitický'
 date: '2025-06-15'
 description: 'Alchymista a certifikovaný hrdina známy svojimi činmi z obdobia Lešijovej hrôzovlády (1322-1324)'
-image: '/src/images/uploads/žigmund_reor_mitický.jpg'
+image: '/src/images/uploads/zigmund_reor_miticky.jpg'
 tags:
   - šľachtici
   - VŠMU
