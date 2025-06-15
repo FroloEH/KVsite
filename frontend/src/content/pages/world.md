@@ -64,7 +64,7 @@ guilds:
 
       Pre viac informácií navštívte lokálneho garanta Mrkvičku, známeho aj pod skratkou GM.
 
-    image: src/images/uploads/image-6-.png
+    image: src/images/uploads/anon.jpg
   - name: Cech liečiteľov
     description: >-
       Liečitelia z **Červeného pohára** zachraňujú ranených, skúmajú choroby a prichádzajú s rôznymi „poľnými inováciami“. Miestni členovia zrušili úrad cechmajstra a o smerovaní cechu rozhodujú všetci spoločne.\
@@ -177,9 +177,9 @@ nabozenstva_body: >-
   Veriaci v Kráľovstve sa v otázke duchovného života uberajú jedným z troch smerov: k **panteónu Praotca**, k **monoteistickej viere v Myrmeka** alebo k **animistickým prírodným náboženstvám**.
 nabozenstva_image: src/images/uploads/nabozenstva_zehnanie_mitickeho.jpg
 nabozenstva:
-  - name: Cirkev Praotcova
+  - name: Praotcova rodina
     description: >-
-      Väčšina obyvateľov Kráľovstva vyznáva tradičnú vieru v **Praotca vínnej révy**, ktorý stvoril všetko živé a daroval svetu vinič a víno. Morálne hodnoty Cirkvi Praotcovej sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou. Za veľmi dobrý skutok sa považuje zdieľanie svojho vína s blížnymi.\
+      Väčšina obyvateľov Kráľovstva vyznáva tradičnú vieru v **Praotca vínnej révy**, ktorý stvoril všetko živé a daroval svetu vinič a víno. Morálne hodnoty Praotcovej rodiny sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou. Za veľmi dobrý skutok sa považuje zdieľanie svojho vína s blížnymi.\
 
       \
       
@@ -191,7 +191,7 @@ nabozenstva:
       
       \
 
-      Najväčším cirkevným sviatkom je **Sviatok otvorenia sudu Praotcovho**, ktorý sa slávi vždy uprostred zimy a býva spojený s veľkými oslavami a otváraním archívnych vín. Druhým významným sviatkom je **Sviatok bohatých viníc**, ktorý sa slávi v lete a jeho súčasťou sú modlitby prosiace o dobrú jesennú úrodu.   
+      Najväčším sviatkom je **Sviatok otvorenia sudu Praotcovho**, ktorý sa slávi vždy uprostred zimy a býva spojený s veľkými oslavami a otváraním archívnych vín. Druhým významným sviatkom je **Sviatok bohatých viníc**, ktorý sa slávi v lete a jeho súčasťou sú modlitby prosiace o dobrú jesennú úrodu.   
     
     image: src/images/uploads/nabozenstva_praotec.jpg
   - name: Jašteričí boh Myrmek

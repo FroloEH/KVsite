@@ -16,7 +16,7 @@ ticketsText: >-
   Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj včas e-mailom.
 
 ticketTypes:
-  - title: Bežné vtáča - posledné lístky!
+  - title: Bežné vtáča - vypredané!
     subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
     sale_end: ''
     text: >-
