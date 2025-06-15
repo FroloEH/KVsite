@@ -17,6 +17,8 @@ header_3rd_column_header: Kráľovstvo
 header_3rd_column_links:
   - link_text: Svet
     link_target: /world
+  - link_text: Kráľovská knižnica
+    link_target: /articles
   - link_text: O nás
     link_target: /about-us
 ---
