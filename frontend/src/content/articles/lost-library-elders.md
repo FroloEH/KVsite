@@ -6,9 +6,6 @@ image: '/src/images/uploads/peciatka_fpu.jpg.jpg'
 tags:
   - library
   - elders
-  - legend
-  - mountains
-  - wisdom
 ---
 
 Many have searched for the Lost Library, said to contain the wisdom of the ancients, but none have returned with proof.

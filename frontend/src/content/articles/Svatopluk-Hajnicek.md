@@ -4,7 +4,6 @@ date: '2025-06-15'
 description: 'Vojvoda z Červenokamenskej vojvodiny, hlava rodu Hájničkovcov'
 image: '/src/images/uploads/anon.jpg'
 tags:
-  - svetové udalosti
   - šľachtici
 ---
 
