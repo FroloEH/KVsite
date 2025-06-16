@@ -5,10 +5,11 @@ interface Props {
   class?: string
   alt?: string
   lazy?: boolean
+  hero?: boolean
   imageWidth?: number
   imageHeight?: number
 }
-let { src: imageUrl, class: cssClass, alt, lazy, imageHeight, imageWidth } = Astro.props
+let { src: imageUrl, class: cssClass, alt, lazy, imageHeight, imageWidth, hero } = Astro.props
 const imagePath = (imageUrl.startsWith('/') ? imageUrl.slice(1) : imageUrl).toLowerCase()
 const imageGlobPath = '/' + imagePath
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/uploads/*.{jpeg,jpg,png,gif}')
@@ -24,6 +25,12 @@ const defaultAlt = imagePath
   .replace(/-/g, ' ')
   .replace(/\b\w/g, (char) => char.toUpperCase())
 const altText = alt || defaultAlt || 'Image'
+
+const maxWitdh = hero ? 2048 : imageWidth || 1024
+const size1 = maxWitdh < 240 ? maxWitdh : 240
+const size2 = maxWitdh < 540 ? maxWitdh : 540
+const size3 = maxWitdh < 720 ? maxWitdh : 720
+const size4 = maxWitdh < 1024 ? maxWitdh : 1024
 ---
 
 <Image
@@ -34,4 +41,6 @@ const altText = alt || defaultAlt || 'Image'
   decoding={lazy ? 'async' : 'sync'}
   width={imageWidth}
   height={imageHeight}
+  widths={[size1, size2, size3, size4, maxWitdh]}
+  sizes={`(max-width: 240px) ${size1}px, (max-width: 540px) ${size2}px, (max-width: 720px) ${size3}px, (max-width: 1024px) ${size4}px, ${maxWitdh}px`}
 />
