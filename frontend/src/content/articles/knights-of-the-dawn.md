@@ -6,9 +6,6 @@ image: '/src/images/uploads/isky.jpg'
 tags:
   - knights
   - dawn
-  - order
-  - chivalry
-  - justice
 ---
 
 The Knights of the Dawn are known for their shining armor and unwavering sense of justice.

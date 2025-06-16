@@ -6,9 +6,6 @@ image: '/src/images/uploads/vodarstvo_piratka_s_flasou.jpg'
 tags:
   - river
   - maidens
-  - song
-  - legend
-  - danger
 ---
 
 The River Maidens sing to guide lost travelers, but some say their song can also lure the unwary to a watery grave.

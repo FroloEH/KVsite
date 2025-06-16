@@ -6,9 +6,6 @@ image: '/src/images/uploads/konspiraciesospicatymklobukom.jpg'
 tags:
   - prophecy
   - oracle
-  - vision
-  - fate
-  - kingdom
 ---
 
 The Oracle’s words are remembered by all: “When the twin moons meet, a new era will dawn.”

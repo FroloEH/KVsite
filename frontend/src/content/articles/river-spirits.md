@@ -6,9 +6,6 @@ image: '/src/images/uploads/lesnytabor_klananie_sa_lesovikovi.jpg'
 tags:
   - river
   - spirits
-  - offerings
-  - myth
-  - water
 ---
 
 Fishermen leave offerings to the river spirits, hoping for safe passage and bountiful catches.

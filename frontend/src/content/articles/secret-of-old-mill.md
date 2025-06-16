@@ -6,9 +6,6 @@ image: '/src/images/uploads/dom_umenia.jpg'
 tags:
   - mill
   - secret
-  - mystery
-  - village
-  - haunted
 ---
 
 Strange lights and noises come from the old mill at night. Some say it’s haunted, others believe it hides a treasure.

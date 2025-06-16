@@ -6,9 +6,6 @@ image: '/src/images/uploads/horalka.jpg'
 tags:
   - minstrel
   - song
-  - kingdom
-  - history
-  - legend
 ---
 
 The Minstrels’ Ballad is sung at every tavern, recounting the deeds of heroes and the tragedies of old.

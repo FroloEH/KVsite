@@ -6,9 +6,6 @@ image: '/src/images/uploads/cech_liecitelov.jpg'
 tags:
   - healer
   - grove
-  - sacred
-  - cure
-  - herbs
 ---
 
 Legends say the Healer’s Grove is blessed, and its herbs can cure any ailment if gathered with a pure heart.

@@ -6,9 +6,6 @@ image: '/src/images/uploads/elf.jpg'
 tags:
   - wolf
   - iron
-  - beast
-  - forest
-  - legend
 ---
 
 The Iron Wolf is both feared and revered, its howl said to bring storms and its fur to turn blades.

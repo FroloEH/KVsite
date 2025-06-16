@@ -6,9 +6,6 @@ image: '/src/images/uploads/maros.jpg'
 tags:
   - hermit
   - hills
-  - wisdom
-  - secrets
-  - recluse
 ---
 
 The Hermit is sought by those in need of guidance, though his answers are often riddles.

@@ -1,14 +1,15 @@
 ---
 title: 'Zirnitra Rosvodiz'
-date: '2025-06-15'
+date: '2025-06-16'
 description: 'Dcéra jašteričieho boha Myrmeka'
 image: '/src/images/uploads/zirnitra_rosvodiz.jpg'
 tags:
   - náboženstvá
   - Myrmek
+  - osobnosti
 ---
 
-Narodila sa ako dieťa ebenovej dračice Zir a boha **Myrmeka**. Myrmek ju po narodení zanechal pred dverami sedliackej rodiny svojich uctievačov aj s dostatkom peňaz na jej výchovu, ale viac sa k nej nepriznával.
+Narodila sa ako dieťa ebenovej dračice Zir a boha [**Myrmeka**](/articles/Cirkev-Myrmekova.md). Myrmek ju po narodení zanechal pred dverami sedliackej rodiny svojich uctievačov aj s dostatkom peňaz na jej výchovu, ale viac sa k nej nepriznával.
 
 Rodina ju prijala ako vlastnú, no rýchlo sa ukázalo, že nie je ako ostatní ľudia. Už ako ročná bola dostatone veľká a silná, aby pomáhala na poli. Ako dvojročná nevedomky začarovala svojich súrodencov, aby pracovali namiesto nej.
 
