@@ -5,6 +5,8 @@ The website uses Astro.js without any additional JavaScript frameworks.
 Styling is done with Tailwind CSS. Use Tailwind utility classes primarily; only use custom CSS when necessary.
 The website is static. Do not implement server-side rendering or client-side routing.
 
+When rendering images always use the DynamicImage.astro component.
+
 Content is stored as markdown files in the frontend\src\content folder. The site is about a LARP event, so content covers the event, rules, and lore.
 The content structure is defined in frontend\public\config.yml (DecapCMS config).
 When modifying or adding content structure, always update config.yml accordingly.

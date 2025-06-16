@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro'
 import { getCollection } from 'astro:content'
+import DynamicImage from '../../../components/shared/DynamicImage.astro'
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles')
@@ -12,7 +13,7 @@ export async function getStaticPaths() {
       }
     }
   }
-  return Array.from(tagSet).map((tag) => ({ params: { tag: encodeURIComponent(tag) } }))
+  return Array.from(tagSet).map((tag) => ({ params: { tag: tag } }))
 }
 
 const { tag } = Astro.params
@@ -30,10 +31,11 @@ const filtered = articles.filter((a) => Array.isArray(a.data.tags) && a.data.tag
           <li class='rounded-lg border border-zinc-200 bg-white shadow-sm hover:shadow-md transition p-0 flex flex-col h-full'>
             <a href={`/articles/${article.id}/`} class='block h-full'>
               {article.data.image && (
-                <img
+                <DynamicImage
                   src={article.data.image}
                   alt={article.data.title}
                   class='rounded-t-lg w-full h-48 object-cover mb-0'
+                  imageWidth={360}
                 />
               )}
               <div class='p-5 flex flex-col h-full'>
