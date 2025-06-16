@@ -5,7 +5,7 @@ description: 'Základný text vierouky Praotcovej rodiny'
 image: '/src/images/uploads/list.jpg'
 tags:
   - náboženstvá
-  - Praotec
+  - Praotcova rodina
 ---
 
 Zozbieral a spísal svätý Vavrinec z Vinohradu v roku 319.

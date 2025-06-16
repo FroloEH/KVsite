@@ -1,23 +1,23 @@
 ---
 title: 'Bolehlav Vínopič'
-date: '2025-06-15'
+date: '2025-06-16'
 description: 'Kňaz Praotca spojený so zázrakom zjavenia Praotcovej hlavy'
 image: '/src/images/uploads/bolehlav_vínopič.jpg'
 tags:
   - náboženstvá
-  - Praotec
+  - Praotcova rodina
 ---
 
-Narodil sa vo Vlčích skalách, ale kňazské štúdium ho priviedlo až do **Kráľovského mesta**, kde získal titul biskupa cirkvi **Praotcovej rodiny**.
+Narodil sa vo Vlčích skalách, ale kňazské štúdium ho priviedlo až do **Kráľovského mesta**, kde získal titul biskupa **[cirkvi Praotcovej rodiny](/articles/Cirkev-Praotcovej-rodiny.md)**.
 
-Do rodnej dediny sa vrátil počas **Lešijovej hrôzovlády (1322-1324)** na žiadosť vyšších predstaviteľov cirkvi, aby podporil odboj a pripomenul obyvateľom dôležitosť viery. Vyznával zásadu, ľudia by sa nemali obracať na mágiu, ktorá ich iba sklame, ale rovno prosiť o pomoc bohov, pretože ak sa rýchlo spamätajú, majú čas zachrániť sa.
+Do rodnej dediny sa vrátil počas **[Lešijovej hrôzovlády (1322-1324)](/articles/Lesij.md)** na žiadosť vyšších predstaviteľov cirkvi, aby podporil odboj a pripomenul obyvateľom dôležitosť viery. Vyznával zásadu, že mágia ľudí iba sklame, preto by rovno mali prosiť o pomoc bohov, pretože ak sa rýchlo spamätajú, majú čas zachrániť sa.
 
-Rýchlo sa pripojil k prominentným členom odboja a viedol snahy o opätovné vysvätenie temných svätýň, vyhnanie Lešijovej ľavej ruky Tieňa a podporovanie Lešijovho vyzývateľa **Žigmunda Reora Mitického**.
+Rýchlo sa pripojil k prominentným členom odboja a viedol snahy o opätovné vysvätenie temných svätýň, vyhnanie Lešijovej ľavej ruky **Tieňa** a podporovanie Lešijovho protivníka v božskom ordáli **[Žigmunda Reora Mitického](/articles/Zigmund-Reor-Miticky.md)**. Pri súboji vystupoval ako Mitického sekundand.
 
-Svojimi aktivitami však pritiahol pozornosť vladyku **Andrého von Goldsteina**, toho času Lešijovho revenanta, ktorý sa pokúsil o hromadnú vraždu všetkých dedinských kňazov. Biskup Vínopič ako zázrakom prežil vďaka tomu, že jeho spolubrat na úkor vlastného života poprosil Praotca o zázrak zmazania mena z hrobu a biskupa Vínopiča zachránil.
+Svojimi aktivitami pritiahol pozornosť vladyku **[Andrého von Goldsteina](/articles/Andre-von-Goldstein.md)**, toho času Lešijovho revenanta, ktorý v roku 1323 zinscenoval hromadnú vraždu všetkých dedinských kňazov. Vínopič prežil vďaka tomu, že kňaz **Tramínius Šampus** za cenu vlastného života požiadal Praotca o zázrak zmazania Vínopičovho mena z hrobu.
 
-Po Mitického neúspešnom pokuse zosadiť Lešija ostal ďalej pôsobiť vo Vlčích skalách s úmyslom vyčkať na svoju príležitosť a prebrať s odbojom moc nad dedinou. Tieto plány boli zmarené príchodom kasína **Zlatý slon** a návykových herných automatov.
+Po Mitického neúspešnom pokuse zosadiť Lešija ďalej pôsobil vo Vlčích skalách s úmyslom vyčkať na vhodnú príležitosť a prebrať s odbojom moc nad dedinou. Tieto plány boli zmarené príchodom kasína **Zlatý slon** a návykových herných automatov, ktoré Vínopiča zviedli na cestu heretického vyznávania falošného boha Praotoča.
 
-Vínopičova závislosť pobúrila aj samotného Praotca, ktorý sa zjavil priamo vo Vlčích skalách a Vínopiča vykázal zo svojej cirkvi, až kým si troma veľkými činmi znova nevyslúži jeho dôveru.
+Praotec, pobúrený správaním svojho kňaza, sa následne zjavil priamo vo Vlčích skalách a Vínopiča vykázal zo svojej cirkvi, až kým si troma veľkými činmi znova nevyslúži jeho dôveru.
 
 

@@ -15,7 +15,7 @@ Po posunutí hraníc medzi Kráľovstvom a Akvilóniou na jar roku 1322 sa rozho
 
 Počas svojho pobytu vo Vlčích skalách zohral kľúčovú úlohu pri otvorení Praotcovej pivničky a získal titul certifikovaného hrdinu.
 
-Mitický sa stal tvárou odporu voči prírodnému božstvu **Lešijovi**, ktorý v lete roku 1322 ovládol Vlčie skaly. Mitický sa mu po príchode do dediny hrdinsky postavil na odpor a vyzval Lešija na súboj.
+Mitický sa stal tvárou odporu voči prírodnému božstvu **[Lešijovi](/articles/Lesij.md)**, ktorý v lete roku 1322 ovládol Vlčie skaly. Mitický sa mu po príchode do dediny hrdinsky postavil na odpor a vyzval Lešija na súboj.
 
 Nasledujúci rok sa venoval bojovému umeniu rúbania s mečom a pripravoval sa na nastávajúci duel, ktorý prebehol v lete roku 1323. Po remíze 3:3 skončil rozhodujúcim kolom, ktoré vyhral Lešij.
 
