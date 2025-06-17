@@ -467,12 +467,6 @@ collections:
             }
             - { label: 'Skupiny nadpis', name: 'groups_header', widget: 'string' }
             - { label: 'Skupiny popis', name: 'groups_body', widget: 'markdown' }
-            - { label: 'Skupiny (hráči sa NEvedia pridať)', name: 'groups', widget: 'list', fields: [
-                { label: 'Názov', name: 'name', widget: 'string' },
-                { label: 'Popis', name: 'description', widget: 'markdown' },
-                { label: 'Obrázok', name: 'image', widget: 'image' },
-              ]
-            }
         #tabor
             - { label: 'Tábor nadpis', name: 'tabor_header', widget: 'string' }
             - { label: 'Tábor popis', name: 'tabor_body', widget: 'markdown' }
@@ -480,13 +474,7 @@ collections:
         #nabozenstva
             - { label: 'Náboženstvá nadpis', name: 'nabozenstva_header', widget: 'string' }
             - { label: 'Náboženstvá popis', name: 'nabozenstva_body', widget: 'markdown' }
-            - { label: 'Náboženstvá obrázok', name: 'nabozenstva_image', widget: 'image' }
-            - { label: 'Náboženstvá', name: 'nabozenstva', widget: 'list', fields: [
-                { label: 'Názov', name: 'name', widget: 'string' },
-                { label: 'Popis', name: 'description', widget: 'markdown' },
-                { label: 'Obrázok', name: 'image', widget: 'image' },
-              ]
-            }
+
         #peklo
             - { label: 'Peklo nadpis', name: 'peklo_header', widget: 'string' }
             - { label: 'Peklo popis', name: 'peklo_body', widget: 'markdown' }
