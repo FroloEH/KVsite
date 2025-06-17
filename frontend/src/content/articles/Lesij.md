@@ -1,7 +1,7 @@
 ---
 title: 'Lešij'
 date: '2025-06-16'
-description: 'Prírodné božstvo lovu'
+description: 'Prírodné božstvo lovu uctievané najmä v lesoch Červenokamenskej vojvodiny'
 image: '/src/images/uploads/lešij_v_dyme.jpg'
 tags:
   - náboženstvá

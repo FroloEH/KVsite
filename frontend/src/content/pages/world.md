@@ -34,7 +34,7 @@ vlcie_skaly_image: src/images/uploads/vlcie_skaly.jpg
 # Karty s odkazmi na reálie Kráľovstva a Akvilónie
 kralovstvo_header: Kráľovstvo vínnej révy
 kralovstvo_body: >-
-  Rozmanité tradíciami, kultúrami aj obyvateľmi. Staručký kráľ **Pataj Šuhaj I** pokladá akvilónskeho kráľa za vojnového štváča a rebela.
+  Rozmanité tradíciami, kultúrami aj obyvateľmi. Staručký kráľ **Pataj Šuhaj I.** pokladá akvilónskeho kráľa za vojnového štváča a rebela.
 kralovstvo_image: src/images/uploads/kralovstvo_bitka.jpg
 
 vodari_header: Akvilónia
@@ -138,28 +138,6 @@ groups_4_header: Zbojnícka družina
 groups_4_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom.
 groups_4_image: src/images/uploads/spolky_zbojnicka_druzina.jpg
 
-
-
-groups:
-  - name: Gilda mechanikov
-    description: >-
-      Dedinu svojou návštevou pravidelne poctia zástupcovia Gildy mechanikov, nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov, či už v podobe dopravných prostriedkov, vojenskej a poľnohospodárskej techniky, alebo umelých ľudí.\
-
-      \
-
-      Vo Vlčích skalách príležitostne oživí golema. 
-    
-    image: src/images/uploads/gilda_mechanikov.jpg
-  - name: Zbojnícka družina
-    description: >-
-      Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ: postaviť sa zlu a zbohatnúť na tom.\
-
-      \
-
-      Slovami samotného Oskara Lapiducha: „Zbojníci združujú bez rozdielov všetky rasy, kultúry, národy, náboženstvá a bytosti tohto sveta. Sú výnimočnou charitatívnou organizáciou, ktorá ako jediná proaktívne rieši chudobu a nespravodlivé spoločenské pomery Vlčích skál. Niet v skutku vyššej cnosti, než byť zbojníkom.”
-    image: src/images/uploads/spolky_zbojnicka_druzina.jpg
-
-
 tabor_header: Tábor lesných bytostí
 tabor_body: >-
   Každý, kto uprednostňuje kolísku prírody pred ruchom civilizácie, nájde útočisko v tábore lesných bytostí. Obývajú ho predovšetkým miestne lesné bytosti ako víly alebo enti, elfovia, takzvaní divokí a množstvo iných tvorov z okolitých **Fragmundských lesov**. Vítaný je však aj každý dedinčan, ktorý má úctu k prírode.
@@ -174,55 +152,21 @@ tabor_image: src/images/uploads/lesnytabor_klananie_sa_lesovikovi.jpg
 # Náboženstvá
 nabozenstva_header: Náboženstvá
 nabozenstva_body: >-
-  Veriaci v Kráľovstve sa v otázke duchovného života uberajú jedným z troch smerov: k **panteónu Praotca**, k **monoteistickej viere v Myrmeka** alebo k **animistickým prírodným náboženstvám**.
-nabozenstva_image: src/images/uploads/nabozenstva_zehnanie_mitickeho.jpg
-nabozenstva:
-  - name: Praotcova rodina
-    description: >-
-      Väčšina obyvateľov Kráľovstva vyznáva tradičnú vieru v **Praotca vínnej révy**, ktorý stvoril všetko živé a daroval svetu vinič a víno. Morálne hodnoty Praotcovej rodiny sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou. Za veľmi dobrý skutok sa považuje zdieľanie svojho vína s blížnymi.\
+  Veriaci v Kráľovstve sa v otázke duchovného života obracajú jedným z týchto troch smerov: k **panteónu Praotca**, k **monoteistickej viere v Myrmeka** alebo k **animistickým prírodným náboženstvám**.
 
-      \
-      
-      K Praotcovi vínnej révy patrí **Pramatka piva** a ich mnohé deti, ktoré darovali svetu rôzne iné nápoje. Medzi tých s najväčším počtom nasledovníkov patrí patrónka kofeínových nápojov **Kofeína** a **Rumcajz**, tradične zobrazovaný pri jazde na krakenovi.\
-      
-      \
+nabozenstva_1_header: Praotcova rodina
+nabozenstva_1_body: Väčšina obyvateľov Kráľovstva sa tradične obracia k rodine [**Praotca vínnej révy**](/articles/Cirkev-Praotcovej-rodiny.md), ktorý daroval svetu vinič a víno. Morálne hodnoty Praotcovej rodiny sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou.
+nabozenstva_1_image: src/images/uploads/nabozenstva_zehnanie_mitickeho.jpg
 
-      Základným textom vierouky sú **Sväté listy viničné**, v ktorých sú popísané jednotlivé skutky Praotca, jeho potomkov a významných prorokov.\
-      
-      \
+nabozenstva_2_header: Jašteričí boh Myrmek
+nabozenstva_2_body: Hlavnou morálnou zásadou [**Myrmekovej cirkvi**](/articles/Cirkev-Myrmekova.md) je byť úprimný a férový sám k sebe. Kto koná tak, ako sám považuje za dobré a správne, nemusí sa zodpovedať ostatným, ktorí sa môžu cítiť ukrivdení. Zásady konania v rôznych typoch situácií je možné prispôsobovať vlastným potrebám a zo starých názorov sa možno zvliecť rovnako, ako keď sa jašter zvlieka zo starej kože. Myrmek nevyzýva k zlobe a falošnosti, ale nekladie dobro ostatných pred svoje vlastné.
+nabozenstva_2_image: src/images/uploads/cirkev_myrmekova.jpg
 
-      Najväčším sviatkom je **Sviatok otvorenia sudu Praotcovho**, ktorý sa slávi vždy uprostred zimy a býva spojený s veľkými oslavami a otváraním archívnych vín. Druhým významným sviatkom je **Sviatok bohatých viníc**, ktorý sa slávi v lete a jeho súčasťou sú modlitby prosiace o dobrú jesennú úrodu.   
-    
-    image: src/images/uploads/nabozenstva_praotec.jpg
-  - name: Jašteričí boh Myrmek
-    description: >-
-      Menej početní, no o to horlivejší sú uctievači jašteričieho boha **Myrmeka**, ktorému je pochuti všetko nové a neošúchané.\
-      
-      \
-      
-      Hlavnou morálnou zásadou Myrmekovej cirkvi je byť úprimný a férový sám k sebe. Kto koná tak, ako sám považuje za dobré a správne, nemusí sa zodpovedať ostatným, ktorí sa môžu cítiť ukrivdení. Zásady konania v rôznych typoch situácií je možné prispôsobovať vlastným potrebám a zo starých názorov sa možno zvliecť rovnako, ako keď sa jašter zvlieka zo starej kože. Myrmek nevyzýva k zlobe a falošnosti, ale nekladie dobro ostatných pred svoje vlastné.\
+nabozenstva_3_header: Prírodné náboženstvá
+nabozenstva_3_body: Niektorí veriaci namiesto jedného všemocného boha vzdávajú úctu jednotlivým prírodným duchom a malým božstvám. Prírodné náboženstvá vo všeobecnosti vedú svojich veriacich k mierumilovnému životu, vzájomnej úcte a spriaznenosti s prírodou. Rôzne odnože majú rôzne postoje k zločinu a jednotlivým formám trestov, sú tolerantné k mágii a liečiteľstvu. Vo Vlčích skalách sa obraciajú predovšetkým na lesné božstvá [**Lešija**](/articles/Lesij.md) a Lesovika.
+nabozenstva_3_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 
-      \
-
-      Najvýznamnejším textom Myrmekovej cirkvi je **Kniha pazúrov a chvostov**, v ktorej Myrmekov prvý vyznávač Leguánius z Podkameňa zachytil jeho mnohé skutky moci a slávy.\
-      
-      \
-      
-      Najväčším sviatkom Myrmekovej cirkvi je **Deň horúceho kameňa**, ktorý sa oslavuje v najdlhší deň leta spoločným posedením na slnkom vyhriatych kameňoch a nasýtením sa zemným hmyzom. Okrem toho by si každý veriaci mal nájsť aspoň jeden deň v týždni, kedy venuje Myrmekovi tichú modlitbu, pričom by sa tiež mal nachádzať na kameni (kameň vo všedný deň nemusí byť vyhriaty).
-
-    image: src/images/uploads/plagaty.jpg
-  - name: Prírodné náboženstvá
-    description: >-
-      Niektorí veriaci namiesto jedného všemocného boha vzdávajú úctu jednotlivým prírodným duchom a malým božstvám. Prírodné náboženstvá vo všeobecnosti vedú svojich veriacich k mierumilovnému životu, vzájomnej úcte a spriaznenosti s prírodou. Rôzne odnože majú rôzne postoje k zločinu a jednotlivým formám trestov, sú tolerantné k mágii a liečiteľstvu.\
-      
-      \
-
-      V oblasti Vlčích skál sú najvyššou náboženskou autoritou božstvá **Lešij a Lesovik** spojené s aspektami kolobehu života a prírody.\
-      
-      \
-
-      Prírodné náboženstvá nemajú stanovené špeciálne sviatočné dni.
-    image: src/images/uploads/plagaty.jpg
+# Náboženstvá
 
 peklo_header: Peklo
 peklo_body: >-

@@ -30,6 +30,6 @@ Po mnohé veky sa Myrmek v spoločnosti jašterov vyhrieval na žiarivých kam
 
 ***
 
-### Kniha pazúrov a chovstov, hlava IV. – Jašterov dar 
+### Kniha pazúrov a chvostov, hlava IV. – Jašterov dar 
 
 Po mnohý čas ľudia v bázni pred jašterom sa skláňali, no boli medzi nimi i takí, ktorí si jaštera nevážili a moc jeho ohovárali. Po dlhom čase niektorí začali malým jašterom po chvostoch šliapať a prevolávali nevraživé slová k Myrmekovi. Jeden z nich, volali ho Kopytopajtáš, dokonca so zbraňou v ruke siahol na šupinu Myrmekovu. Rozhnevaný jašter na jediný hlt opovážlivca prehltol a s hnevom v srdci sa obrátil k pokoleniu ľudskému. Tu predstúpil pred neho dobrý človek menom Agamiáš, mnohokrát sa kajal a prosil mocného jaštera o odpustenie a záchranu svojho rodu. Myrmeka obmäkčili jeho slová a uspal svoj strašný hnev, ktorým sa chystal ľudstvo zniesť zo sveta. Pazúrom si vypáčil jednu šupinu a vložil ju Agamiášovi do srdca, aby mu tam navždy pripomínala jašterovu dobrotu. Potom vybral mnohé šupiny zo svojej lesklej kože a daroval ich ľuďom, aby si navždy pamätali jeho dobrotu. Od tých čias majú aj zlí ľudia vo svojom srdci jašteriu šupinu, vďaka ktorej sa dokážu zvliecť zo starej hriešnej kože a obrátiť sa na cestu dobra.

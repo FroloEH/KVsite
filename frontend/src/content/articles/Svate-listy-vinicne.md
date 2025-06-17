@@ -8,7 +8,7 @@ tags:
   - Praotcova rodina
 ---
 
-Sväté texty [**Cirkvi Praotcovej rodiny**](/articles/Cirkev-Praotcovej-rodiny.md) zozbieral a spísal svätý Vavrinec z Vinohradu v roku 319.
+Sväté texty [**Cirkvi Praotcovej rodiny**](/articles/Cirkev-Praotcovej-rodiny.md) zozbieral a spísal svätý Vavrinec z Vinohradu.
 
 ***
 

@@ -47,7 +47,7 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
     title={content.frontmatter.groups_4_header}
     text={content.frontmatter.groups_4_body}
     image={content.frontmatter.groups_4_image}
-  />
+    />
   </ThreeColumns>
 
 <!-- Tábor lesných bytostí -->
@@ -64,14 +64,26 @@ const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; d
 
 <!-- Náboženstvá -->
 <ParagraphWithHeader header={content.frontmatter.nabozenstva_header} body={content.frontmatter.nabozenstva_body} />
-<div class='relative overflow-hidden rounded-lg shadow-inner mb-8'>
-  <DynamicImage src={content.frontmatter.nabozenstva_image} class:list={'object-cover object-center shadow-inner'} />
+
+<div class='mx-auto max-w-screen-xl px-4 pt-4 sm:px-6 lg:px-8'>
 </div>
-{
-  nabozenstva.map((nabozenstva) => (
-    <AccordionItem title={nabozenstva.name} text={nabozenstva.description} image={nabozenstva.image} />
-  ))
-}
+  <ThreeColumns>
+    <ExpandableCard
+      title={content.frontmatter.nabozenstva_1_header}
+      text={content.frontmatter.nabozenstva_1_body}
+      image={content.frontmatter.nabozenstva_1_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.nabozenstva_2_header}
+      text={content.frontmatter.nabozenstva_2_body}
+      image={content.frontmatter.nabozenstva_2_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.nabozenstva_3_header}
+      text={content.frontmatter.nabozenstva_3_body}
+      image={content.frontmatter.nabozenstva_3_image}
+    />
+  </ThreeColumns>
 
 <!-- Širší svet -->
 <ParagraphWithHeader header={content.frontmatter.sirsi_svet_header} body={content.frontmatter.sirsi_svet_body} />
