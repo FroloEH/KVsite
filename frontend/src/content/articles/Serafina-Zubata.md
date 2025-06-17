@@ -4,6 +4,7 @@ date: '2025-06-17'
 description: 'Bývalá Smrť z pracoviska Pekla vo Vlčích skalách'
 image: '/src/images/uploads/serafina_zubata.jpg'
 tags:
+  - osobnosti
   - Peklo
 ---
 
