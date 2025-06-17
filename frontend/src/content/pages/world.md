@@ -166,8 +166,6 @@ nabozenstva_3_header: Prírodné náboženstvá
 nabozenstva_3_body: Niektorí veriaci namiesto jedného všemocného boha vzdávajú úctu jednotlivým prírodným duchom a malým božstvám. Prírodné náboženstvá vo všeobecnosti vedú svojich veriacich k mierumilovnému životu, vzájomnej úcte a spriaznenosti s prírodou. Rôzne odnože majú rôzne postoje k zločinu a jednotlivým formám trestov, sú tolerantné k mágii a liečiteľstvu. Vo Vlčích skalách sa obraciajú predovšetkým na lesné božstvá [**Lešija**](/articles/Lesij.md) a Lesovika.
 nabozenstva_3_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 
-# Náboženstvá
-
 peklo_header: Peklo
 peklo_body: >-
   Čo kraj, to Peklo s vlastnými pravidlami pod oficiálnou správou pekelných byrokratov. 
