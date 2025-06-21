@@ -1,0 +1,46 @@
+---
+import MagnifyingGlass from 'astro-heroicons/outline/MagnifyingGlass.astro'
+---
+
+<div class='flex items-center'>
+  <button id='search-toggle' type='button' aria-label='Hľadať' class='p-2 rounded-full hover:bg-zinc-200'>
+    <MagnifyingGlass class='h-6 w-6 stroke-2' />
+  </button>
+</div>
+<div id='search-modal' class='fixed inset-0 z-50 hidden' role='dialog'>
+  <div id='search-backdrop' class='absolute inset-0 bg-emerald-600/40 backdrop-blur-sm'></div>
+  <div
+    class='relative z-10 bg-zinc-50 rounded-lg shadow-xl w-full max-w-2xl mx-auto mt-[15vh] p-8 max-h-[70vh] overflow-y-auto'
+  >
+    <div id='search'></div>
+  </div>
+</div>
+
+<script is:inline>
+  const toggle = document.getElementById('search-toggle')
+  const modal = document.getElementById('search-modal')
+  const backdrop = document.getElementById('search-backdrop')
+  let pagefindLoaded = false
+
+  function openModal() {
+    modal.classList.remove('hidden')
+    if (!pagefindLoaded) {
+      new PagefindUI({ element: '#search', showSubResults: true, showImages: false })
+      pagefindLoaded = true
+    }
+    setTimeout(() => {
+      const input = modal.querySelector('input')
+      if (input) input.focus()
+    }, 100)
+    document.body.style.overflow = 'hidden'
+  }
+  function closeModal() {
+    modal.classList.add('hidden')
+    document.body.style.overflow = ''
+  }
+  toggle.addEventListener('click', openModal)
+  backdrop.addEventListener('click', closeModal)
+  document.addEventListener('keydown', (e) => {
+    if (!modal.classList.contains('hidden') && e.key === 'Escape') closeModal()
+  })
+</script>

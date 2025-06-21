@@ -5,6 +5,7 @@ import { Image } from 'astro:assets'
 import type { HeaderContent, HeaderLink } from '../../types/pages'
 import * as content from '../../content/pages/header.md'
 import transparentLogo from '../../images/LogoTransparent.png'
+import Search from './Search.astro'
 
 const { title } = Astro.props
 const contentData = content.frontmatter as HeaderContent
@@ -30,20 +31,24 @@ const thirdColumnLinks = contentData.header_3rd_column_links as HeaderLink[]
   <a class='w-10 md:w-14 xl:w-16' href='/' aria-label='Return to homepage'>
     <Image src={transparentLogo} alt='LOGO Kráľovstva - vínovy pohár s korunkou' loading={'eager'} width='40' />
   </a>
-
-  <div class='font-display md:underlined-heading text-2xl tracking-tighter text-zinc-900 md:text-5xl self-end'>
-    <h1 class='leading-none'>{title}</h1>
+  <div
+    class='px-2 font-display sm:underlined-heading text-xl sm:text-3xl leading-7 tracking-tighter text-zinc-900 md:text-5xl self-end'
+  >
+    <h1>{title}</h1>
   </div>
 
-  <button
-    id='open-nav'
-    aria-label='Open navigation menu'
-    aria-expanded='false'
-    aria-controls='topNavigation'
-    class='p-2'
-  >
-    <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
-  </button>
+  <div class='flex flex-row items-center justify-end gap-1 md:gap-4'>
+    <Search />
+    <button
+      id='open-nav'
+      aria-label='Open navigation menu'
+      aria-expanded='false'
+      aria-controls='topNavigation'
+      class='p-2'
+    >
+      <Bars class='mr-2 inline h-10 stroke-2 align-top text-slate-800 hover:cursor-pointer xl:h-12' />
+    </button>
+  </div>
 
   <nav
     id='topNavigation'
