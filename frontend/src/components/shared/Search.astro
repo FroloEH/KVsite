@@ -43,6 +43,7 @@ import MagnifyingGlass from 'astro-heroicons/outline/MagnifyingGlass.astro'
   }
   function closeModal() {
     modal.classList.add('hidden')
+    toggle.setAttribute('aria-expanded', 'false')
     document.body.style.overflow = ''
   }
   toggle.addEventListener('click', openModal)
