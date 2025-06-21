@@ -3,7 +3,14 @@ import MagnifyingGlass from 'astro-heroicons/outline/MagnifyingGlass.astro'
 ---
 
 <div class='flex items-center'>
-  <button id='search-toggle' type='button' aria-label='Hľadať' class='p-2 rounded-full hover:bg-zinc-200'>
+  <button
+    id='search-toggle'
+    type='button'
+    aria-label='Hľadať'
+    aria-expanded='false'
+    aria-controls='search-modal'
+    class='p-2 rounded-full hover:bg-zinc-200'
+  >
     <MagnifyingGlass class='h-6 w-6 stroke-2' />
   </button>
 </div>
