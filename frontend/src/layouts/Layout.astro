@@ -36,6 +36,8 @@ const { title, socialImage } = Astro.props
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
+    <link href='/pagefind/pagefind-ui.css' rel='stylesheet' />
+    <script src='/pagefind/pagefind-ui.js' is:inline async></script>
   </head>
   <body class='bg-zinc-100'>
     <Header title={title} />
