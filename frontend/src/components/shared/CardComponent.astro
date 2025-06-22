@@ -12,12 +12,8 @@ const { title, text, image } = Astro.props
 ---
 
 <div class='max-w-96 p-4 md:w-1/3'>
-  <div class='h-full overflow-hidden rounded-xl border-2 border-yellow-500 border-opacity-60 bg-zinc-100 shadow-md'>
-    <DynamicImage
-      class='w-full object-cover object-center shadow-inner md:h-36 lg:h-48'
-      src={image}
-      imageWidth={384}
-    />
+  <div class='h-full overflow-hidden rounded-xl border border-yellow-500 border-opacity-60 bg-zinc-100 shadow-md'>
+    <DynamicImage class='w-full object-cover object-center shadow-inner md:h-36 lg:h-48' src={image} imageWidth={384} />
     <div class='p-6'>
       <h1 class='mb-3 text-2xl font-medium text-zinc-900'>
         {title}

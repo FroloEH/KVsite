@@ -5,6 +5,8 @@ import DynamicImage from '../../components/shared/DynamicImage.astro'
 import { getCollection } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
 import ViewTracker from '../../components/shared/ViewTracker.astro'
+import CardWithLink from '../../components/shared/CardWithLink.astro'
+import ThreeColumns from '../../components/shared/ThreeColumns.astro'
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles')
@@ -41,62 +43,56 @@ const related = getRelatedArticles(article, articles)
 ---
 
 <Layout title='Kráľovská knižnica' socialImage={data.image}>
-  <ViewTracker eventName={data.title} />
-  <article
-    class='prose flex flex-col-reverse md:flex-row md:gap-8 md:max-w-5xl bg-zinc-50 mx-auto max-w-5xl md:pt-36 py-16 px-4'
-  >
-    <div class='flex-1 px-8'>
-      <h2 data-pagefind-meta='title' class='font-large text-2xl font-bold'>{data.title}</h2>
-      {data.description && <p class='mb-4 text-lg text-emerald-900'>{data.description}</p>}
-      <StyledMarkdown of={body ? body : ''} />
+  <ViewTracker eventName={data.title}>
+    <article
+      class='prose flex flex-col-reverse md:flex-row md:gap-8 md:max-w-5xl bg-zinc-50 mx-auto max-w-5xl md:pt-36 py-16 px-4'
+    >
+      <div class='flex-1 px-8'>
+        <h2 data-pagefind-meta='title' class='font-large text-2xl font-bold'>{data.title}</h2>
+        {data.description && <p class='mb-4 text-lg text-emerald-900'>{data.description}</p>}
+        <StyledMarkdown of={body ? body : ''} />
+        {
+          (data.date || (data.tags && data.tags.length > 0)) && (
+            <div class='mt-8 flex flex-col gap-2'>
+              {data.date && <p class='text-gray-400 text-xs'>{data.date}</p>}
+              {data.tags && data.tags.length > 0 && (
+                <div class='flex flex-wrap gap-2'>
+                  {data.tags.map((tag: string) => (
+                    <a
+                      href={`/articles/tag/${tag}/`}
+                      class='bg-emerald-50 text-emerald-800 px-2 py-1 rounded text-xs hover:bg-emerald-100 transition'
+                    >
+                      {tag}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          )
+        }
+      </div>
       {
-        (data.date || (data.tags && data.tags.length > 0)) && (
-          <div class='mt-8 flex flex-col gap-2'>
-            {data.date && <p class='text-gray-400 text-xs'>{data.date}</p>}
-            {data.tags && data.tags.length > 0 && (
-              <div class='flex flex-wrap gap-2'>
-                {data.tags.map((tag: string) => (
-                  <a
-                    href={`/articles/tag/${tag}/`}
-                    class='bg-emerald-50 text-emerald-800 px-2 py-1 rounded text-xs hover:bg-emerald-100 transition'
-                  >
-                    {tag}
-                  </a>
-                ))}
-              </div>
-            )}
+        data.image && (
+          <div class='md:w-2/5 md:shrink-0 flex justify-center items-start md:mb-0'>
+            <DynamicImage src={data.image} alt={data.title} class='rounded-lg w-full max-h-96 object-cover' />
           </div>
         )
       }
-    </div>
-    {
-      data.image && (
-        <div class='md:w-2/5 md:shrink-0 flex justify-center items-start md:mb-0'>
-          <DynamicImage src={data.image} alt={data.title} class='rounded-lg w-full max-h-96 object-cover' />
-        </div>
-      )
-    }
-  </article>
+    </article>
+  </ViewTracker>
+  <section data-pagefind-ignore class='max-w-4xl mx-auto my-24 px-4 sm:px-0'>
+    <h2 class='text-2xl font-bold mb-4'>Súvisiace články</h2>
+    <ThreeColumns>
+      {
+        related.map((article) => (
+          <CardWithLink
+            title={article.data.title}
+            text={article.data.description || ''}
+            image={article.data.image || ''}
+            link={`/articles/${article.id}/`}
+          />
+        ))
+      }
+    </ThreeColumns>
+  </section>
 </Layout>
-<section data-pagefind-ignore class='max-w-3xl mx-auto my-24 px-4'>
-  <h2 class='text-2xl font-bold mb-4'>Súvisiace články</h2>
-  <ul class='grid gap-4 md:grid-cols-3'>
-    {
-      related.map((r) => (
-        <li class='border rounded-lg p-4 bg-zinc-50 hover:shadow'>
-          <a href={`/articles/${r.id}/`} class='font-semibold text-emerald-800 hover:underline'>
-            {r.data.title}
-          </a>
-          {r.data.date && <div class='text-gray-500 text-xs mt-1'>{r.data.date}</div>}
-          {r.data.tags && r.data.tags.length > 0 && (
-            <div class='mt-2 flex flex-wrap gap-1'>
-              {r.data.tags.map((tag: string) => (
-                <span class='bg-emerald-50 text-emerald-700 px-1 py-0.5 rounded text-xs'>{tag}</span>
-              ))}
-            </div>
-          )}
-        </li>
-      ))
-    }
-  </ul>
-</section>

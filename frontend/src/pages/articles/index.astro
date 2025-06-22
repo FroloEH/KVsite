@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro'
 import { getCollection } from 'astro:content'
 import DynamicImage from '../../components/shared/DynamicImage.astro'
 import StyledMarkdown from '../../components/shared/StyledMarkdown.astro'
+import CardWithLink from '../../components/shared/CardWithLink.astro'
+import ThreeColumns from '../../components/shared/ThreeColumns.astro'
 
 const articles = await getCollection('articles')
 
@@ -57,48 +59,38 @@ const sortedLetters = Object.keys(tagMap).sort()
     }
 
     <h2 class='font-large p-8 pl-4 text-2xl'>Novinky</h2>
-    <ul class='grid gap-8 mb-12 md:grid-cols-3'>
-      {newestArticles.length === 0 && <li class='text-zinc-500'>Žiadne texty zatiaľ neboli pridané.</li>}
-      {
-        newestArticles.map((article) => (
-          <li class='rounded-lg border border-yellow-500 border-opacity-60 bg-zinc-50 shadow-sm hover:shadow-md transition p-0 flex flex-col h-full'>
-            <a href={`/articles/${article.id}/`} class='block h-full'>
-              {article.data.image && (
-                <DynamicImage
-                  src={article.data.image}
-                  alt={article.data.title}
-                  class='rounded-t-lg w-full h-48 object-cover mb-0'
-                  imageWidth={360}
-                />
-              )}
-              <div class='p-5 flex flex-col h-full'>
-                <div class='text-emerald-800 font-semibold text-lg mb-1'>{article.data.title}</div>
-                {article.data.date && <div class='text-zinc-400 text-xs mb-2'>{article.data.date}</div>}
-                {article.data.description && <div class='text-zinc-700 text-sm mb-3'>{article.data.description}</div>}
-              </div>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-    <h2 class='font-large p-8 pl-4 text-2xl'>Prehľad kategorií</h2>
-    <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6'>
-      {
-        sortedLetters.map((letter) => (
-          <div>
-            <div class='font-semibold text-emerald-700 mb-2'>{letter}</div>
-            <ul class='list-disc list-inside space-y-1'>
-              {[...tagMap[letter]].sort().map((tag) => (
-                <li>
-                  <a href={`/articles/tag/${tag}/`} class='text-emerald-700 hover:underline'>
-                    {tag}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))
-      }
+    <div>
+      <ThreeColumns>
+        {
+          newestArticles.map((article) => (
+            <CardWithLink
+              title={article.data.title}
+              text={article.data.description || ''}
+              image={article.data.image || ''}
+              link={`/articles/${article.id}/`}
+            />
+          ))
+        }
+      </ThreeColumns>
+      <h2 class='font-large p-8 pl-4 text-2xl'>Prehľad kategorií</h2>
+      <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6'>
+        {
+          sortedLetters.map((letter) => (
+            <div>
+              <div class='font-semibold text-emerald-700 mb-2'>{letter}</div>
+              <ul class='list-disc list-inside space-y-1'>
+                {[...tagMap[letter]].sort().map((tag) => (
+                  <li>
+                    <a href={`/articles/tag/${tag}/`} class='text-emerald-700 hover:underline'>
+                      {tag}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
     </div>
   </section>
 </Layout>
