@@ -80,6 +80,7 @@ const articleCollection = defineCollection({
     description: z.string().optional(),
     image: z.string().optional(),
     tags: z.array(z.string()).optional(),
+    featured: z.boolean().default(false),
   }),
 })
 // ...existing code...

@@ -7,6 +7,7 @@ tags:
   - náboženstvá
   - osobnosti
   - Praotcova rodina
+featured: true
 ---
 
 Narodil sa vo **Vlčích skalách**, ale kňazské štúdium ho priviedlo až do **Kráľovského mesta**, kde získal titul biskupa [**Cirkvi Praotcovej rodiny**](/articles/Cirkev-Praotcovej-rodiny.md).

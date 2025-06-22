@@ -740,6 +740,7 @@ collections:
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
       - name: 'tags'
         label: 'Tags'
         widget: 'list'
