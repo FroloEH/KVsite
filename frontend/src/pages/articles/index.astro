@@ -32,8 +32,8 @@ const sortedLetters = Object.keys(tagMap).sort()
   <section class='px-4 bg-zinc-50 mx-auto max-w-5xl py-16 md:py-36'>
     {
       featuredArticle && (
-        <div class='mb-12'>
-          <h2 class='font-large text-2xl font-bold mb-4'>Odporúčame</h2>
+        <div class='mb-12 mx-6'>
+          <h2 class='font-large pb-6 p-8 pl-4 text-2xl'>Odporúčame</h2>
           <a
             href={`/articles/${featuredArticle.id}/`}
             class='rounded-lg border border-yellow-500 border-opacity-60 bg-zinc-50 shadow-sm hover:shadow-md transition p-0 flex flex-col sm:flex-row-reverse h-full'
@@ -58,7 +58,7 @@ const sortedLetters = Object.keys(tagMap).sort()
       )
     }
 
-    <h2 class='font-large pb-0 p-8 pl-4 text-2xl'>Novinky</h2>
+    <h2 class='font-large pb-0 p-8 pl-4 text-2xl mx-8'>Novinky</h2>
     <div>
       <ThreeColumns>
         {
@@ -92,5 +92,20 @@ const sortedLetters = Object.keys(tagMap).sort()
         }
       </div>
     </div>
+
+    <iframe
+      class='w-full mt-12'
+      height='480px'
+      src='https://forms.office.com/Pages/ResponsePage.aspx?id=Kcp03DNgs0WGTvjDr9qTEsZMM3QqaIFKupWHSQgXTfFUOFhPWTZFTzdQVDE4T0g2NEhHUDFQNFgzWCQlQCN0PWcu&embed=true'
+      frameborder='0'
+      marginwidth='0'
+      marginheight='0'
+      style='border: none; max-width:100%; max-height:100vh'
+      allowfullscreen
+      webkitallowfullscreen
+      mozallowfullscreen
+      msallowfullscreen
+    >
+    </iframe>
   </section>
 </Layout>
