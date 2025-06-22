@@ -6,21 +6,23 @@ import ThreeColumns from './shared/ThreeColumns.astro'
 ---
 
 <ViewTracker eventName='UspCards'>
-  <ThreeColumns>
-    <CardComponent
-      title={content.frontmatter.usp1_header}
-      text={content.frontmatter.usp1_text}
-      image={content.frontmatter.usp1_image}
-    />
-    <CardComponent
-      title={content.frontmatter.usp2_header}
-      text={content.frontmatter.usp2_text}
-      image={content.frontmatter.usp2_image}
-    />
-    <CardComponent
-      title={content.frontmatter.usp3_header}
-      text={content.frontmatter.usp3_text}
-      image={content.frontmatter.usp3_image}
-    />
-  </ThreeColumns>
+  <div class='py-8'>
+    <ThreeColumns>
+      <CardComponent
+        title={content.frontmatter.usp1_header}
+        text={content.frontmatter.usp1_text}
+        image={content.frontmatter.usp1_image}
+      />
+      <CardComponent
+        title={content.frontmatter.usp2_header}
+        text={content.frontmatter.usp2_text}
+        image={content.frontmatter.usp2_image}
+      />
+      <CardComponent
+        title={content.frontmatter.usp3_header}
+        text={content.frontmatter.usp3_text}
+        image={content.frontmatter.usp3_image}
+      />
+    </ThreeColumns>
+  </div>
 </ViewTracker>

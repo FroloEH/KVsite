@@ -13,7 +13,7 @@ const newestArticles = articles
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3)
 
-const featuredAticle = articles.filter((a) => a.data.featured)[0]
+const featuredArticle = articles.filter((a) => a.data.featured)[0]
 // Collect all tags and group by starting letter
 const tagMap: Record<string, Set<string>> = {}
 for (const article of articles) {
@@ -31,26 +31,26 @@ const sortedLetters = Object.keys(tagMap).sort()
 <Layout title='Kráľovská knižnica'>
   <section class='px-4 bg-zinc-50 mx-auto max-w-5xl py-16 md:py-36'>
     {
-      featuredAticle && (
+      featuredArticle && (
         <div class='mb-12'>
           <h2 class='font-large text-2xl font-bold mb-4'>Odporúčame</h2>
           <a
-            href={`/articles/${featuredAticle.id}/`}
+            href={`/articles/${featuredArticle.id}/`}
             class='rounded-lg border border-yellow-500 border-opacity-60 bg-zinc-50 shadow-sm hover:shadow-md transition p-0 flex flex-col sm:flex-row-reverse h-full'
           >
-            {featuredAticle.data.image && (
+            {featuredArticle.data.image && (
               <DynamicImage
-                src={featuredAticle.data.image}
-                alt={featuredAticle.data.title}
+                src={featuredArticle.data.image}
+                alt={featuredArticle.data.title}
                 class='rounded-t-lg sm:w-1/2 object-cover'
                 imageWidth={360}
               />
             )}
             <div class='flex flex-col h-full p-4 w-full sm:w-1/2 my-auto'>
-              <div class='text-emerald-800 font-semibold text-xl mb-1'>{featuredAticle.data.title}</div>
-              {featuredAticle.data.date && <div class='text-zinc-400 text-sm mb-2'>{featuredAticle.data.date}</div>}
-              {featuredAticle.data.description && (
-                <div class='text-zinc-700 text-lg mb-3'>{featuredAticle.data.description}</div>
+              <div class='text-emerald-800 font-semibold text-xl mb-1'>{featuredArticle.data.title}</div>
+              {featuredArticle.data.date && <div class='text-zinc-400 text-sm mb-2'>{featuredArticle.data.date}</div>}
+              {featuredArticle.data.description && (
+                <div class='text-zinc-700 text-lg mb-3'>{featuredArticle.data.description}</div>
               )}
             </div>
           </a>
@@ -58,7 +58,7 @@ const sortedLetters = Object.keys(tagMap).sort()
       )
     }
 
-    <h2 class='font-large p-8 pl-4 text-2xl'>Novinky</h2>
+    <h2 class='font-large pb-0 p-8 pl-4 text-2xl'>Novinky</h2>
     <div>
       <ThreeColumns>
         {
