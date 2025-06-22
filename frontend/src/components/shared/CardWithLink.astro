@@ -1,0 +1,14 @@
+---
+import CardComponent from './CardComponent.astro'
+
+interface Props {
+  title: string
+  text: string
+  image: string
+  link: string
+}
+
+const { title, text, image, link } = Astro.props
+---
+
+<a href={link}> <CardComponent title={title} text={text} image={image} /> </a>

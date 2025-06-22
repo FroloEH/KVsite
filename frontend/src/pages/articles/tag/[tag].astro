@@ -22,7 +22,7 @@ const filtered = articles.filter((a) => Array.isArray(a.data.tags) && a.data.tag
 ---
 
 <Layout title={`Články so štítkom: ${tag}`}>
-  <section class='px-4 bg-zinc-50 mx-auto max-w-5xl py-36'>
+  <section data-pagefind-ignore class='px-4 bg-zinc-50 mx-auto max-w-5xl py-36'>
     <h1 class='text-2xl font-bold mb-8'>Kategória: <span class='text-emerald-700'>{tag}</span></h1>
     {filtered.length === 0 && <div class='text-gray-500'>Žiadne články s týmto štítkom.</div>}
     <ul class='grid gap-8 md:grid-cols-2'>

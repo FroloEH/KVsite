@@ -7,6 +7,7 @@ tags:
   - náboženstvá
   - Myrmek
   - osobnosti
+featured: false
 ---
 
 Narodila sa ako dieťa ebenovej dračice Zir a boha [**Myrmeka**](/articles/Cirkev-Myrmekova.md). Myrmek ju po narodení zanechal pred dverami sedliackej rodiny svojich uctievačov aj s dostatkom peňaz na jej výchovu, ale viac sa k nej nepriznával.

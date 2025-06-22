@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro'
 import { getCollection } from 'astro:content'
 import DynamicImage from '../../components/shared/DynamicImage.astro'
+import StyledMarkdown from '../../components/shared/StyledMarkdown.astro'
 
 const articles = await getCollection('articles')
 
@@ -10,6 +11,7 @@ const newestArticles = articles
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3)
 
+const featuredAticle = articles.filter((a) => a.data.featured)[0]
 // Collect all tags and group by starting letter
 const tagMap: Record<string, Set<string>> = {}
 for (const article of articles) {
@@ -26,12 +28,40 @@ const sortedLetters = Object.keys(tagMap).sort()
 
 <Layout title='Kráľovská knižnica'>
   <section class='px-4 bg-zinc-50 mx-auto max-w-5xl py-16 md:py-36'>
-    <h2 class='font-large p-8 pl-4 text-2xl font-bold'>Najnovšie texty</h2>
+    {
+      featuredAticle && (
+        <div class='mb-12'>
+          <h2 class='font-large text-2xl font-bold mb-4'>Odporúčame</h2>
+          <a
+            href={`/articles/${featuredAticle.id}/`}
+            class='rounded-lg border border-yellow-500 border-opacity-60 bg-zinc-50 shadow-sm hover:shadow-md transition p-0 flex flex-col sm:flex-row-reverse h-full'
+          >
+            {featuredAticle.data.image && (
+              <DynamicImage
+                src={featuredAticle.data.image}
+                alt={featuredAticle.data.title}
+                class='rounded-t-lg sm:w-1/2 object-cover'
+                imageWidth={360}
+              />
+            )}
+            <div class='flex flex-col h-full p-4 w-full sm:w-1/2 my-auto'>
+              <div class='text-emerald-800 font-semibold text-xl mb-1'>{featuredAticle.data.title}</div>
+              {featuredAticle.data.date && <div class='text-zinc-400 text-sm mb-2'>{featuredAticle.data.date}</div>}
+              {featuredAticle.data.description && (
+                <div class='text-zinc-700 text-lg mb-3'>{featuredAticle.data.description}</div>
+              )}
+            </div>
+          </a>
+        </div>
+      )
+    }
+
+    <h2 class='font-large p-8 pl-4 text-2xl'>Novinky</h2>
     <ul class='grid gap-8 mb-12 md:grid-cols-3'>
-      {newestArticles.length === 0 && <li class='text-gray-500'>Žiadne texty zatiaľ neboli pridané.</li>}
+      {newestArticles.length === 0 && <li class='text-zinc-500'>Žiadne texty zatiaľ neboli pridané.</li>}
       {
         newestArticles.map((article) => (
-          <li class='rounded-lg border border-zinc-200 bg-white shadow-sm hover:shadow-md transition p-0 flex flex-col h-full'>
+          <li class='rounded-lg border border-yellow-500 border-opacity-60 bg-zinc-50 shadow-sm hover:shadow-md transition p-0 flex flex-col h-full'>
             <a href={`/articles/${article.id}/`} class='block h-full'>
               {article.data.image && (
                 <DynamicImage
@@ -43,7 +73,7 @@ const sortedLetters = Object.keys(tagMap).sort()
               )}
               <div class='p-5 flex flex-col h-full'>
                 <div class='text-emerald-800 font-semibold text-lg mb-1'>{article.data.title}</div>
-                {article.data.date && <div class='text-gray-400 text-xs mb-2'>{article.data.date}</div>}
+                {article.data.date && <div class='text-zinc-400 text-xs mb-2'>{article.data.date}</div>}
                 {article.data.description && <div class='text-zinc-700 text-sm mb-3'>{article.data.description}</div>}
               </div>
             </a>
@@ -51,7 +81,7 @@ const sortedLetters = Object.keys(tagMap).sort()
         ))
       }
     </ul>
-    <h2 class='font-large p-8 pl-4 text-2xl font-bold'>Prehľad kategorií</h2>
+    <h2 class='font-large p-8 pl-4 text-2xl'>Prehľad kategorií</h2>
     <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6'>
       {
         sortedLetters.map((letter) => (
