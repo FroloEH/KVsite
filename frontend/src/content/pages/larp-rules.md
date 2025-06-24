@@ -13,7 +13,7 @@ basic_rules_title: Všeobecné pravidlá
 basic_rules_description: Tento text sa nezobrazuje?
 basic_rules_intro: >-
   
-  Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré osahujú súhrn toho, s čím sa na hre môže stretnúť.  <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/vseobecne-pravidla-2023.pdf">VŠEOBECNÉ PRAVIDLÁ</a>
+  Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré obsahujú súhrn toho, s čím sa na hre môže stretnúť.  <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/vseobecne-pravidla-2023.pdf">VŠEOBECNÉ PRAVIDLÁ</a>
 basic_rules_parts:
   - part_title: ORGANIZÁTORI
     part_description: Pokyny organizátorov majú prednosť pred všetkými ostatnými
@@ -95,7 +95,7 @@ basic_rules_parts:
 class_rules_title: Povolania
 class_rules_description: TBD_Description
 class_rules_intro: >-
-  Na stránke sa pracuje. <br><br>Celé znenie pravidiel pre povolania si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/špeciálne-pravidlá-2025.pdf">POVOLANIA</a>
+  Na stránke sa pracuje. <br><br>Celé znenie pravidiel pre povolania si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/Povolania-2025.pdf">POVOLANIA</a>
 class_rules_parts:
   - part_title: Na stránke sa pracuje.
     part_description: Na stránke sa pracuje.
@@ -109,7 +109,7 @@ errata_parts:
       (totožný s tým, čo sme pod pojmom kňaz rozumeli doteraz), HERETIK (temná
       verzia kňaza) a APOŠTOL (hlásateľ začínajúceho náboženstva)."
   - part_title: NEKROMANTI
-    part_description: Špaciálne povolanie nekromant ZANIKÁ. Ak si toto povolanie
+    part_description: Špeciálne povolanie nekromant ZANIKÁ. Ak si toto povolanie
       hral a chceš v ňom pokračovať, odporúčame ti vyššie spomínané povolanie
       HERETIK. Lórovo je táto zmena odôvodnená tým, že po Lešijovom odchode
       nekromanti z Vlčích skál odišli a tí čo tu ostali, už nie sú takí silní

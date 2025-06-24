@@ -44,10 +44,8 @@ const related = getRelatedArticles(article, articles)
 
 <Layout title='Kráľovská knižnica' socialImage={data.image}>
   <ViewTracker eventName={data.title}>
-    <article
-      class='prose flex flex-col-reverse md:flex-row md:gap-8 md:max-w-5xl bg-zinc-50 mx-auto max-w-5xl md:pt-36 py-16 px-4'
-    >
-      <div class='flex-1 px-8'>
+    <article class='prose flex flex-col-reverse md:flex-row md:gap-8 bg-zinc-50 mx-auto max-w-5xl md:pt-36 py-16 px-4'>
+      <div class='flex-1 sm:px-8'>
         <h2 data-pagefind-meta='title' class='font-large text-2xl font-bold'>{data.title}</h2>
         {data.description && <p class='mb-4 text-lg text-emerald-900'>{data.description}</p>}
         <StyledMarkdown of={body ? body : ''} />
