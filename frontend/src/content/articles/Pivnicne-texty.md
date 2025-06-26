@@ -9,7 +9,7 @@ tags:
   - Myrmek
 ---
 
-Tieto texty objavili [**Žigmund Reor Mitický**](/articles/Zigmund-Reor-Miticky.md), kňažka Pramatky **Aurélia Chmelinová** a ich spoločníci v roku 1322. Ich názov je odvodený z miesta, v ktorom boli uložené, známeho ako **Praotcova pivnička** na území **Vlčích skál**. 
+Tieto texty objavili [**Žigmund Reor Mitický**](/articles/Zigmund-Reor-Miticky.md), kňažka Pramatky **Aurélia Chmelinová** a ich spoločníci v roku 1322. Ich názov je odvodený z miesta, v ktorom boli uložené, známeho ako **Praotcova pivnička** na území [**Vlčích skál**](/articles/Vlcie-skaly.md). 
 
 Ich autor nie je známy. [**Cirkev Praotcovej rodiny**](/articles/Cirkev-Praotcovej-rodiny.md) aj [**Cirkev Myrmekova**](/articles/Cirkev-Myrmekova.md) ich považujú za nanajvýš kontroverzné.
 

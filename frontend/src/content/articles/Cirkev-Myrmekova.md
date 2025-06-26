@@ -19,7 +19,7 @@ Hlavnou morálnou zásadou Myrmekovej cirkvi je byť úprimný a férový sám k
 
 Najvýznamnejším textom Cirkvi Myrmekovej je [**Kniha pazúrov a chvostov**](/articles/Kniha-pazurov-a-chvostov.md), v ktorej Myrmekov prvý vyznávač Leguánius z Podkameňa zachytil jeho mnohé skutky moci a slávy.
 
-Takzvaný [**Pivničný text**](/articles/Pivnicne-texty.md) o Myrmekovom prvom prebudení objavený v roku 1322 pri dedine **Vlčie skaly** je považovaný za nanajvýš kontroverzný.
+Takzvaný [**Pivničný text**](/articles/Pivnicne-texty.md) o Myrmekovom prvom prebudení objavený v roku 1322 pri dedine [**Vlčie skaly**](/articles/Vlcie-skaly.md) je považovaný za nanajvýš kontroverzný.
 
 ### Sviatky
 

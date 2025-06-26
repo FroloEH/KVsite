@@ -8,7 +8,7 @@ tags:
   - Vlčie skaly
 ---
 
-Deviaty vladyka Vlčích skál (1318 - súčasnosť).
+Deviaty vladyka [**Vlčích skál**](/articles/Vlcie-skaly.md) (1318 - súčasnosť).
 
 ### Konflikt s dedinskými kňazmi
 

@@ -5,13 +5,14 @@ description: 'Prírodné božstvo lovu uctievané najmä v lesoch Červenokamens
 image: '/src/images/uploads/lešij_v_dyme.jpg'
 tags:
   - náboženstvá
+  - prírodné božstvá
   - Vlčie skaly
 ---
 Lešij je jedno z mnohých božstiev, ktoré uctievajú vyznávači prírodných náboženstiev. Je spojený s aspektom lovu a smrti ako neoddeliteľnou súčasťou prírodného kolobehu života.
 
 ### Lešijov úpadok
 
-Lešij sa v istom bode svojej existencie začal odpútavať od svojej pôvodnej úlohy aspektu lovu začala ho fascinovať nekromancia, zlenivel a uchýlil sa ku krutosti. Jeho skazenosť silnela, až kým nezačal predstavovať hrozbu. Po mnohých bojoch bol porazený a uväznený v blízkosti dediny **Vlčie skaly**, kde ho pútalo sedem pečatí.
+Lešij sa v istom bode svojej existencie začal odpútavať od svojej pôvodnej úlohy aspektu lovu začala ho fascinovať nekromancia, zlenivel a uchýlil sa ku krutosti. Jeho skazenosť silnela, až kým nezačal predstavovať hrozbu. Po mnohých bojoch bol porazený a uväznený v blízkosti dediny [**Vlčie skaly**](/articles/Vlcie-skaly.md), kde ho pútalo sedem pečatí.
 
 ### Vyslobodenie z väzenia
 
