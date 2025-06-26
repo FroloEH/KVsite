@@ -1,6 +1,6 @@
 ---
 title: 'Cirkev Praotcovej rodiny'
-date: '2025-06-15'
+date: '2025-06-24'
 description: 'Cirkev združujúca vyznávačov Praotca, Pramatky a ich deti'
 image: '/src/images/uploads/list.jpg'
 tags:
@@ -8,19 +8,36 @@ tags:
   - Praotcova rodina
 ---
 
-Najrozšírenejšie náboženstvo v Kráľovstve vínnej révy je viera v Praotcovu rodinu, ktorý stvoril všetko živé a daroval svetu vinič a víno. Morálne hodnoty Praotcovej rodiny sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou. Za veľmi dobrý skutok sa považuje zdieľanie svojho vína s blížnymi.
+Viera v Praotcovu rodinu je najrozšírenejším náboženstvom v **Kráľovstve vínnej révy** a tvorí základ kráľovskej kultúry. Morálne hodnoty sú založené na slušnosti a čestnosti. Dobrý človek sa má k ostatným správať úprimne a poctivo, klamstvo a krádež sú považované za hriech, ochota podeliť sa so svojím šťastím s ostatnými patrí medzi hlavné cnosti. Diplomacia a výrečnosť majú vždy prednosť pred násilím a hrubosťou. Za veľmi dobrý skutok sa považuje zdieľanie svojho vína s blížnymi.
+
+### Praotcova rodina
+
+- **Praotec**: stvoriteľ vínnej révy
+- **Pramatka**: patrónka liečiv a nápojov pripravených z rastlín
+- **Aurelius**: Praotcov syn spájaný so slnkom a štedrosťou
+- **Kofeína**: Praotcova dcéra spájaná so pomocou a obrodením
+
+### Cirkevná hierarchia
+
+Najvyšším cirkevným predstaviteľom je **arcibiskup Rozlej XXI**, jeden z **piatich arcibiskupov**, ktorí zastupujú päť kráľovských vojvodín. Tradične ide o arcibiskupa Kráľovského mesta, ktorý po vymenovaní za hlavu cirkvi prijíma tradičné meno. Úlohou arcibiskupov je radiť sa o teoretických otázkach a udávať ďalšie smerovanie cirkvi.
+
+Titul **biskup** získavajú absolventi **Teologického inštitútu svätého Bobuliána** v Kráľovskom meste. Biskupi zvyknú ďalej pôsobiť v Teologickom inštitúte, kde sa venujú výučbe, korešpondencii s kňazmi z celého Kráľovstva alebo pomoci arcibiskupom. Časť biskupov pôsobí v iných mestách, kde sa venuje šíreniu viery a vysväcovaniu kňazov.
+
+Samotní kňazi pôsobia v dedinách a mestách po celom Kráľovstve.
 
 ### Sväté texty
 
-Základným textom vierouky sú [**Sväté listy viničné**](/articles/Svate-listy-vinicne.md), v ktorých sú popísané jednotlivé skutky Praotca, jeho potomkov a významných prorokov.
+Základným textom vierouky sú [**Sväté listy viničné**](/articles/Svate-listy-vinicne.md), v ktorých sú popísané skutky Praotca a jeho rodiny.
 
-V roku 1322 boli pri dedine **Vlčie skaly** objavené takzvané [**Pivničné texty**](/articles/Pivnicne-texty.md). Pre svoju povahu a odklon od cirkevného kanónu sú považované za nanajvýš kontroverzné.
+V roku 1322 boli pri dedine [**Vlčie skaly**](/articles/Vlcie-skaly.md) objavené takzvané [**Pivničné texty**](/articles/Pivnicne-texty.md). Pre svoju povahu a odklon od cirkevného kanónu sú považované za nanajvýš kontroverzné.
 
 ### Sviatky 
 
-Najväčším cirkevným sviatkom je **Sviatok otvorenia sudu Praotcovho**, ktorý sa slávi vždy uprostred zimy a býva spojený s veľkými oslavami a otváraním archívnych vín. 
+Najväčším cirkevným sviatkom je **Sviatok otvorenia Praotcovho sudu**, ktorý sa slávi vždy uprostred zimy a býva spojený s veľkými oslavami a otváraním archívnych vín.
 
 Druhým významným sviatkom je **Sviatok bohatých viníc**, ktorý sa slávi v lete a jeho súčasťou sú modlitby prosiace o dobrú jesennú úrodu.
 
+### Lokálne tradície
 
+V Červenokamenskej vojvodine bol z iniciácie biskupa [**Bolehlava Vínopiča**](/articles/Bolehlav-Vinopic.md) vyhlásený **Sviatok svätých mučenníkov** na počesť kňažky Pramatky **Aurélie Chmelinovej** a kňaz Praotca **Tramíniusa Šampusa**, ktorých v roku 1323 pre spätosť s ich povolaním nechal zavraždiť vtedajší [**vladyka Vlčích skál**](/articles/Andre-von-Goldstein.md).
 

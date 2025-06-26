@@ -164,15 +164,15 @@ furtherQuestionsBody: >-
 
 nabozenstvoHeader: Náboženstvo
 nabozenstvoBody: >-
-  Ako veriaci sa môžeš zúčastňovať na omšiach svojho duchovného, ktorý ti na nich odovzdá dušičku. Podľa odpovede na túto otázku ťa zaradíme k vybranému náboženstvu.\
+  Ako veriaci sa môžeš zúčastňovať na omšiach svojho duchovného, ktorý ti na nich odovzdá dušičku. Dušičky sa používajú ako mena, ktorou si po smrti postavy kupuješ rýchlejšie a jednoduchšie oživenie, takže ich zbieranie nie je povinné, ale tebe pomôže a obohacuje hru pre hráčov kňazov.\
 
   \
   
-  Náboženstvo môžeš na hre kedykoľvek zmeniť - preberanie veriacich je súčasťou hry duchovných.\
+  Podľa odpovede na túto otázku ťa zaradíme k vybranému náboženstvu. Viera v **Praotcovu rodinu** vychádza z klasických fantasy náboženstiev inšpirovanými panteónmi z našej mytológie. Viera v **Myrmeka** pôvodne vznikla ako hráčska iniciatíva o alternatívny kult (ako to už býva v náboženstvách, ktoré uctievajú veľkého jaštera). **Prírodné náboženstvá** sú taká všehochuť o kolobehu života, prírode, aspektoch bytia a podobne. Náboženstvo môžeš na hre kedykoľvek zmeniť - preberanie veriacich je súčasťou hry duchovných.\
 
   \
   
-  Možnosť **iné** je pre hráčov heretikov alebo hráčov zo skupiny, ktorú vedie apoštol. Ak označíš túto možnosť ako iné povolanie, priradíme ťa k náboženstvu Praotcovej rodiny.
+  Možnosť **iné** je pre hráčov heretikov alebo hráčov zo skupiny, ktorú vedie apoštol. Tieto povolania vznikli preto, aby mali hráči možnosť priniesť na hru vlastnú vieru. Ako jednotlivec to budeš mať ťažké, ale ak prídeš so skupinkou kamarátov, vymyslíte koncept, ktorý zapadá do sveta, a vaša viera sa uchytí, je možné, že sa pridá ku Kofeíne alebo [Fungusovi](/articles/Fungus.md), ktorých vymysleli hráči. Ak označíš túto možnosť ako iné povolanie, priradíme ťa k veriacim v Praotcovu rodinu.
 
 skupinaHeader: A kto v tom ide s vami?
 skupinaBody: >-

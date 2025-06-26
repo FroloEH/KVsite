@@ -13,7 +13,7 @@ Zlom v jeho živote prišiel na jednej z vojenských misii, keď odmietol vykona
 
 Po tomto zlome v osobnom aj profesionálnom živote sa zriekol svojich predkov aj viery. Zaprisahal sa, že viac nebude slúžiť kráľovi, začal vyznávať jašteričieho boha [**Myrmeka**](/articles/Cirkev-Myrmekova.md) a osvojil si krédo „peniaze ľudu a šľachticom hrach“.
 
-Lapiduch sa so svojou družinou usídlil vo Vlčích skalách, kde okrádal obchodníkov, pútnikov a pocestných. Jeho cieľom sa stalo vyzbieranie peňazí na vybudovanie slobodného kráľovstva.
+Lapiduch sa so svojou družinou usídlil vo [**Vlčích skalách**](/articles/Vlcie-skaly.md), kde okrádal obchodníkov, pútnikov a pocestných. Jeho cieľom sa stalo vyzbieranie peňazí na vybudovanie slobodného kráľovstva.
 
 **Významní členovia Zbojníckej družiny Oskara Lapiducha**:
 
