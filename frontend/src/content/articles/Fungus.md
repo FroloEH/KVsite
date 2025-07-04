@@ -5,7 +5,6 @@ description: 'Prírodné božstvo hríboľudí z podhubia'
 image: '/src/images/uploads/fungus.jpg'
 tags:
   - náboženstvá
-  - prírodné božstvá
 ---
 
 Fungus je mystické hríbie božstvo. Svojich veriacich, ktorí vzišli z mýtického podhubia, vedie k ideám rovnosti a harmónie s prírodou.
