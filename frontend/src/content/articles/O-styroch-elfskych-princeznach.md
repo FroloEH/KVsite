@@ -1,5 +1,5 @@
 ---
-title: 'O štyroch elfských princeznách '
+title: 'O štyroch elfských princeznách'
 date: '2025-07-02'
 description: 'Legenda z čias Lešijovho príchodu do Fragmundských lesov'
 image: '/src/images/uploads/list.jpg'
