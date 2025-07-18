@@ -2,7 +2,7 @@
 title: 'Vlčí deň (1323)'
 date: '2025-07-07'
 description: 'Výber z najčerstvejších noviniek!'
-image: '/src/images/uploads/noviny.jpg'
+image: '/images/uploads/noviny.jpg'
 tags:
   - noviny
 ---
