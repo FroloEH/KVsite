@@ -13,9 +13,7 @@ Vybrané články z denníka [**Vlčí deň**](/articles/Vlci-den.md) z roku 132
 
 **Horalov vo Vlčích skalách čakal MASAKER!**
 
-Smutná správa šokovala celé Ostrokamneské panstvo! Humanitárny konvoj, ktorý prevážal dôležitý liek, bol v okolí Vlčích skál napadnutý a jeho členovia povraždení! Našej redakcii sa podarilo zistiť, že za útokom a krádžeou vzácneho lieku stál neznámy páchateľ. Svedkovia nič nevideli a nič nepočuli, ale sú si istí, že útočil divoký trol.
-
-Súčasní vládcovia Ostrokamenského panstva Hearsay, Holdon a Willdo McEeshovci neskrývajú pobúrenie nad týmto barbarským činom. Od správcu Červenokamneského panstva žiadajú reparácie za 40 padlých ozbrojencov a 20 inteligentných oviec, ktoré boli zmárnené pri Vlčoskalskom masakri. „Zobereme lyžice, vytasíme kilty a ubijeme ich čapicami!“ nechalo sa počuť trio vládcov Ostrého Kameňa. Hrozí v pohraničí ďalšia, tentoraz bratovražedná vojna? Zastaví rod McEeshovcov dodávky ovčieho mäsa a dymovej whisky do zvyšku Kráľovstva? Postará sa o vyšetrenie tejto udalosti vladyka André von Goldstein, alebo sa budeme musieť obrátiť na našich akvilónskych susedov?
+Smutná správa šokovala celé Ostrokamneské panstvo! Humanitárny konvoj, ktorý prevážal dôležitý liek, bol v okolí Vlčích skál napadnutý a jeho členovia povraždení! Našej redakcii sa podarilo zistiť, že za útokom a krádežou vzácneho lieku stál neznámy páchateľ. Svedkovia nič nevideli a nič nepočuli, ale sú si istí, že útočil divoký trol.
 
 ***
 
