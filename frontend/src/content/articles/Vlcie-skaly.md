@@ -35,6 +35,6 @@ Mladý vojvoda Svätopluk Hájniček v rámci snáh vybudovať prosperujúcu voj
 - Alessio di Maria Niccolo Pietra Francesco Merlotini (1314 – 1314)
 - Marek Vinohradník (1314 – 1315)
 - Violet Saether z Dorn-Felderu (1315 – 1317)
-- Miško (1317 – 1317)
+- bača Miško (1317 – 1317)
 - [Boris Toliar](/articles/Boris-Toliar.md) (1317 – 1318)
 - [André von Goldstein](/articles/Andre-von-Goldstein.md) (1318 – súčasnosť)
