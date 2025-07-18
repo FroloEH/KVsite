@@ -21,7 +21,7 @@ Akvilóniou otriasajú správy o novom prorokovi! Naposledy ho videli na svadobn
 
 Dedina Vlčie skaly obdržala tip s varovaním pred záškodným živlom, ktorý sa chystá ovplyvniť nálady v dedine a presvedčiť jej obyvateľov, aby sa dobrovoľne pridali k Akvilónii! Kuriózne na celej situácii je, že mierne mokrý list podľa všetkého dorazil spoza hraníc.
 
-Páchateľom tohto ohavného činu má byť istý Erich Nacenganý z Fakulty riedenia kvapalín (FRK) na Miklušovom inštitúte technológii (MIT). Profesor destiláciou ríbezľového vína s použitím hadieho jazyka a chlpu z ucha vyvinul elixír, ktorý po pridaní do riedeného vína vyvoláva silnú náklonosť k vode. Pri nesprávnom dávkovaní spôsobuje neutíchajúcu túžbu tancovať v daždi. 
+Páchateľom tohto ohavného činu má byť istý Erich Nacenganý z Fakulty riedenia kvapalín (FRK) na Miklušovom inštitúte technológii (MIT). Profesor destiláciou ríbezľového vína s použitím hadieho jazyka a chlpu z ucha vyvinul elixír, ktorý po pridaní do riedeného vína vyvoláva silnú náklonnosť k vode. Pri nesprávnom dávkovaní spôsobuje neutíchajúcu túžbu tancovať v daždi. 
 
 Táto alchymistická abominácia je známa ako ríbezľub a údajne práve teraz smeruje do Vlčích skál, kde si ho má prevziať istý „elegantný alchymista“. Dobrodruh, ktorý fľašku nesie, použije kódové heslo „Vínopičom do pohára...“, na ktoré sa má odpovedať: „... zdravý rozum nahovára“.
 
