@@ -38,7 +38,7 @@ Pramatke chýbala spoločnosť jej ratolestí, ale darmo sa snažila ich prebudi
 
 **Sväté listy viničné, list V. – O svete po potope**
 
-Keď veľká potopa napokon opadla, ľudia zliezli z božskej vinice a osídlili zem. Tí, ktorí počas veľkej potopy ochutnali z bobúľ Praotcovej révy, na ktorej sa ukrývali, boli ním požehnaní a Praotec im doprial dlhovekosť, aby zveľaďovali zem dlhé roky. Zem sa prebudila a zazelenala sa mnohými viničmi. Praotec zostúpil k smrteľníkom a podelil sa o svoju veľkú múdrosť, ako sa o vinohrad starať tak, aby úroda bola bohatá a víno lahodné. Rok sa s rokom stretol, Praotec povolal smrteľníkov z celej zeme a ochutnal prvé víno z ich úrody. Potom dýchol na zem povedal: „Nech je toto čas odpočinku po dobre vykonanej práci, čas radosti a osláv s tými, čo celý rok stáli po našom boku!“ Tam, kam dýchol, zem zaspala, aby nabrala síl na ďalší rok, a Pramatka ju pokryla nadýchanou prikrývkou, aby nikto nerušil jej spánok.
+Keď veľká potopa napokon opadla, ľudia zliezli z božskej vinice a osídlili zem. Tí, ktorí počas veľkej potopy ochutnali z bobúľ Praotcovej révy, na ktorej sa ukrývali, boli ním požehnaní a Praotec im doprial dlhovekosť, aby zveľaďovali zem dlhé roky. Zem sa prebudila a zazelenala sa mnohými viničmi. Praotec zostúpil k smrteľníkom a podelil sa o svoju veľkú múdrosť, ako sa o vinohrad starať tak, aby úroda bola bohatá a víno lahodné. Rok sa s rokom stretol, Praotec povolal smrteľníkov z celej zeme a ochutnal prvé víno z ich úrody. Potom dýchol na zem a povedal: „Nech je toto čas odpočinku po dobre vykonanej práci, čas radosti a osláv s tými, čo celý rok stáli po našom boku!“ Tam, kam dýchol, zem zaspala, aby nabrala síl na ďalší rok, a Pramatka ju pokryla nadýchanou prikrývkou, aby nikto nerušil jej spánok.
 
 ***
 
