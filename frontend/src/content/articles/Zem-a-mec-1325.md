@@ -2,7 +2,7 @@
 title: 'Zem a meč (1325)'
 date: '2025-07-07'
 description: 'Výber z JEDINÝCH PRAVDIVÝCH správ'
-image: '/src/images/uploads/noviny.jpg'
+image: 'src/images/uploads/noviny.jpg'
 tags:
   - noviny
 ---
