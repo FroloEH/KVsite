@@ -28,5 +28,5 @@ story3Text: "Bývalá zbojnícka pevnosť v bývalej budove VŠMU má nového ma
   pevného zázemia z nich spravilo hráča na novej úrovni. Dokážu túto svoju
   opevnenú pozíciu vo Vlčích skalách využiť? Alebo im túto príležitosť vyfúkne
   iný cech?"
-archived: false
+archived: true
 ---
