@@ -26,7 +26,7 @@ const lastYearPartners = await getCollection('partners', ({ data }) => namesLast
     }
     {
       thisYearPartners.length > 0 && (
-        <div class='flex flex-row flex-wrap'>
+        <div class='flex flex-row flex-wrap justify-evenly overflow-visible'>
           {thisYearPartners.map((partner) => (
             <a class='flex w-72 p-4' href={partner.data.link}>
               <DynamicImage
