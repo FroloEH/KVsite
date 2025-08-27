@@ -15,6 +15,8 @@ header_2nd_column_links:
     link_target: "#"
 header_3rd_column_header: Kráľovstvo
 header_3rd_column_links:
+  - link_text: Pridaj sa k nám
+    link_target: /join-team
   - link_text: Svet
     link_target: /world
   - link_text: Kráľovská knižnica
