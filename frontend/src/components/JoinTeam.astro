@@ -1,0 +1,22 @@
+---
+import * as content from '../content/pages/join-our-team-2025.md'
+import ParagraphWithHeader from './shared/ParagraphWithHeader.astro'
+import DynamicImage from './shared/DynamicImage.astro'
+---
+
+<DynamicImage
+  src={content.frontmatter.cover_image}
+  alt={content.frontmatter.header}
+  class='w-full rounded-lg shadow object-cover'
+/>
+<ParagraphWithHeader header={content.frontmatter.header} body={content.frontmatter.text} />
+
+<iframe
+  width='750px'
+  height='960px'
+  src='https://forms.cloud.microsoft/e/A2uMvqvNnQ?embed=true'
+  class='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16'
+  style='border: none; max-width:100%; max-height:100vh'
+  allowfullscreen
+>
+</iframe>
