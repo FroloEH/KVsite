@@ -4,6 +4,7 @@ date: Sobota 18. októbra 2025
 place: Boldog
 linkFbEvent: https://www.facebook.com/
 image: src/images/uploads/chaos_v_boji.jpg
+registration_link: /fight-event#larp-registration
 subTitle: Boj o hranice pokračuje
 annotation: >-
   Vo vetre bijú farebné štandardy dvoch táborov postavené neďaleko obchodnej cesty medzi spomínanými sídlami. 

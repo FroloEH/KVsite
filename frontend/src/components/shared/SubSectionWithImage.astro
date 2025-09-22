@@ -14,7 +14,7 @@ if (!title || !image || !text) {
   throw new Error('title, image and text are required for SubSectionWithImage component')
 }
 
-let bgColorClass = blueColor ? 'odd:bg-cyan-50 even:bg-zinc-50' : 'odd:bg-emerald-50 even:bg-zinc-50'
+let bgColorClass = blueColor ? 'even:bg-cyan-50 odd:bg-zinc-50' : 'even:bg-emerald-50 odd:bg-zinc-50'
 ---
 
 <section

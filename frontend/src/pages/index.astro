@@ -13,6 +13,7 @@ import Gallery from '../components/shared/Gallery.astro'
   <HeroImage />
   <div class='mx-auto max-w-5xl bg-zinc-50 shadow-inner xl:px-10'>
     <UspCard />
+    <EventInfo eventName={content.frontmatter.fight_event_name} />
     <EventInfo eventName={content.frontmatter.larp_event_name} />
     <Partners />
     <Team />

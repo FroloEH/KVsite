@@ -6,6 +6,7 @@ const eventCollection = defineCollection({
     title: z.string(),
     date: z.string(),
     place: z.string(),
+    registration_link: z.string().optional(),
     linkFbEvent: z.string().url(),
     image: z.string(),
     subTitle: z.string(),
