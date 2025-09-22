@@ -3,28 +3,12 @@ import * as content from '../../content/pages/current-larp-event.md'
 import StyledMarkdown from '../shared/StyledMarkdown.astro'
 import ViewTracker from '../shared/ViewTracker.astro'
 import AccordionItem from '../shared/AccordionItem.astro'
+import TicketSales from '../shared/TicketSales.astro'
 
 const eventId = content.frontmatter.tootoot_id
 ---
 
-<ViewTracker eventName='TicketRegistration'>
-    <h1
-        class='font-large flex px-7 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'
-        id='larp-registration'
-    >
-        {content.frontmatter.ticketsTitle}
-    </h1>
-    <iframe
-        title='Nákup lístkov ces tootoot.sk'
-        loading='lazy'
-        class='box-content pb-20'
-        id='tootoot-iframe'
-        width='100%'
-        allowtransparency='true'
-        src={`https://tootoot.fm/buy-embedded/?event-id=${eventId}&ifr-id=tootoot-iframe&lang=sk&theme=light`}
-    >
-    </iframe>
-</ViewTracker>
+<TicketSales title={content.frontmatter.ticketsTitle} eventId={eventId} />
 <ViewTracker eventName='TicketDescription'>
     <div class='leading-relaxed text-base m-6'>
         <StyledMarkdown of={content.frontmatter.ticketsText} />

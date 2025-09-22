@@ -1,0 +1,29 @@
+---
+import { Markdown } from '@astropub/md'
+import DynamicImage from './DynamicImage.astro'
+
+interface Props {
+  title: string
+  image: string
+  text: string
+}
+
+let { title, image, text } = Astro.props
+if (!title || !image || !text) {
+  throw new Error('title, image and text are required for SubSectionWithImage component')
+}
+---
+
+<section>
+  <div
+    class='flex flex-col lg:flex-row border-t-2 border-t-yellow-100 py-12 transition-shadow duration-300 odd:bg-emerald-50 hover:shadow-md'
+  >
+    <div class='rounded-lg sm:h-80 md:w-1/2'>
+      <DynamicImage src={image} class='h-full object-cover' />
+    </div>
+    <div class='flex flex-col md:w-1/2 px-6 pt-6 lg:pl-12 lg:pr-0'>
+      <h3 class='p-3 pl-0 text-2xl font-large'>{title}</h3>
+      <Markdown of={text} />
+    </div>
+  </div>
+</section>

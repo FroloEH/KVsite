@@ -1,0 +1,61 @@
+---
+import EventInfo from '../components/EventInfo.astro'
+import Layout from '../layouts/Layout.astro'
+import * as content from '../content/pages/current-fight-event.md'
+import { getCollection } from 'astro:content'
+import TicketSales from '../components/shared/TicketSales.astro'
+import AccordionItem from '../components/shared/AccordionItem.astro'
+import SubSectionWithImage from '../components/shared/SubSectionWithImage.astro'
+
+const eventColection = await getCollection(
+  'events',
+  ({ data }: { data: any }) => data.title == content.frontmatter.current_larp_event,
+)
+if (!eventColection || eventColection.length === 0) {
+  throw new Error(`Event with name ${content.frontmatter.current_larp_event} not found`)
+}
+const event = eventColection[0].data
+---
+
+<Layout title={event.title} socialImage={event.image}>
+  <div class='bg-zinc-50 mx-auto max-w-5xl pt-24'>
+    <EventInfo eventName={event.title} displayHeading={false} />
+    <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} />
+    <h2 class='font-large flex px-7 pt-10 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
+      {content.frontmatter.kingdomFactionsTitle}
+    </h2>
+    <SubSectionWithImage
+      title={content.frontmatter.kingdomFaction1Title}
+      text={content.frontmatter.kingdomFaction1Text}
+      image={content.frontmatter.kingdomFaction1Image}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.kingdomFaction2Title}
+      text={content.frontmatter.kingdomFaction2Text}
+      image={content.frontmatter.kingdomFaction2Image}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.kingdomFaction3Title}
+      text={content.frontmatter.kingdomFaction3Text}
+      image={content.frontmatter.kingdomFaction3Image}
+    />
+    <h2 class='font-large flex px-7 pt-10 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
+      {content.frontmatter.akvilonianFactionsTitle}
+    </h2>
+    <SubSectionWithImage
+      title={content.frontmatter.akvilonianFaction1Title}
+      text={content.frontmatter.akvilonianFaction1Text}
+      image={content.frontmatter.akvilonianFaction1Image}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.akvilonianFaction2Title}
+      text={content.frontmatter.akvilonianFaction2Text}
+      image={content.frontmatter.akvilonianFaction2Image}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.akvilonianFaction3Title}
+      text={content.frontmatter.akvilonianFaction3Text}
+      image={content.frontmatter.akvilonianFaction3Image}
+    />
+  </div>
+</Layout>
