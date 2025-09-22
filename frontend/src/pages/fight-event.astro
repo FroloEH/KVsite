@@ -6,6 +6,7 @@ import { getCollection } from 'astro:content'
 import TicketSales from '../components/shared/TicketSales.astro'
 import AccordionItem from '../components/shared/AccordionItem.astro'
 import SubSectionWithImage from '../components/shared/SubSectionWithImage.astro'
+import DynamicImage from '../components/shared/DynamicImage.astro'
 
 const eventColection = await getCollection(
   'events',
@@ -20,10 +21,12 @@ const event = eventColection[0].data
 <Layout title={event.title} socialImage={event.image}>
   <div class='bg-zinc-50 mx-auto max-w-5xl pt-24'>
     <EventInfo eventName={event.title} displayHeading={false} />
-    <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} />
-    <h2 class='font-large flex px-7 pt-10 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
-      {content.frontmatter.kingdomFactionsTitle}
-    </h2>
+    <!-- <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} /> -->
+    <div class='flex flex-row mt-10 justify-center'>
+      <h2 class='font-large flex mx-4 my-8 md:my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>
+        {content.frontmatter.kingdomFactionsTitle}
+      </h2>
+    </div>
     <SubSectionWithImage
       title={content.frontmatter.kingdomFaction1Title}
       text={content.frontmatter.kingdomFaction1Text}
@@ -39,23 +42,30 @@ const event = eventColection[0].data
       text={content.frontmatter.kingdomFaction3Text}
       image={content.frontmatter.kingdomFaction3Image}
     />
-    <h2 class='font-large flex px-7 pt-10 text-2xl uppercase tracking-tight text-zinc-900 md:text-4xl font-medium'>
-      {content.frontmatter.akvilonianFactionsTitle}
-    </h2>
+
+    <div class='flex flex-row mt-10 justify-center'>
+      <h2 class='font-large flex mx-4 my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>
+        {content.frontmatter.akvilonianFactionsTitle}
+      </h2>
+    </div>
+
     <SubSectionWithImage
       title={content.frontmatter.akvilonianFaction1Title}
       text={content.frontmatter.akvilonianFaction1Text}
       image={content.frontmatter.akvilonianFaction1Image}
+      blueColor={true}
     />
     <SubSectionWithImage
       title={content.frontmatter.akvilonianFaction2Title}
       text={content.frontmatter.akvilonianFaction2Text}
       image={content.frontmatter.akvilonianFaction2Image}
+      blueColor={true}
     />
     <SubSectionWithImage
       title={content.frontmatter.akvilonianFaction3Title}
       text={content.frontmatter.akvilonianFaction3Text}
       image={content.frontmatter.akvilonianFaction3Image}
+      blueColor={true}
     />
   </div>
 </Layout>
