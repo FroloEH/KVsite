@@ -71,12 +71,12 @@ const event = eventColection[0].data
           {event.date}
         </p>
       </div>
-      <div class='font-medium text-zinc-950'>
+      <a class='font-medium text-zinc-950 block hover:bg-yellow-50 hover:shadow-sm' href={event.mapLink} target='_blank'>
         <Map class='mr-1 inline h-5 align-top text-emerald-800' />
         <p class='inline'>
           {event.place}
         </p>
-      </div>
+      </a>
     }
 
     <!-- Socials -->
@@ -107,17 +107,17 @@ const event = eventColection[0].data
   <div class='my-48'>
   </div>
   :
-  <div class='m-4 mx-auto flex max-w-5xl flex-col bg-zinc-50 md:flex-row'>
-    <div class='mt-36 text-zinc-900 md:mt-8 md:w-1/2'>
-      <h3 class='font-large p-8 pl-4 text-2xl font-bold'>
+  <div class='m-4 mb-16 mx-auto flex max-w-5xl flex-col bg-zinc-50 md:flex-row'>
+    <div class='mt-36 text-zinc-900 sm:mt-0 md:w-1/2 px-4 sm:px-6 lg:px-8'>
+      <h3 class='font-large p-4 pl-0 text-2xl font-bold'>
         {event.subTitle}
       </h3>
-      <div class='leading-relaxed text-base px-4'>
+      <div class='leading-relaxed text-base'>
         <StyledMarkdown of={event.annotation} />
       </div>
     </div>
     <div class='md:mt-18 mt-10 flex flex-col items-center justify-center px-4 md:w-1/2'>
-    <Button text='Registrácia' href={event.registration_link} />
+    <Button text='Registrácia' href={event.registration_link ?? ""} />
   </div>
 }
 </div>  

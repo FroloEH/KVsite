@@ -1,22 +1,45 @@
 ---
-current_larp_event: Hranica 2025 - Veterné pustiny
+current_larp_event: Hranica 2025
 tootoot_id: 68caf8c9ae5a8afd2673476e
 
-fightTitle: O bojovke
-fightText: >-
-  Milí hráči, milé hráčky, vážení bojovníci a ctené hrdinky, vitajte na stránke našej
-  bojovky Hranica. Touto hrou by sme chceli aj my,
-  organizátori LARP-ov zo sveta Kráľovstva Vína prispieť k oživeniu starej tradície
-  bojoviek, ktoré boli začiatkom tohto tisícročia nesmierne populárne na celom
-  Slovensku, no dnes na niektorých miestach takmer upadli do zabudnutia.
-  Pripravte na staré dobré počítanie životov, prísnejšiu kontrolu zbraní a
-  samozrejme, na nesmrteľných munchkinov! V divočine na hranici Kráľovstva Vína žijú len vojaci a
-  vyhnanci, neočakávajte na tejto akcii bohaté kulisy ani zložité príbehové zápletky.
-  Naopak, čo určite očakávať môžete, je možnosť zakričať si z plného hrdla váš
-  bojový pokrik, prežehnať nepriateľov bojovým kladivom, či vpadnúť do chrbta nič
-  netušiacemu oddielu a rozprášiť ho po lese. Pre tých, ktorí meče a sekery až tak
-  neobľubujú, bude možné uplatniť sa v pozícii liečiteľov, či bardov, ktorí môžu aj bez
-  veľkého krviprelievania nakloniť misky váh na stranu svojho vojska.
+fightTitle: Bojovky zo sveta Kráľovstva sú späť
+fightText: |-
+  Milí a vážení bojovníci a hrdinovia. Tento rok po dlhšej pauze prichádzame po strastiach s hľadaním vhodnej lokačky so štvrtou časťou našich snáh prispieť k oživeniu bojoviek na Slovensku. Príbeh nadväzuje na udalosti predošlých troch bojoviek a letného LARP-u. Uvidíme sa na novom mieste mimo Bratislavy a vyskúšame si trochu iný dizajn hry.
+  
+  **Aký je rozdiel medzi LARP-om a LARP-ovou bojovkou?**
+  Na LARP-e kladieš dôraz na rozvíjanie svojej postavy prostredníctvom interakcií s inými hráčmi a spoločné budovanie príbehu. Boj má v hre svoje miesto, ale nie je jej jadrom.
+  
+  Na bojovke je to presne naopak. Príbeh, ktorý bojovka má, sa bude rozvíjať na základe výsledkov rôznych bojových aktivít.
+  
+  **Čo ma čaká?**
+  Dve strany - Kráľovstvo a Akvilónia - so svojimi frakciami a zábavnými bojovými pokrikmi. Ak nechceš prísť ako liečiteľ, môžeš si vybrať aj niektoré z nebojových povolaní, ktoré pri boji zohrávajú špeciálnu rolu. Či už prídeš ako vojak, liečiteľ, bard alebo kňaz, tešíme sa na teba a na kopu veselých zážitkov.
+  
+
+practicalInfoTitle: Organizačné informácie
+practicalInfoBody: |-
+  **Účastníci**
+  Hry sa môže zúčastniť každý, kto dovŕšil 15 rokov. Vítaní sú nielen hráči chtivý boja, ale aj tí, ktorí chcú prispieť svojou troškou asistenciou bojovníkom skrz nebojové povolania: liečiteľ, bard a kňaz. Akcia je vhodná pre pánov i dámy, skúsených aj začiatočníkov. Ak chcete požiadať o výnimku z vekového pravidla, kontaktujte prosím organizátorov. 
+
+  **Dátum**
+  18.10.2025 od 08:00 do 19:00
+  Možnosť prespávania vo vlastnom stane od 17.10. do 19.10.20025
+
+  **Miesto**
+  Vyhradený areál BVS a.s. pri obci Boldog, Senec.
+
+  **Dostupnosť**
+  Autobusové spoje na zastávku. Následne nás viete kontaktovať na čísle a my po vás pošleme kyvadlovku, alebo si to odkráčate popri ceste (cca 800m). 
+
+  **Strava**
+  Pripravíme si pre vás ľahké ranné občerstvenie, zabezpečíme pitnú vodu a ak vás bude dosť so záujmom, vybavíme aj obed. Ten bude buď guláš alebo cigánska v cene 5€ od miestnych z Boldogu.
+
+  **Bonus**
+  Na mape môžete vidieť v blízkosti lokačky jazero Boldog, kde si môžete opláchnuť svoje herné rany.
+  
+  **Vstupenka**
+  Je len jeden lístok a jeho cena je 10€. Výberom typu lístka si zároveň vyberáš stranu za ktorú budeš bojovať. Lístky nájdeš [TU](/fight-event#larp-registration). 
+practicalInfoImage: src/images/uploads/mapa_hranica_2025.png  
+  
 
 kingdomFactionsTitle: Frakcie Kráľovstva
 kingdomFaction1Title: Hájničkova domobrana

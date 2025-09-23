@@ -5,6 +5,9 @@ import * as content from '../content/pages/current-fight-event.md'
 import { getCollection } from 'astro:content'
 import SubSectionWithImage from '../components/shared/SubSectionWithImage.astro'
 import TicketSales from '../components/shared/TicketSales.astro'
+import StoryInfo from '../components/larp-event/StoryInfo.astro'
+import ParagraphWithHeader from '../components/shared/ParagraphWithHeader.astro'
+import Button from '../components/shared/Button.astro'
 
 const eventColection = await getCollection(
   'events',
@@ -19,6 +22,13 @@ const event = eventColection[0].data
 <Layout title={event.title} socialImage={event.image}>
   <div class='bg-zinc-50 mx-auto max-w-5xl pt-24'>
     <EventInfo eventName={event.title} displayHeading={false} />
+    <ParagraphWithHeader header={content.frontmatter.fightTitle} body={content.frontmatter.fightText} />
+    <section class='my-4 flex justify-center space-x-16'>
+      <Button text='Registruj sa!' href={event.registration_link ?? ''} />
+      <Button text='Info pre hráčov' href='/fight-event-practical-info' />
+    </section>
+
+    <StoryInfo eventTitle={event.title} />
     <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} />
     <div class='flex flex-row mt-10 justify-center'>
       <h2 class='font-large flex mx-4 my-8 md:my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>

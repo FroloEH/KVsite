@@ -1,33 +1,27 @@
 ---
-title: Hranica 2025 - Veterné pustiny
+title: Hranica 2025
 date: Sobota 18. októbra 2025
 place: Boldog
-linkFbEvent: https://www.facebook.com/
+linkFbEvent: https://www.facebook.com/events/1187368796538848
 image: src/images/uploads/chaos_v_boji.jpg
 registration_link: /fight-event#larp-registration
-subTitle: Boj o hranice pokračuje
+mapLink: https://maps.app.goo.gl/FDi4xP4su7d5Nybd7
+subTitle: Veterné pustiny
 annotation: >-
-  Vo vetre bijú farebné štandardy dvoch táborov postavené neďaleko obchodnej cesty medzi spomínanými sídlami. 
+  Vo vetre bijú farebné štandardy dvoch táborov postavené neďaleko obchodnej cesty . 
   Otvoria si akvilónčania priechod ku hlavnému mestu kráľovstva, alebo budú kráľovskými zatlačený na ústup späť k sídlu Hájničkovcov, ktoré obišli?
-storyIntroText: Vlčie skaly, 1325
+storyIntroText: Bitka o Veterné Pustiny, 1325
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava_cropped.jpg
-story1Title: Kde sa dvaja bijú...
+story1Title: Skončila sa niekoľkoročná pauza...
 story1Text: >-
-  Lešij, ktorý posledné tri roky terorizoval pohraničné oblasti, zanechal ľudský svet a vrátil sa na miesto
-  boha lovu. Spojenci aj nepriatelia, ktorých za sebou zanechal, sú oslabení. Hranica medzi Kráľovstvom a Vodárstvom zmizla, keď si Lešij privlastnil všetky pohraničné územia a hranicu zrušil.
-  Dnes si nikto nie je istý, kadiaľ viedla. Z Vlčích skál sa tak stalo územie nikoho. Kráľ Pataj Šuhaj I. aj
-  akvilónsky kráľ Mikluš zbierajú sily na pokračovanie vo vojne a odmenia každého, kto bez boja získa časť územia a
-  ušetrí sily na veľký konflikt. Vlčie skaly čaká dôležitá otázka: na
-  ktorú stranu chcú patriť?
-story2Title: Praotec out, Myrmek in, Fungus s vami
-story2Text: Vlčie skaly, pútnické mesto? Zjavenie Praotcovej hlavy, Myrmekovej
-  dcéry Zirnitry a uctievačov Fungusa vyvolalo mnohé otázky. Nehľadá cirkev Praotcova nového biskupa? Budú aj tento rok na
-  púti kyselé žížaly? Mám priviesť ľudí na tú správnu vieru práve ja?
-story3Title: Liečitelia na hrad!
-story3Text: "Bývalá zbojnícka pevnosť v bývalej budove VŠMU má nového majiteľa:
-  Cech liečiteľov! Objavenie Dar'Vínovho denníka a získanie veľmi, veľmi, veľmi
-  pevného zázemia z nich spravilo hráča na novej úrovni. Dokážu túto svoju
-  opevnenú pozíciu vo Vlčích skalách využiť? Alebo im túto príležitosť vyfúkne
-  iný cech?"
+  v ozbrojenom konflikte Akvilónie a Kráľovstva vínnej révy. Lešij, ktorého ani jedna strana nevedela zastaviť, bol nakoniec porazený. Alebo skôr napravený, keď sám odišiel späť do prírody a jeho ríša sa rozpadla medzi jeho generálov.  Tí ešte nestihli jeden proti druhému pozdvihnúť nože, aby si Lešijove bývalé územia podelili, keď roztržky medzi kráľovstvami vzbĺkli po celej novej hranici.
+story2Title: Nové hranice
+story2Text: >-
+  Vojna sa vrátila. Jednotlivé skupiny roztrúsené pozdĺž novej hranice útočia neorganizovane. Bez predloženia potrebných dokumentov sa hranice síce momentálne nemenia, no oslabovaniu súpera v malých šarvátkach nič nebráni. Vojaci umierajú v boji i mimo neho. Tábormi sa šepká, že sa na oboch stranách verbuje a posily sú už na ceste. 
+  Medzitým sa zhodou náhod dvom generálom z oboch strán podarilo zorganizovať niekoľko skupín pod svoje velenie a stretnúť sa na rozľahlých Veterných pustinách medzi Červeným Kameňom a Kráľovským mestom. 
+story3Title: Ktoré ráľovstvo zvíťazí?
+story3Text: >-
+  Vo vetre bijú farebné štandardy dvoch táborov postavené neďaleko obchodnej cesty medzi spomínanými sídlami. Otvoria si Akvilónčania priechod k hlavnému mestu Kráľovstva, alebo budú kráľovskými vojakmi zatlačení na ústup späť k sídlu Hájničkovcov, ktoré obišli?
+
 archived: false
 ---
