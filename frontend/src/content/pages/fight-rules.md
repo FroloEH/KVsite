@@ -30,14 +30,6 @@ basic_rules_parts:
       6. Obedová prestávka je plánovaná po druhej fáze. 
   - part_title: Životy
     part_description:  |-
-      1. Pri boji vždy dbajte na bezpečnosť svoju aj vašich protivníkov. 
-      2. Fyzický kontakt je mimo boja so zbraňami zakázaný (nechceme vidieť žiadne zápasenie, vykrúcanie rúk, či vytrhávanie zbraní). 
-      3. O platnosti zásahu rozhoduje zasiahnutý hráč. Nehádajte sa, nerozčuľujte sa, dodržiavajte zásady fair-play a vlastné zásahy si priznávajte. 
-      4. Hlava, krk a rozkrok sú nezásahové zóny, útočiť na tieto miesta je prísne zakázané a zasiahnutý hráč si tento typ zásahu (v prípade, že k nemu nešťastnou náhodou dôjde) nie je povinný započítať. 
-      5. Údery zbraňami je potrebné viesť s náprahom a pred dopadom ich tlmiť, aby nedošlo k úrazu. 
-      Hráč, ktorého postava je mŕtva alebo sa z iných dôvodov nezapája do hry, má obe ruky založené za hlavou. 
-  - part_title: Hra
-    part_description:  |-
       1. Každý hráč, ktorému nebolo povedané inak má 4 životy. 
       2. Organizátori môžu hráčovi, ktorý nosí kovové alebo iné brnenie dostatočnej kvality, udeliť bonus +2 životy (kovové) alebo +1 život (iné), ktorý si započítava počas celej hry. Je možné tak mať celkovo až 6 životov. 
       3. Ak hráč v priebehu boja preukáže mimoriadnu odvahu a bojové schopnosti, môže byť veliteľom strany povýšený do hodnosti kapitána. Pri takomto povýšení získava bonus +2 život, ktorý si započítava kým nie je hodnosť odovzdaná inému hráčovi (týmto spôsobom je možné navýšiť svoj počet životov až na 8). 
@@ -92,7 +84,7 @@ class_rules_parts:
         1. Muzika na oddych - ak bard hrá pre vojakov počas prestávky, keď velitelia a kapitáni poradujú, pridáva svojej frakcii 1 morálku.
         2. Muzika na pochod - ak hrá bard počas presunu na miesto boja, jeho frakcia získava 1 morálku.
         3. Povzbudenie ducha - bard dokáže svojou piesňou skrátiť oddych veliteľa po padnutí na 0 životov o polovicu. Musí však hrať alebo spievať aspoň 3 minúty.
-        
+
       **Kňaz**
         1. Obrátenie na vieru - keď sa kňaz dotkne nepriateľa vie ho konvertovať. Po dobu 30s môže mať kázeň a zdržiavať nepriateľa, ktorý v danej chvíli nemôže vykonávať žiadnu akciu. Konvertovanie môže byť prerušené úderom zbrane do konvertovaného. Ten si v tom prípade započíta zranenie a môže bojovať ďalej, ak nie je mŕtvy. Keď kňaza prerušia, musí sa vrátiť k vlajke. Kňaz nemôže dvakrát po sebe konvertovať toho istého hráča.
         2. Slovo svätca - ak kňaz robí rituál (30s) pri vlajke svojej frakcie počas oživovania, môže sa oživiť +1 hráč na morálku.

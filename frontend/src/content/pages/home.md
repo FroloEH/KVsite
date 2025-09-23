@@ -2,8 +2,8 @@
 hero_header1: Vytvorme spolu
 hero_header2: fantastické príbehy
 hero_text: Staň sa na tri dni dobrodruhom na fantastickej LARP-ovej hre.
-hero_button1_text: LARP 2025
-hero_button1_link: /larp-event
+hero_button1_text: Bojovka 2025
+hero_button1_link: /fight-event
 hero_button2_text: Čo je to LARP
 hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 usp1_header: "Zasmej sa na veselých scénkach "
