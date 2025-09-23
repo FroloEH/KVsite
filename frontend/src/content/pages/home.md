@@ -58,7 +58,7 @@ player_stories_collection:
 gallery_collection:
   - Home page gallery
 larp_event_name: LARP Kráľovstvo 2025
-fight_event_name: Hranica 2025 - Veterné pustiny
+fight_event_name: Hranica 2025
 hero_button2_link: /larp-rules
 usp3_image: src/images/uploads/uzhonesu.jpg
 team_call_to_action_link: mailto:kralovstvo@event-horizon.sk

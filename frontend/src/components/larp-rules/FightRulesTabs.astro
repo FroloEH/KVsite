@@ -12,7 +12,7 @@ import RulesTabContent from './RulesTabContent.astro'
     >
       <option value='basic-rules'>{content.frontmatter.basic_rules_title}</option>
       <option value='class-rules'>{content.frontmatter.class_rules_title}</option>
-      <option value='errata'>{content.frontmatter.errata_title}</option>
+      <option value='weapon_norms'>{content.frontmatter.weapon_norms_title}</option>
     </select>
   </div>
 
@@ -47,15 +47,15 @@ import RulesTabContent from './RulesTabContent.astro'
           <span>{content.frontmatter.class_rules_title}</span>
         </a>
         <a
-          href='?tab=errata'
+          href='?tab=weapon_norms'
           class='tab-link inline-flex shrink-0 items-center p-4 hover:border-b-2 hover:border-yellow-500 hover:bg-yellow-50 hover:text-yellow-900'
-          data-tab-index='errata'
+          data-tab-index='weapon_norms'
           role='tab'
           aria-selected='false'
-          aria-controls='panel-errata'
-          id='tab-errata'
+          aria-controls='panel-weapon_norms'
+          id='tab-weapon_norms'
         >
-          <span>{content.frontmatter.errata_title}</span>
+          <span>{content.frontmatter.weapon_norms_title}</span>
         </a>
       </nav>
     </div>
@@ -74,9 +74,9 @@ import RulesTabContent from './RulesTabContent.astro'
       blocks={content.frontmatter.class_rules_parts}
     />
     <RulesTabContent
-      tabId='errata'
-      intro={content.frontmatter.errata_intro}
-      blocks={content.frontmatter.errata_parts}
+      tabId='weapon_norms'
+      intro={content.frontmatter.weapon_norms_intro}
+      blocks={content.frontmatter.weapon_norms_parts}
     />
   </div>
 </div>
