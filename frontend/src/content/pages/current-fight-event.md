@@ -22,7 +22,7 @@ practicalInfoBody: |-
 
   **Dátum**
   18.10.2025 od 08:00 do 19:00
-  Možnosť prespávania vo vlastnom stane od 17.10. do 19.10.20025
+  Možnosť prespávania vo vlastnom stane od 17.10. do 19.10.2025
 
   **Miesto**
   Vyhradený areál BVS a.s. pri obci Boldog, Senec.
@@ -56,7 +56,7 @@ kingdomFaction1Text: |-
 
   **Schopnosť**: Morálka oživuje o 1 viac vojakov a majú povolenú zbraň
   kopiju
-kingdomFaction1Image: src/images/uploads/chaos_v_boji.jpg
+kingdomFaction1Image: src/images/uploads/bojovnici_hajnicek.jpg
 
 kingdomFaction2Title: Rizlingdorfský rytieri
 kingdomFaction2Text: |-
@@ -71,7 +71,7 @@ kingdomFaction2Text: |-
   **Pokrik**: Víno je sila!
 
   **Schopnosť**: Neobmedzená veľkosť štítu
-kingdomFaction2Image: src/images/uploads/chaos_v_boji.jpg
+kingdomFaction2Image: src/images/uploads/bojovnici_rizling.jpg
 
 kingdomFaction3Title: Klan McEeshovcov
 kingdomFaction3Text: |-
@@ -87,7 +87,7 @@ kingdomFaction3Text: |-
 
   **Schopnosť**: McEesh bez zbroje, alebo v ľahkej zbroji si môže pripočítať +
   1 život k svojmu maximu.
-kingdomFaction3Image: src/images/uploads/chaos_v_boji.jpg
+kingdomFaction3Image: src/images/uploads/bojovnici_mceesh.jpg
 
 akvilonianFactionsTitle: Frakcie Akvilónie
 akvilonianFaction1Title: Miklušova légia
@@ -103,7 +103,7 @@ akvilonianFaction1Text: |-
   **Pokrik**: Mikluš na trón!
 
   **Schopnosť**: Neobmedzená veľkosť štítu
-akvilonianFaction1Image: src/images/uploads/chaos_v_boji.jpg
+akvilonianFaction1Image: src/images/uploads/miklusova_legia.jpg
 
 akvilonianFaction2Title: Vodárska patrola
 akvilonianFaction2Text: |-
@@ -119,7 +119,7 @@ akvilonianFaction2Text: |-
 
   **Schopnosť**: Majú o 1 morálku viac ako ostatné strany a majú povolené
   používať kopiju
-akvilonianFaction2Image: src/images/uploads/chaos_v_boji.jpg
+akvilonianFaction2Image: src/images/uploads/vlcica_z_ompitalu.jpg
 
 akvilonianFaction3Title: Korzári
 akvilonianFaction3Text: |-
@@ -136,7 +136,7 @@ akvilonianFaction3Text: |-
 
   **Schopnosť**: Pri zásahu nepriateľa od chrbta, ich útok je počítaný za 2
   zranenie (Nutné kričať : „ZA DVA“)
-akvilonianFaction3Image: src/images/uploads/chaos_v_boji.jpg
+akvilonianFaction3Image: src/images/uploads/bojovnici_korsari.jpg
 
 archive_text: VIDÍME SA O ROK!
 newsletter_text: Chceš sa o ďalších akciách dozvedieť medzi prvými?

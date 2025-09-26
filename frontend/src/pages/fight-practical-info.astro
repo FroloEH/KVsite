@@ -5,14 +5,14 @@ import * as content from '../content/pages/current-fight-event.md'
 import { getCollection } from 'astro:content'
 import Layout from '../layouts/Layout.astro'
 
-const eventColection = await getCollection(
+const eventCollection = await getCollection(
   'events',
   ({ data }: { data: any }) => data.title == content.frontmatter.current_larp_event,
 )
-if (!eventColection || eventColection.length === 0) {
+if (!eventCollection || eventCollection.length === 0) {
   throw new Error(`Event with name ${content.frontmatter.current_larp_event} not found`)
 }
-const event = eventColection[0].data
+const event = eventCollection[0].data
 ---
 
 <Layout title={event.title} socialImage={event.image}>
@@ -20,7 +20,8 @@ const event = eventColection[0].data
     <ParagraphWithHeader header={content.frontmatter.practicalInfoTitle} body={content.frontmatter.practicalInfoBody} />
     <DynamicImage
       src={content.frontmatter.practicalInfoImage}
-      class:list={'object-cover object-center shadow-inner mx-auto pb-32'}
+      class='object-cover object-center shadow-inner mx-auto pb-32'
+      alt='Mapa cesty na lokaciu'
     />
   </div>
 </Layout>

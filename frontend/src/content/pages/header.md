@@ -12,7 +12,7 @@ header_2nd_column_links:
   - link_text: Jeseň 2025
     link_target: "/fight-event"
   - link_text: Organizačné info
-    link_target: "fight-practical-info"
+    link_target: "/fight-practical-info"
   - link_text: Pravidlá
     link_target: "/fight-rules"
 header_3rd_column_header: Kráľovstvo
