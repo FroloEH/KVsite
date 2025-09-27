@@ -12,7 +12,7 @@ basic_rules_intro: |-
   1. Organizátor má vždy pravdu. 
   2. Hráč dbá predovšetkým o svoju bezpečnosť a bezpečnosť všetkých zúčastnených. 
   3. Hráč dodržiava ustanovené pravidlá, uznáva si zásahy, nevyhnutné časy čakania a pod. V prípade, že sa chce sťažovať na správanie iných hráčov, osloví organizátora, alebo generála strany. 
-  4.  Všetky zbrane, ktoré účastník na hre používa, musia byť schválené kontrolórom zbraní pri registrácii. Pre prípad poškodenia zbrane je odporúčané priniesť si so sebou viacero zbraní. Zbraň, ktorá kontrolou neprejde, bude dočasne počas trvania akcie uložená u organizátora.
+  4. Všetky zbrane, ktoré účastník na hre používa, musia byť schválené kontrolórom zbraní pri registrácii. Pre prípad poškodenia zbrane je odporúčané priniesť si so sebou viacero zbraní. Zbraň, ktorá kontrolou neprejde, bude dočasne počas trvania akcie uložená u organizátorov.
   5. Hráč môže mať pri sebe ľubovoľný počet zbraní, ktoré prešli kontrolou pri registrácii, v boji smie však používať len také zbrane a ich kombinácie, ktoré mu pravidlá za daných okolností povoľujú. 
   6. Zbrane a muníciu (šípy a pod.) iných hráčov nie je povolené kradnúť ani poškodzovať (beda tomu, koho uvidíme, že dupol na protivníkov šíp ležiaci v tráve!).  Je možné použiť súperovu muníciu na streľbu.
   7. Hráč je povinný pripraviť si kostým (doplnky) vo farbách strany, do ktorej sa prihlásil.
@@ -22,18 +22,27 @@ basic_rules_intro: |-
 basic_rules_parts: 
   - part_title: Hra
     part_description:  |-
-      1. Po úvode sa hráči rozdelia do svojich táborov, kde si uložia veci a na povel generála strany sa vydajú do boja. 
-      2. Každá ďalšia fáza po prvej bude mať 15 minútovú prípravu. Počas nej sa velitelia a kapitáni účastnia porady s generálom v jeho stane. Tu dostanú inštrukcie na nasledujúcu scénu a navrhnú bojový plán. 
-      3. V rovnakom čase vysvetlí pravidlá scény vojsku aj organizátor. 
-      4. Pred začiatkom niektorých fáz budú mať velitelia možnosť využiť špeciálny bonus „vzducholode“. Fungovanie bonusu vysvetlí organizátor v čase jeho použitia. 
-      5. Každá fáza môže skončiť buď porazením nepriateľa na hlavu, splnením úlohy alebo časovým limitom.
-      6. Obedová prestávka je plánovaná po druhej fáze. 
+      1. Po úvode sa hráči rozdelia do svojich táborov, kde si uložia veci a na povel generála strany sa vydajú do boja.
+      2. Hráči nemôžu vstúpiť do tábora nepriateľa. 
+      3. Každá ďalšia fáza po prvej bude mať 15 minútovú prípravu. Počas nej sa velitelia a kapitáni účastnia porady s generálom v jeho stane. Tu dostanú inštrukcie na nasledujúcu scénu a navrhnú bojový plán. 
+      4. V rovnakom čase vysvetlí pravidlá scény vojsku aj organizátor. 
+      5. Pred začiatkom niektorých fáz budú mať velitelia možnosť využiť špeciálny bonus „vzducholode“. Fungovanie bonusu vysvetlí organizátor v čase jeho použitia. 
+      6. Každá fáza môže skončiť buď porazením nepriateľa na hlavu, splnením úlohy alebo časovým limitom.
+      7. Obedová prestávka je plánovaná po druhej fáze. 
+  - part_title: Boj
+    part_description: |-
+      1. Pri boji vždy dbajte na bezpečnosť svoju aj vašich protivníkov. 
+      2. Fyzický kontakt je mimo boja so zbraňami zakázaný (nechceme vidieť žiadne zápasenie, vykrúcanie rúk, či vytrhávanie zbraní). 
+      3. O platnosti zásahu rozhoduje zasiahnutý hráč. Nehádajte sa, nerozčuľujte sa, dodržiavajte zásady fair-play a vlastné zásahy si priznávajte. 
+      4. Hlava, krk a rozkrok sú nezásahové zóny, útočiť na tieto miesta je prísne zakázané. Zasiahnutý hráč si tento typ zásahu (v prípade, že k nemu nešťastnou náhodou dôjde) nie je povinný započítať. 
+      5. Údery zbraňami je potrebné viesť s náprahom a pred dopadom ich tlmiť, aby nedošlo k úrazu. 
+      Hráč, ktorého postava je mŕtva alebo sa z iných dôvodov nezapája do hry, má obe ruky založené za hlavou.
   - part_title: Životy
     part_description:  |-
       1. Každý hráč, ktorému nebolo povedané inak má 4 životy. 
       2. Organizátori môžu hráčovi, ktorý nosí kovové alebo iné brnenie dostatočnej kvality, udeliť bonus +2 životy (kovové) alebo +1 život (iné), ktorý si započítava počas celej hry. Je možné tak mať celkovo až 6 životov. 
       3. Ak hráč v priebehu boja preukáže mimoriadnu odvahu a bojové schopnosti, môže byť veliteľom strany povýšený do hodnosti kapitána. Pri takomto povýšení získava bonus +2 život, ktorý si započítava kým nie je hodnosť odovzdaná inému hráčovi (týmto spôsobom je možné navýšiť svoj počet životov až na 8). 
-      4. Veliteľom strany je hráč, ktorého si hráči frakcie do funkcie zvolia. Tým sa hodnota ich života navýši na 10. Veliteľ sa však nevie liečiť u liečiteľov. Ak padne na 0 životov, nezomiera, ale presúva sa k vlajkonosičovi, kde odpočíva 10 minút. Po tomto čase má plné zdravie. 
+      4. Veliteľom strany je hráč, ktorého si hráči frakcie do funkcie zvolia. Tým sa hodnota ich života navýši na 5. Veliteľ sa však nevie liečiť u liečiteľov. Ak padne na 0 životov, nezomiera, ale presúva sa k vlajkonosičovi, kde odpočíva 10 minút. Po tomto čase má plné zdravie. 
       Akonáhle počet životov hráča klesne na 0, jeho postava umiera – hráč môže do umierania postavy zakomponovať teatrálne prvky podľa vlastného uváženia, v prvom rade je však potrebné dbať na bezpečnosť (o ležiacich hráčov sa niekto môže nechtiac potknúť). Hráč, ktorého postava v boji umrela sa s rukami za hlavou vracia ku svojej vlajke, kde môže byť znovu oživený. 
   - part_title: Vlajky a morálka
     part_description:  |-
@@ -100,21 +109,21 @@ weapon_norms_parts:
       Pri jednoručných zbraniach 100 cm, pri obojručných 130 cm, pri kopijach 250 cm, u štítov 70 cm
   - part_title: Drtivé zbrane
     part_description:  |-
-       Rukoväť musí byť mäkčená minimálne do jednej tretiny dĺžky (v smere od útočného konca) minimálne 0,5 cm mäkčenia, reťaz musí byť nahradená umelohmotnou reťazou alebo lanom hrúbky minimálne 1 cm, maximálna dĺžka reťaze je 20 cm. hlava musí byť celomäkčená, minimálny namerateľný rozmer 10 cm. Maximálny namerateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. 
+       Rukoväť musí byť mäkčená minimálne do jednej tretiny dĺžky (v smere od útočného konca) minimálne 0,5 cm mäkčenia, reťaz musí byť nahradená umelohmotnou reťazou alebo lanom hrúbky minimálne 1 cm, maximálna dĺžka reťaze je 20 cm. hlava musí byť celomäkčená, minimálny merateľný rozmer 10 cm. Maximálny merateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. 
        Príklady: palica, kladivo, buzdygan, reťazová palica, kyj, palcát, atď.
   - part_title: Drevcové zbrane
     part_description:  |-
-      Sú povolené pre špecifické frakcie. Kopije musia byt mäkčené minimálne do jednej tretiny dĺžky násady s hrúbkou mäkčeniny minimálne 0.5cm. Na konci násady, ktorá je v hrote, musí byť tuhšie mäkčenie (guma, korok). Koniec hrotu kopije musí mať minimálny priemer 4 cm a dĺžku nevystuženého jadra minimálne 15 cm. Maximálny namerateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. Kopije sú jediné zbrane, s ktorými je možné bodať. Minimálny namerateľný rozmer je 180 cm. 
-      Príklady: kopija, oštep, halapartňa, atď.
+      Sú povolené pre špecifické frakcie. Kopije musia byt mäkčené minimálne do jednej tretiny dĺžky násady s hrúbkou mäkčeniny minimálne 0,5cm. Na konci násady, ktorá je v hrote, musí byť tuhšie mäkčenie (guma, korok). Koniec hrotu kopije musí mať minimálny priemer 4 cm a dĺžku nevystuženého jadra minimálne 15 cm. Maximálny merateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. Kopije sú jediné zbrane, s ktorými je možné bodať. Minimálny merateľný rozmer je 180 cm. 
+      Príklady: kopija, píky, sudlice, atď.
   - part_title: Strelné zbrane
     part_description:  |-
       Maximálny náťah 15 kg (150 N), šípy nesmú mať žiadne ostré časti, musia byť z dreva (minimálne 8 mm hrubého), hrotové mäkčenie (bambuľa) musí byť hrubé aspoň 4 cm a násada musí byť zakončená neprieraznou zátkou (korkový štupeľ a minca, plastový štupeľ). Šípy tiež musia mať predrobené zárezy na zapadnutie tetivy. Letky môžu byť vyrobené z pierok alebo kože, nie z lepiacej pásky alebo iného materiálu vytvárajúceho ostré hrany. Pripravte sa na to, že náhodný šíp z vašej výbavy môže byť pred schválením rozobratý a podrobený analýze.   
   - part_title: Vrhacie zbrane
     part_description:  |-
-      Maximálny namerateľný rozmer 30 cm, musia byť celomäkčené bez tvrdého jadra a zahrotených výstupkov, ktoré môžu človeku vypichnúť oko.
+      Maximálny merateľný rozmer 30 cm, musia byť celomäkčené bez tvrdého jadra a zahrotených výstupkov, ktoré môžu človeku vypichnúť oko.
   - part_title: Štíty
     part_description:  |-
-      Maximálny namerateľný rozmer 70 cm, hrany musia byť mäkčené aspoň kožou, hadicou alebo mirelonom. Hrany pod mäkčením musia byť zaoblené resp. bez ostrých okrajov. 
+      Maximálny merateľný rozmer 70 cm, hrany musia byť mäkčené aspoň kožou, hadicou alebo mirelonom. Hrany pod mäkčením musia byť zaoblené resp. bez ostrých okrajov. 
   - part_title: Brnenia
     part_description:  |-
       Brnenia nesmú mať žiadne ostré kovové súčiastky, ani iné doplnky, ktoré by mohli zraniť iného hráča, pod kovovou zbrojou je potrebné mať prešívaný kabátec.   

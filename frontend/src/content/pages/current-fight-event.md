@@ -44,98 +44,69 @@ practicalInfoImage: src/images/uploads/mapa_hranica_2025.png
 kingdomFactionsTitle: Frakcie Kráľovstva
 kingdomFaction1Title: Hájničkova domobrana
 kingdomFaction1Text: |-
-  Sídlia na hrade Červený Kameň, nachádzajúcom sa v pohraničnom území. Svoj
-  pôvod odvodzujú od hrdinu Jara Hájnička, ktorý s pomocou meča Samoseča zahnal
-  démona Lešija pod horu Kuklu. Rytieri z pohraničia sú známi svojou vytrvalosťou,
-  nezlomným odhodlaním a vernosťou. Okrem rytierov sa k Hájničkovmu vojsku tiež
-  pridávajú elfovia, trpaslíci a lesné bytosti z Fragmundských lesov.
+  Sídlia na hrade Červený Kameň, nachádzajúcom sa v pohraničnom území. Svoj pôvod odvodzujú od hrdinu Jara Hájnička, ktorý s pomocou meča Samoseča zahnal démona Lešija pod horu Kuklu. Rytieri z pohraničia sú známi svojou vytrvalosťou, nezlomným odhodlaním a vernosťou. Okrem rytierov sa k Hájničkovmu vojsku tiež pridávajú elfovia, trpaslíci a lesné bytosti z Fragmundských lesov.
 
   **Farby**: Zelená a hnedá
 
   **Pokrik**: Do lesa, do hája!
 
-  **Schopnosť**: Morálka oživuje o 1 viac vojakov a majú povolenú zbraň
-  kopiju
+  **Schopnosť**: Morálka oživuje +1 ľudí ... 6 namiesto 5 ľudí. Povolené drevcové zbrane.
 kingdomFaction1Image: src/images/uploads/bojovnici_hajnicek.jpg
 
 kingdomFaction2Title: Rizlingdorfský rytieri
 kingdomFaction2Text: |-
-  Starobylý rod vládcov Rizlingsdorfu, jedného z najväčších miest Kráľovstva Vína.
-  Už dlhé roky sú známi svojou disciplinovanou a silnou armádou, skúsenými
-  šermiarmi a rytierskou statočnosťou. Na čele rodu stojí starý Herbert von
-  Rizlingsdorf, ktorý na kráľovu výzvu bez váhania vyslal svojich najlepších rytierov,
-  aby posilnili kráľovské armády a priniesli mu naspäť vavrínový veniec víťazstva.
+  Starobylý rod vládcov Rizlingsdorfu, jedného z najväčších miest Kráľovstva Vína. Už dlhé roky sú známi svojou disciplinovanou a silnou armádou, skúsenými šermiarmi a rytierskou statočnosťou. Na čele rodu stojí starý Herbert von Rizlingsdorf, ktorý na kráľovu výzvu bez váhania vyslal svojich najlepších rytierov, aby posilnili kráľovské armády a priniesli mu naspäť vavrínový veniec víťazstva. 
 
-  **Farby**: červená, biela a žltá
+  **Farby**: červená-biela, červená-žltá
 
   **Pokrik**: Víno je sila!
 
-  **Schopnosť**: Neobmedzená veľkosť štítu
+  **Schopnosť**: Neobmedzená veľkosť štítov.
 kingdomFaction2Image: src/images/uploads/bojovnici_rizling.jpg
 
 kingdomFaction3Title: Klan McEeshovcov
 kingdomFaction3Text: |-
-  Horali z klanu McEeshovcov sú už dlhé roky obávanými bardmi, banditmi,
-  únoscami žien, lúpežníkmi s dobrým srdcom, pastiermi inteligentných oviec a
-  okrem iného aj pánmi Ostrokamenského panstva. Keďže práve na ich územie vedie
-  Dobrý priesmyk, muži Randoma McEesha vstupujú do kráľovho vojska, aby sa
-  konečne vysporiadali s vodárskou pliagou.
+  Horali z klanu McEeshovcov sú už dlhé roky obávanými bardmi, banditmi, únoscami žien, lúpežníkmi s dobrým srdcom, pastiermi inteligentných oviec a okrem iného aj pánmi Ostrokamenského panstva. Žoldnieri Randoma McEesha vstúpili do boja pod vlajkou Kráľovstva, keď na ich sídlo Ostrý kameň zaútočili vodárske armády.
 
-  **Farby**: nie sú určené, dôležitý je horalský imidž (kilty, sporany, kárované odevy)
+  **Farby**: kilt, kárované
 
   **Pokrik**: Nosme meče, tasme kilty!
 
-  **Schopnosť**: McEesh bez zbroje, alebo v ľahkej zbroji si môže pripočítať +
-  1 život k svojmu maximu.
+  **Schopnosť**: Ak nemá zbroj, ale má kilt, tak má +1 život.
 kingdomFaction3Image: src/images/uploads/bojovnici_mceesh.jpg
 
 akvilonianFactionsTitle: Frakcie Akvilónie
 akvilonianFaction1Title: Miklušova légia
 akvilonianFaction1Text: |-
-  Kráľ Mikluš, podvodom zbavený svojich práv a vyhnaný zo svojho léna sa už roky
-  snaží získať, čo mu podľa božieho práva patrí. Jeho légia je najsilnejšou bojovou
-  jednotkou na východ od Fragmundských hôr, stretávajú sa v nej chrabrí rytieri,
-  ľstiví žoldnieri i skúsení vojvodcovia, ktorí si trúfnu aj na ťažkú korisť za horami.
-  Na ich čele stojí Miklušov synovec Voderad, chýrny veliteľ a skúsený taktik.
+  Kráľ Mikluš, podvodom zbavený svojich práv a vyhnaný zo svojho léna sa už roky snaží získať, čo mu podľa božieho práva patrí. Jeho légia je najsilnejšou bojovou jednotkou na východ od Fragmundských hôr, stretávajú sa v nej chrabrí rytieri, ľstiví žoldnieri i skúsení vojvodcovia, ktorí si trúfnu aj na ťažkú korisť za horami. Na ich čele stojí Miklušov synovec Voderad, chýrny veliteľ a skúsený taktik.
 
-  **Farby**: modrá, biela a žltá
+  **Farby**: modrá-biela, modrá-žltá
 
   **Pokrik**: Mikluš na trón!
 
-  **Schopnosť**: Neobmedzená veľkosť štítu
+  **Schopnosť**: Neobmedzená veľkosť štítov
 akvilonianFaction1Image: src/images/uploads/miklusova_legia.jpg
 
 akvilonianFaction2Title: Vodárska patrola
 akvilonianFaction2Text: |-
-  Nie každý môže byť rytierom, nie každý má meč vykladaný drahými kameňmi. Aj
-  chudobný, no statočný človek však môže bojovať za dobrú vec. Bojovníci tejto
-  skupiny sú synovia roľníkov a bratia statkárov spolu s elfmi, trpaslíkmi a lesnými
-  bytosťami z Lesov divej vínnej révy. Pod vedením Irmy Akvilónskej, vlčice z
-  Ompitálu, sa obliekli do čierneho a vyrazili svojmu kráľovi na pomoc.
+  Nie každý môže byť rytierom, nie každý má meč vykladaný drahými kameňmi. Aj chudobný, no statočný človek však môže bojovať za dobrú vec. Bojovníci tejto skupiny sú synovia roľníkov a bratia statkárov. Spolu s elfmi, trpaslíkmi a lesnými bytosťami z Lesov divej vínnej révy sa pod vedením Irmy Akvilónskej, vlčice z Ompitálu, obliekli do čierneho a vyrazili svojmu kráľovi na pomoc.
 
-  **Farby**: čierna a rôzne tmavé kombinácie
+  **Farby**: hnedá, čierna, modrá
 
   **Pokrik**: Víno von, voda dnu!
 
-  **Schopnosť**: Majú o 1 morálku viac ako ostatné strany a majú povolené
-  používať kopiju
+  **Schopnosť**: Morálka navyše a povolené drevcové zbrane.
 akvilonianFaction2Image: src/images/uploads/vlcica_z_ompitalu.jpg
 
 akvilonianFaction3Title: Korzári
 akvilonianFaction3Text: |-
-  Vo Vodárskom kráľovstve je mnoho moreplavcov. Okrem Miklušových galér brázdia
-  severné more rybárske lode a veslice obchodníkov, ale aj piráti a korzári,
-  prepadávajúci bohato naložené lode z Kráľovstva Vína. Najskúsenejší z nich,
-  Gombajz Dredovlas vie, že ponuka, ktorú dostal od kráľa sa neodmieta, a preto
-  zhromaždil svojich najlepších korzárov a pod Miklušovou vlajkou sa pustil do boja.
+  Vo Vodárskom kráľovstve je mnoho moreplavcov. Okrem Miklušových galér brázdia severné more rybárske lode a veslice obchodníkov, ale aj piráti a korzári, prepadávajúci bohato naložené lode z Kráľovstva Vína. Najskúsenejší z nich, Gombajz Dredovlas vie, že ponuka, ktorú dostal od kráľa sa neodmieta, a preto zhromaždil svojich najlepších korzárov a pod Miklušovou vlajkou sa pustil do boja. 
 
-  **Farby**: nie sú určené, dôležitý je pirátsky imidž (trojhranný klobúk, páska na oku
-  a pod.)
+  **Farby**: Pirátsky vzhľad.
 
   **Pokrik**: Na súši nás nesuší!
 
-  **Schopnosť**: Pri zásahu nepriateľa od chrbta, ich útok je počítaný za 2
-  zranenie (Nutné kričať : „ZA DVA“)
+  **Schopnosť**: Na získavanie bonusov barda "muzika na oddych" a "muzika na pochod", nepotrebujú toto povolanie, musí však spievať väčšina.
 akvilonianFaction3Image: src/images/uploads/bojovnici_korsari.jpg
 
 archive_text: VIDÍME SA O ROK!
