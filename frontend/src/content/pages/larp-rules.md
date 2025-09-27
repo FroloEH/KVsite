@@ -10,9 +10,8 @@ rules_intro: 'Táto stránka obsahuje pravidlá pre LARP Kráľovstvo. S otázka
   hry.  </br> **Errata**: Prehľad úprav pravidiel, ktoré sme spravili medzi
   hrami.</br>'
 basic_rules_title: Všeobecné pravidlá
-basic_rules_description: Tento text sa nezobrazuje?
 basic_rules_intro: >-
-  
+
   Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré obsahujú súhrn toho, s čím sa na hre môže stretnúť.  <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/vseobecne-pravidla-2023.pdf">VŠEOBECNÉ PRAVIDLÁ</a>
 basic_rules_parts:
   - part_title: ORGANIZÁTORI
@@ -93,7 +92,6 @@ basic_rules_parts:
       trest za porušovanie pravidiel. Príkladom trestu je napomenutie,
       10-minútové vylúčenie z herného priestoru a úplné vylúčenie z hry.
 class_rules_title: Povolania
-class_rules_description: TBD_Description
 class_rules_intro: >-
   Na stránke sa pracuje. <br><br>Celé znenie pravidiel pre povolania si môžeš stiahnuť tu: <a href="https://kralovstvovina.event-horizon.sk/Povolania-2025.pdf">POVOLANIA</a>
 class_rules_parts:

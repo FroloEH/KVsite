@@ -1,5 +1,6 @@
 ---
 title: LARP Kráľovstvo 2025
+registration_link: /larp-event#larp-registration
 date: Tri dni hry, 23. - 26. júla 2025
 place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
