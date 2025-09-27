@@ -55,7 +55,7 @@ basic_rules_parts:
       7. V prípade, že vlajkonosič minie všetky morálky zo svojej vlajky, v danom boji nie je možné oživiť ďalších hráčov. 
   - part_title: Zbrane a zbroje
     part_description:  |-
-      1. Povolené sú rôzne varianty zbraní, pričom musia spĺňať (NORMY)['/fight-rules?tab=weapon_norms'] podľa svojej kategórie. To znamená, že môžete mať broadsword, cleaver, cutlass, šabľu, messer či katanu, ak má vlastnosti v rámci noriem. 
+      1. Povolené sú rôzne varianty zbraní, pričom musia spĺňať [**NORMY**](/fight-rules?tab=weapon_norms) podľa svojej kategórie. To znamená, že môžete mať broadsword, cleaver, cutlass, šabľu, messer či katanu, ak má vlastnosti v rámci noriem. 
       2. Bodať je povolené len s kopijami, pri ktorých to je jediný povolený zásah. Sečný zásah kopijou sa nezapočítava. 
       3. Hráč môže byť vyzbrojený obojručnou zbraňou (okrem mečov, kopijí a sekier sem patria aj luky, kuše a muškety), kombináciou dvoch jednoručných zbraní alebo jednoručnou zbraňou a štítom. 
       4. Zásah obojručnou zbraňou sa počíta len vtedy, ak je držaná oboma rukami. 
