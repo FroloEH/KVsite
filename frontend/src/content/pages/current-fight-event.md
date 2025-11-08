@@ -12,32 +12,32 @@ fightText: |-
   Na bojovke je to presne naopak. Príbeh, ktorý bojovka má, sa bude rozvíjať na základe výsledkov rôznych bojových aktivít.
   
   **Čo ma čaká?**
-  Dve strany - Kráľovstvo a Akvilónia - so svojimi frakciami a zábavnými bojovými pokrikmi. Ak nechceš prísť ako liečiteľ, môžeš si vybrať aj niektoré z nebojových povolaní, ktoré pri boji zohrávajú špeciálnu rolu. Či už prídeš ako vojak, liečiteľ, bard alebo kňaz, tešíme sa na teba a na kopu veselých zážitkov.
+  Dve strany - Kráľovstvo a Akvilónia - so svojimi frakciami a zábavnými bojovými pokrikmi. Ak nechceš prísť ako vojak, môžeš si vybrať aj niektoré z nebojových povolaní, ktoré pri boji zohrávajú špeciálnu rolu. Či už prídeš ako vojak, liečiteľ, bard alebo kňaz, tešíme sa na teba a na kopu veselých zážitkov.
   
 
 practicalInfoTitle: Organizačné informácie
 practicalInfoBody: |-
   **Účastníci**
-  Hry sa môže zúčastniť každý, kto dovŕšil 15 rokov. Vítaní sú nielen hráči chtivý boja, ale aj tí, ktorí chcú prispieť svojou troškou asistenciou bojovníkom skrz nebojové povolania: liečiteľ, bard a kňaz. Akcia je vhodná pre pánov i dámy, skúsených aj začiatočníkov. Ak chcete požiadať o výnimku z vekového pravidla, kontaktujte prosím organizátorov. 
+  Hry sa môže zúčastniť každý, kto dovŕšil 15 rokov. Vítaní sú nielen hráči chtiví boja, ale aj tí, ktorí chcú pomôcť ako nebojové povolania **liečiteľ**, **bard** a **kňaz**. Akcia je vhodná pre pánov i dámy, skúsených aj začiatočníkov. Ak chceš požiadať o výnimku z vekového pravidla, kontaktuj, prosím, organizátorov. 
 
   **Dátum**
-  18.10.2025 od 08:00 do 19:00
-  Možnosť prespávania vo vlastnom stane od 17.10. do 19.10.2025
+  18. 10. 2025 od 08.00 do 19.00
+  Možnosť prespávania vo vlastnom stane od 17. 10. do 19. 10. 2025
 
   **Miesto**
   Vyhradený areál BVS a.s. pri obci Boldog, Senec.
 
   **Dostupnosť**
-  Autobusové spoje na zastávku. Následne nás viete kontaktovať na čísle a my po vás pošleme kyvadlovku, alebo si to odkráčate popri ceste (cca 800m). 
+  Autobusové spoje na zastávku Senec, Boldocká cesta. Následne nás vieš kontaktovať cez telefón a my po teba pošleme kyvadlovku, alebo prídeš pešo popri ceste (cca 800m). 
 
   **Strava**
-  Pripravíme si pre vás ľahké ranné občerstvenie, zabezpečíme pitnú vodu a ak vás bude dosť so záujmom, vybavíme aj obed. Ten bude buď guláš alebo cigánska v cene 5€ od miestnych z Boldogu.
+  Pripravíme ľahké ranné občerstvenie, zabezpečíme pitnú vodu a v prípade dostatočného záujmu vybavíme aj obed. Bude to buď guláš alebo cigánska v cene 5€ od miestnych z Boldogu.
 
   **Bonus**
-  Na mape môžete vidieť v blízkosti lokačky jazero Boldog, kde si môžete opláchnuť svoje herné rany.
+  V blízkosti lokačky nájdeš jazero Boldog, kde sa môžeš opláchnuť po ťažkom boji.
   
   **Vstupenka**
-  Je len jeden lístok a jeho cena je 10€. Výberom typu lístka si zároveň vyberáš stranu za ktorú budeš bojovať. Lístky nájdeš [TU](/fight-event#larp-registration). 
+  Lístok v cene 10€. Výberom typu lístka si zároveň vyberáš stranu, za ktorú budeš bojovať. Lístky nájdeš [TU](/fight-event#larp-registration). 
 practicalInfoImage: src/images/uploads/mapa_hranica_2025.png  
   
 
@@ -50,12 +50,12 @@ kingdomFaction1Text: |-
 
   **Pokrik**: Do lesa, do hája!
 
-  **Schopnosť**: Morálka oživuje +1 ľudí ... 6 namiesto 5 ľudí. Povolené drevcové zbrane.
+  **Schopnosť**: Morálka namiesto 5 ľudí oživuje 6 ľudí. Povolené drevcové zbrane.
 kingdomFaction1Image: src/images/uploads/bojovnici_hajnicek.jpg
 
-kingdomFaction2Title: Rizlingdorfský rytieri
+kingdomFaction2Title: Rizlingdorfskí rytieri
 kingdomFaction2Text: |-
-  Starobylý rod vládcov Rizlingsdorfu, jedného z najväčších miest Kráľovstva Vína. Už dlhé roky sú známi svojou disciplinovanou a silnou armádou, skúsenými šermiarmi a rytierskou statočnosťou. Na čele rodu stojí starý Herbert von Rizlingsdorf, ktorý na kráľovu výzvu bez váhania vyslal svojich najlepších rytierov, aby posilnili kráľovské armády a priniesli mu naspäť vavrínový veniec víťazstva. 
+  Starobylý rod vládcov Rizlingsdorfu, jedného z najväčších miest Kráľovstva. Dlhé roky sú známi svojou disciplinovanou a silnou armádou, skúsenými šermiarmi a rytierskou statočnosťou. Na čele rodu stojí starý Herbert von Rizlingsdorf, ktorý na kráľovu výzvu bez váhania vyslal svojich najlepších rytierov, aby posilnili kráľovské armády a priniesli z boja vavrínový veniec víťazstva. 
 
   **Farby**: červená-biela, červená-žltá
 
@@ -66,19 +66,19 @@ kingdomFaction2Image: src/images/uploads/bojovnici_rizling.jpg
 
 kingdomFaction3Title: Klan McEeshovcov
 kingdomFaction3Text: |-
-  Horali z klanu McEeshovcov sú už dlhé roky obávanými bardmi, banditmi, únoscami žien, lúpežníkmi s dobrým srdcom, pastiermi inteligentných oviec a okrem iného aj pánmi Ostrokamenského panstva. Žoldnieri Randoma McEesha vstúpili do boja pod vlajkou Kráľovstva, keď na ich sídlo Ostrý kameň zaútočili vodárske armády.
+  Horali z klanu McEeshovcov sú už dlhé roky obávanými bardmi, banditmi, únoscami nevinných aj vinných panien, lúpežníkmi s dobrým srdcom, pastiermi inteligentných oviec a okrem iného aj pánmi Ostrokamenského panstva. Žoldnieri Randoma McEesha vstúpili do boja pod vlajkou Kráľovstva, keď na ich sídlo Ostrý Kameň zaútočili akvilónske armády.
 
   **Farby**: kilt, kárované
 
   **Pokrik**: Nosme meče, tasme kilty!
 
-  **Schopnosť**: Ak nemá zbroj, ale má kilt, tak má +1 život.
+  **Schopnosť**: Ak nemá zbroj, ale má kilt, má +1 život.
 kingdomFaction3Image: src/images/uploads/bojovnici_mceesh.jpg
 
 akvilonianFactionsTitle: Frakcie Akvilónie
 akvilonianFaction1Title: Miklušova légia
 akvilonianFaction1Text: |-
-  Kráľ Mikluš, podvodom zbavený svojich práv a vyhnaný zo svojho léna sa už roky snaží získať, čo mu podľa božieho práva patrí. Jeho légia je najsilnejšou bojovou jednotkou na východ od Fragmundských hôr, stretávajú sa v nej chrabrí rytieri, ľstiví žoldnieri i skúsení vojvodcovia, ktorí si trúfnu aj na ťažkú korisť za horami. Na ich čele stojí Miklušov synovec Voderad, chýrny veliteľ a skúsený taktik.
+  Kráľ Mikluš, podvodom zbavený svojich práv a vyhnaný zo svojho léna, sa už roky snaží získať, čo mu podľa božieho práva patrí. Jeho légia je najsilnejšou bojovou jednotkou na východ od Fragmundských hôr, stretávajú sa v nej chrabrí rytieri, ľstiví žoldnieri i skúsení vojvodcovia, ktorí si trúfnu aj na ťažkú korisť za horami. Na ich čele stojí Miklušov synovec Voderad, chýrny veliteľ a skúsený taktik.
 
   **Farby**: modrá-biela, modrá-žltá
 
@@ -89,7 +89,7 @@ akvilonianFaction1Image: src/images/uploads/miklusova_legia.jpg
 
 akvilonianFaction2Title: Vodárska patrola
 akvilonianFaction2Text: |-
-  Nie každý môže byť rytierom, nie každý má meč vykladaný drahými kameňmi. Aj chudobný, no statočný človek však môže bojovať za dobrú vec. Bojovníci tejto skupiny sú synovia roľníkov a bratia statkárov. Spolu s elfmi, trpaslíkmi a lesnými bytosťami z Lesov divej vínnej révy sa pod vedením Irmy Akvilónskej, vlčice z Ompitálu, obliekli do čierneho a vyrazili svojmu kráľovi na pomoc.
+  Nie každý môže byť rytierom, nie každý má meč vykladaný drahými kameňmi. Aj chudobný, no statočný človek môže bojovať za dobrú vec. Bojovníci tejto skupiny sú synovia roľníkov a bratia statkárov. Spolu s elfmi, trpaslíkmi a lesnými bytosťami z Lesov divej vínnej révy sa pod vedením Irmy Akvilónskej, vlčice z Ompitálu, obliekli do čierneho a vyrazili na pomoc svojmu kráľovi.
 
   **Farby**: hnedá, čierna, modrá
 
@@ -100,13 +100,13 @@ akvilonianFaction2Image: src/images/uploads/vlcica_z_ompitalu.jpg
 
 akvilonianFaction3Title: Korzári
 akvilonianFaction3Text: |-
-  Vo Vodárskom kráľovstve je mnoho moreplavcov. Okrem Miklušových galér brázdia severné more rybárske lode a veslice obchodníkov, ale aj piráti a korzári, prepadávajúci bohato naložené lode z Kráľovstva Vína. Najskúsenejší z nich, Gombajz Dredovlas vie, že ponuka, ktorú dostal od kráľa sa neodmieta, a preto zhromaždil svojich najlepších korzárov a pod Miklušovou vlajkou sa pustil do boja. 
+  V Akvilónii sa nájde mnoho moreplavcov. Okrem Miklušových galér, rybárských lodí a obchodných plavidiel brázdia severné more aj piráti a korzári prepadávajúci bohato naložené lode z Kráľovstva. Najskúsenejší z nich, Gombajz Dredovlas, vie, že ponuka, ktorú dostal od kráľa sa neodmieta, a preto zhromaždil svojich najlepších korzárov a pod Miklušovou vlajkou sa pustil do boja. 
 
   **Farby**: Pirátsky vzhľad.
 
   **Pokrik**: Na súši nás nesuší!
 
-  **Schopnosť**: Na získavanie bonusov barda "muzika na oddych" a "muzika na pochod", nepotrebujú toto povolanie, musí však spievať väčšina.
+  **Schopnosť**: Ak všetci spievajú, dokážu si uplatniť bardský bonus *muzika na oddych* a *muzika na pochod* aj v prípade, že nemajú v skupine barda. 
 akvilonianFaction3Image: src/images/uploads/bojovnici_korsari.jpg
 
 archive_text: VIDÍME SA O ROK!
