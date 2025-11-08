@@ -107,10 +107,18 @@ weapon_norms_parts:
   - part_title: Najdlhší merateľný rozmer
     part_description:  |-
       Pri jednoručných zbraniach 100 cm, pri obojručných 130 cm, pri kopijach 250 cm, u štítov 70 cm
+  - part_title: Sečné zbrane
+    part_description:  |-
+      Mäkčenie je povinné po celej dĺžke sečnej plochy minimálne 1,5 cm hrubé, na hrote je potrebných 5 cm mäkčenia. Záštity musia byť mäkčené, ak sú z kovu. Odporúčame upraviť zbraň tak, aby mala ťažisko blízko pri záštite. 
+      Príklady: meče, šable, tesáky
   - part_title: Drtivé zbrane
     part_description:  |-
-       Rukoväť musí byť mäkčená minimálne do jednej tretiny dĺžky (v smere od útočného konca) minimálne 0,5 cm mäkčenia, reťaz musí byť nahradená umelohmotnou reťazou alebo lanom hrúbky minimálne 1 cm, maximálna dĺžka reťaze je 20 cm. hlava musí byť celomäkčená, minimálny merateľný rozmer 10 cm. Maximálny merateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. 
-       Príklady: palica, kladivo, buzdygan, reťazová palica, kyj, palcát, atď.
+      Rukoväť musí byť mäkčená minimálne do jednej tretiny dĺžky (v smere od útočného konca) minimálne 0,5 cm mäkčenia, útočná hrana musí byť mäkčená aspoň 5 cm mäkčenia.
+      Príklady: kladivo, budzogáne, kyj, palcát
+  - part_title: Zbrane na reťazi
+    part_description:  |-
+      Rukoväť musí byť mäkčená minimálne do jednej tretiny dĺžky (v smere od útočného konca) minimálne 0,5 cm mäkčenia, reťaz musí byť nahradená umelohmotnou reťazou alebo lanom hrúbky minimálne 1 cm, maximálna dĺžka reťaze je 20 cm. hlava musí byť celomäkčená, minimálny namerateľný rozmer 10 cm. Maximálny namerateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. 
+      Príklady: Remdiky, cepy, nunčaky
   - part_title: Drevcové zbrane
     part_description:  |-
       Sú povolené pre špecifické frakcie. Kopije musia byt mäkčené minimálne do jednej tretiny dĺžky násady s hrúbkou mäkčeniny minimálne 0,5cm. Na konci násady, ktorá je v hrote, musí byť tuhšie mäkčenie (guma, korok). Koniec hrotu kopije musí mať minimálny priemer 4 cm a dĺžku nevystuženého jadra minimálne 15 cm. Maximálny merateľný rozmer celej zbrane musí spĺňať požiadavky z bodu *Najdlhší merateľný rozmer*. Kopije sú jediné zbrane, s ktorými je možné bodať. Minimálny merateľný rozmer je 180 cm. 
