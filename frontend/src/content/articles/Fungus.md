@@ -1,8 +1,8 @@
 ---
 title: 'Fungus'
-date: '2025-06-22'
+date: '2025-07-30'
 description: 'Prírodné božstvo hríboľudí z podhubia'
-image: '/src/images/uploads/fungus.jpg'
+image: '/src/images/uploads/anon.jpg'
 tags:
   - náboženstvá
 ---
@@ -11,7 +11,7 @@ Fungus je mystické hríbie božstvo. Svojich veriacich, ktorí vzišli z mýtic
 
 Prvý raz do širšieho povedomia vstúpil v roku 1324, keď jeho prví uctievači opustili podhubie a vydali sa šíriť jeho meno a spóry do [**Vlčích skál**](/articles/Vlcie-skaly.md).
 
-### Svedkovia Fungusovi
+#### Prví svedkovia Fungusovi
 - Alexander Dubáček
 - Alfonzína Muchotrávková
 - Jožko Bedlárik
@@ -19,3 +19,5 @@ Prvý raz do širšieho povedomia vstúpil v roku 1324, keď jeho prví uctieva�
 - Miroslav Satan
 - Uši Zadubená
 - Vesemira Lysohlávkova
+
+V roku 1325 zohrali Svedkovia Fungusovi kľúčovú úlohu pri upokojení rozhnevaného Praotca, ktorý následne Fungusa prijal do svojej rodiny.

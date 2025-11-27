@@ -4,6 +4,7 @@ date: '2025-06-16'
 description: 'Kontroverzné náboženské texty nájdené vo Vlčích skalách'
 image: '/src/images/uploads/list.jpg'
 tags:
+  - náboženské texty
   - náboženstvá
   - Praotcova rodina
   - Myrmek

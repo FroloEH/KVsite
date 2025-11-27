@@ -14,7 +14,7 @@ Táto legenda hovorí o boji prírodného božstva **Lesovika** proti najkrutej�
 
 Toto je príbeh z dávnych čias, keď Fragmundské lesy zaplavili Lešijove armády. Lešijova vláda bola krutá a každý, komu bol život milý, mu musel slúžiť alebo sa pred ním do najtajnejšej skrýše ukryť. Ľudia i elfovia mu museli prinášať krvavé obete a nad Fragmundom sa neustále vznášala temnota.  
 
-Najhorším z Lešijovych generálov Bol Vlad Krvimlat, rytier v tmavej zbroji, oháňajúci sa ťažkou sekerou. Kamkoľvek Vlad prišiel, všetko živé zutekalo, lebo všetkým bolo známe, že stínanie hláv je jeho obľúbenou zábavkou. 
+Najhorším z Lešijovych generálov bol Vlad Krvimlat, rytier v tmavej zbroji, oháňajúci sa ťažkou sekerou. Kamkoľvek Vlad prišiel, všetko živé zutekalo, lebo všetkým bolo známe, že stínanie hláv je jeho obľúbenou zábavkou. 
 
 Vlad tyranizoval celý Fragmund dlhé roky, až kým sa mu na odpor nepostavili lesné bytosti na čele s mocným Lesovikom. Lesovik rozohnal Lešijových prisluhovačov na všetky svetové strany a samotného démona vyzval na súboj. Ten sa však zľakol a utiekol do svojej pevnosti v skalách. Namiesto neho sa Lesovikovi v súboji postavil Vlad.
 
