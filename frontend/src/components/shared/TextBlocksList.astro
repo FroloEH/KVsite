@@ -1,5 +1,6 @@
-
 ---
+import StyledMarkdownFullWidth from './StyledMarkdownFullWidth.astro'
+
 const blocks: { part_title: string; part_description: string }[] = Astro.props.blocks
 ---
 
@@ -11,7 +12,7 @@ const blocks: { part_title: string; part_description: string }[] = Astro.props.b
           <h2 class='title-font text-lg font-medium tracking-widest text-zinc-900'>{block.part_title}</h2>
         </div>
         <div class='flex lg:w-4/5 flex-col items-center justify-center px-6'>
-          <p class='leading-relaxed'>{block.part_description}</p>
+          <StyledMarkdownFullWidth of={block.part_description} />
         </div>
       </div>
     ))

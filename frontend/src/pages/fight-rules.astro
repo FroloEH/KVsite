@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro'
+import FightRulesTabs from '../components/larp-rules/FightRulesTabs.astro'
+import * as content from '../content/pages/fight-rules.md'
+import { Markdown } from '@astropub/md'
+import DynamicImage from '../components/shared/DynamicImage.astro'
+---
+
+<Layout title={content.frontmatter.larp_rules_title}>
+  <div class='mx-auto max-w-5xl bg-zinc-50 pt-24 shadow-inner' aria-label='LARP Rules Content'>
+    <div class='relative min-h-fit'>
+      <DynamicImage
+        class='md:absolute inset-0 h-full object-cover object-center'
+        src={content.frontmatter.background_image}
+      />
+      <div class='relative flex min-h-fit w-full items-center justify-center md:p-8 md:pt-[25%]'>
+        <div class='rounded-md border-2 border-yellow-400 bg-zinc-100/95 p-8 text-lg'>
+          <Markdown of={content.frontmatter.rules_intro} />
+        </div>
+      </div>
+    </div>
+
+    <FightRulesTabs />
+  </div>
+</Layout>

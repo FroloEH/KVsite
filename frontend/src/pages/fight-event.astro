@@ -1,0 +1,79 @@
+---
+import EventInfo from '../components/EventInfo.astro'
+import Layout from '../layouts/Layout.astro'
+import * as content from '../content/pages/current-fight-event.md'
+import { getCollection } from 'astro:content'
+import SubSectionWithImage from '../components/shared/SubSectionWithImage.astro'
+import TicketSales from '../components/shared/TicketSales.astro'
+import StoryInfo from '../components/larp-event/StoryInfo.astro'
+import ParagraphWithHeader from '../components/shared/ParagraphWithHeader.astro'
+import Button from '../components/shared/Button.astro'
+
+const eventColection = await getCollection(
+  'events',
+  ({ data }: { data: any }) => data.title == content.frontmatter.current_larp_event,
+)
+if (!eventColection || eventColection.length === 0) {
+  throw new Error(`Event with name ${content.frontmatter.current_larp_event} not found`)
+}
+const event = eventColection[0].data
+---
+
+<Layout title={event.title} socialImage={event.image}>
+  <div class='bg-zinc-50 mx-auto max-w-5xl py-24'>
+    <EventInfo eventName={event.title} displayHeading={false} />
+    <ParagraphWithHeader header={content.frontmatter.fightTitle} body={content.frontmatter.fightText} />
+    <section class='my-4 flex justify-center md:space-x-16 flex-col md:flex-row items-center space-y-8 md:space-y-0'>
+      <Button text='Registruj sa!' href={event.registration_link ?? ''} />
+      <Button text='Info pre hráčov' href='/fight-practical-info' />
+    </section>
+
+    <StoryInfo eventTitle={event.title} />
+    <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} />
+    <div class='flex flex-row mt-10 justify-center'>
+      <h2 class='font-large flex mx-4 my-8 md:my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>
+        {content.frontmatter.kingdomFactionsTitle}
+      </h2>
+    </div>
+    <SubSectionWithImage
+      title={content.frontmatter.kingdomFaction1Title}
+      text={content.frontmatter.kingdomFaction1Text}
+      image={content.frontmatter.kingdomFaction1Image}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.kingdomFaction2Title}
+      text={content.frontmatter.kingdomFaction2Text}
+      image={content.frontmatter.kingdomFaction2Image}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.kingdomFaction3Title}
+      text={content.frontmatter.kingdomFaction3Text}
+      image={content.frontmatter.kingdomFaction3Image}
+    />
+
+    <div class='flex flex-row mt-10 justify-center'>
+      <h2 class='font-large flex mx-4 my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>
+        {content.frontmatter.akvilonianFactionsTitle}
+      </h2>
+    </div>
+
+    <SubSectionWithImage
+      title={content.frontmatter.akvilonianFaction1Title}
+      text={content.frontmatter.akvilonianFaction1Text}
+      image={content.frontmatter.akvilonianFaction1Image}
+      blueColor={true}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.akvilonianFaction2Title}
+      text={content.frontmatter.akvilonianFaction2Text}
+      image={content.frontmatter.akvilonianFaction2Image}
+      blueColor={true}
+    />
+    <SubSectionWithImage
+      title={content.frontmatter.akvilonianFaction3Title}
+      text={content.frontmatter.akvilonianFaction3Text}
+      image={content.frontmatter.akvilonianFaction3Image}
+      blueColor={true}
+    />
+  </div>
+</Layout>

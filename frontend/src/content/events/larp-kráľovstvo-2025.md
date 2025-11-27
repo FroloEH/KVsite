@@ -1,5 +1,6 @@
 ---
 title: LARP Kráľovstvo 2025
+registration_link: /larp-event#larp-registration
 date: Tri dni hry, 23. - 26. júla 2025
 place: Les pri hrade Červený Kameň
 linkFbEvent: https://www.facebook.com/events/1769962223443715
@@ -28,5 +29,5 @@ story3Text: "Bývalá zbojnícka pevnosť v bývalej budove VŠMU má nového ma
   pevného zázemia z nich spravilo hráča na novej úrovni. Dokážu túto svoju
   opevnenú pozíciu vo Vlčích skalách využiť? Alebo im túto príležitosť vyfúkne
   iný cech?"
-archived: false
+archived: true
 ---
