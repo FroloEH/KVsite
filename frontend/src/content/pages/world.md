@@ -29,7 +29,7 @@ vlcie_skaly_text: >-
   \
 
   Ešte v roku 1322 viedla **hranica medzi Akvilóniou a Kráľovstvom vínnej révy** presne cez stred dediny. V lete toho istého roku však vládu nad dedinou prebral boh lovu Lešij, hranicu zrušil a prisvojil si obe polovice dediny. Od ukončenia jeho hrôzovlády v roku 1324 si nikto nie je istý, kadiaľ hranica viedla, a Vlčie skaly sa stali územím nikoho. 
-vlcie_skaly_image: src/images/uploads/vlcie_skaly.jpg
+vlcie_skaly_image: src/images/uploads/svet_vlcie_skaly.jpg
 
 # Karty s odkazmi na reálie Kráľovstva a Akvilónie
 kralovstvo_header: Kráľovstvo vínnej révy

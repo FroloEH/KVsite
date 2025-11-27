@@ -8,7 +8,6 @@ tags:
   - náboženstvá
   - osobnosti
   - Praotcova rodina
-featured: true
 ---
 
 Narodil sa vo [**Vlčích skalách**](/articles/Vlcie-skaly.md), ale kňazské štúdium ho priviedlo až do **Kráľovského mesta**, kde získal titul biskupa [**Cirkvi Praotcovej rodiny**](/articles/Cirkev-Praotcovej-rodiny.md).
@@ -21,6 +20,8 @@ Svojimi aktivitami pritiahol pozornosť vladyku [**Andrého von Goldsteina**](/a
 
 Po Mitického neúspešnom pokuse zosadiť Lešija ďalej pôsobil vo Vlčích skalách s úmyslom vyčkať na vhodnú príležitosť a prebrať s odbojom moc nad dedinou. Tieto plány boli zmarené príchodom kasína **Zlatý slon** a návykových herných automatov, ktoré Vínopiča zviedli na cestu heretického vyznávania falošného boha **Praotoča**. Pod vplyvom svojej závislosti vyhlásil heretický **Sviatok svätého Frišpína, proroka Praotočovho** a menom Frišpín pokrstil jedného z nových veriacich.
 
-Praotec, pobúrený správaním svojho kňaza, sa následne zjavil priamo vo Vlčích skalách a Vínopiča vykázal zo svojej cirkvi, až kým si troma veľkými činmi znova nevyslúži jeho dôveru.
+Praotec, pobúrený správaním svojho kňaza, sa následne zjavil priamo vo Vlčích skalách a Vínopiča vykázal zo svojej cirkvi.
+
+Vínopič strávil nasledujúci rok snovaním plánu, ako sa Praotcovi pomstiť, ktorý vyvrcholil v lete roku 1325, keď rozhnevaný Praotec svojimi emóciami sužoval celé priľahlé okolie. Vďaka snahám vyznávačov prírodného božstva [**Fungusa**](/articles/Fungus.md) sa Praotec upokojil natoľko, aby si Vínopiča vypočul. Vínopič na poslednú chvíľu plán na pomstu zastavil, Praotec uznal, že konal v hneve, a prijal Vínopiča späť do rodiny svojich veriacich.
 
 

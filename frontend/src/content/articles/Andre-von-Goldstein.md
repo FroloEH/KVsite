@@ -1,14 +1,15 @@
 ---
 title: 'André von Goldstein'
-date: '2025-06-16'
-description: 'Súčasný vladyka Vlčích skál'
-image: '/src/images/uploads/anon.jpg'
+date: '2025-07-28'
+description: 'Deviaty vladyka Vlčích skál'
+image: '/src/images/uploads/andre_von_goldstein.jpg'
 tags:
   - osobnosti
+  - šľachta
   - Vlčie skaly
 ---
 
-Deviaty vladyka [**Vlčích skál**](/articles/Vlcie-skaly.md) (1318 - súčasnosť).
+Deviaty vladyka [**Vlčích skál**](/articles/Vlcie-skaly.md) (1318 - 1325).
 
 ### Konflikt s dedinskými kňazmi
 

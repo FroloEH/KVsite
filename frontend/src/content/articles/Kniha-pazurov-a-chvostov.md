@@ -5,6 +5,7 @@ description: 'Základný text Cirkvi Myrmekovej'
 image: '/src/images/uploads/list.jpg'
 tags:
   - Myrmek
+  - náboženské texty
   - náboženstvá
 ---
 

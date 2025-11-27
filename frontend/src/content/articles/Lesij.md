@@ -20,14 +20,14 @@ Dochované legendy, ktoré opisujú toto obdobie:
 - [O štyroch elfských princeznách](/articles/O-styroch-elfskych-princeznach.md)
 - [O víťazstve nad Vladom Krvimlatom](/articles/O-vitazstve-nad-Vladom-Krvimlatom.md)
 
-### Lešijova krutovláda (1264 - 1277)
-Baníci vtedajšieho pána **Červenokamenského panstva** narazili pri hĺbení nových tunelov v roku 1264 na siene plné pokladov. Zaslepení vidinou bohatstva kopali ďalej a prenikli až do siení stratenej Čiernej veže. Lešij ich privítal v prestrojení, ďakoval im a prisľúbil im veľkú odmenu, ak mu pomôžu vrátiť sa na zem. Baníci mu pomohli.
+### Lešijova krutovláda (1266 - 1277)
+Baníci vtedajšieho pána hradu [**Červený Kameň**](/articles/Cervenokamenska-vojvodina.md) narazili pri hĺbení nových tunelov na siene plné pokladov. Zaslepení vidinou bohatstva kopali ďalej a prenikli až do siení stratenej Čiernej veže. Lešij ich privítal v prestrojení, ďakoval im a prisľúbil im veľkú odmenu, ak mu pomôžu vrátiť sa na zem. Baníci mu pomohli.
 
 Lešij sa vrátil a rýchlo naberal na sile. Spojil sa s ježibabami, ktoré špehovali jeho nepriateľov. Vďaka pomoci vodníkov si vybudoval vojsko utopencov. Lesné bytosti jeho prestrojenie prehliadli, ale ľudia ich varovania pred „stvorením z rozprávok“ nebrali vážne.
 
-Situácia sa rýchlo vyostrila, Lešij prebral moc nad panstvom a nastolil svoju krutovládu. Jeho služobník **Vlkoň** založil na strategickom mieste neďaleko panstva dedinu [**Vlčie skaly**](/articles/Vlcie-skaly.md).
+Situácia sa rýchlo vyostrila, Lešij prebral moc nad hradom a nastolil svoju krutovládu. Jeho služobník **Vlkoň** založil na strategickom mieste neďaleko hradu dedinu [**Vlčie skaly**](/articles/Vlcie-skaly.md).
 
-V roku 1277 sa Lešij stretol v súboji s hrdinom **Jaroslavom Hájničkom**. Lešij bol zahnaný do podzemných tunelov, kde sa pokúšal skryť, Hájniček ho však dobehol a pomocou magického Meča samoseča porazil.
+V roku 1277 sa Lešij stretol v súboji s hrdinom **Jarom Hájničkom**. Lešij bol zahnaný do podzemných tunelov, kde sa pokúšal skryť, Hájniček ho však dobehol a pomocou magického Meča samoseča porazil.
 
 ### Lešijova hrôzovláda (1322 - 1324)
 Napriek nádejám, že Lešij bol nadobro porazený, bol v podzemí iba uväznený. V istom bode sa mu podarilo spojiť s akvilónskou šľachtičnou **Aliou**, ktorej výmenou za pomoc s prepustením sľúbil nesmrteľnosť. Alia v roku 1322 pricestovala do Vlčích skál pod zámienkou návštevy rodiny, no v skutočnosti využila svoj vplyv, manipuláciu a klamstvá na oslabenie siedmych pečatí, ktoré Lešija pútali.

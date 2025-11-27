@@ -5,7 +5,7 @@ description: 'Anarchisticko-hudobnícka skupina'
 image: '/src/images/uploads/cech_fristajlovej_magie.jpg'
 tags:
   - osobnosti
-  - skupiny
+  - spolky
 ---
 
 Pôvodne dvojica anarchistických zaklínačov v zložení **DČ (drsný čarodej) Špicatý klobúk** a **MM (masívny mág) Krištáľová guľa**. Neskôr sa k nim pridala liečiteľka s pseudonymom **Drsná pláštenka**.
