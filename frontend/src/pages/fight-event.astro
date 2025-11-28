@@ -24,17 +24,21 @@ const event = eventColection[0].data
     <EventInfo eventName={event.title} displayHeading={false} />
     <ParagraphWithHeader header={content.frontmatter.fightTitle} body={content.frontmatter.fightText} />
     <section class='my-4 flex justify-center md:space-x-16 flex-col md:flex-row items-center space-y-8 md:space-y-0'>
-      <Button text='Registruj sa!' href={event.registration_link ?? ''} />
+        {event.date != "TBD" ?
+          <Button text='Registruj sa!' href={event.registration_link ?? ''} />
+        : <div></div>}
       <Button text='Info pre hráčov' href='/fight-practical-info' />
     </section>
 
     <StoryInfo eventTitle={event.title} />
-    <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} />
-    <div class='flex flex-row mt-10 justify-center'>
-      <h2 class='font-large flex mx-4 my-8 md:my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>
-        {content.frontmatter.kingdomFactionsTitle}
-      </h2>
-    </div>
+    {event.date != "TBD" ?
+        <TicketSales title='Lístky' eventId={content.frontmatter.tootoot_id} />
+        <div class='flex flex-row mt-10 justify-center'>
+          <h2 class='font-large flex mx-4 my-8 md:my-16 text-3xl text-zinc-900 md:text-5xl md:underlined-heading'>
+            {content.frontmatter.kingdomFactionsTitle}
+          </h2>
+        </div>
+    : <div></div> }
     <SubSectionWithImage
       title={content.frontmatter.kingdomFaction1Title}
       text={content.frontmatter.kingdomFaction1Text}

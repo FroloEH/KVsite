@@ -1,0 +1,27 @@
+---
+import ParagraphWithHeader from '../components/shared/ParagraphWithHeader.astro'
+import DynamicImage from '../components/shared/DynamicImage.astro'
+import * as content from '../content/pages/current-fight-event.md'
+import { getCollection } from 'astro:content'
+import Layout from '../layouts/Layout.astro'
+
+const eventCollection = await getCollection(
+  'events',
+  ({ data }: { data: any }) => { console.log(data); return data.title == 'LARP Kráľovstvo 2026' },
+)
+if (!eventCollection || eventCollection.length === 0) {
+  throw new Error(`Event with name ${content.frontmatter.current_larp_event} not found`)
+  }
+const event = eventCollection[0].data
+---
+
+<Layout title={event.title} socialImage={event.image}>
+  <div class='bg-zinc-50 mx-auto max-w-5xl pt-24'>
+    <ParagraphWithHeader header={event.practicalInfoTitle} body={event.practicalInfoBody} />
+    <DynamicImage
+      src={event.practicalInfoImage}
+      class='object-cover object-center shadow-inner mx-auto pb-32'
+      alt='Mapa cesty na lokaciu'
+    />
+  </div>
+</Layout>
