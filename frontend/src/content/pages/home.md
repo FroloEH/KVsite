@@ -2,8 +2,8 @@
 hero_header1: Vytvorme spolu
 hero_header2: fantastické príbehy
 hero_text: Staň sa na tri dni dobrodruhom na fantastickej LARP-ovej hre.
-hero_button1_text: Bojovka 2025
-hero_button1_link: /fight-event
+hero_button1_text: LARP 2026
+hero_button1_link: /larp-event
 hero_button2_text: Čo je to LARP
 hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 usp1_header: "Zasmej sa na veselých scénkach "
@@ -18,7 +18,7 @@ usp3_header: Skamaráť sa so skvelými ľuďmi
 usp3_text: Ak miluješ hry a fantastiku, sme tvoja krvná skupina. Príď sa
   zoznámiť s ďalšími nadšencami ako ty.
 partners_header: Ďakujeme za podporu
-partners_this_year_header: tohto ročníka
+partners_this_year_header: 
 hero_nadpis1: Vytvorme spolu
 hero_nadpis2: fantastické príbehy
 partners_last_year_header: Predošlých ročníkov
@@ -57,8 +57,8 @@ player_stories_collection:
   - Rapujúci mágovia
 gallery_collection:
   - Home page gallery
-larp_event_name: LARP Kráľovstvo 2025
-fight_event_name: Hranica 2025
+larp_event_name: LARP Kráľovstvo 2026
+fight_event_name: Hranica 2026
 hero_button2_link: /larp-rules
 usp3_image: src/images/uploads/uzhonesu.jpg
 team_call_to_action_link: mailto:kralovstvo@event-horizon.sk

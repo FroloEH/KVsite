@@ -1,18 +1,22 @@
 ---
 header_1st_column_header: LARP Kráľovstvo
 header_1st_column_links:
-  - link_text: Leto 2025
+  - link_text: Leto 2026
     link_target: /larp-event
   - link_text: Tvorba postavy
     link_target: /character-creation
+# mb: enable when filled out
+# - link_text: Organizačné info
+#   link_target: /larp-practical-info
   - link_text: Pravidlá
     link_target: /larp-rules
 header_2nd_column_header: Hranica
 header_2nd_column_links:
-  - link_text: Jeseň 2025
+  - link_text: Jar 2026
     link_target: "/fight-event"
-  - link_text: Organizačné info
-    link_target: "/fight-practical-info"
+# mb: enable when org info will be available
+# - link_text: Organizačné info
+#   link_target: "/fight-practical-info"
   - link_text: Pravidlá
     link_target: "/fight-rules"
 header_3rd_column_header: Kráľovstvo

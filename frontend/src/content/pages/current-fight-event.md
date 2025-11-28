@@ -1,6 +1,6 @@
 ---
-current_larp_event: Hranica 2025
-tootoot_id: 68caf8c9ae5a8afd2673476e
+current_larp_event: Hranica 2026
+tootoot_id: 'none'
 
 fightTitle: Bojovky zo sveta Kráľovstva sú späť
 fightText: |-

@@ -1,6 +1,7 @@
 ---
-current_larp_event: LARP Kráľovstvo 2025
-tootoot_id: 67b1c25bd80b0c0d7bd954ee
+current_larp_event: LARP Kráľovstvo 2026
+# mb: @TODO: change tootoot_id when reg is available
+tootoot_id: 'none'
 ticketsTitle: Lístky
 ticketsText: >-
   Po vypredaní lístku Bežné vtáča si až do akcie môžeš zakúpiť lístok <b>Jednoducho vtáča</b>, s ktorým môžeš hrať postavu dedinčana, strážnika alebo pekelníka. Viac o tomto type lístka nájdeš nižšie.
@@ -16,7 +17,7 @@ ticketsText: >-
   Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj včas e-mailom.
 
 ticketTypes:
-  - title: Bežné vtáča - vypredané!
+  - title: Bežné vtáča
     subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
     sale_end: ''
     text: >-
