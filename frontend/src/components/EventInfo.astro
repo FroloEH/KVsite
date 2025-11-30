@@ -17,7 +17,7 @@ interface Props {
 const { eventName, displayHeading = true } = Astro.props
 const eventColection = await getCollection(
   'events',
-  ({ data }: { data: any }) => data.title == eventName,
+  ({ data }: { data: any }) => { return data.title ==  eventName; }
 )
 if (!eventColection || eventColection.length === 0) {
   throw new Error(`Event with name ${eventName} not found`)
@@ -63,20 +63,25 @@ const event = eventColection[0].data
         <Button text={eventContent.frontmatter.newsletter_button_text} href={contactSettings.frontmatter.newsletter_link} />
       </div>
 
-    :
-
-      <div class='font-medium text-zinc-950'>
-        <CalendarDays class='mr-1 inline h-5 align-top text-emerald-800' />
-        <p class='inline'>
-          {event.date}
-        </p>
+      :
+      <div>
+          { event.date == "TBD" ? 
+              <h3 class="font-display text-center">Akcia presunutá!</h3>
+          : 
+              <div class='font-medium text-zinc-950'>
+                <CalendarDays class='mr-1 inline h-5 align-top text-emerald-800' />
+                <p class='inline'>
+                  {event.date}
+                </p>
+              </div>
+              <a class='font-medium text-zinc-950 block hover:bg-yellow-50 hover:shadow-sm' href={event.mapLink} target='_blank' rel='noopener noreferrer'>
+                <Map class='mr-1 inline h-5 align-top text-emerald-800' />
+                <p class='inline'>
+                  {event.place}
+                </p>
+              </a>
+          }
       </div>
-      <a class='font-medium text-zinc-950 block hover:bg-yellow-50 hover:shadow-sm' href={event.mapLink} target='_blank' rel='noopener noreferrer'>
-        <Map class='mr-1 inline h-5 align-top text-emerald-800' />
-        <p class='inline'>
-          {event.place}
-        </p>
-      </a>
     }
 
     <!-- Socials -->
@@ -117,7 +122,9 @@ const event = eventColection[0].data
       </div>
     </div>
     <div class='mt-10 flex flex-col items-center justify-center px-4 md:w-1/2'>
-    <Button text='Registrácia' href={event.registration_link ?? ""} />
+    { event.date != 'TBD' ?
+        <Button text='Registrácia' href={event.registration_link ?? ""} />
+    : <div></div> }
   </div>
 }
 </div>  

@@ -73,25 +73,9 @@ collections:
               widget: 'string',
             }
           - {
-              label: 'Partners_this_year_header',
-              name: 'partners_this_year_header',
-              widget: 'string',
-            }
-          - {
               label: 'Partners_last_year_header',
               name: 'partners_last_year_header',
               widget: 'string',
-            }
-          - {
-              label: 'Partners_this_year',
-              name: 'partners_this_year',
-              widget: 'relation',
-              collection: 'partners',
-              multiple: true,
-              searchFields: ['name'],
-              valueField: 'name',
-              displayFields: ['name'],
-              required: false,
             }
           - {
               label: 'Partners_last_year',
@@ -642,6 +626,7 @@ collections:
       - { label: 'Zápletka 3 nadpis', name: 'story3Title', widget: 'string' }
       - { label: 'Zápletka 3 text', name: 'story3Text', widget: 'string' }
       - { label: 'Archivovať akciu', name: 'archived', widget: 'boolean' }
+      - { label: 'Presunuta akcia', name: 'moved', widget: 'boolean' }
 
   - name: 'partners'
     label: 'Partners'
