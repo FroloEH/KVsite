@@ -1,9 +1,7 @@
 ---
-hero_header1: Vytvorme spolu
-hero_header2: fantastické príbehy
+hero_header2: fantastické príbehy!
 hero_text: Staň sa na tri dni dobrodruhom na fantastickej LARP-ovej hre.
 hero_button1_text: Bojovka 2025
-hero_button1_link: /fight-event
 hero_button2_text: Čo je to LARP
 hero_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 usp1_header: "Zasmej sa na veselých scénkach "
@@ -22,7 +20,7 @@ partners_this_year_header: tohto ročníka
 hero_nadpis1: Vytvorme spolu
 hero_nadpis2: fantastické príbehy
 partners_last_year_header: Predošlých ročníkov
-partners_this_year: 
+partners_this_year:
   - FPU
   - Obec Dubová
 partners_last_year:
@@ -58,8 +56,10 @@ player_stories_collection:
 gallery_collection:
   - Home page gallery
 larp_event_name: LARP Kráľovstvo 2025
-fight_event_name: Hranica 2025
 hero_button2_link: /larp-rules
 usp3_image: src/images/uploads/uzhonesu.jpg
 team_call_to_action_link: mailto:kralovstvo@event-horizon.sk
+fight_event_name: Hranica 2025
+hero_header1: Vytvorme spolu
+hero_button1_link: /fight-event
 ---
