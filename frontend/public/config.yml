@@ -722,11 +722,14 @@ collections:
 
   - label: 'Detská hra'
     name: 'children-game'
-    file: 'frontend/src/content/pages/children-game.md'
-    fields:
-      - { label: 'Nadpis', name: 'header', widget: 'string' }
-      - { label: 'Obrázok', name: 'image', widget: 'image' }
-      - { label: 'Text', name: 'text', widget: 'markdown' }
+    files:
+      - label: 'Detská hra'
+        name: 'children-game'
+        file: 'frontend/src/content/pages/children-game.md'
+        fields:
+          - { label: 'Nadpis', name: 'header', widget: 'string' }
+          - { label: 'Obrázok', name: 'image', widget: 'image' }
+          - { label: 'Text', name: 'text', widget: 'markdown' }
 
   - name: 'article'
     label: 'Articles'
