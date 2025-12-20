@@ -1,14 +1,18 @@
 ---
 current_larp_event: LARP Kráľovstvo 2026
 # mb: @TODO: change tootoot_id when reg is available
-tootoot_id: 'none'
+tootoot_id: '6946736e2c6c2db029ff816d'
 ticketsTitle: Lístky
 ticketsText: >-
-  Po vypredaní lístku Bežné vtáča si až do akcie môžeš zakúpiť lístok <b>Jednoducho vtáča</b>, s ktorým môžeš hrať postavu dedinčana, strážnika alebo pekelníka. Viac o tomto type lístka nájdeš nižšie.
-  <br><br>
-  Prvých <b>5 lístkov pre strážnikov</b> a prvých <b>5 lístkov pre pekelníkov</b> si môžeš zakúpiť za akciovú cenu.
-  <br><br>
-  Predherná registrácia tento rok prebieha <b>v stredu 23. júla popoludní a hra začína 24. júla ráno</b>.
+  Tento rok spúšťame aj **Zlatý lístok**, ktorý je ideálnym vianočným darčekom pre zapálených LARP-istov. V cene lístka (100€) dostaneš 2 lístky pre teba a tvojho kamaráta vo formáte PDF, ktoré si môžeš vytlačiť a podarovať ich.
+  <br><br> 
+  Ak nemáš kamarátov a chceš si nejakých nájsť medzi orgami, môžeš si zakúpiť lístok **Ľúbezné vtáča**, z ktorého poputuje 10€ ako dodatočná podpora LARP-u.
+  <br><br> 
+  Ak nechceš míňať 10€ navyše, ale naopak ich ušetriť a tiež nás potešiť, môžeš si zakúpiť lístok medzi prvými ako ranné vtáča. Lístky po vypredaní zásob **Ranných vtáčat** budú stáť normálnu cenu v kategórii Bežné vtáča.
+  <br><br> 
+  Predherná registrácia tento rok prebieha v stredu 22. júla popoludní a hra začína 23. júla ráno. V stredu nás taktiež čaká aj dodatočný program priamo na lokačke.
+  <br><br> 
+  Pokiaľ plánujete hrať **ako skupina**, nezabúdajte, že teraz si kupujete len lístok! Registrácia postáv sa spustí na jar v roku 2026. Počas nej získate možnosť zaregistrovať sa ako skupina, kde za celý proces komunikuje s nami len hlava skupiny. Ak vaša skupina prevýši 5 a viac členov, každý od nás dostane mince do hernej krčmy v hodnote 5€ nezávisle od typu lístka.
   <br><br>  
   Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným súhlasom rodičov s účasťou dieťaťa na hre.
   <br><br>
@@ -26,35 +30,6 @@ ticketTypes:
       Majstri sa ťa pokúsia prepojiť s inými hráčmi a rôznymi dejovými linkami. Ako postava s bežným lístkom sa môžeš pridať niektorej z veľkých skupín (ako je Cech dobrodruhov, Cech liečiteľov...), ktoré sú tradične od začiatku zapojené do deja. Ak prichádzaš do Vlčích skál bez skupiny, nasmerujú ťa k niečomu, čo by ťa mohlo zaujímať.
       <br><br>
       Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba.
-  - title: Jednoducho vtáča
-    subheader: 'Zjednodušené postavy, ktoré si nevyžadujú príbehovú konzultáciu.'
-    sale_end: '2025-07-23'
-    text: >-
-      Po ukončení predaja bežných lístkov ponúkame už len špeciálny lístok, pri ktorom si vyberáš jednu z týchto troch rolí: <b>strážnik</b>, <b>pekelník</b> alebo <b>dedinčan</b>. 
-      <br><br>
-      Hra, ktorá ťa čaká, je v jadre rovnaká ako tá pre hráčov s bežným lístkom. Ako strážnik alebo pekelník sa môžeš zapájať do všetkého, čo je na hre pripravené. Niektoré dejové linky dokonca špecificky rátajú so zapojením týchto skupín.
-      <br><br>
-      Jediný rozdiel spočíva v tom, že o svojej postave nebudeš komunikovať s majstrom. Pred hrou dostaneš informácie o tom, čo sa v okolí deje, ale zapojenie do jednotlivých dejových liniek bude čisto na tebe. 
-      <br><br>
-      Tento lístok predávame až do začiatku hry a na svoju rolu sa nemusíš nijako pripravovať.
-      <br>
-      <br>
-      Ako <b>strážnik</b> budeš riešiť úlohy spojené s udržiavaním poriadku v dedine. Naši strážnici sú pojatí ako policajti alebo vojaci z parodických filmov. Pri hraní strážnika sa zabavíš na improvizovaní rôznych klišé. Dedinu v minulých ročníkoch napríklad strážila dvojica, ktorá chodila všade spolu, pretože iba jeden vedel čítať a iba jeden vedel písať, alebo trojica Dlhý, Široký a Bystro z Ráky.
-      <br>
-      <br>
-      Ako <b>pekelník</b> budeš „bývať“ v hernej lokácii Peklo, kam chodia mŕtve postavy. Pekelníci majú zoznam achievementov spojených s umieraním, ktoré sa snažia plniť, od jednoduchého „zomri v obkľúčení“ až po „zomri na svadbe“. Hranie pekelníka je o vtipných momentoch, ktoré nastanú, keď sa snažíš ostatných hráčov zmanipulovať tak, aby nastala situácia, v ktorej môžeš umrieť.
-      <br>
-      <br>
-      Ako <b>dedinčan</b> budeš mať svoju hru vo vlastných rukách. Môžeš sa spojiť s inými hráčmi, vyučiť sa nejakému povolaniu, pridať sa k už existujúcim skupinám alebo si založiť vlastnú.
-  - title: 'Novinka: KŔDEĽ VTÁČAT'
-    subheader: 'Zvýhodnené skupinové lístky.'
-    sale_end: ''
-    text: >-
-      Ak ideš na hru ako súčasť aspoň <b>6-člennej skupiny</b>, chceš minimum vybavovačiek a ušetriť, máme pre teba skupinový lístok.<br><br>
-      • každý člen skupiny dostane pri registrácii na infostánku <b>mince do hernej krčmy v hodnote 10 EUR</b><br/> • namiesto toho, aby si s majstrom písal každý člen skupiny, bude <b>predherná komunikácia prebiehať iba cez jedného zástupcu</b><br/> • ak neskôr zavoláte na Kráľovstvo ďalšieho kamaráta, ktorý by sa chcel pridať do vašej skupiny, môže si dokúpiť lístok a takisto dostane mince do hernej krčmy
-      <br><br>
-      <b>Ako si kúpiť kŕdeľ vtáčat</b>:
-      <br>• zadáš pri výbere lístka počet členov skupiny<br/>• vyplníš svoje údaje a emailovú adresu<br/>• zaplatíš všetky lístky</br>• po spustení registrácie postavy zašleme na tvoju adresu formulár pre každého člena tvojej skupiny<br>• ďalší hráč sa môžeš do tvojho kŕdľa pridať tým, že si kúpi štandardný lístok a dá nám vedieť, že patrí k vám<br/>• ak si už zakúpil lístok, ale chceš sa pridať ku kŕdľu vtáčat, daj nám o tom vedieť ty alebo šéf tvojho kŕdľa
 
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
@@ -67,8 +42,7 @@ registration_steps:
         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z" />
       </svg>
   - step_title: Tvorba postavy
-    step_description: Po odštartovaní registrácie postavy (zhruba dva týždne po
-      spustení predaja lístkov) ti najneskôr na druhý deň po kúpe lístka príde email s
+    step_description: Po odštartovaní registrácie postavy v marci ti najneskôr na druhý deň po kúpe lístka príde email s
       formulárom.
     step_icon: >-
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
