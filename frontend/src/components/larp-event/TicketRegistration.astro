@@ -8,24 +8,30 @@ import TicketSales from '../shared/TicketSales.astro'
 const eventId = content.frontmatter.tootoot_id
 ---
 
-<TicketSales title={content.frontmatter.ticketsTitle} eventId={eventId} />
-<ViewTracker eventName='TicketDescription'>
-    <div class='leading-relaxed text-base m-6'>
-        <StyledMarkdown of={content.frontmatter.ticketsText} />
-        <div class='mt-8'>
-            {
-                content.frontmatter.ticketTypes &&
-                    content.frontmatter.ticketTypes.map((type, idx) => (
-                        <AccordionItem
-                            title={type.title}
-                            subheader={type.subheader}
-                            sale_end={type.sale_end}
-                            text={type.text}
-                            image=''
-                            key={idx}
-                        />
-                    ))
-            }
-        </div>
+{eventId == 'none' ? 
+    <div class="bg-emerald-800">
+        <h2 id="larp-registration" class="text-center py-12 font-bold tracking-widest uppercase text-yellow-50">Registrácia sa čoskoro začne.</h2>
     </div>
-</ViewTracker>
+:
+    <TicketSales title={content.frontmatter.ticketsTitle} eventId={eventId} />
+    <ViewTracker eventName='TicketDescription'>
+        <div class='leading-relaxed text-base m-6'>
+            <StyledMarkdown of={content.frontmatter.ticketsText} />
+            <div class='mt-8'>
+                {
+                    content.frontmatter.ticketTypes &&
+                        content.frontmatter.ticketTypes.map((type, idx) => (
+                            <AccordionItem
+                                title={type.title}
+                                subheader={type.subheader}
+                                sale_end={type.sale_end}
+                                text={type.text}
+                                image=''
+                                key={idx}
+                            />
+                        ))
+                }
+            </div>
+        </div>
+    </ViewTracker>
+}

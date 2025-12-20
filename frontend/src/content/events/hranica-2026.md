@@ -1,7 +1,7 @@
 ---
-title: Hranica 2025
-date: Sobota 18. októbra 2025
-place: Boldog
+title: Hranica 2026
+date: TBD
+place: TBD
 linkFbEvent: https://www.facebook.com/events/1187368796538848
 image: src/images/uploads/hranica_2025.jpg
 registration_link: /fight-event#larp-registration
@@ -23,5 +23,5 @@ story3Title: Ktoré kráľovstvo zvíťazí?
 story3Text: >-
   Vo vetre bijú farebné štandardy dvoch táborov postavené neďaleko obchodnej cesty medzi spomínanými sídlami. Otvoria si Akvilónčania priechod k hlavnému mestu Kráľovstva, alebo budú kráľovskými vojakmi zatlačení na ústup späť k sídlu Hájničkovcov, ktoré obišli?
 
-archived: true
+archived: false
 ---
