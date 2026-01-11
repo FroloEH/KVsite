@@ -1,0 +1,71 @@
+---
+import { sanityClient } from "sanity:client";
+import { PortableText } from "astro-portabletext";
+
+export async function getStaticPaths() {
+  const SLUGS_QUERY = `*[_type == "page" && defined(slug.current)]{
+    "params": {"slug": slug.current}
+  }`;
+  return await sanityClient.fetch(SLUGS_QUERY);
+}
+
+// Fetch the page AFTER params are known
+const slug = "world-two"
+
+console.log(Astro)
+console.log(slug)
+
+const PAGE_QUERY = `
+  *[_type == "page" && slug.current == $slug][0]{
+    title,
+    pageBuilder[]{
+      ...,
+      _type == "heroBlock" => {
+        headline,
+        "imageUrl": image.asset->url
+      },
+      _type == "richTextBlock" => {
+        content
+      }
+    }
+  }
+`;
+
+const page = await sanityClient.fetch(PAGE_QUERY, { slug });
+
+if (!page) {
+  return Astro.redirect("/404");
+}
+
+const { title, pageBuilder = [] } = page;
+---
+
+<main class="container mx-auto max-w-4xl py-12 px-6 flex flex-col gap-10">
+  <h1 class="text-4xl font-bold mb-6">{title}</h1>
+
+  {pageBuilder.map((block) => {
+    switch (block._type) {
+      case "heroBlock":
+        return (
+          <section class="text-center space-y-6">
+            {block.imageUrl && (
+              <img src={block.imageUrl} alt={block.headline || ""} class="mx-auto rounded-lg" />
+            )}
+            {block.headline && (
+              <h2 class="text-3xl font-bold">{block.headline}</h2>
+            )}
+          </section>
+        );
+
+      case "richTextBlock":
+        return (
+          <section class="prose max-w-none">
+            <PortableText value={block.content} />
+          </section>
+        );
+
+      default:
+        return null;
+    }
+  })}
+</main>
