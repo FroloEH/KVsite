@@ -1,0 +1,89 @@
+---
+import DynamicImage from '../shared/DynamicImage.astro'
+import * as content from '../../content/pages/world.md'
+import AccordionItem from '../shared/AccordionItem.astro'
+import ViewTracker from '../shared/ViewTracker.astro'
+import ExpandableCard from '../shared/ExpandableCard.astro'
+import ParagraphWithHeader from '../shared/ParagraphWithHeader.astro'
+import TextHeader from '../shared/ParagraphWithHeader.astro'
+import ThreeColumns from '../shared/ThreeColumns.astro'
+
+const kralovske_kultury = content.frontmatter.kralovske_kultury as {
+  name: string
+  description: string
+  image: string
+}[]
+const ostatne_kultury = content.frontmatter.ostatne_kultury as { name: string; description: string; image: string }[]
+---
+
+<!-- Širší svet -->
+<ParagraphWithHeader header={content.frontmatter.sirsi_svet_header} body={content.frontmatter.sirsi_svet_body} />
+
+<!-- Obyvatelia/druhy -->
+<div class='mx-auto max-w-screen-xl px-4 pt-4 sm:px-6 lg:px-8'>
+  <h3 class='font-large mb-2 text-3xl'>{content.frontmatter.druhy_header}</h3>
+</div>
+<ViewTracker eventName='druhy'>
+  <ThreeColumns>
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_1_header}
+      text={content.frontmatter.druhy_karta_1_text}
+      image={content.frontmatter.druhy_karta_1_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_2_header}
+      text={content.frontmatter.druhy_karta_2_text}
+      image={content.frontmatter.druhy_karta_2_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_3_header}
+      text={content.frontmatter.druhy_karta_3_text}
+      image={content.frontmatter.druhy_karta_3_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_4_header}
+      text={content.frontmatter.druhy_karta_4_text}
+      image={content.frontmatter.druhy_karta_4_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_5_header}
+      text={content.frontmatter.druhy_karta_5_text}
+      image={content.frontmatter.druhy_karta_5_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_6_header}
+      text={content.frontmatter.druhy_karta_6_text}
+      image={content.frontmatter.druhy_karta_6_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_7_header}
+      text={content.frontmatter.druhy_karta_7_text}
+      image={content.frontmatter.druhy_karta_7_image}
+    />
+    <ExpandableCard
+      title={content.frontmatter.druhy_karta_8_header}
+      text={content.frontmatter.druhy_karta_8_text}
+      image={content.frontmatter.druhy_karta_8_image}
+    />
+  </ThreeColumns>
+</ViewTracker>
+
+<!-- Červenokamenská kultúra -->
+<ParagraphWithHeader header={content.frontmatter.cultures_header} body={content.frontmatter.cultures_body} />
+
+<TextHeader header={content.frontmatter.cudzokrajne_kultury_header} />
+{
+  kralovske_kultury.map((kralovske_kultury) => (
+    <AccordionItem
+      title={kralovske_kultury.name}
+      text={kralovske_kultury.description}
+      image={kralovske_kultury.image}
+    />
+  ))
+}
+<TextHeader header={content.frontmatter.druhove_kultury_header} />
+{
+  ostatne_kultury.map((ostatne_kultury) => (
+    <AccordionItem title={ostatne_kultury.name} text={ostatne_kultury.description} image={ostatne_kultury.image} />
+  ))
+}
