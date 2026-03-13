@@ -4,7 +4,7 @@ current_larp_event: LARP Kráľovstvo 2026
 tootoot_id: '6946736e2c6c2db029ff816d'
 ticketsTitle: Lístky
 ticketsText: >-
-  Tento rok spúšťame aj **Zlatý lístok**, ktorý je ideálnym vianočným darčekom pre zapálených LARP-istov. V cene lístka (100€) dostaneš 2 lístky pre teba a tvojho kamaráta vo formáte PDF, ktoré si môžeš vytlačiť a podarovať ich.
+  **Vypredané** - Tento rok spúšťame aj **Zlatý lístok**, ktorý je ideálnym vianočným darčekom pre zapálených LARP-istov. V cene lístka (100€) dostaneš 2 lístky pre teba a tvojho kamaráta vo formáte PDF, ktoré si môžeš vytlačiť a podarovať ich.
   <br><br> 
   Ak nemáš kamarátov a chceš si nejakých nájsť medzi orgami, môžeš si zakúpiť lístok **Ľúbezné vtáča**, z ktorého poputuje 10€ ako dodatočná podpora LARP-u.
   <br><br> 
