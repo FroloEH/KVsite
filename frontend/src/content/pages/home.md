@@ -23,8 +23,6 @@ hero_nadpis1: Vytvorme spolu
 hero_nadpis2: fantastické príbehy
 partners_last_year_header: Predošlých ročníkov
 partners_this_year: 
-  - FPU
-  - Obec Dubová
 partners_last_year:
   - FPU
   - BSK
