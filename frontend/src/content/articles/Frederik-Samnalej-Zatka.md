@@ -1,7 +1,7 @@
 ---
 title: 'Frederik Samnalej Zátka'
 date: '2025-07-30'
-description: 'Zátka'
+description: 'Mechanik a vynálezca'
 image: '/src/images/uploads/frederik_samnalej_zatka.jpg'
 tags:
   - osobnosti
