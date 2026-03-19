@@ -10,8 +10,8 @@ import ThreeColumns from '../shared/ThreeColumns.astro'
   <DynamicImage src={content.frontmatter.intro_image} class:list={'object-cover object-center shadow-inner'} />
 </div>
 
+<!-- Svet Kráľovstva -->
 <ParagraphWithHeader header={content.frontmatter.intro_header} body={content.frontmatter.intro_body} />
-<ParagraphWithHeader header={content.frontmatter.vlcie_skaly_header} body={content.frontmatter.vlcie_skaly_text} />
 
 <!-- Kralovstvo a Vodarstvo -->
 <div class='mx-auto max-w-screen-xl px-4 pt-4 sm:px-6 lg:px-8'></div>
@@ -27,7 +27,3 @@ import ThreeColumns from '../shared/ThreeColumns.astro'
     image={content.frontmatter.vodari_image}
   />
 </ThreeColumns>
-
-<div class='relative overflow-hidden rounded-lg shadow-inner max-h-[30rem] mb-8'>
-  <DynamicImage src={content.frontmatter.vlcie_skaly_image} class:list={'object-cover object-center shadow-inner'} />
-</div>

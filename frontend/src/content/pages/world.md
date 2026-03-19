@@ -2,141 +2,93 @@
 intro_image: src/images/uploads/les.jpg
 intro_header: Svet Kráľovstva
 intro_body: >-
-  Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami
-  klasickej fantastiky. Nachádzate sa v **Kráľovstve vínnej révy**, kde narazíte
-  na ľudí aj elfov, študentov Vysokej školy magických umení aj modernej
-  mechaniky, bohatých šľachticov aj potulných žoldnierov.\
+  Vitajte vo fantasy svete inšpirovanom vrcholným stredovekom a dielami klasickej fantastiky. Nachádzate sa v **Kráľovstve**, kde narazíte na ľudí aj elfov, študentov Vysokej školy magických umení aj modernej mechaniky, bohatých šľachticov aj potulných žoldnierov.\
   
   \
   
-  Všetkých obyvateľov Kráľovstva však spája hrdosť na víno a vinohrady, na ktoré si robí zálusk susedná **Akvilónia**, známa aj ako Vodárske kráľovstvo. Vodárstvo sníva o revolúcii, ktorú by do Kráľovstva prinieslo, o zalievaní vinohradov vodou z vodovodov, o miešaných nápojoch a ďalších moderných reformách.\
-
-  \
-
-  Dobrodruhovia z oboch strán sa stretávajú na tom najneočakávanejšom mieste: v malej pohraničnej dedinke menom **Vlčie skaly**.
-
-vlcie_skaly_header: Vlčie skaly
-
-# V admin editore by sa malo zobrazovať políčko na editáciu _text, ale zobrazuje sa tam políčko na editáciu _body. Text z _body sa na stránke nezobrazuje.
-vlcie_skaly_body: NEZOBRAZUJE SA, ale je v admin editore
-vlcie_skaly_text: >-
-  Na čele dediny stojí od roku 1318 vladyka **André von Goldstein**, ktorý z poverenia pána Červenokamenského panstva udržiava v dedine poriadok. V tomto úsilí ho podporuje dedinská rada, ktorá pravidelne zasadá a rieši spolu s vladykom otázky fungovania dediny.\
+  Vlčie skaly boli ešte nedávno malou dedinou na hraniciach starodávneho **Kráľovstva vínnej révy** a modernej **Akvilónie**, dvoch najväčších mocností v tomto kúte sveta, ktoré sú už niekoľko desaťročí vo vojne.\
   
   \
 
-  Poriadok v dedine ďalej udržiava **Vlčia stráž**, ktorá dohliada na dodržiavanie zákonov, pokutovanie prehreškov a celkový pokoj v dedine. \
+  Všetko sa však zmenilo, keď sa miestni obyvatelia rozhodli, že si na hraniciach založia vlastné kráľovstvo.\
 
   \
 
-  Ešte v roku 1322 viedla **hranica medzi Akvilóniou a Kráľovstvom vínnej révy** presne cez stred dediny. V lete toho istého roku však vládu nad dedinou prebral boh lovu Lešij, hranicu zrušil a prisvojil si obe polovice dediny. Od ukončenia jeho hrôzovlády v roku 1324 si nikto nie je istý, kadiaľ hranica viedla, a Vlčie skaly sa stali územím nikoho. 
-vlcie_skaly_image: src/images/uploads/svet_vlcie_skaly.jpg
+  Pridaj sa k nim a poď písať nové dejiny.
 
-# Karty s odkazmi na reálie Kráľovstva a Akvilónie
+# Infobox Kráľovstvo
 kralovstvo_header: Kráľovstvo vínnej révy
 kralovstvo_body: >-
   Rozmanité tradíciami, kultúrami aj obyvateľmi. Staručký kráľ **Pataj Šuhaj I.** pokladá akvilónskeho kráľa za vojnového štváča a rebela.
 kralovstvo_image: src/images/uploads/kralovstvo_bitka.jpg
 
+# Infobox Akvilónia
 vodari_header: Akvilónia
 vodari_body: >-
-  Bývalá vojvodina Kráľovstva, známa aj ako **Vodárstvo**. Akvilónčania milujú vodu a všetko mokré, no predovšetkým milujú pokrokového kráľa **Mikluša I.**
+  Bývalá vojvodina Kráľovstva, známa aj ako **Vodárstvo**. Akvilónčania milujú vodu a všetko mokré, no predovšetkým milujú pokrokového kráľa **Mikluša I.** <p style="text-align:center;">[**ČÍTAJ VIAC**](/articles/Akvilonia.md)</p>
 vodari_image: src/images/uploads/vodarstvo_piratka_s_flasou.jpg
 
-# Cechy
-guilds_header: Kráľovské cechy
-guilds_body: Vo Vlčích skalách pôsobia aj niektoré cechy, ktoré združujú
-  majstrov daných remesiel z celého Kráľovstva. Do týchto cechov sa vie pridať
-  ktokoľvek, kto prejaví záujem.
-guilds:
-  - name: Cech dobrodruhov
-    description: >-
-      Heslo: Za česť, slávu a peniaze! Poradie voliteľné.\
+# Vlčie skaly
+vlcie_skaly_header: Kráľovstvo Vlčie skaly
+vlcie_skaly_text: >-
+  Na čele kráľovstva stojí kráľ [**Kemčislav I.**](/articles/Kemcislav-I.md) korunovaný **prekliatou korunou**, ktorú si nedokáže zložiť z hlavy. Spolu s ním kráľovstvo vedie rada, ktorá sa pod vedením miestneho starešinu pravidelne stretáva na zasadaniach.\
 
-      \
+  \
 
-      Cech dobrodruhov Jožka Mrkvičku poskytuje zázemie všetkým nádejným dobrodruhom, ktorí by sa radi stali hrdinami, ale hanbia sa spýtať miestneho krčmára, či mu môžu vyhnať z pivnice myši.\
-      
-      \
+  Obyvatelia aj novopríchodí sú vítaní hneď v niekoľkých cechoch a skupinách, ktoré majú vo Vlčích skalách stále zázemie. 
 
-      Tento cech spája bojovníkov, mágov, zlodejov a liečiteľov do vyvážených skupín, sprostredkováva „kvesty“, odmeňuje svojich členov „ekspami“ a certifikuje pravých hrdinov.\
-      
-      \
+# Infobox cechy
+cech_1_header: Cech dobrodruhov
+cech_1_body: Pod heslom *Za česť, slávu a peniaze! Poradie voliteľné.* poskytuje zázemie všetkým nádejným dobrodruhom, ktorí by sa radi stali hrdinami, ale hanbia sa spýtať miestneho krčmára na myši v pivnici. Spája bojovníkov, mágov, zlodejov a liečiteľov, sprostredkováva „kvesty“, odmeňuje svojich členov „ekspami“ a certifikuje pravých hrdinov.
+cech_1_image: src/images/uploads/anon.jpg
 
-      Pre viac informácií navštívte lokálneho garanta Mrkvičku, známeho aj pod skratkou GM.
+cech_2_header: Cech liečiteľov
+cech_2_body: Liečitelia z **Červeného pohára** zachraňujú ranených a skúmajú choroby. Nemajú cechmajstra a o vedení cechu rozhodujú všetci spoločne. Ich **Lazaret u nemilosrdných bratov** sídli od roku 1324 v miestnej pevnosti, ktorú oficiálne vlastní.
+cech_2_image: src/images/uploads/cech_liecitelov.jpg
 
-    image: src/images/uploads/anon.jpg
-  - name: Cech liečiteľov
-    description: >-
-      Liečitelia z **Červeného pohára** zachraňujú ranených, skúmajú choroby a prichádzajú s rôznymi „poľnými inováciami“. Miestni členovia zrušili úrad cechmajstra a o smerovaní cechu rozhodujú všetci spoločne.\
+cech_3_header: Cech strát a nálezov
+cech_3_body: Cech s tajomnou, stratenou minulosťou. Jeho členovia sa venujú nachádzaniu vecí stratených a strácaniu vecí nájdených. Identitu členov tohto záhadného cechu udržuje v tajnosti prostredník, ktorý za menší poplatok rád nájde niečo z vašich stratených vecí.
+cech_3_image: src/images/uploads/cech_strat.jpg
 
-      \
+cech_4_header: Vysoká škola magických umení
+cech_4_body: Vedecké pracovisko VŠMU bolo zriadené s cieľom študovať následky dopadu magického meteoru a iných magicko-obskúrnych úkazov vo Vlčích skalách. Študentom ponúka štúdium na piatich katedrách (Alchýmie, Runovej mágie, Zariekavania, Teoreticko-bombastickej mágie a Obskúrnych umení).
+cech_4_image: src/images/uploads/cech_vsmu.jpg
 
-      Vo Vlčích skalách udržujú dobré vzťahy s lesnými bytosťami a donedávna sídlili v ich lesnom tábore. Rok 1324 pre nich priniesol dve významné zmeny: získanie listu vlastníctva k miestnej pevnosti, kam sa ich **Lazaret u nemilosrdných bratov** presunul, a nájdenie denníka legendárneho bádateľa, vedca a medika Šardóna Dar'Vína, ktorý predstavuje nemalú pomoc v ich snahách. 
-      
-    image: src/images/uploads/cech_liecitelov.jpg
-  - name: Cech strát a nálezov (zlodejský cech)
-    description: >-
-      Cech s tajomnou, takpovediac stratenou minulosťou. Jeho členovia sa venujú nachádzaniu vecí stratených a strácaniu vecí nájdených.\
+cech_5_header: Vlčia bezpečnosť
+cech_5_body: Elitná skupina strážnikov, ktorá udržiava poriadok nielen vo Vlčích skalách, ale aj priľahlom okolí. Slúži priamo kráľovi, v ktorého mene udeľuje povolenia a vydáva pokuty.
+cech_5_image: src/images/uploads/feri.jpg
 
-      \
-      
-      Identitu členov tohto záhadného cechu udržuje v tajnosti prostredník, ktorý za menší poplatok rád nájde niečo z vašich stratených vecí. O fakte, že ide o cech skutočných profesionálov, svedčí aj fakt, že medzi seba priberá len absolventov certifikačného Kurzu diskrétnej akvizície.\
+cech_6_header: Kráľovská rada
+cech_6_body: Zástupcovia miestneho ľudu, ktorí si vyslúžia najväčšiu mieru lojality, majú právo zasadnúť spolu s kráľom v jeho kráľovskej rade. Rada sa stretáva niekoľkokrát denne a rieši pálčive otázky, ktoré trápia miestnych obyvateľov.
+cech_6_image: src/images/uploads/list.jpg
 
-      \
-      
-      Viac informácií stratíte a nájdete u miestneho šmelinára. 
-    image: src/images/uploads/cech_strat.jpg
-  - name: Cech umení
-    description: >-
-      Najmladší prírastok medzi cechy vo Vlčích skalách je Cech umení. Tento zatiaľ malý cech sa venuje novinárskej a investigatívnej činnosti, poskytuje poradenstvo v oblasti marketingových stratégii a iné služby na želanie.\
-      
-      \
-      
-      Zo solidarity s inými slobodnými povolaniami vrelo víta všetkých, ktorí sa živia umením akéhokoľvek druhu. 
-    image: src/images/uploads/cech_umeni.jpg
-  - name: Vysoká škola magických umení (VŠMU)
-    description: >-
-      Vedecké pracovisko VŠMU, jednotky vo vzdelávaní v oblasti mágie, bolo zriadené s cieľom študovať následky dopadu magického meteoru a iných magicko-obskúrnych úkazov vo Vlčích skalách. Študentom z blízkeho aj vzdialeného okolia ponúka štúdium na týchto katedrách:\
+# Spolky - hráčske skupiny, ktoré od roku 2022 boli na hre aspoň 2x a niečo dokázali
 
-      \
-      
-      • Katedra alchýmie\
-
-      • Katedra runovej mágie\
-
-      • Katedra zariekavania\
-
-      • Katedra teoreticko-bombastickej mágie\
-
-      • Katedra obskúrnych umení\
-
-      \
-      
-      Školský rok tradične začína a končí v mesiaci júl, ktorý pre nových, súčasných aj končiacich študentov znamená odovzdávanie akreditačnej práce.
-    image: src/images/uploads/cech_vsmu.jpg
-
-# Spolky
-guilds_groups_header: NEZOBRAZUJE SA, ale je v admin editore
-guilds_groups_body: NEZOBRAZUJE SA, ale je v admin editore
-
-groups_header: Spolky vo Vlčích skalách
-groups_body: Okrem veľkých cechov zohrávajú vo Vlčích skalách významnú rolu aj zástupcovia iných organizácii alebo miestne zoskupenia.
+groups_header: Významní obyvatelia a pravidelní návštevníci
 
 groups_1_header: Gilda mechanikov
-groups_1_body: Nadšení bádatelia, vynálezcovia a pyrotechnici. Gilda mechanikov sa zaoberá konštrukciou a dekonštrukciou rôznych strojov - dopravných prostriedkov, vojenskej a poľnohospodárskej techniky aj umelých ľudí. Vo Vlčích skalách príležitostne oživí golema. 
+groups_1_body: Nadšení bádatelia, vynálezcovia a pyrotechnici. Známi nielen veľkolepým oživením golema (1318), ale rovnako veľkolepým výbuchom Domu ručných prác (1322) a výbuchom domu vladyku Andrého von Goldsteina (1323). <p style="text-align:center;">[**ČÍTAJ VIAC**](/articles/Gilda-mechanikov.md)</p>
 groups_1_image: src/images/uploads/spolky_gilda_mechanikov.jpg
 
-groups_2_header: Svedkovia Fungusovi
-groups_2_body: Skupina hríboľudí prišla do Vlčích skál šíriť slovo prírodného boha Fungusa a hlásať rovnosť vo veľkom kolobehu prírody. Ich politickou hlavou je **Alexander Dubáček**.
-groups_2_image: src/images/uploads/spolky_svedkovia_fungusovi.jpg
+groups_2_header: Cech umení
+groups_2_body: Najmladší prírastok medzi cechy vo Vlčích skalách je Cech umení. Tento zatiaľ malý cech sa venuje rôznym umeleckým činnostiam a poskytuje poradenstvo v oblasti marketingových stratégií. 
+groups_2_image: src/images/uploads/cech_umeni.jpg
 
-groups_3_header: Škola tuniaka
-groups_3_body: Družina bojovných čárifukov a lovcov príšer sa priplavila do Vlčích skál na lodi **Kráčajúci Holanďan**. Ich viera v lesných duchov a ochranu rovnováhy ich vedie k loveniu monštier, rybárčeniu a dlhým filozofickým debatám.
-groups_3_image: src/images/uploads/lod_kraca.jpg
+groups_3_header: Svedkovia Fungusovi
+groups_3_body: Skupina hríboľudí prišla do Vlčích skál šíriť slovo prírodného boha Fungusa a hlásať rovnosť vo veľkom kolobehu prírody. Rok 1325 bol pre ich spóry neobyčajne plodný - ich hlava **Alexander Dubáček** vstúpil do miestnej politiky, oslávili svadbu a stali sa skutočnými svedkami zjavenia Fungusa.
+groups_3_image: src/images/uploads/spolky_svedkovia_fungusovi.jpg
 
-groups_4_header: Zbojnícka družina
-groups_4_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom.
-groups_4_image: src/images/uploads/spolky_zbojnicka_druzina.jpg
+groups_4_header: Khajitská karavana
+groups_4_body: Teplé písky! Putovná karavana týchto mačkoľudí je pravidelným návštevníkom Vlčích skál, do ktorých svojim príchodom vnáša závan exotiky a rôzne bežné aj neobyčajné šmakocinky.
+groups_4_image: src/images/uploads/khajiti.jpg
+
+groups_5_header: Škola tuniaka
+groups_5_body: Družina bojovných čárifukov a lovcov príšer sa priplavila do Vlčích skál na lodi **Kráčajúci Holanďan**. Ich viera v lesných duchov a ochranu rovnováhy ich vedie k loveniu monštier, rybárčeniu a dlhým filozofickým debatám.
+groups_5_image: src/images/uploads/lod_kraca.jpg
+
+groups_6_header: Zbojnícka družina
+groups_6_body: Zbojnícka družina **Oskara Lapiducha**, kráľa červenokamenského podsvetia, veľkolupiča a jedného z vodcov proti-Lešijovského odboja, vstúpila do popredia v období Lešijovej hrôzovlády (1322-1324). Medzi jej členmi by ste našli obyčajných ľudí, šľachticov, lesné víly aj nekromantov, ktorých spojil spoločný cieľ - postaviť sa zlu a zbohatnúť na tom.
+groups_6_image: src/images/uploads/spolky_zbojnicka_druzina.jpg
 
 tabor_header: Tábor lesných bytostí
 tabor_body: >-
@@ -176,7 +128,7 @@ peklo_body: >-
   <br>
   <br>Okrem nich miestne Peklo priťahuje rôznych démonov, ktorí robia spoločnosť miestnej Smrti, a takisto **smrtonosov**, ktorí sa vydávajú na svet a lovia duše umierajúcich a chorých. 
   <br>
-  <br>Od roku 1323 pracuje ako Smrť bývalý vladyka a certifikovaná ľudská troska **Boris Toliar**. 
+  <br>Bývalý vladyka a certifikovaná ľudská troska **Boris Toliar**, ktorý v súčasnosti pracuje ako Smrť, sa svoje miesto údajne chystá opustiť. Jeho výpovedná lehota uplynie v roku 1326. 
 peklo_image: src/images/uploads/smrť_a_pekelníci.jpg
 
 sirsi_svet_header: Širší svet
@@ -220,11 +172,11 @@ druhy_karta_8_image: src/images/uploads/druh_ine.jpg
 # Kultúry
 cultures_header: Regióny a kultúry
 cultures_body: >- 
-  Vlčie skaly sa nachádzajú na území **Červenokamenskej vojvodiny**. Vďaka blízkosti hraníc s Vodárstvom je prvou a poslednou zastávkou cestovateľov z oboch smerov, vďaka čomu sa v danej oblasti stretávajú vplyvy z oboch kráľovstiev.\
+  Vlčie skaly sa odčlenili od územia **Červenokamenskej vojvodiny**, hraničnej oblasti medzi Kráľovstvom vínnej révy a Akvilóniou, kde sa stretávajú vplyvy z oboch kráľovstiev.\
   
   \
 
-  Výsledná **červenokamenská kultúra** je typická svojou otvorenosťou, pohostinnosťou a rôznorodosťou – miestni stretávajú veľa cudzincov a sú tolerantní ku každému, kto je tolerantný k nim. Po udalostiach z posledných rokov zároveň neexistuje nič, čo by ich prekvapilo alebo zaskočilo. Ulicami kráča bezhlavý rytier? No tak sa opýtame, či sa nestratil! Na prameň živej vody zasadla zlá žaba? Dajme hlavy dohromady a nejako ju vyžeňme!\
+  **Červenokamenská kultúra** je typická svojou otvorenosťou, pohostinnosťou a rôznorodosťou – miestni stretávajú veľa cudzincov a sú tolerantní ku každému, kto je tolerantný k nim. Zároveň neexistuje nič, čo by ich prekvapilo alebo zaskočilo. Ulicami kráča bezhlavý rytier? No tak sa opýtame, či sa nestratil!\
   
   \
 
@@ -232,50 +184,49 @@ cultures_body: >-
   
   \
 
-  Táto atmosféra však priťahuje nádejných hrdinov z celého Kráľovstva – ak sa totiž chcete stať skutočným hrdinom a podarí sa vám to práve v Červenokamenskej vojvodine, tak to už niečo znamená.\
+  Táto atmosféra však priťahuje nádejných hrdinov z celého Kráľovstva – ak sa totiž chcete stať skutočným hrdinom a podarí sa vám to práve v Červenokamenskej vojvodine, tak to už niečo znamená.
 
-  \
+#\
 
-  **Významné rody**\
+#**Významné rody**\
 
-  **Hájničkovci**\
+#**Hájničkovci**\
 
-  V tejto dobe v ťažkom postavení. No nie je to pre nich nič nové. Poloha ich územia a konflikt Kráľovstva s Vodárstvom tu už raz boli a vojvodina to prečkala. Preto nielen členovia rodu, ale celý kraj, stoja večne ostražití na stráži. Nieto divu, že práve tu sa pravidelne rodia neohrození hrdinovia konajúci legendami opradené skutky. Hájničkovci sa teda neboja ísť do každej výzvy s vierou jednoznačného víťazstva na ich strane. Lebo bez nich by ani žiadne nebolo.\
+#V tejto dobe v ťažkom postavení. No nie je to pre nich nič nové. Poloha ich územia a konflikt Kráľovstva s Vodárstvom tu už raz boli a vojvodina to prečkala. Preto nielen členovia rodu, ale celý kraj, stoja večne ostražití na stráži. Nieto divu, že práve tu sa pravidelne rodia neohrození hrdinovia konajúci legendami opradené skutky. Hájničkovci sa teda neboja ísť do každej výzvy s vierou jednoznačného víťazstva na ich strane. Lebo bez nich by ani žiadne nebolo.\
 
-  \
+#\
 
-  **Zachovci**\
+#**Zachovci**\
 
-  Veľmi starý rod. Možno jeden z najstarších. Odkedy existujú zápisy o Kráľovstve vínnej révy, tak v nich vystupujú ako správcovia, kasteláni a úradníci v Červenokamenskej vojvodine. Zachovci sa pýšia tým, že poznajú každý kút tohto kraja. Vedia, kde je každý kopec, každá cesta, kde postaviť hrad a kde za hrad vydá chatrč. Kedy je čas na činy a kedy na premýšľanie. Vždy dokážu prísť s riešením. Je to hrdý, rozvážny a zdržanlivý rod, ktorý je hrdý na svoju pozíciu. Sú s ňou spokojní, kým ich nikto neohrozuje. Politicky, vojensky ani nábožensky.\
+#Veľmi starý rod. Možno jeden z najstarších. Odkedy existujú zápisy o Kráľovstve vínnej révy, tak v nich vystupujú ako správcovia, kasteláni a úradníci v Červenokamenskej vojvodine. Zachovci sa pýšia tým, že poznajú každý kút tohto kraja. Vedia, kde je každý kopec, každá cesta, kde postaviť hrad a kde za hrad vydá chatrč. Kedy je čas na činy a kedy na premýšľanie. Vždy dokážu prísť s riešením. Je to hrdý, rozvážny a zdržanlivý rod, ktorý je hrdý na svoju pozíciu. Sú s ňou spokojní, kým ich nikto neohrozuje. Politicky, vojensky ani nábožensky.\
 
-  \
+#\
 
-  **Erdüdy**\
+#**Erdüdy**\
 
-  Sú silne patriarchálnou rodinou podporujúcou výhradne cirkev Praotcovu. Erdüdy veria, že práve oni boli Praotcom poverení dohľadom nad dodržiavaním zákonov. Kráľovských, ale predovšetkým cirkevných. Tie pre rod stoja na oveľa vyššom mieste. Každý slušný Praotcov veriaci má nárok na boží súd a božie rozhrešenie. A niet pozemského zákona, ktorý by mohol znamenať viac. Hoci by šlo o kráľovské zákony a nariadenia, ktoré si ctia a vyžadujú ich dodržiavanie.\
+#Sú silne patriarchálnou rodinou podporujúcou výhradne cirkev Praotcovu. Erdüdy veria, že práve oni boli Praotcom poverení dohľadom nad dodržiavaním zákonov. Kráľovských, ale predovšetkým cirkevných. Tie pre rod stoja na oveľa vyššom mieste. Každý slušný Praotcov veriaci má nárok na boží súd a božie rozhrešenie. A niet pozemského zákona, ktorý by mohol znamenať viac. Hoci by šlo o kráľovské zákony a nariadenia, ktoré si ctia a vyžadujú ich dodržiavanie.\
   
-  \
+#\
 
-  **Rod Saether**\
+#**Rod Saether**\
 
-  Šľachtický rod pôvodom z ďalekého Dorn-Felderu, ktorého zástupkyňou vo Vlčích Skalách bola bývalá vladyka dediny Lady Violet.\
+#Šľachtický rod pôvodom z ďalekého Dorn-Felderu, ktorého zástupkyňou vo Vlčích Skalách bola bývalá vladyka dediny Lady Violet.\
 
-  \
+#\
 
-  **Rod McEesh**\
+#**Rod McEesh**\
 
-  Horali z rodu McEeshovcov žijú najmä vysoko v kopcoch Vysočiny rozprestierajúcej sa nad Vlčími skalami. Majú radi whisky, ovce a ľahko zarobený dukát, občas sa pripletú do podozrivých obchodov, no málokedy im niekto niečo dokáže. Mnohí príslušníci tohto rodu patria medzi chýrnych zbabelcov a naničhodných povaľačov. Tradične sú oblečení do červených károvaných kiltov a nosia barety s pierkom.\
+#Horali z rodu McEeshovcov žijú najmä vysoko v kopcoch Vysočiny rozprestierajúcej sa nad Vlčími skalami. Majú radi whisky, ovce a ľahko zarobený dukát, občas sa pripletú do podozrivých obchodov, no málokedy im niekto niečo dokáže. Mnohí príslušníci tohto rodu patria medzi chýrnych zbabelcov a naničhodných povaľačov. Tradične sú oblečení do červených károvaných kiltov a nosia barety s pierkom.\
 
-  \
+#\
 
-  **Rod Neronethi**\
+#**Rod Neronethi**\
 
-  História rodu Neronethi siaha do dôb spred založenia Kráľovstva. Do tejto časti zeme prišli s cieľom zachrániť mladú vznešenú elfku, nevestu najstaršieho syna hlavy rodu, ktorý výpravu viedol. Podarilo sa im to, no nikdy sa už z Fragumndských lesov nevrátili. Elfom rodu Neronethi údajne prúdi v krvi stará mágia a patria medzi najvznešenejších elfov v kráľovstve. Od slávneho cestovateľa a dobrého priateľa kráľa, baróna Rozentramína, získali písomné uznanie svojho postavenia medzi šľachtou kráľovstva. Po opätovnom potvrdení tohto stavu vojvodom Hájničkom dostali od neho dokonca aj správu nad stále divokými Fragmundskými lesmi, kde v priebehu rokov zjednocujú jednotlivé elfské kmene a opätovne objavujú svoju zašlú slávu. 
+#História rodu Neronethi siaha do dôb spred založenia Kráľovstva. Do tejto časti zeme prišli s cieľom zachrániť mladú vznešenú elfku, nevestu najstaršieho syna hlavy rodu, ktorý výpravu viedol. Podarilo sa im to, no nikdy sa už z Fragumndských lesov nevrátili. Elfom rodu Neronethi údajne prúdi v krvi stará mágia a patria medzi najvznešenejších elfov v kráľovstve. Od slávneho cestovateľa a dobrého priateľa kráľa, baróna Rozentramína, získali písomné uznanie svojho postavenia medzi šľachtou kráľovstva. Po opätovnom potvrdení tohto stavu vojvodom Hájničkom dostali od neho dokonca aj správu nad stále divokými Fragmundskými lesmi, kde v priebehu rokov zjednocujú jednotlivé elfské kmene a opätovne objavujú svoju zašlú slávu.
 
-cultures_secondary_body: >- 
-  V Kráľovstve ďalej nájdeme štyri veľké vojvodiny, ktoré sa vyznačujú vlastnou kultúrou.
+#V Kráľovstve ďalej nájdeme štyri veľké vojvodiny, ktoré sa vyznačujú vlastnou kultúrou.
 
-cultures_image: src/images/uploads/plagaty.jpg
+cudzokrajne_kultury_header: Cudzokrajné kultúry
 
 kralovske_kultury:
   - name: Kráľovské mesto
@@ -400,12 +351,8 @@ kralovske_kultury:
 
       **Rod di Selva**\
       V dnešnej dobe ich nikto nepozná inak ako patrónov umenia a vedy. Dokonca je raritou, ak sa niekto v samotnom rode vydá iným smerom vo výbere povolania. Di Selva sú vďaka tomu veľmi obratní v kontakte s každou vrstvou spoločnosti. Na oplátku takto čerpajú inšpiráciu a informácie. Iní šľachtici v nich vidia skvelých informátorov a diplomatov. Navyše, čo sa týka umenia, niet lepších kritikov, znalcov a obchodníkov.
+    
     image: src/images/uploads/plagaty.jpg
-
-cultures_tertiary_body: >- 
-  Okrem týchto dominantných kultúr nájdeme v Kráľovstve aj obyvateľov susedného Vodárstva a kultúry jeho neľudských obyvateľov.
-
-ostatne_kultury:
   - name: Vodárske kultúry
     description: >-
       **Akvilónska kultúra**\
@@ -426,6 +373,10 @@ ostatne_kultury:
 
       Títo veční dobroduhovia zároveň radi preháňajú o svojich dobrodružstvách (tí nepriatelia určite neboli traja, bolo ich minimálne tridsať!) a nedokážu žiť bez tragickej lásky. Je to vôbec pravý korzár alebo korzárka, ak večer nehľadí na západ slnka nad vodou a neskladá ľúbostnú poéziu pre morskú či suchozemskú pannu zanechanú v ďalekých krajoch?  
     image: src/images/uploads/plagaty.jpg
+
+druhove_kultury_header: Kultúry rôznych druhov
+
+ostatne_kultury:
   - name: Druhové kultúry
     description: >-
     

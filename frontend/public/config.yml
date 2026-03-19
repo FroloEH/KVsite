@@ -438,7 +438,7 @@ collections:
             - { label: 'Vlčie Skaly nadpis', name: 'vlcie_skaly_header', widget: 'string' }
             - { label: 'Vlčie Skaly text', name: 'vlcie_skaly_body', widget: 'markdown' }
             - { label: 'Vlčie Skaly obrázok', name: 'vlcie_skaly_image', widget: 'image' }
-        #guilds and groups
+        #cechy a spolky
             - { label: 'Cechy a skupiny nadpis', name: 'guilds_groups_header', widget: 'string' }
             - { label: 'Cechy a spolky popis', name: 'guilds_groups_body', widget: 'markdown' }
             - { label: 'Cechy nadpis', name: 'guilds_header', widget: 'string' }
