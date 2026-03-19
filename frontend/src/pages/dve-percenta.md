@@ -13,7 +13,7 @@ Ako na to? To závisí od toho, či si podávaš daňové priznanie sám alebo t
 
 Ak ti daň zúčtováva zamestnávateľ, vypýtaj si od neho potvrdenie o zaplatení dane.
 
-Podľa potvrdenia o zaplatení dane vyplň **Vyhlásenie o poukázaní podielu zo zaplatenej dane**. Aby sme ti vypĺňanie čo najviac zjednodušili, predvyplnili sme do vyhlásenia naše údaje, stačí si tento dokument stiahnuť.
+Podľa potvrdenia o zaplatení dane vyplň **Vyhlásenie o poukázaní podielu zo zaplatenej dane**. Aby sme ti vypĺňanie čo najviac zjednodušili, predvyplnili sme do vyhlásenia naše údaje, stačí si [**tento dokument stiahnuť**](/Vyhlasenie_DvePercenta_EH_2025.pdf).
 
 Tebe zostáva vyplniť:
 - svoje osobné údaje (kolónky 01 až 11)
