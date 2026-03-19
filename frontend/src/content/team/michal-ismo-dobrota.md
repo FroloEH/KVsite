@@ -1,5 +1,5 @@
 ---
 name: Michal 'Ismo' Dobrota
-role: Arcimajster a herný dizajnér
+role: Herný dizajnér
 image: src/images/uploads/ismo.jpg
 ---

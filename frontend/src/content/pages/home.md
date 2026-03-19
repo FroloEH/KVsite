@@ -28,27 +28,30 @@ partners_last_year:
   - BSK
   - Obec Dubová
 team_header: Kto sme?
-team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva očaril
-  natoľko, že mu teraz venujú veľkú časť svojho srdiečka a voľného času.
-team_call_to_action_text: Chceš sa pridať do nášho organizačného tímu? Stačí
-  napísať na kralovstvo@event-horizon.sk
+team_text: Rôznorodá banda dobrovoľníkov, ktorých svet Kráľovstva očaril natoľko, že mu teraz venujú veľkú časť svojho srdiečka a voľného času.
+team_call_to_action_text: Chceš sa pridať do nášho organizačného tímu? Stačí napísať na kralovstvo@event-horizon.sk
 team_members:
-  - Marek 'Horalka' Horanský
-  - Andrej 'Áčko' Sekáč
-  - Patrícia 'Paťa' Illichová
-  - Michal 'Isky' Hrabovský
-  - "Ivana 'Ivka' Cingelová "
-  - Peter 'Peťo' Patrnčiak
   - Lukáš 'Elf' Reviľák
-  - Peter 'Pie' Buzáš
-  - Michal 'Ismo' Dobrota
-  - Jakub 'Kub' Vojtko
   - Richard 'Rišo' Frolkovič
-  - "Roman 'Vizi' Vizváry "
+  - Ivana 'Ivka' Frolkovičová
+  - Peter 'Peťo' Patrnčiak
+  - Michal 'Isky' Hrabovský
   - Veronika 'Verča' Blahová
+  - Andrej 'Áčko' Sekáč
+  - Marek 'Horalka' Horanský
   - Jonáš Jánsky
   - Maroš Ďuratný
+  - Andrej Jurč
+  - Matej Bunček
+  - Miroslav Panghy
+  - Natália Sabolová
+  - Timea Šlauková
+  - Adriana Bartschat
   - Filip Červenák
+  - Jakub 'Kub' Vojtko
+  - Michal 'Ismo' Dobrota
+  - Roman 'Vizi' Vizváry
+
 player_stories_header: Vaše príbehy
 player_stories_text: Menší výber príbehov od hráčov
 player_stories_collection:
