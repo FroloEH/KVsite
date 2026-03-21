@@ -10,6 +10,6 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "chat.tools.terminal.autoApprove": {
-    "npm install": true
+    "npm test": true
   }
 }

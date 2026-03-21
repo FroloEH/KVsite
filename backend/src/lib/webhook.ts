@@ -64,7 +64,7 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
       fields: sharepointFields
     }
 
-    const result = await client.api(apiEndpoint).post(listItem)
+    await client.api(apiEndpoint).post(listItem)
 
     return { success: true, message: 'Item created successfully' }
   } catch (error) {
