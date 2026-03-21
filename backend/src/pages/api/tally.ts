@@ -1,18 +1,18 @@
+import type { APIRoute } from 'astro'
 import { processTallyWebhook } from '../../lib/webhook'
 
-export async function post({ request }) {
+export const POST = (async ({ request }) => {
   try {
     const payload = await request.json()
-
-    const env = {
+    console.log('Received webhook payload:', payload)
+    const result = await processTallyWebhook(payload, {
       SHAREPOINT_TENANT: import.meta.env.SHAREPOINT_TENANT,
       SHAREPOINT_CLIENT_ID: import.meta.env.SHAREPOINT_CLIENT_ID,
       SHAREPOINT_CLIENT_SECRET: import.meta.env.SHAREPOINT_CLIENT_SECRET,
-      SHAREPOINT_SITE_NAME: import.meta.env.SHAREPOINT_SITE_NAME,
-      SHAREPOINT_LIST_NAME: import.meta.env.SHAREPOINT_LIST_NAME
-    }
-
-    const result = await processTallyWebhook(payload, env)
+      SHAREPOINT_SITE_ID: import.meta.env.SHAREPOINT_SITE_ID,
+      SHAREPOINT_LIST_ID: import.meta.env.SHAREPOINT_LIST_ID
+    })
+    console.log('Webhook processing result:', result)
 
     if (result.success) {
       return new Response(result.message, { status: 200 })
@@ -23,4 +23,4 @@ export async function post({ request }) {
     console.error('Webhook processing error:', error)
     return new Response('Internal server error', { status: 500 })
   }
-}
+}) satisfies APIRoute

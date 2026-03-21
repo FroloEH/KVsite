@@ -1,4 +1,8 @@
 import { z } from 'zod'
+import { Client } from '@microsoft/microsoft-graph-client'
+import { ClientSecretCredential } from '@azure/identity'
+import { TokenCredentialAuthenticationProvider } from '@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials/index.js';
+
 
 const FieldSchema = z.object({
   key: z.string(),
@@ -15,8 +19,8 @@ interface Env {
   SHAREPOINT_TENANT: string
   SHAREPOINT_CLIENT_ID: string
   SHAREPOINT_CLIENT_SECRET: string
-  SHAREPOINT_SITE_NAME: string
-  SHAREPOINT_LIST_NAME: string
+  SHAREPOINT_SITE_ID: string
+  SHAREPOINT_LIST_ID: string
 }
 
 export async function processTallyWebhook(payload: unknown, env: Env): Promise<{ success: boolean; message: string }> {
@@ -36,49 +40,49 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
     }
   }
 
-  // Get access token
-  const tokenUrl = `https://login.microsoftonline.com/${env.SHAREPOINT_TENANT}/oauth2/v2.0/token`
-  const tokenResponse = await fetch(tokenUrl, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded'
-    },
-    body: new URLSearchParams({
-      grant_type: 'client_credentials',
-      client_id: env.SHAREPOINT_CLIENT_ID,
-      client_secret: env.SHAREPOINT_CLIENT_SECRET,
-      scope: 'https://graph.microsoft.com/.default'
-    })
-  })
+  try {
+    // Initialize Azure Identity credential
+    const credential = new ClientSecretCredential(
+      env.SHAREPOINT_TENANT,
+      env.SHAREPOINT_CLIENT_ID,
+      env.SHAREPOINT_CLIENT_SECRET
+    )
 
-  if (!tokenResponse.ok) {
-    const errorText = await tokenResponse.text()
-    console.error('Token request failed:', tokenResponse.status, errorText)
-    return { success: false, message: 'Authentication failed' }
-  }
+    const authProvider = new TokenCredentialAuthenticationProvider(
+      credential,
+      {
+        scopes: ['https://graph.microsoft.com/.default'],
+      },
+    );
 
-  const tokenData = await tokenResponse.json()
-  const accessToken = tokenData.access_token
+    const client = Client.initWithMiddleware({ authProvider })
 
-  // Create SharePoint item
-  const listName = encodeURIComponent(env.SHAREPOINT_LIST_NAME)
-  const sharepointUrl = `https://graph.microsoft.com/v1.0/sites/root:/sites/${env.SHAREPOINT_SITE_NAME}:/lists/${listName}/items`
-  const sharepointResponse = await fetch(sharepointUrl, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${accessToken}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
+    // Create SharePoint list item using SDK
+    const apiEndpoint = `/sites/${env.SHAREPOINT_SITE_ID}/lists/${env.SHAREPOINT_LIST_ID}/items`
+    
+    const listItem = {
       fields: sharepointFields
-    })
-  })
+    }
 
-  if (!sharepointResponse.ok) {
-    const errorText = await sharepointResponse.text()
-    console.error('SharePoint request failed:', sharepointResponse.status, errorText)
+    const result = await client.api(apiEndpoint).post(listItem)
+
+    return { success: true, message: 'Item created successfully' }
+  } catch (error) {
+    const err = error as any
+    console.error('Webhook processing error:', err.message)
+    if (err.statusCode) {
+      console.error('HTTP Status:', err.statusCode)
+    }
+    if (err.body) {
+      console.error('Error body:', err.body)
+    }
+    if (err.code) {
+      console.error('Error code:', err.code)
+    }
+    if (err.responseHeaders) {
+      console.error('Response headers:', Object.fromEntries(err.responseHeaders.entries?.() || []))
+    }
+    console.error('Full error:', error)
     return { success: false, message: 'SharePoint operation failed' }
   }
-
-  return { success: true, message: 'Item created successfully' }
 }

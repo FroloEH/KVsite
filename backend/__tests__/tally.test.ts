@@ -1,15 +1,28 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { processTallyWebhook } from '../src/lib/webhook'
 
-// Mock fetch globally
-global.fetch = vi.fn()
+// Mock the Microsoft Graph Client
+vi.mock('@microsoft/microsoft-graph-client', () => ({
+  Client: {
+    init: vi.fn(() => ({
+      api: vi.fn(() => ({
+        post: vi.fn()
+      }))
+    }))
+  }
+}))
+
+// Mock Azure Identity
+vi.mock('@azure/identity', () => ({
+  ClientSecretCredential: vi.fn()
+}))
 
 describe('Tally Webhook Handler', () => {
   beforeEach(() => {
     vi.clearAllMocks()
   })
 
-  it('should extract sh_ fields, get access token, and create SharePoint item', async () => {
+  it('should extract sh_ fields and create SharePoint item successfully', async () => {
     // Mock the payload
     const payload = {
       data: {
@@ -25,26 +38,16 @@ describe('Tally Webhook Handler', () => {
       SHAREPOINT_TENANT: 'test-tenant',
       SHAREPOINT_CLIENT_ID: 'test-client-id',
       SHAREPOINT_CLIENT_SECRET: 'test-secret',
-      SHAREPOINT_SITE_NAME: 'test-site',
-      SHAREPOINT_LIST_NAME: 'test-list'
+      SHAREPOINT_SITE_ID: 'test-site-id',
+      SHAREPOINT_LIST_ID: 'test-list-id'
     }
 
-    // Mock token response
-    const mockTokenResponse = {
-      ok: true,
-      json: vi.fn().mockResolvedValue({ access_token: 'mock-token' })
-    }
-
-    // Mock SharePoint response
-    const mockSharePointResponse = {
-      ok: true,
-      json: vi.fn().mockResolvedValue({ id: 'new-item-id' })
-    }
-
-    // Mock fetch calls
-    global.fetch
-      .mockResolvedValueOnce(mockTokenResponse) // Token request
-      .mockResolvedValueOnce(mockSharePointResponse) // SharePoint request
+    // Mock successful SDK call
+    const mockPost = vi.fn().mockResolvedValue({ id: 'new-item-id' })
+    const mockApi = vi.fn().mockReturnValue({ post: mockPost })
+    const mockClient = { api: mockApi }
+    const { Client } = await import('@microsoft/microsoft-graph-client')
+    Client.init.mockReturnValue(mockClient)
 
     // Call the handler
     const result = await processTallyWebhook(payload, env)
@@ -53,34 +56,19 @@ describe('Tally Webhook Handler', () => {
     expect(result.success).toBe(true)
     expect(result.message).toBe('Item created successfully')
 
-    // Check token request
-    expect(global.fetch).toHaveBeenCalledWith(
-      'https://login.microsoftonline.com/test-tenant/oauth2/v2.0/token',
-      expect.objectContaining({
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      })
-    )
+    // Check SDK was initialized
+    expect(Client.init).toHaveBeenCalledWith({
+      authProvider: expect.any(Function)
+    })
 
-    // Check SharePoint request
-    expect(global.fetch).toHaveBeenCalledWith(
-      'https://graph.microsoft.com/v1.0/sites/root:/sites/test-site:/lists/test-list/items',
-      expect.objectContaining({
-        method: 'POST',
-        headers: expect.objectContaining({
-          'Authorization': 'Bearer mock-token',
-          'Content-Type': 'application/json'
-        }),
-        body: JSON.stringify({
-          fields: {
-            name: 'John Doe',
-            age: 25
-          }
-        })
-      })
-    )
+    // Check API call
+    expect(mockApi).toHaveBeenCalledWith('/sites/test-site-id/lists/test-list-id/items')
+    expect(mockPost).toHaveBeenCalledWith({
+      fields: {
+        name: 'John Doe',
+        age: 25
+      }
+    })
   })
 
   it('should return failure for invalid payload', async () => {
@@ -93,7 +81,7 @@ describe('Tally Webhook Handler', () => {
     expect(result.message).toBe('Invalid payload structure')
   })
 
-  it('should return failure for auth failure', async () => {
+  it('should return failure for SDK operation failure', async () => {
     const payload = {
       data: {
         fields: [
@@ -105,19 +93,20 @@ describe('Tally Webhook Handler', () => {
       SHAREPOINT_TENANT: 'test-tenant',
       SHAREPOINT_CLIENT_ID: 'test-client-id',
       SHAREPOINT_CLIENT_SECRET: 'test-secret',
-      SHAREPOINT_SITE_NAME: 'test-site',
-      SHAREPOINT_LIST_NAME: 'test-list'
+      SHAREPOINT_SITE_ID: 'test-site-id',
+      SHAREPOINT_LIST_ID: 'test-list-id'
     }
 
-    global.fetch.mockResolvedValueOnce({
-      ok: false,
-      status: 401,
-      text: vi.fn().mockResolvedValue('Auth error')
-    })
+    // Mock SDK failure
+    const mockPost = vi.fn().mockRejectedValue(new Error('SDK error'))
+    const mockApi = vi.fn().mockReturnValue({ post: mockPost })
+    const mockClient = { api: mockApi }
+    const { Client } = await import('@microsoft/microsoft-graph-client')
+    Client.init.mockReturnValue(mockClient)
 
     const result = await processTallyWebhook(payload, env)
 
     expect(result.success).toBe(false)
-    expect(result.message).toBe('Authentication failed')
+    expect(result.message).toBe('SharePoint operation failed')
   })
 })
