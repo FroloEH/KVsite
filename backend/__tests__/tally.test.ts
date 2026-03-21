@@ -4,18 +4,21 @@ import { processTallyWebhook } from '../src/lib/webhook'
 // Mock the Microsoft Graph Client
 vi.mock('@microsoft/microsoft-graph-client', () => ({
   Client: {
-    init: vi.fn(() => ({
-      api: vi.fn(() => ({
-        post: vi.fn()
-      }))
-    }))
+    initWithMiddleware: vi.fn()
   }
+}))
+
+// Mock auth provider module used by webhook.ts
+vi.mock('@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials/index.js', () => ({
+  TokenCredentialAuthenticationProvider: vi.fn()
 }))
 
 // Mock Azure Identity
 vi.mock('@azure/identity', () => ({
   ClientSecretCredential: vi.fn()
 }))
+
+import { Client } from '@microsoft/microsoft-graph-client'
 
 describe('Tally Webhook Handler', () => {
   beforeEach(() => {
@@ -46,8 +49,7 @@ describe('Tally Webhook Handler', () => {
     const mockPost = vi.fn().mockResolvedValue({ id: 'new-item-id' })
     const mockApi = vi.fn().mockReturnValue({ post: mockPost })
     const mockClient = { api: mockApi }
-    const { Client } = await import('@microsoft/microsoft-graph-client')
-    Client.init.mockReturnValue(mockClient)
+    ;(Client.initWithMiddleware as unknown as ReturnType<typeof vi.fn>).mockReturnValue(mockClient)
 
     // Call the handler
     const result = await processTallyWebhook(payload, env)
@@ -57,9 +59,9 @@ describe('Tally Webhook Handler', () => {
     expect(result.message).toBe('Item created successfully')
 
     // Check SDK was initialized
-    expect(Client.init).toHaveBeenCalledWith({
-      authProvider: expect.any(Function)
-    })
+    expect(Client.initWithMiddleware).toHaveBeenCalledWith(expect.objectContaining({
+      authProvider: expect.any(Object)
+    }))
 
     // Check API call
     expect(mockApi).toHaveBeenCalledWith('/sites/test-site-id/lists/test-list-id/items')
@@ -101,8 +103,7 @@ describe('Tally Webhook Handler', () => {
     const mockPost = vi.fn().mockRejectedValue(new Error('SDK error'))
     const mockApi = vi.fn().mockReturnValue({ post: mockPost })
     const mockClient = { api: mockApi }
-    const { Client } = await import('@microsoft/microsoft-graph-client')
-    Client.init.mockReturnValue(mockClient)
+    ;(Client.initWithMiddleware as unknown as ReturnType<typeof vi.fn>).mockReturnValue(mockClient)
 
     const result = await processTallyWebhook(payload, env)
 
