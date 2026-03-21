@@ -8,5 +8,8 @@
   "notebook.defaultFormatter": "astro-build.astro-vscode",
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "chat.tools.terminal.autoApprove": {
+    "npm test": true
   }
 }
