@@ -5,7 +5,7 @@ import { TokenCredentialAuthenticationProvider } from '@microsoft/microsoft-grap
 
 
 const FieldSchema = z.object({
-  key: z.string(),
+  label: z.string(),
   value: z.any()
 })
 
@@ -34,9 +34,9 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
 
   const sharepointFields: Record<string, any> = {}
   for (const field of data.fields) {
-    if (field.key.startsWith('sh_')) {
-      const key = field.key.slice(3)
-      sharepointFields[key] = field.value
+    if (field.label.startsWith('sh_')) {
+      const label = field.label.slice(3)
+      sharepointFields[label] = field.value
     }
   }
 
@@ -66,9 +66,8 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
 
     await client.api(apiEndpoint).post(listItem)
 
-    return { success: true, message: 'Item created successfully with fields: ' + Object.keys(sharepointFields).join(', ') 
-      + ' created from object: ' + JSON.stringify(payload) 
-    }
+    return { success: true, message: 'Item created successfully'}
+    
   } catch (error) {
     const err = error as any
     console.error('Webhook processing error:', err.message)

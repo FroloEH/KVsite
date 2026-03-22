@@ -30,9 +30,9 @@ describe('Tally Webhook Handler', () => {
     const payload = {
       data: {
         fields: [
-          { key: 'sh_name', value: 'John Doe' },
-          { key: 'sh_age', value: 25 },
-          { key: 'other_field', value: 'ignore' }
+          { label: 'sh_name', value: 'John Doe' },
+          { label: 'sh_age', value: 25 },
+          { label: 'other_field', value: 'ignore' }
         ]
       }
     }
@@ -87,7 +87,7 @@ describe('Tally Webhook Handler', () => {
     const payload = {
       data: {
         fields: [
-          { key: 'sh_test', value: 'value' }
+          { label: 'sh_test', value: 'value' }
         ]
       }
     }
