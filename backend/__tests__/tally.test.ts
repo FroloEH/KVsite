@@ -110,4 +110,89 @@ describe('Tally Webhook Handler', () => {
     expect(result.success).toBe(false)
     expect(result.message).toBe('SharePoint operation failed')
   })
+
+  it('should handle special characters in field values', async () => {
+    // Mock the payload with special characters in values
+    const payload = {
+      data: {
+        fields: [
+          { label: 'sh_name', value: 'Jozko Mrkvička' },
+          { label: 'sh_description', value: 'Niečo špeciálne' }
+        ]
+      }
+    }
+
+    const env = {
+      SHAREPOINT_TENANT: 'test-tenant',
+      SHAREPOINT_CLIENT_ID: 'test-client-id',
+      SHAREPOINT_CLIENT_SECRET: 'test-secret',
+      SHAREPOINT_SITE_ID: 'test-site-id',
+      SHAREPOINT_LIST_ID: 'test-list-id'
+    }
+
+    // Mock successful SDK call
+    const mockPost = vi.fn().mockResolvedValue({ id: 'new-item-id' })
+    const mockApi = vi.fn().mockReturnValue({ post: mockPost })
+    const mockClient = { api: mockApi }
+    ;(Client.initWithMiddleware as unknown as ReturnType<typeof vi.fn>).mockReturnValue(mockClient)
+
+    // Call the handler
+    const result = await processTallyWebhook(payload, env)
+
+    // Assertions
+    expect(result.success).toBe(true)
+    expect(result.message).toBe('Item created successfully')
+
+    // Check API call
+    expect(mockApi).toHaveBeenCalledWith('/sites/test-site-id/lists/test-list-id/items')
+    expect(mockPost).toHaveBeenCalledWith({
+      fields: {
+        name: 'Jozko Mrkvička',
+        description: 'Niečo špeciálne'
+      }
+    })
+  })
+
+  it('should handle special characters in field labels', async () => {
+    // Mock the payload with special characters in labels
+    const payload = {
+      data: {
+        fields: [
+          { label: 'sh_meňo', value: 'Jozko' },
+          { label: 'sh_priežvisko', value: 'Mrkvička' }
+        ]
+      }
+    }
+
+    const env = {
+      SHAREPOINT_TENANT: 'test-tenant',
+      SHAREPOINT_CLIENT_ID: 'test-client-id',
+      SHAREPOINT_CLIENT_SECRET: 'test-secret',
+      SHAREPOINT_SITE_ID: 'test-site-id',
+      SHAREPOINT_LIST_ID: 'test-list-id'
+    }
+
+    // Mock successful SDK call
+    const mockPost = vi.fn().mockResolvedValue({ id: 'new-item-id' })
+    const mockApi = vi.fn().mockReturnValue({ post: mockPost })
+    const mockClient = { api: mockApi }
+    ;(Client.initWithMiddleware as unknown as ReturnType<typeof vi.fn>).mockReturnValue(mockClient)
+    ;(Client.initWithMiddleware as unknown as ReturnType<typeof vi.fn>).mockReturnValue(mockClient)
+
+    // Call the handler
+    const result = await processTallyWebhook(payload, env)
+
+    // Assertions
+    expect(result.success).toBe(true)
+    expect(result.message).toBe('Item created successfully')
+
+    // Check API call
+    expect(mockApi).toHaveBeenCalledWith('/sites/test-site-id/lists/test-list-id/items')
+    expect(mockPost).toHaveBeenCalledWith({
+      fields: {
+        meňo: 'Jozko',
+        priežvisko: 'Mrkvička'
+      }
+    })
+  })
 })

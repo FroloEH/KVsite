@@ -3,7 +3,10 @@ import { processTallyWebhook } from '../../lib/webhook'
 
 export const POST = (async ({ request }) => {
   try {
-    const payload = await request.json()
+    // Decode the request body as Latin-1 to handle special characters properly
+    const buffer = await request.arrayBuffer()
+    const text = new TextDecoder('latin1').decode(buffer)
+    const payload = JSON.parse(text)
     const result = await processTallyWebhook(payload, {
       SHAREPOINT_TENANT: import.meta.env.SHAREPOINT_TENANT,
       SHAREPOINT_CLIENT_ID: import.meta.env.SHAREPOINT_CLIENT_ID,
