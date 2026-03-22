@@ -66,7 +66,9 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
 
     await client.api(apiEndpoint).post(listItem)
 
-    return { success: true, message: 'Item created successfully' }
+    return { success: true, message: 'Item created successfully with fields: ' + Object.keys(sharepointFields).join(', ') 
+      + ' created from object: ' + JSON.stringify(payload) 
+    }
   } catch (error) {
     const err = error as any
     console.error('Webhook processing error:', err.message)
