@@ -70,7 +70,6 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
     const listItem = {
       fields: sharepointFields
     }
-    console.log('Creating SharePoint item with fields:', sharepointFields) // Log the fields being sent to SharePoint
     await client.api(apiEndpoint).post(listItem)
 
     return { success: true, message: 'Item created successfully'}
