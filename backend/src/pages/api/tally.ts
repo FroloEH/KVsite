@@ -3,6 +3,9 @@ import { processTallyWebhook } from '../../lib/webhook'
 
 export const POST = (async ({ request }) => {
   try {
+    // Decode the request body as Latin-1 to handle special characters properly
+    // const buffer = await request.arrayBuffer()
+    // const text = new TextDecoder('latin1').decode(buffer)
     const payload = await request.json()
     const result = await processTallyWebhook(payload, {
       SHAREPOINT_TENANT: import.meta.env.SHAREPOINT_TENANT,
@@ -15,9 +18,12 @@ export const POST = (async ({ request }) => {
     if (result.success) {
       return new Response(result.message, { status: 200 })
     } else {
-      return new Response(result.message, { status: 500 })
+      throw new Error(result.message)
     }
   } catch (error) {
+    if (error === 'Invalid payload structure'){
+      return new Response('Invalid payload structure', { status: 400 })
+    }
     console.error('Webhook processing error:', error)
     return new Response('Internal server error', { status: 500 })
   }
