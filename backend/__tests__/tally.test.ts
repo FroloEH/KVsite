@@ -190,8 +190,8 @@ describe('Tally Webhook Handler', () => {
     expect(mockApi).toHaveBeenCalledWith('/sites/test-site-id/lists/test-list-id/items')
     expect(mockPost).toHaveBeenCalledWith({
       fields: {
-        meňo: 'Jozko',
-        priežvisko: 'Mrkvička'
+        me_x0148_o: 'Jozko',
+        prie_x017e_visko: 'Mrkvička'
       }
     })
   })

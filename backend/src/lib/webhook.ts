@@ -5,7 +5,7 @@ import { TokenCredentialAuthenticationProvider } from '@microsoft/microsoft-grap
 
 
 const FieldSchema = z.object({
-  label: z.string(),
+  label: z.string().nullable(),
   value: z.any()
 })
 
@@ -14,6 +14,13 @@ const WebhookPayloadSchema = z.object({
     fields: z.array(FieldSchema)
   })
 })
+
+function encodeSharePointFieldName(fieldName: string): string {
+  return fieldName.replace(/[^A-Za-z0-9]/g, (char) => {
+    const codePoint = char.charCodeAt(0).toString(16).padStart(4, '0')
+    return `_x${codePoint}_`
+  })
+}
 
 interface Env {
   SHAREPOINT_TENANT: string
@@ -34,9 +41,9 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
 
   const sharepointFields: Record<string, any> = {}
   for (const field of data.fields) {
-    if (field.label.startsWith('sh_')) {
+    if (typeof field.label === 'string' && field.label.startsWith('sh_')) {
       const label = field.label.slice(3)
-      sharepointFields[label] = field.value
+      sharepointFields[encodeSharePointFieldName(label)] = field.value
     }
   }
 
@@ -63,7 +70,7 @@ export async function processTallyWebhook(payload: unknown, env: Env): Promise<{
     const listItem = {
       fields: sharepointFields
     }
-
+    console.log('Creating SharePoint item with fields:', sharepointFields) // Log the fields being sent to SharePoint
     await client.api(apiEndpoint).post(listItem)
 
     return { success: true, message: 'Item created successfully'}
