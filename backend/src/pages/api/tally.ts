@@ -21,6 +21,9 @@ export const POST = (async ({ request }) => {
       throw new Error(result.message)
     }
   } catch (error) {
+    if (error === 'Invalid payload structure'){
+      return new Response('Invalid payload structure', { status: 400 })
+    }
     console.error('Webhook processing error:', error)
     return new Response('Internal server error', { status: 500 })
   }
