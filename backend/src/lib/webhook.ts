@@ -16,10 +16,12 @@ const WebhookPayloadSchema = z.object({
 })
 
 function encodeSharePointFieldName(fieldName: string): string {
-  return fieldName.replace(/[^A-Za-z0-9]/g, (char) => {
+  var encodedName = fieldName.replace(/[^A-Za-z0-9_]/g, (char) => {
     const codePoint = char.charCodeAt(0).toString(16).padStart(4, '0')
     return `_x${codePoint}_`
   })
+
+  return encodedName.slice(0, 32)
 }
 
 interface Env {

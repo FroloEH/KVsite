@@ -1,0 +1,38 @@
+{
+  "titleField": {
+    "key": "question_LdQboy_0121c43f-67a5-47ae-8802-f8f4880d45c8",
+    "label": "sh_Title",
+    "type": "CALCULATED_FIELDS",
+    "value": "TEST"
+  },
+  "testFields": [
+    { "key": "question_LdQboy_0081099d-e901-4c1c-8be9-57ad3fe12c6c", "label": "sh_TicketCode",         "type": "CALCULATED_FIELDS", "value": "e60095f903eb443c9c58d1b9913a52cd" },
+    { "key": "question_LdQboy_2b6009bc-ac15-4262-b0d4-89e1234ff656", "label": "sh_Prezývka",           "type": "CALCULATED_FIELDS", "value": "Volaním" },
+    { "key": "question_LdQboy_75d0056c-f5e9-4fa4-ab4e-69868742ea48", "label": "sh_E-mail",             "type": "CALCULATED_FIELDS", "value": "test@test.com" },
+    { "key": "question_LdQboy_fb435016-ab03-414d-84c9-36c1c043deaf", "label": "sh_Skúsenosti",         "type": "CALCULATED_FIELDS", "value": "KVčkar" },
+    { "key": "question_LdQboy_c85091e3-825e-4d82-bc3a-98a20f80196e", "label": "sh_Schopnosti",         "type": "CALCULATED_FIELDS", "value": "Čarodejník, Pastier lesa" },
+    { "key": "question_LdQboy_11fc64f2-05d4-4d6c-99a0-826ef525d840", "label": "sh_Vyznanie",           "type": "CALCULATED_FIELDS", "value": "Nasledujem hráča heretika alebo apoštola" },
+    { "key": "question_LdQboy_4d13fe78-3fda-4169-9f42-dca585f4fa91", "label": "sh_Oslovenie",          "type": "CALCULATED_FIELDS", "value": "Oni" },
+    { "key": "question_LdQboy_36ee4809-d7f3-4172-9d8a-1da4c3fed89c", "label": "sh_Meno hráča",         "type": "CALCULATED_FIELDS", "value": "MenoHra" },
+    { "key": "question_LdQboy_b788a736-25a9-4eff-abea-96d9b32027ea", "label": "sh_Priezvisko hráč",    "type": "CALCULATED_FIELDS", "value": "Priezvisko" },
+    { "key": "question_LdQboy_3c0d5574-d3de-40fb-b1a7-186905ee9630", "label": "sh_Tel.číslo",          "type": "CALCULATED_FIELDS", "value": "+421948512369" },
+    { "key": "question_LdQboy_f33236db-db19-440c-83df-089f9989f960", "label": "sh_Dátumnarodenia",     "type": "CALCULATED_FIELDS", "value": "2026-03-05" },
+    { "key": "question_LdQboy_f93159cb-18e5-4d2b-a360-e80ba5e2625c", "label": "sh_Typzážitku1",        "type": "CALCULATED_FIELDS", "value": "Chcem nasávať príjemnú atmosféru a baviť sa s ostatnými super ľuďmi., Idem si zažiť na vlastnej koži, ako by sa cítila moja postava." },
+    { "key": "question_LdQboy_e6957142-fe5b-4a72-81d1-e457e627f834", "label": "sh_Cech",               "type": "CALCULATED_FIELDS", "value": "Cech strát a nálezov (zlodejský cech)" },
+    { "key": "question_LdQboy_2f0946cd-a7c8-462d-91d2-620eddd5dec1", "label": "sh_Typ postavy",        "type": "CALCULATED_FIELDS", "value": "Pokračujúca" },
+    { "key": "question_LdQboy_33bcc5ac-ec21-4fb1-8f6d-bc203662b9c4", "label": "sh_Posledná ú_x01",     "type": "CALCULATED_FIELDS", "value": "2024 - Pred dvoma rokmi, keď Lešij dostal tri stratené predmety a jeho hrôzovláda sa skončila" },
+    { "key": "question_LdQboy_deb8d216-427c-4624-bbc2-9447a5fe459f", "label": "sh_Pokračujúca po",     "type": "CALCULATED_FIELDS", "value": "Pred rokom\n" },
+    { "key": "question_LdQboy_1946f244-a7be-41f8-abea-debb79503772", "label": "sh_Čo chce robi_x",     "type": "CALCULATED_FIELDS", "value": "Priviedlo" },
+    { "key": "question_LdQboy_c4923774-dc2c-48a5-accf-a29c2cfe605b", "label": "sh_Druh",               "type": "CALCULATED_FIELDS", "value": "Hobit" },
+    { "key": "question_LdQboy_aca1bea9-b419-41e4-9d7f-304535aeed5c", "label": "sh_Kultúra",            "type": "CALCULATED_FIELDS", "value": "Miestny" },
+    { "key": "question_LdQboy_75b16d23-ded8-4a3f-b108-db3130660220", "label": "sh_O postave",          "type": "CALCULATED_FIELDS", "value": "Neviem čo som zač" },
+    { "key": "question_LdQboy_ee52a291-9bd1-494c-aebe-c4e05f2efc41", "label": "sh_Kráľ",               "type": "CALCULATED_FIELDS", "value": "Kemčislav I. z Vlčích skál" },
+    { "key": "question_LdQboy_cf413d48-bfc8-43da-bc3b-482cd972ff88", "label": "sh_Lojalita Kráľ",      "type": "CALCULATED_FIELDS", "value": 4 },
+    { "key": "question_LdQboy_8c0ef163-ddee-4fe8-83e5-8152651160cb", "label": "sh_Lojalita Cech",      "type": "CALCULATED_FIELDS", "value": 5 },
+    { "key": "question_LdQboy_0add8f5c-f183-474a-8ef8-aa8ddcb8b897", "label": "sh_Lojalita Viera",     "type": "CALCULATED_FIELDS", "value": 3 },
+    { "key": "question_LdQboy_6074aef1-a8c5-4a4a-be25-065d2c646235", "label": "sh_Newsletter",         "type": "CALCULATED_FIELDS", "value": "Dakujem, ale nemam zaujem." },
+    { "key": "question_LdQboy_1e7f852a-d55f-462e-810f-fd9e0744d773", "label": "sh_Vlastná viera",      "type": "CALCULATED_FIELDS", "value": "Náboženstvo vlastne" },
+    { "key": "question_LdQboy_eac1774e-ae29-4fb6-baf5-2e49c0fc8f02", "label": "sh_Kamaráti",           "type": "CALCULATED_FIELDS", "value": "Kamaráti" },
+    { "key": "question_LdQboy_97ace4dd-a298-43da-bdf2-07aaf22a78ed", "label": "sh_Medzihernáaktivita", "type": "CALCULATED_FIELDS", "value": "Rozvíjal som svoje druhé povolanie, Venoval som sa modlitbám" }
+  ]
+}
