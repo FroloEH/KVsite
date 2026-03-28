@@ -5,6 +5,10 @@ import { TokenCredentialAuthenticationProvider } from '@microsoft/microsoft-grap
 
 export const prerender = false
 
+if (import.meta.env.MODE !== 'development') {
+  return new Response(null, { status: 404 })
+}
+
 function decodeSharePointFieldName(fieldName: string): string {
   return fieldName.replace(/_x([0-9a-fA-F]{4})_?/g, (_, hex) =>
     String.fromCodePoint(parseInt(hex, 16))
