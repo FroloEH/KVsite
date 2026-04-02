@@ -1,0 +1,143 @@
+---
+import { Client } from '@microsoft/microsoft-graph-client'
+import { ClientSecretCredential } from '@azure/identity'
+import { TokenCredentialAuthenticationProvider } from '@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials/index.js'
+
+export const prerender = false
+
+if (import.meta.env.MODE !== 'development') {
+  return new Response(null, { status: 404 })
+}
+
+function decodeSharePointFieldName(fieldName: string): string {
+  return fieldName.replace(/_x([0-9a-fA-F]{4})_?/g, (_, hex) =>
+    String.fromCodePoint(parseInt(hex, 16))
+  )
+}
+
+type Column = { name: string; displayName: string; columnGroup: string }
+
+let columns: Column[] = []
+let error: string | null = null
+
+try {
+  const credential = new ClientSecretCredential(
+    import.meta.env.SHAREPOINT_TENANT,
+    import.meta.env.SHAREPOINT_CLIENT_ID,
+    import.meta.env.SHAREPOINT_CLIENT_SECRET
+  )
+
+  const authProvider = new TokenCredentialAuthenticationProvider(credential, {
+    scopes: ['https://graph.microsoft.com/.default'],
+  })
+
+  const client = Client.initWithMiddleware({ authProvider })
+
+  const response = await client
+    .api(`/sites/${import.meta.env.SHAREPOINT_SITE_ID}/lists/${import.meta.env.SHAREPOINT_LIST_ID}/columns`)
+    .get()
+
+  const BUILTIN_GROUPS = new Set([
+    '_Hidden',
+    'Base Columns',
+    'Core Contact and Calendar Columns',
+    'Core Document Columns',
+    'Core Task and Issue Columns',
+    'Extended Columns',
+  ])
+
+  columns = (response.value as Column[]).filter(
+    (col: any) => !col.isSealed && !col.hidden && !BUILTIN_GROUPS.has(col.columnGroup)
+  )
+} catch (err: any) {
+  error = err?.message ?? 'Unknown error'
+}
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Tally Mapping Names</title>
+    <style>
+      body {
+        font-family: monospace;
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        background: #0f0f0f;
+        color: #e0e0e0;
+      }
+      h1 { color: #fff; margin-bottom: 0.25rem; }
+      p.subtitle { color: #888; margin-top: 0; margin-bottom: 2rem; font-size: 0.9rem; }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th {
+        text-align: left;
+        padding: 0.5rem 0.75rem;
+        border-bottom: 2px solid #333;
+        color: #aaa;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      td {
+        padding: 0.5rem 0.75rem;
+        border-bottom: 1px solid #1e1e1e;
+      }
+      .mapping {
+        color: #7dd3fc;
+        font-weight: bold;
+      }
+      .display-name {
+        color: #ccc;
+      }
+      .group {
+        color: #555;
+        font-size: 0.85rem;
+      }
+      .error {
+        background: #2a0a0a;
+        border: 1px solid #7f1d1d;
+        color: #fca5a5;
+        padding: 1rem;
+        border-radius: 4px;
+      }
+      .empty {
+        color: #555;
+        padding: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tally Mapping Names</h1>
+    <p class="subtitle">Use these as field labels in Tally to map to SharePoint columns.</p>
+
+    {error ? (
+      <div class="error">Error fetching columns: {error}</div>
+    ) : columns.length === 0 ? (
+      <p class="empty">No custom columns found.</p>
+    ) : (
+      <table>
+        <thead>
+          <tr>
+            <th>Tally label (mapping name)</th>
+            <th>SharePoint display name</th>
+            <th>Group</th>
+          </tr>
+        </thead>
+        <tbody>
+          {columns.map((col) => (
+            <tr>
+              <td class="mapping">sh_{decodeSharePointFieldName(col.name)}</td>
+              <td class="display-name">{col.displayName}</td>
+              <td class="group">{col.columnGroup || '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+  </body>
+</html>
