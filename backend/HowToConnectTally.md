@@ -8,7 +8,7 @@ This document explains how the Tally webhook integration works, how to configure
 
 When a user submits a Tally form, Tally sends a webhook POST request to `/api/tally/`. The backend validates the payload, extracts the relevant fields, and creates a new item in a configured SharePoint list.
 
-```
+```text
 Tally Form Submission
     → POST /api/tally/
     → Validate payload (Zod)
@@ -24,7 +24,7 @@ Tally Form Submission
 
 The following variables must be set in `backend/.env` (or in Vercel environment settings for production):
 
-```
+```text
 SHAREPOINT_TENANT=<Azure tenant ID>
 SHAREPOINT_CLIENT_ID=<App registration client ID>
 SHAREPOINT_CLIENT_SECRET=<App registration client secret>
@@ -45,6 +45,7 @@ The webhook only processes Tally fields whose **label** starts with `sh_`. All o
 The `sh_` prefix is stripped before storing. The remainder of the label is used as the SharePoint column name (after encoding — see below).
 
 **Example:**
+
 - Tally field label: `sh_Title` → stored in SharePoint column `Title`
 - Tally field label: `sh_E-mail` → stored in SharePoint column `E-mail` (with `-` encoded)
 - Tally field label: `sh_Prezývka` → stored in SharePoint column `Prezývka` (with `ý` encoded)
@@ -54,8 +55,9 @@ The `sh_` prefix is stripped before storing. The remainder of the label is used 
 SharePoint internal column names only support a restricted character set. Non-alphanumeric characters (including accented and special characters) are encoded as `_x[4-digit-hex]_`.
 
 Examples:
+
 | Character | Encoded |
-|-----------|---------|
+| ----------- | --------- |
 | `-` (hyphen) | `_x002d_` |
 | `ý` | `_x00fd_` |
 | ň | `_x0148_` |
@@ -71,7 +73,7 @@ This encoding is applied automatically. You do not need to handle it manually.
 The mapping page at `/mapping` shows all available SharePoint columns and the exact label you need to use in Tally to target each one.
 
 | Column | Description |
-|--------|-------------|
+| -------- | ------------- |
 | **Tally label (mapping name)** | The value to enter as the Tally field label (e.g. `sh_Title`) |
 | **SharePoint display name** | The human-readable column name in SharePoint |
 | **Group** | The column group in SharePoint |
@@ -105,6 +107,7 @@ Use this page when adding new fields to a Tally form to find the correct `sh_` l
 ```
 
 **Responses:**
+
 - `200 OK` — item created successfully in SharePoint
 - `400 Bad Request` — payload does not match the expected schema
 - `500 Internal Server Error` — SharePoint API error or server failure
@@ -118,6 +121,7 @@ Use this page when adding new fields to a Tally form to find the correct `sh_` l
 ### Setup
 
 1. Start the dev server:
+
    ```bash
    cd backend
    npm run dev
@@ -154,7 +158,7 @@ The script targets `http://localhost:4321/api/tally/` by default.
 
 ### Output
 
-```
+```text
 sh_SomeColumn ... OK (200)
 sh_AnotherColumn ... FAIL (500)
 
@@ -180,10 +184,10 @@ If all individual field tests pass but a combined submission fails, the script r
 ## Relevant Files
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | [src/pages/api/tally.ts](src/pages/api/tally.ts) | Webhook API route (entry point) |
 | [src/lib/webhook.ts](src/lib/webhook.ts) | Core processing logic and SharePoint integration |
 | [src/pages/mapping.astro](src/pages/mapping.astro) | Mapping page — lists available SharePoint columns |
 | [test-fields.ps1](test-fields.ps1) | PowerShell test script for individual field testing |
 | [test-fields-data.json](test-fields-data.json) | Test field data consumed by the test script |
-| [__tests__/tally.test.ts](__tests__/tally.test.ts) | Unit tests for the webhook processing logic |
+| [`__tests__`/tally.test.ts](__tests__/tally.test.ts) | Unit tests for the webhook processing logic |
