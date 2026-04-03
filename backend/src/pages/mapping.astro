@@ -34,7 +34,7 @@ try {
   const client = Client.initWithMiddleware({ authProvider })
 
   const response = await client
-    .api(`/sites/${import.meta.env.SHAREPOINT_SITE_ID}/lists/${import.meta.env.SHAREPOINT_LIST_ID}/columns`)
+    .api(`/sites/${import.meta.env.SHAREPOINT_SITE_ID}/lists/${import.meta.env.SHAREPOINT_GROUP_LIST_ID}/columns`)
     .get()
 
   const BUILTIN_GROUPS = new Set([
