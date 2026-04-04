@@ -1,9 +1,11 @@
-$url = "http://localhost:4321/api/tally/"
+$url = "http://localhost:4322/api/tally-group/"
+# $url = "http://localhost:4321/api/tally-character/"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 # Load field data from JSON file with explicit UTF-8 encoding to avoid
 # PowerShell 5.x reading the source file as Windows-1252
-$data = Get-Content "$PSScriptRoot/test-fields-data.json" -Raw -Encoding UTF8 | ConvertFrom-Json
+$data = Get-Content "$PSScriptRoot/test-fields-data.json-group" -Raw -Encoding UTF8 | ConvertFrom-Json
+# $data = Get-Content "$PSScriptRoot/test-fields-data.json" -Raw -Encoding UTF8 | ConvertFrom-Json
 $titleField = $data.titleField
 $testFields = $data.testFields
 

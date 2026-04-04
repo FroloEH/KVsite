@@ -10,7 +10,7 @@ When a user submits a Tally form, Tally sends a webhook POST request to `/api/ta
 
 ```text
 Tally Form Submission
-    → POST /api/tally/
+    → POST /api/tally-character/ or /api/tally-group/
     → Validate payload (Zod)
     → Filter fields with sh_ prefix
     → Encode field names for SharePoint
@@ -29,7 +29,8 @@ SHAREPOINT_TENANT=<Azure tenant ID>
 SHAREPOINT_CLIENT_ID=<App registration client ID>
 SHAREPOINT_CLIENT_SECRET=<App registration client secret>
 SHAREPOINT_SITE_ID=<SharePoint site ID>
-SHAREPOINT_LIST_ID=<SharePoint list ID>
+SHAREPOINT_CHARACTER_LIST_ID=<SharePoint list ID for character registrations>
+SHAREPOINT_GROUP_LIST_ID=<SharePoint list ID for group registrations>
 ```
 
 The app registration in Azure AD must have the `Sites.ReadWrite.All` Microsoft Graph application permission granted.
@@ -84,9 +85,14 @@ Use this page when adding new fields to a Tally form to find the correct `sh_` l
 
 ---
 
-## Webhook Endpoint
+## Webhook Endpoints
 
-**Route:** `POST /api/tally/`
+There are two separate endpoints, one per form type, each writing to a different SharePoint list:
+
+| Route | List env var | Purpose |
+| ----- | ------------ | ------- |
+| `POST /api/tally-character/` | `SHAREPOINT_CHARACTER_LIST_ID` | Character registration form |
+| `POST /api/tally-group/` | `SHAREPOINT_GROUP_LIST_ID` | Group registration form |
 
 **Expected payload shape** (sent automatically by Tally):
 
@@ -136,7 +142,7 @@ cd backend
 .\test-fields.ps1
 ```
 
-The script targets `http://localhost:4321/api/tally/` by default.
+The script targets `http://localhost:4321/api/tally-group/` by default. To test the character form, change the `$url` variable at the top of the script to `http://localhost:4321/api/tally-character/`.
 
 ### test-fields-data.json structure
 
@@ -175,8 +181,8 @@ If all individual field tests pass but a combined submission fails, the script r
 1. Open the `/mapping` page to see available SharePoint columns and their `sh_` labels.
 2. In Tally, set each field's **label** to the corresponding `sh_` value from the mapping page.
 3. In Tally's **Integrations** settings, add a webhook pointing to your deployment URL:
-   - Local: `http://localhost:4321/api/tally/`
-   - Production: `https://<your-vercel-domain>/api/tally/`
+   - Character form — Local: `http://localhost:4321/api/tally-character/` | Production: `https://<your-vercel-domain>/api/tally-character/`
+   - Group form — Local: `http://localhost:4321/api/tally-group/` | Production: `https://<your-vercel-domain>/api/tally-group/`
 4. Submit a test response and verify the item appears in SharePoint.
 
 ---
@@ -185,7 +191,8 @@ If all individual field tests pass but a combined submission fails, the script r
 
 | File | Purpose |
 | ------ | --------- |
-| [src/pages/api/tally.ts](src/pages/api/tally.ts) | Webhook API route (entry point) |
+| [src/pages/api/tally-character.ts](src/pages/api/tally-character.ts) | Webhook API route for character registration form |
+| [src/pages/api/tally-group.ts](src/pages/api/tally-group.ts) | Webhook API route for group registration form |
 | [src/lib/webhook.ts](src/lib/webhook.ts) | Core processing logic and SharePoint integration |
 | [src/pages/mapping.astro](src/pages/mapping.astro) | Mapping page — lists available SharePoint columns |
 | [test-fields.ps1](test-fields.ps1) | PowerShell test script for individual field testing |
