@@ -41,12 +41,12 @@ team_members:
   - Marek 'Horalka' Horanský
   - Jonáš Jánsky
   - Maroš Ďuratný
-  - Andrej Jurč
+  - Andrej 'Argyle' Jurč
   - Matej Bunček
   - Miroslav Panghy
   - Natália Sabolová
-  - Timea Šlauková
-  - Adriana Bartschat
+  - Timea 'Timeja' Šlauková
+  - Adriana 'Ady' Rezníček
   - Filip Červenák
   - Jakub 'Kub' Vojtko
   - Michal 'Ismo' Dobrota

@@ -1,5 +1,5 @@
 ---
 name: Ivana 'Ivka' Frolkovičová
-role: Vedúca príbehu a HRAmonogramu
-image: src/images/uploads/ivka.jpg
+role: Arcimajsterka príbehu a HRAmonogramu
+image: src/images/uploads/tim_ivka.jpg
 ---
