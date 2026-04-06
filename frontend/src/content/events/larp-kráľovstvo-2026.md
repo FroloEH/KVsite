@@ -10,16 +10,15 @@ annotation: >-
   Vyhlásenie nového kráľovstva bol iba začiatok. Obyvateľov Vlčích skál čakajú ťažké časy.
 storyIntroText: Vlčie skaly, 1326
 storyImage: src/images/uploads/povzbudzujucepublikum_doprava_cropped.jpg
-story1Title: Nové kráľovstvo
+story1Title: Z lesov počuť vytie...
 story1Text: >-
-  Tajuplný byrokrat dal pred rokom miestnym obyvateľom za úlohu vyplniť medzery stratených častí katastra. Tí sa hneď chopili príležistosti a vytvorili si vlastné Kráľovstvo Vlčie skaly pod vedením Kemčislava I. Nové kráľovstvo obklopuje Kráľovstvo vínnej révy, Akvilónia a záhadná ríša Morija. Udrží si svoju novú nezávislosť?
-story2Title: Nebezpečenstvo v lese
+  Miestnymi lesmi sa niečo túla. Z dediny miznú peniaze aj duše – vrátane arcigenerálky! Vlčia stráž bola v snahe nastoliť poriadok vymenovaná za Vlčiu bezpečnosť. Kto bojuje proti ruke zákona? A čo je pravda na poverách, že pred rokom sa na Mesačnej vyhliadke stalo niečo temné?
+story2Title: Mor i ja vás víta aj tento rok!
 story2Text: >-
-  Hovorí sa, že na Mesačnej vyhliadke sa stalo niečo temné. V lesoch po okolí Vlčích skál vraj sliedi nebezpečná bytosť. Niektorí tvrdia, že je to ďalší Lešijov generál, iní zas, že ide o úplne novú hrozbu.
-  Tak či onak, lesy nie sú bezpečné.
-story3Title: Peklo štrajkuje
+  Kráľovstvo Vlčie skaly kráľa Kemčislava I. stále stojí – rovnako ako jeho mladý sused Morija. Bezmenný generál sa vraj stretáva s podozrivými živlami a v blízkosti Morije často počuť bzukot. Vysporiada sa nové kráľovstvou s touto hrozbou za svojimi hranicami, alebo jej podľahne?
+story3Title: Dvere k lepšej budúcnosti
 story3Text: >-
-  Miestni pekelníci sú nespokojní so svojimi pracovnými podmienkami a rozhodli sa štrajkovať. Tajuplní byrokrati zareagovali promptne a pekelnú bránu zatvorili. Podarí sa pekelníkom vyjednať lepšie podmienky, alebo budú nahradení niekym iným? A čo to znamená pre miestnych živých a mŕtvych?
+  Mágom z VŠMU, ponovom z Miklušovho inštitútu technológií (MIT), posledné roky nepriali. Mágovia spomínajú na časy plné padajúcich meteorov, astrálnych múdrostí, kačacej nekromancie... počkať, Astrál? Kam vlastne zmizli dvere do Astrálu? Nájde sa však niekto, kto sa odváži pozrieť na zub magickým mystériam?
 practicalInfoTitle: Organizačné informácie
 practicalInfoImage: src/images/uploads/anon.jpg
 practicalInfoBody: |-
