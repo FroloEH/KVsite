@@ -1,5 +1,5 @@
 ---
 name: Richard 'Rišo' Frolkovič
-role: Hlavný mechanik technologií a herných koliečok
-image: src/images/uploads/riso.jpg
+role: Arcimajster a arcimechanik
+image: src/images/uploads/tim_riso.jpg
 ---

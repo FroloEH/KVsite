@@ -1,5 +1,5 @@
 ---
 name: Maroš Ďuratný
-role: Príbehovo-majsterská kvasinka
-image: src/images/uploads/maros.jpg
+role: Majsterská kvasinka
+image: src/images/uploads/tim_maros.jpg
 ---

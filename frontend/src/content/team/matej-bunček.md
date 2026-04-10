@@ -1,5 +1,5 @@
 ---
 name: Matej Bunček
-role: Majsterská kvasinka a technomág
-image: src/images/uploads/anon.jpg
+role: Príbehovo-majsterská kvasinka a technomág
+image: src/images/uploads/tim_matej.jpg
 ---
