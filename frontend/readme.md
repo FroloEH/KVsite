@@ -7,7 +7,7 @@ Then start the page server and navigate to /admin
 
 To get started locally zou have to run these comands in the terminal
 
-cd .\frontend\
+cd .\frontend\npm i
 
 npm i
 

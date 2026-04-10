@@ -115,7 +115,7 @@ nabozenstva_2_body: Hlavnou morálnou zásadou [**Myrmekovej cirkvi**](/articles
 nabozenstva_2_image: src/images/uploads/cirkev_myrmekova.jpg
 
 nabozenstva_3_header: Prírodné náboženstvá
-nabozenstva_3_body: Niektorí veriaci namiesto jedného všemocného boha vzdávajú úctu jednotlivým prírodným duchom a malým božstvám. Prírodné náboženstvá vo všeobecnosti vedú svojich veriacich k mierumilovnému životu, vzájomnej úcte a spriaznenosti s prírodou. Rôzne odnože majú rôzne postoje k zločinu a jednotlivým formám trestov, sú tolerantné k mágii a liečiteľstvu. Vo Vlčích skalách sa obraciajú predovšetkým na lesné božstvá [**Lešija**](/articles/Lesij.md) a Lesovika.
+nabozenstva_3_body: Niektorí veriaci namiesto jedného všemocného boha vzdávajú úctu rôznym [**prírodným božstvám, prípadne zvieratám**](/articles/Prirodne-nabozenstva.md). Prírodné náboženstvá vo všeobecnosti vedú svojich veriacich k mierumilovnému životu, vzájomnej úcte a spriaznenosti s prírodou. Vo Vlčích skalách sa obracajú predovšetkým na [**Lešija**](/articles/Lesij.md), Lesovika a [**Fungusa**](/articles/Fungus.md).
 nabozenstva_3_image: src/images/uploads/lesovikdramatickyvykrik.jpg
 
 peklo_header: Peklo
