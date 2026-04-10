@@ -8,8 +8,7 @@ async function makeSignature(secret: string, body: string): Promise<string> {
     { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']
   )
   const buf = await crypto.subtle.sign('HMAC', key, enc.encode(body))
-  return Array.from(new Uint8Array(buf))
-    .map(b => b.toString(16).padStart(2, '0')).join('')
+  return btoa(String.fromCharCode(...new Uint8Array(buf)))
 }
 
 // Mock the Microsoft Graph Client
