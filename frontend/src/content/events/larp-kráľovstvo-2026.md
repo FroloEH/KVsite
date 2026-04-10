@@ -15,7 +15,7 @@ story1Text: >-
   Miestnymi lesmi sa niečo túla. Z dediny miznú peniaze aj duše – vrátane arcigenerálky! Vlčia stráž bola v snahe nastoliť poriadok vymenovaná za Vlčiu bezpečnosť. Kto bojuje proti ruke zákona? A čo je pravda na poverách, že pred rokom sa na Mesačnej vyhliadke stalo niečo temné?
 story2Title: Mor i ja vás víta aj tento rok!
 story2Text: >-
-  Kráľovstvo Vlčie skaly kráľa Kemčislava I. stále stojí – rovnako ako jeho mladý sused Morija. Bezmenný generál sa vraj stretáva s podozrivými živlami a v blízkosti Morije často počuť bzukot. Vysporiada sa nové kráľovstvou s touto hrozbou za svojimi hranicami, alebo jej podľahne?
+  Kráľovstvo Vlčie skaly kráľa Kemčislava I. stále stojí – rovnako ako jeho mladý sused Morija. Bezmenný generál sa vraj stretáva s podozrivými živlami a v blízkosti Morije často počuť bzukot. Vysporiada sa nové kráľovstvo s touto hrozbou za svojimi hranicami, alebo jej podľahne?
 story3Title: Dvere k lepšej budúcnosti
 story3Text: >-
   Mágom z VŠMU, ponovom z Miklušovho inštitútu technológií (MIT), posledné roky nepriali. Mágovia spomínajú na časy plné padajúcich meteorov, astrálnych múdrostí, kačacej nekromancie... počkať, Astrál? Kam vlastne zmizli dvere do Astrálu? Nájde sa však niekto, kto sa odváži pozrieť na zub magickým mystériam?
@@ -25,3 +25,17 @@ practicalInfoBody: |-
 
 archived: false
 ---
+# Local CMS editing
+To start local CMS editor first start the Decap CMS develop server 
+
+npm run dev-cms
+
+Then start the page server and navigate to /admin
+
+To get started locally you have to run these commands in the terminal
+
+cd .\KVsite\frontend\
+
+npm i
+
+npm run dev
