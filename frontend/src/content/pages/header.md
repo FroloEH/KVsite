@@ -3,8 +3,6 @@ header_1st_column_header: LARP Kráľovstvo
 header_1st_column_links:
   - link_text: Leto 2026
     link_target: /larp-event
-  - link_text: Tvorba postavy
-    link_target: /character-creation
 # mb: enable when filled out
 # - link_text: Organizačné info
 #   link_target: /larp-practical-info
