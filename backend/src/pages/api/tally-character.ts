@@ -1,9 +1,22 @@
 import type { APIRoute } from 'astro'
-import { processTallyWebhook } from '../../lib/webhook'
+import { processTallyWebhook, verifyTallySignature } from '../../lib/webhook'
 
 export const POST = (async ({ request }) => {
   try {
-    const payload = await request.json()
+    const rawBody = await request.text()
+
+    if (import.meta.env.MODE !== 'development') {
+      const valid = await verifyTallySignature(
+        rawBody,
+        import.meta.env.TALLY_SIGNING_SECRET ?? '',
+        request.headers.get('tally-signature')
+      )
+      if (!valid) {
+        return new Response('Unauthorized', { status: 401 })
+      }
+    }
+
+    const payload = JSON.parse(rawBody)
     const result = await processTallyWebhook(payload, {
       SHAREPOINT_TENANT: import.meta.env.SHAREPOINT_TENANT,
       SHAREPOINT_CLIENT_ID: import.meta.env.SHAREPOINT_CLIENT_ID,
