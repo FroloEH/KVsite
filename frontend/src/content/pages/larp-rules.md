@@ -102,7 +102,7 @@ errata_intro:
 errata_parts:
   - part_title: OBMEDZENÝ POČET POVOLANÍ
     part_description: >- 
-      Tvoja pokračujúce postava môže mať maximálne dve povolania. Nová postava naďalej začína s jedným povolaním. Bojovník sa ráta ako povolanie, keďže získal nové výsady (viď Obmedzenie výzbroje).
+      Tvoja pokračujúca postava môže mať maximálne dve povolania. Nová postava naďalej začína s jedným povolaním. Bojovník sa ráta ako povolanie, keďže získal nové výsady (viď Obmedzenie výzbroje).
       <br><br>
       <i>Jeden zo základných dizajnových princípov Kráľovstva je, aby ste ako hráči spolupracovali v skupinách. Vyhýbame sa trópu osamelého hrdinu, keďže nám ide hlavne o spoločnú zábavu. Obmedzením počtu povolaní chceme podporiť potrebu hľadať si spojencov.</i>
 
