@@ -32,6 +32,31 @@ interface Env {
   SHAREPOINT_LIST_ID: string
 }
 
+export async function verifyTallySignature(
+  rawBody: string,
+  signingSecret: string,
+  receivedSignature: string | null
+): Promise<boolean> {
+  if (!signingSecret || !receivedSignature) return false
+
+  const enc = new TextEncoder()
+  const key = await crypto.subtle.importKey(
+    'raw', enc.encode(signingSecret),
+    { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']
+  )
+  const buf = await crypto.subtle.sign('HMAC', key, enc.encode(rawBody))
+  const expected = Array.from(new Uint8Array(buf))
+    .map(b => b.toString(16).padStart(2, '0')).join('')
+
+  // Constant-time comparison
+  if (expected.length !== receivedSignature.length) return false
+  let diff = 0
+  for (let i = 0; i < expected.length; i++) {
+    diff |= expected.charCodeAt(i) ^ receivedSignature.charCodeAt(i)
+  }
+  return diff === 0
+}
+
 export async function processTallyWebhook(payload: unknown, env: Env): Promise<{ success: boolean; message: string }> {
   // Validate payload
   const validation = WebhookPayloadSchema.safeParse(payload)

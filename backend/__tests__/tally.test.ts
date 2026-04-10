@@ -1,5 +1,16 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { processTallyWebhook } from '../src/lib/webhook'
+import { processTallyWebhook, verifyTallySignature } from '../src/lib/webhook'
+
+async function makeSignature(secret: string, body: string): Promise<string> {
+  const enc = new TextEncoder()
+  const key = await crypto.subtle.importKey(
+    'raw', enc.encode(secret),
+    { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']
+  )
+  const buf = await crypto.subtle.sign('HMAC', key, enc.encode(body))
+  return Array.from(new Uint8Array(buf))
+    .map(b => b.toString(16).padStart(2, '0')).join('')
+}
 
 // Mock the Microsoft Graph Client
 vi.mock('@microsoft/microsoft-graph-client', () => ({
@@ -19,6 +30,39 @@ vi.mock('@azure/identity', () => ({
 }))
 
 import { Client } from '@microsoft/microsoft-graph-client'
+
+describe('verifyTallySignature', () => {
+  const secret = 'test-signing-secret'
+  const body = '{"data":{"fields":[]}}'
+
+  it('returns true for a valid signature', async () => {
+    const sig = await makeSignature(secret, body)
+    expect(await verifyTallySignature(body, secret, sig)).toBe(true)
+  })
+
+  it('returns false for a tampered body', async () => {
+    const sig = await makeSignature(secret, body)
+    expect(await verifyTallySignature('{"data":{"fields":[1]}}', secret, sig)).toBe(false)
+  })
+
+  it('returns false for a wrong secret', async () => {
+    const sig = await makeSignature('other-secret', body)
+    expect(await verifyTallySignature(body, secret, sig)).toBe(false)
+  })
+
+  it('returns false for a null signature', async () => {
+    expect(await verifyTallySignature(body, secret, null)).toBe(false)
+  })
+
+  it('returns false for an empty signature', async () => {
+    expect(await verifyTallySignature(body, secret, '')).toBe(false)
+  })
+
+  it('returns false for an empty signing secret', async () => {
+    const sig = await makeSignature(secret, body)
+    expect(await verifyTallySignature(body, '', sig)).toBe(false)
+  })
+})
 
 describe('Tally Webhook Handler', () => {
   beforeEach(() => {
