@@ -1,5 +1,5 @@
 ---
 name: Jonáš Jánsky
-role: Majsterská kvasinka
-image: src/images/uploads/jonas.jpg
+role: Majster a nezabudnuteľný Dragan
+image: src/images/uploads/tim_jonas.jpg
 ---

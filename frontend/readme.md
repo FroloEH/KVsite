@@ -5,9 +5,10 @@ npm run dev-cms
 
 Then start the page server and navigate to /admin
 
-To get started locally zou have to run these comands in the terminal
+To get started locally you have to run these commands in the terminal
 
 cd .\frontend\
+cd .\KVsite\frontend\
 
 npm i
 

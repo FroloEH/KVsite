@@ -1,5 +1,5 @@
 ---
 name: Veronika 'Verča' Blahová
-role: Písanie príbehu a vyvolávanie tímového ducha
-image: src/images/uploads/verca.png
+role: Majsterka a buditeľka tímového ducha
+image: src/images/uploads/tim_verca.png
 ---
