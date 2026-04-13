@@ -8,7 +8,7 @@ ticketsText: >-
   <br><br> 
   Predherná registrácia tento rok prebieha v stredu 22. júla popoludní a hra začína 23. júla ráno. V stredu nás taktiež čaká aj dodatočný program priamo na lokačke.
   <br><br> 
-  Po zakúpení lístka održíš kód, ktorý ti umožní dokončiť registráciu postavy cez <a href="https://tally.so/r/7Rdjz0"><b>formulár na tvorbu postavy</b></a>.
+  Po zakúpení lístka obdržíš kód, ktorý ti umožní dokončiť registráciu postavy cez <a href="https://tally.so/r/7Rdjz0"><b>formulár na tvorbu postavy</b></a>.
   Pokiaľ plánujete hrať ako aspoň dvojčlenná skupina, vyberte si jedného zástupcu, ktorý zaregistruje všetky postavy vyplnením <a href="https://tally.so/r/q4O1RY"><b>formuláru na tvorbu skupiny</b></a>. Ak vaša skupina prevýši 5 a viac členov, každý od nás dostane mince do hernej krčmy v hodnote 5€.
   <br><br>  
   Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným <a href="https://eventhorizonsk.sharepoint.com/:w:/s/LARPKralovstvoVina/IQC8Z5P0tXjvT6zUHgKdG-3jAS24uZwgKuhqw-TYw7XPDp4?e=L5wwdF">súhlasom rodičov s účasťou dieťaťa na hre</a>.
