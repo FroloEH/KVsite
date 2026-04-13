@@ -4,21 +4,16 @@ current_larp_event: LARP Kráľovstvo 2026
 tootoot_id: '6946736e2c6c2db029ff816d'
 ticketsTitle: Lístky
 ticketsText: >-
-  **Vypredané** - Tento rok spúšťame aj **Zlatý lístok**, ktorý je ideálnym vianočným darčekom pre zapálených LARP-istov. V cene lístka (100€) dostaneš 2 lístky pre teba a tvojho kamaráta vo formáte PDF, ktoré si môžeš vytlačiť a podarovať ich.
-  <br><br> 
   Ak nemáš kamarátov a chceš si nejakých nájsť medzi orgami, môžeš si zakúpiť lístok **Ľúbezné vtáča**, z ktorého poputuje 10€ ako dodatočná podpora LARP-u.
-  <br><br> 
-  Ak nechceš míňať 10€ navyše, ale naopak ich ušetriť a tiež nás potešiť, môžeš si zakúpiť lístok medzi prvými ako ranné vtáča. Lístky po vypredaní zásob **Ranných vtáčat** budú stáť normálnu cenu v kategórii Bežné vtáča.
   <br><br> 
   Predherná registrácia tento rok prebieha v stredu 22. júla popoludní a hra začína 23. júla ráno. V stredu nás taktiež čaká aj dodatočný program priamo na lokačke.
   <br><br> 
-  Pokiaľ plánujete hrať **ako skupina**, nezabúdajte, že teraz si kupujete len lístok! Registrácia postáv sa spustí na jar v roku 2026. Počas nej získate možnosť zaregistrovať sa ako skupina, kde za celý proces komunikuje s nami len hlava skupiny. Ak vaša skupina prevýši 5 a viac členov, každý od nás dostane mince do hernej krčmy v hodnote 5€ nezávisle od typu lístka.
+  Po zakúpení lístka obdržíš kód, ktorý ti umožní dokončiť registráciu postavy cez <a href="https://tally.so/r/7Rdjz0"><b>formulár na tvorbu postavy</b></a>.
+  Pokiaľ plánujete hrať ako aspoň dvojčlenná skupina, vyberte si jedného zástupcu, ktorý zaregistruje všetky postavy vyplnením <a href="https://tally.so/r/q4O1RY"><b>formuláru na tvorbu skupiny</b></a>. Ak vaša skupina prevýši 5 a viac členov, každý od nás dostane mince do hernej krčmy v hodnote 5€.
   <br><br>  
-  Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným súhlasom rodičov s účasťou dieťaťa na hre.
+  Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným <a href="https://eventhorizonsk.sharepoint.com/:w:/s/LARPKralovstvoVina/IQC8Z5P0tXjvT6zUHgKdG-3jAS24uZwgKuhqw-TYw7XPDp4?e=L5wwdF">súhlasom rodičov s účasťou dieťaťa na hre</a>.
   <br><br>
-  V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča.
-  <br><br>
-  Obe tlačivá nájdeš s dostatočným predstihom pred hrou na tejto stránke a pošleme ti ich aj včas e-mailom.
+  V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča <a href="https://eventhorizonsk.sharepoint.com/:w:/s/LARPKralovstvoVina/IQDPfCpfB88VTZGHK9lmXk-tAbs5WpStC-n_-WB6cz723lA?e=49T7X9">pre túto vekovú kategóriu</a>.
 
 ticketTypes:
   - title: Bežné vtáča
