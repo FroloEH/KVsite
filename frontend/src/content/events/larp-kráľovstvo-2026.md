@@ -24,3 +24,4 @@ practicalInfoImage: src/images/uploads/anon.jpg
 practicalInfoBody: |-
 
 archived: false
+---
