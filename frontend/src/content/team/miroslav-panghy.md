@@ -1,5 +1,5 @@
 ---
 name: Miroslav Panghy
 role: Príbehovo-majsterská kvasinka
-image: src/images/uploads/anon.jpg
+image: src/images/uploads/tim_miro.jpg
 ---

@@ -40,16 +40,13 @@ team_members:
   - Andrej 'Áčko' Sekáč
   - Marek 'Horalka' Horanský
   - Jonáš Jánsky
-  - Maroš Ďuratný
-  - Andrej 'Argyle' Jurč
   - Matej Bunček
   - Miroslav Panghy
-  - Natália Sabolová
+  - Natália 'Naty' Sabolová
   - Timea 'Timeja' Šlauková
   - Adriana 'Ady' Rezníček
   - Filip Červenák
   - Jakub 'Kub' Vojtko
-  - Michal 'Ismo' Dobrota
   - Roman 'Vizi' Vizváry
 
 player_stories_header: Vaše príbehy
