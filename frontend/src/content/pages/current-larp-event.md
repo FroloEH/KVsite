@@ -3,28 +3,52 @@ current_larp_event: LARP Kráľovstvo 2026
 # mb: @TODO: change tootoot_id when reg is available
 tootoot_id: '6946736e2c6c2db029ff816d'
 ticketsTitle: Lístky
+
+ticketTypes:
+- title: Jednoducho vtáča
+  subheader: 'Zjednodušené postavy, ktoré si nevyžadujú príbehovú konzultáciu.'
+  sale_end: '2026-07-22'
+  text: >-
+      Po ukončení predaja bežných lístkov ponúkame už len špeciálny lístok, pri ktorom si vyberáš jednu z týchto troch rolí: <b>dedinčan</b>, <b>strážnik</b> alebo <b>pekelník</b>. 
+      <br><br>
+      Hra, ktorá ťa čaká, je v jadre rovnaká ako tá pre hráčov s bežným lístkom. Môžeš sa zapájať do všetkého, čo je na hre pripravené. Niektoré dejové linky dokonca špecificky rátajú so zapojením strážnikov alebo pekelníkov. Pekelníci u nás nie sú krípovia v klasickom slova zmysle (t.j. že by útočili na pokyn organizátorov), ale plnohodnotné postavy.
+      <br><br>
+      Jediný rozdiel spočíva v tom, že o svojej postave nebudeš komunikovať s majstrom. Pred hrou dostaneš informácie o tom, čo sa v okolí deje, ale zapojenie do jednotlivých dejových liniek bude čisto na tebe. 
+      <br><br>
+      Tento lístok predávame až do začiatku hry a na svoju rolu sa nemusíš nijako pripravovať.
+      <br>
+      <br>
+      Ako <b>dedinčan</b> budeš mať svoju hru vo vlastných rukách. Môžeš sa spojiť s inými hráčmi, vyučiť sa nejakému povolaniu, pridať sa k už existujúcim skupinám alebo si založiť vlastnú.
+      <br>
+      <br>
+      Ako <b>strážnik</b> budeš riešiť úlohy spojené s udržiavaním poriadku v dedine. Tento rok sa sa zo strážnikov stáva Vlčia bezpečnosť, elitná skupina bojovníkov, ktorá bude vymáhať zákony nového kráľa.
+      <br>
+      <br>
+      Ako <b>pekelník</b> budeš „bývať“ v hernej lokácii Peklo, kam chodia mŕtve postavy. Pekelníci majú zoznam achievementov spojených s umieraním, ktoré sa snažia plniť, od jednoduchého „zomri v obkľúčení“ až po „zomri na svadbe“. Pekelníci si minulý rok vyštrajkovali priepustky, ktoré im umožnia navštíviť svet ľudí a napríklad sa stať členmi cechov. Na návštevu dediny sa však potrebujú náležite obliecť, aby zapadli medzi ľudí, preto si prines druhú verziu svojho kostýmu - to, ako si tvoj pekelník predstavuje, že vyzerá bežný človek. Môžu to byť falošné fúzy alebo aj celý nový odev.
+
 ticketsText: >-
-  Ak nemáš kamarátov a chceš si nejakých nájsť medzi orgami, môžeš si zakúpiť lístok **Ľúbezné vtáča**, z ktorého poputuje 10€ ako dodatočná podpora LARP-u.
-  <br><br> 
+  Predaj bežných lístkov bol ukončený, ale stále si môžeš zakúpiť lístok <b>Jednoducho vtáča</b>, s ktorým môžeš hrať postavu dedinčana, strážnika alebo pekelníka.
+  <br><br>
   Predherná registrácia tento rok prebieha v stredu 22. júla popoludní a hra začína 23. júla ráno. V stredu nás taktiež čaká aj dodatočný program priamo na lokačke.
-  <br><br> 
-  Po zakúpení lístka obdržíš kód, ktorý ti umožní dokončiť registráciu postavy cez <a href="https://tally.so/r/7Rdjz0"><b>formulár na tvorbu postavy</b></a>.
-  Pokiaľ plánujete hrať ako aspoň dvojčlenná skupina, vyberte si jedného zástupcu, ktorý zaregistruje všetky postavy vyplnením <a href="https://tally.so/r/q4O1RY"><b>formuláru na tvorbu skupiny</b></a>. Ak vaša skupina prevýši 5 a viac členov, každý od nás dostane mince do hernej krčmy v hodnote 5€.
-  <br><br>  
+  <br><br>
   Hráči vo veku 15-17 rokov sa musia pri registrácii preukázať vyplneným a podpísaným <a href="https://eventhorizonsk.sharepoint.com/:w:/s/LARPKralovstvoVina/IQC8Z5P0tXjvT6zUHgKdG-3jAS24uZwgKuhqw-TYw7XPDp4?e=L5wwdF">súhlasom rodičov s účasťou dieťaťa na hre</a>.
   <br><br>
   V prípade, že by sa chcel hry zúčastniť hráč mladší ako 15 rokov, je potrebné všetko v dostatočnom predstihu osobne komunikovať s členom organizačného tímu. Spravidla býva potrebné, aby hráča mladšieho ako 15 rokov sprevádzala dospelá osoba a mal vyplnený a podpísaný súhlas rodiča <a href="https://eventhorizonsk.sharepoint.com/:w:/s/LARPKralovstvoVina/IQDPfCpfB88VTZGHK9lmXk-tAbs5WpStC-n_-WB6cz723lA?e=49T7X9">pre túto vekovú kategóriu</a>.
 
-ticketTypes:
-  - title: Bežné vtáča
-    subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
-    sale_end: ''
-    text: >-
-      Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
-      <br><br>
-      Majstri sa ťa pokúsia prepojiť s inými hráčmi a rôznymi dejovými linkami. Ako postava s bežným lístkom sa môžeš pridať niektorej z veľkých skupín (ako je Cech dobrodruhov, Cech liečiteľov...), ktoré sú tradične od začiatku zapojené do deja. Ak prichádzaš do Vlčích skál bez skupiny, nasmerujú ťa k niečomu, čo by ťa mohlo zaujímať.
-      <br><br>
-      Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba.
+# Po zakúpení lístka obdržíš kód, ktorý ti umožní dokončiť registráciu postavy cez <a href="https://tally.so/r/7Rdjz0"><b>formulár na tvorbu postavy</b></a>.
+# Pokiaľ plánujete hrať ako aspoň dvojčlenná skupina, vyberte si jedného zástupcu, ktorý zaregistruje všetky postavy vyplnením <a href="https://tally.so/r/q4O1RY"><b>formuláru na tvorbu skupiny</b></a>. Ak vaša skupina prevýši 5 a viac členov, každý od nás dostane mince do hernej krčmy v hodnote 5€.
+# Ak nemáš kamarátov a chceš si nejakých nájsť medzi orgami, môžeš si zakúpiť lístok **Ľúbezné vtáča**, z ktorého poputuje 10€ ako dodatočná podpora LARP-u.
+
+# ticketTypes:
+#   - title: Bežné vtáča
+#     subheader: 'Bežný lístok zahŕňa príbehovú konzultáciu s majstrom.'
+#     sale_end: ''
+#     text: >-
+#       Bežný lístok je o možnosti vytvoriť si <b>vlastnú postavu</b>. Vyplníš formulár tvorby postavy, ktorý si môžeš vyskúšať aj tu na stránke, a tvoj majster – organizátor, s ktorým budeš komunikovať – ťa navedie na možnosti, ako sa zapojíš do deja. 
+#       <br><br>
+#       Majstri sa ťa pokúsia prepojiť s inými hráčmi a rôznymi dejovými linkami. Ako postava s bežným lístkom sa môžeš pridať niektorej z veľkých skupín (ako je Cech dobrodruhov, Cech liečiteľov...), ktoré sú tradične od začiatku zapojené do deja. Ak prichádzaš do Vlčích skál bez skupiny, nasmerujú ťa k niečomu, čo by ťa mohlo zaujímať.
+#       <br><br>
+#       Ak prichádzaš so zaujímavou postavou, môžeš dokonca našich majstrov inšpirovať k niečomu, čo bude pripravené len pre teba.
 
 registrationImage: src/images/uploads/lesihostupencioslavuju.jpg
 registration_steps:
