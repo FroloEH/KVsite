@@ -39,7 +39,6 @@ team_members:
   - Veronika 'Verča' Blahová
   - Andrej 'Áčko' Sekáč
   - Marek 'Horalka' Horanský
-  - Jonáš Jánsky
   - Matej Bunček
   - Miroslav Panghy
   - Natália 'Naty' Sabolová
