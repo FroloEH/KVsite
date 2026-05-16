@@ -18,7 +18,7 @@ ticketTypes:
       Tento lístok predávame až do začiatku hry a na svoju rolu sa nemusíš nijako pripravovať.
       <br>
       <br>
-      Ako <b>dedinčan</b> budeš mať svoju hru vo vlastných rukách. Môžeš sa spojiť s inými hráčmi, vyučiť sa nejakému povolaniu, pridať sa k už existujúcim skupinám alebo si založiť vlastnú.
+      Ako <b>dedinčan</b> budeš mať svoju hru vo vlastných rukách. Môžeš sa spojiť s inými hráčmi, naučiť sa svoje prvé povolanie a zapojiť sa do príbehu tak, ako uznáš za vhodné.
       <br>
       <br>
       Ako <b>strážnik</b> budeš riešiť úlohy spojené s udržiavaním poriadku v dedine. Tento rok sa sa zo strážnikov stáva Vlčia bezpečnosť, elitná skupina bojovníkov, ktorá bude vymáhať zákony nového kráľa.
