@@ -27,7 +27,7 @@ ticketTypes:
       Ako <b>pekelník</b> budeš „bývať“ v hernej lokácii Peklo, kam chodia mŕtve postavy. Pekelníci majú zoznam achievementov spojených s umieraním, ktoré sa snažia plniť, od jednoduchého „zomri v obkľúčení“ až po „zomri na svadbe“. Pekelníci si minulý rok vyštrajkovali priepustky, ktoré im umožnia navštíviť svet ľudí a napríklad sa stať členmi cechov. Na návštevu dediny sa však potrebujú náležite obliecť, aby zapadli medzi ľudí, preto si prines druhú verziu svojho kostýmu - to, ako si tvoj pekelník predstavuje, že vyzerá bežný človek. Môžu to byť falošné fúzy alebo aj celý nový odev.
 
 ticketsText: >-
-  Predaj bežných lístkov bol ukončený, ale stále si môžeš zakúpiť lístok <b>Jednoducho vtáča</b>, s ktorým môžeš hrať postavu dedinčana, strážnika alebo pekelníka.
+  Predaj bežných lístkov bol ukončený, ale stále si môžeš zakúpiť lístok <b>Jednoducho vtáča</b>, s ktorým môžeš hrať postavu dedinčana, strážnika alebo pekelníka. S takýmto lístkom sa <b>môžeš pridať k už existujúcej skupine - kontaktuj svojho vedúceho</b>.
   <br><br>
   Predherná registrácia tento rok prebieha v stredu 22. júla popoludní a hra začína 23. júla ráno. V stredu nás taktiež čaká aj dodatočný program priamo na lokačke.
   <br><br>
