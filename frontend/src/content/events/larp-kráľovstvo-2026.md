@@ -19,9 +19,5 @@ story2Text: >-
 story3Title: Dvere k lepšej budúcnosti
 story3Text: >-
   Mágom z VŠMU, ponovom z Miklušovho inštitútu technológií (MIT), posledné roky nepriali. Mágovia spomínajú na časy plné padajúcich meteorov, astrálnych múdrostí, kačacej nekromancie... počkať, Astrál? Kam vlastne zmizli dvere do Astrálu? Nájde sa však niekto, kto sa odváži pozrieť na zub magickým mystériam?
-practicalInfoTitle: Organizačné informácie
-practicalInfoImage: src/images/uploads/anon.jpg
-practicalInfoBody: |-
-
 archived: false
 ---
