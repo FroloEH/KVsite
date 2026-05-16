@@ -15,7 +15,7 @@ practicalInfoBody: >-
   Na konci stanového tábora sa nachádzajú ToiToiky s toaletným papierom, umývadlo s prívodom pitnej vody a stan so sprchou (altánok so zavesenou hadicou upravený tak, aby si mal vnútri súkromie). Voda v sprche je studená, ale má hlavicu s rozprašovačom, ktorý sa dá nastaviť aj na jemnú hmlu. Pre väčšie pohodlie si môžeš priniesť šľapky do sprchy.
 
 
-  Na okraji tábora stojí veľký svetlohnedý organizátorský hangár, ku ktorému je pristavený biely prístrešok s infostánkom. V priebehu stredy sa pri ňom zastavíš a nadiktuješ svoje meno. Obsluha infostánku si v počítači zaznačí, že si prišiel, a odovzdá ti vrecko s hernými predmetmi. Zároveň si tu môžeš v priebehu celej akcie vymeniť eurá za mince, ktorými sa platí v hernej hrčme.
+  Na okraji tábora stojí veľký svetlohnedý organizátorský hangár, ku ktorému je pristavený biely prístrešok s infostánkom. V priebehu stredy sa pri ňom zastavíš a nadiktuješ svoje meno. Obsluha infostánku si v počítači zaznačí, že si prišiel, a odovzdá ti vrecko s hernými predmetmi. Zároveň si tu môžeš v priebehu celej akcie vymeniť eurá za mince, ktorými sa platí v hernej krčme.
   
   Vedľa infostánku sa nachádza vstup na lokačku.
 
