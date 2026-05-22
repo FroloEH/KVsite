@@ -12,7 +12,7 @@ rules_intro: 'Táto stránka obsahuje pravidlá pre LARP Kráľovstvo. S otázka
 basic_rules_title: Všeobecné pravidlá
 basic_rules_intro: >-
 
-  Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré obsahujú súhrn toho, s čím sa na hre môže stretnúť. <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="/Vseobecne_pravidla_2026.pdf">VŠEOBECNÉ PRAVIDLÁ</a>
+  Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré obsahujú súhrn toho, s čím sa na hre môže stretnúť. <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="/KV26_Vseobecne_pravidla.pdf">VŠEOBECNÉ PRAVIDLÁ</a>
 basic_rules_parts:
   - part_title: ORGANIZÁTORI
     part_description: Pokyny organizátorov majú prednosť pred všetkými ostatnými
@@ -92,7 +92,7 @@ basic_rules_parts:
       10-minútové vylúčenie z herného priestoru a úplné vylúčenie z hry.
 class_rules_title: Povolania
 class_rules_intro: >-
-  Na stránke sa pracuje. <br><br>Celé znenie pravidiel pre povolania si môžeš stiahnuť tu: <a href="/Povolania_2026.pdf">POVOLANIA</a>
+  Na stránke sa pracuje. <br><br>Celé znenie pravidiel pre povolania si môžeš stiahnuť tu: <a href="/KV26_Povolania.pdf">POVOLANIA</a>
 class_rules_parts:
   - part_title: Na stránke sa pracuje.
     part_description: Na stránke sa pracuje.

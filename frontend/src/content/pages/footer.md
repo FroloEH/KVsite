@@ -11,7 +11,7 @@ footer_1st_column_links:
 footer_2nd_column_header: Linky
 footer_2nd_column_links:
   - link_text: Všeobecné pravidlá
-    link_target: /vseobecne-pravidla-2023.pdf
+    link_target: /KV26_Vseobecne_pravidla.pdf
   - link_text: Ochrana osobných údajov
     link_target: /ochrana-súkromia
   - link_text: Všeobecné podmienky
