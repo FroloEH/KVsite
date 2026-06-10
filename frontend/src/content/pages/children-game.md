@@ -6,16 +6,14 @@ text: |-
   
   Pre deti do 10 rokov sme pripravili detskú hru, ktorú s pomocou rodičov vedie dedikovaný organizátor. Deti čakajú veku-primerané aktivity a vlastná dejová linka.
   
-  Deti do 10 rokov vstupné neplatia. Pri starších potomkoch máte na výber, či sa s vlastným lístkom zapoja do hlavného deja, alebo do detskej hry.
+  Deti do 10 rokov vstupné neplatia. Starší potomkovia môžu za predpokladu, že budú mať zakúpený vlastný lístok, hrať buď hlavnú hru spolu s vami, alebo sa zúčastniť na detskej linke.
   
 
   **Ako na to?**
 
-  1. Kúpite si lístok pre seba.
+  1. Kúpite si lístok pre seba, či už bežný lístok s postavou s povolaním, alebo jednoduchý lístok.
 
-  2. Vytvoríte si postavu. Vo formulári uvediete, koľko detí pod 10 rokov s vami príde. Môžete si vytvoriť vlastnú postavu a zapojiť sa do hlavného deja, alebo tvorbu postavy úplne preskočiť a prísť iba ako rodič v rámci detskej hry.
+  2. Vyplníte <a href="https://tally.so/r/WOqrrk">formulár na registráciu dieťaťa do detskej hry</a>, v ktorom zadáte kód vášho lístka.
 
-  3. Pred hrou prebehne osobná komunikácia, zoznámime vás s ostatnými rodičmi a prispôsobíme detskú hru vašim potrebám.
-
-  4. Pre deti bude na hernom území pripravený detský tábor a dejová linka. Organizátor detskej hry sa s rodičmi dohodne na tom, ako sa budú pri pomoci s deťmi striedať, aby si užili hru s deťmi aj hlavnú hru.
+  3. Pred hrou sa vám ozve majster, ktorý bude viesť detskú hru, preberie s vami vaše očakávania a zodpovie vám otázky.
 ---
