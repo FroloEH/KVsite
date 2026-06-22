@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.5",
-    "@astrojs/node": "^9.5.0",
+    "@astrojs/node": "^10.0.0",
     "@astrojs/tailwind": "^6.0.2",
     "@astropub/md": "^1.0.0",
-    "astro": "^5.15.4",
+    "astro": "^6.1.6",
     "astro-heroicons": "^2.1.5-1",
     "astro-pagefind": "^1.8.5",
     "github-markdown-css": "^5.7.0",
