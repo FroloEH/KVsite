@@ -12,7 +12,9 @@ rules_intro: 'Táto stránka obsahuje pravidlá pre LARP Kráľovstvo. S otázka
 basic_rules_title: Všeobecné pravidlá
 basic_rules_intro: >-
 
-  Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré obsahujú súhrn toho, s čím sa na hre môže stretnúť. <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="/KV26_Vseobecne_pravidla.pdf">VŠEOBECNÉ PRAVIDLÁ</a>
+  Každý hráč je povinný naštudovať si pred hrou všeobecné pravidlá, ktoré obsahujú súhrn toho, s čím sa na hre môže stretnúť. <br><br>Celé znenie všeobecných pravidiel si môžeš stiahnuť tu: <a href="/KV26_Vseobecne_pravidla.pdf">VŠEOBECNÉ PRAVIDLÁ</a>.
+  <br>
+  Nezabudni aj na prílohu <a href="/KV26_Vseobecne_pravidla_priloha.pdf">VŠEOBECNÉ PRAVIDLÁ - OBRAZOVÁ PRÍLOHA</a>.
 basic_rules_parts:
   - part_title: ORGANIZÁTORI
     part_description: Pokyny organizátorov majú prednosť pred všetkými ostatnými
