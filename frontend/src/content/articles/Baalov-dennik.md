@@ -7,7 +7,7 @@ tags:
   - rôzne texty
 ---
 
-Úryvok z denníka dávneho smrtonosa Baala, ktorý sa usiloval zbaviť svojej služby tým, že sa zriekne artefaktov s ňou spojenou. Text bol nájdenný v roku 1325 vo Vlčích skalách.
+Úryvok z denníka dávneho smrtonosa Baala, ktorý sa usiloval zbaviť svojej služby tým, že sa zriekne artefaktov s ňou spojenou. Text bol nájdený v roku 1325 vo Vlčích skalách.
 
 ***
 
@@ -76,7 +76,7 @@ Neodchádzam navždy. Len si idem po smrť, aby som mohol žiť s tebou.
 
 Obrátila sa ku mne chrbtom. Tak ako to robila pri poprave. Ale tentoraz sa nezdvihla sekera – iba vietor, čo odfúkol konce môjho plášťa z jej rúk na jej ramená. A ja som sa otočil. Už nie ako smrtonosa. Ale ako pútnik, čo hľadá vlastný hrob, aby sa v ňom mohol narodiť.
 
-Keď sa neskôr znovu stretneme, budem svoju ženu osloviť pani Muchová.
+Keď sa neskôr znovu stretneme, budem svoju ženu oslovovať pani Muchová.
 
 Nie z posmechu. Ale z úcty.
 
