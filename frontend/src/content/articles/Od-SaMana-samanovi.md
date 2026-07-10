@@ -1,7 +1,7 @@
 ---
 title: "Od Ša'Mana šamanovi"
 date: '2026-07-10'
-description: 'Klasický text opisujú základy šamanizmu'
+description: 'Klasický text opisujúci základy šamanizmu'
 image: '/src/images/uploads/list.jpg'
 tags:
   - náboženské texty
