@@ -30,7 +30,9 @@ Prírodné náboženstvá sa nedržia žiadnej spoločnej formálnej štruktúry
 
 ### Šamanizmus
 
-Špecifickým typom prírodných náboženstiev je šamanizmus, ktorý pramení v krajoch obývaných divokými kmeňmi. Kňazi tohto druhu prírodných náboženstiev, nazývaní šamani, sa obracajú k duchom a zvieratám, ktorí im prepožičiavajú svoju múdrosť a schopnosti.
+Špecifickým typom prírodných náboženstiev je šamanizmus, ktorý pramení v krajoch obývaných divokými kmeňmi. Kňazi tohto druhu prírodných náboženstiev, nazývaní šamani, sa obracajú k duchom a zvieratám, ktorí im prepožičiavajú svoju múdrosť a schopnosti. 
+
+Šamanistické idey, zvyky a tradície bližšie opisuje klasický text [**Od Ša'Mana šamanovi**](/articles/Od-SaMana-samanovi.md).
 
 #### Princípy šamanizmu
 
